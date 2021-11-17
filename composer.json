@@ -1,7 +1,7 @@
 {
     "name": "hkmcode/installer",
     "description": "@HkmCode application installer.",
-    "keywords": ["HkmCode","@HkmCode","Hakrichteam"],
+    "keywords": ["HkmCode","HkmCode","Hakrichteam"],
     "license": "MIT",
     "authors": [{
         "name": "Hakeem Shamavu",
