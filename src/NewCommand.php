@@ -1,6 +1,5 @@
 <?php
-
-namespace Laravel\Installer\Console;
+namespace Hkm_code\Installer;
 
 use ZipArchive;
 use RuntimeException;
