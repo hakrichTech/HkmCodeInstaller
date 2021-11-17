@@ -9,7 +9,7 @@
     }],
     "autoload": {
         "psr-4": {
-            "Hkm_code\\Installer": "src/"
+            "Hkm_code\\Installer\\": "src/"
         }
     },
     "require": {
