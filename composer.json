@@ -1,0 +1,23 @@
+{
+    "name": "hkmcode/installer",
+    "description": "@HkmCode application installer.",
+    "keywords": ["@HkmCode, HkmCode, Hakrich"],
+    "license": "MIT",
+    "authors": [{
+        "name": "Hakeem Shamavu",
+        "email": "contact@hakrichteam.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Hkm_code\\Installer": "src/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "~4.0|~5.0|~6.0",
+        "symfony/console": "~2.3|~3.0",
+        "symfony/process": "~2.3|~3.0"
+    },
+    "bin": [
+        "@Hkm"
+    ]
+}
