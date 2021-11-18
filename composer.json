@@ -1,24 +1,53 @@
 {
-    "name": "hkmcode/installer",
-    "description": "@HkmCode application installer.",
-    "keywords": ["HkmCode","HkmCode","Hakrichteam"],
+    "name": "hakrich_team/system-0.0.2",
+    "description": "Hakrich Team System V0.0.2",
+    "type": "project",
+    "homepage": "https://hakrichteam.com",
     "license": "MIT",
     "authors": [{
-        "name": "Hakeem Shamavu",
-        "email": "contact@hakrichteam.com"
+        "name": "Hakeem Rasheed",
+        "email": "hakeemrasheed@hakrichteam.com"
     }],
+    "require": {
+        "php": "^7.3||^8.0",
+        "ext-curl": "*",
+        "ext-intl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "laminas/laminas-escaper": "^2.8",
+        "psr/log": "^1.1",
+        "fakerphp/faker": "^1.16",
+        "phpunit/phpunit": "^9.5",
+        "facebook/graph-sdk": "^5.1",
+        "symfony/process": "~2.3|~3.0",
+        "composer/composer": "2.1.12"
+    },
+    "require-dev": {
+        "league/oauth2-client": "^2.6"
+    },
     "autoload": {
         "psr-4": {
-            "Hkm_code\\Installer\\": "src/"
-        }
+            "Hkm_code\\": "./Hkm_system",
+            "Hkm_addIn\\": "./Hkm_add-on/AddInObject",
+            "Hkm_traits\\": "./Hkm_add-on/Traits",
+            "Hkm_interfaces\\": "Hkm_add-on/Interfaces",
+            "Kint\\": "./ThirdParty/KintPackage",
+            "AppVezirion\\": "./Bin",
+            "App\\": "./App",
+            "TeamsMailerSystem\\": "./Mailer"
+        },
+        "exclude-from-classmap": [
+            "**/Database/Migrations/**"
+        ]
     },
-    "minimum-stability": "stable",
-    "require": {
-        "guzzlehttp/guzzle": "~4.0|~5.0|~6.0",
-        "symfony/console": "~2.3|~3.0",
-        "symfony/process": "~2.3|~3.0"
+    "suggest": {
+        "ext-fileinfo": "Improves mime type detection for files"
+    },
+
+    "scripts": {
+        "test": "phpunit"
     },
     "bin": [
-        "@Hkm"
+        "@HkmCode"
     ]
 }
