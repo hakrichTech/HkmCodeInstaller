@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<Config>
+    <vezirion xmlns="System" 
+    log = "If true, then exceptions will be logged through Services::Log. Default: true"
+    ignoreCodes = 'Any status codes here will NOT be logged if logging is turned on. By default, only 404 (Page Not Found) exceptions are ignored.'
+    />
+</Config>

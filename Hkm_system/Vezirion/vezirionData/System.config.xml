@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<Config>
+    <Settings baseURL="http://localhost:8080/" indexPage="index.php" uriProtocol="REQUEST_URI" defaultLocale="en" supportedLocales="en'-,-'fr" appTimezone="America/Chicago" charset="UTF-8" forceGlobalSecureRequests="false" proxyIPs=""/>
+    <Session sessionDriver="Hkm_code\Session\Handlers\FileHandler" sessionCookieName="ci_session" sessionExpiration="7200" sessionSavePath="SYSTEMPATH/session" sessionMatchIP="false" sessionTimeToUpdate="300" sessionRegenerateDestroy="false"/>
+    <Cookie cookiePrefix=" " cookieDomain="" cookiePath="/" cookieSecure="false" cookieHTTPOnly="true" cookieSameSite="Lax"/>
+    <CSRF CSRFTokenName="csrf_test_name" CSRFHeaderName="X-CSRF-TOKEN" CSRFCookieName="csrf_cookie_name" CSRFExpire="7200" CSRFRegenerate="true" CSRFRedirect="true" CSRFSameSite="Lax" CSPEnabled="false"/>
+    <Database>
+        <DbConnection DSN=" " hostname="localhost" username="root" password="" database="root" DBDriver="MySQLi" DBPrefix="" pConnect="false" DBDebug="ENVIRONMENT" charset="utf8" DBCollat="utf8_general_hkm" swapPre="" encrypt="false" compress="false" strictOn="false" failover="[]" port="3306"/>
+        <DbTest DSN=" " hostname="127.0.0.1" username="root" password="" database=":memory:" DBDriver="SQLite3" DBPrefix="db_" pConnect="false" DBDebug="ENVIRONMENT" charset="utf8" DBCollat="utf8_general_hkm" swapPre="" encrypt="false" compress="false" strictOn="false" failover="[]" port="3306"/>
+    </Database>
+</Config>

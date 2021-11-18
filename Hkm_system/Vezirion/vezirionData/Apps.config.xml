@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<Config>
+    <vezirion xmlns="System" baseURL="http://localhost:8080/" indexPage="index.php" uriProtocol="REQUEST_URI" negotiateLocale="false" defaultLocale="en" supportedLocales="en'-,-'fr" appTimezone="America/Chicago" charset="UTF-8" forceGlobalSecureRequests="false" proxyIPs=""/>
+
+</Config>

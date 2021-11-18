@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<Config>
+    <vezirion xmlns="System" 
+    sessionDriver="Hkm_code\Session\Handlers\FileHandler" 
+    sessionCookieName="ci_session" 
+    sessionExpiration="7200" 
+    sessionSavePath="SYSTEMPATH/session" 
+    sessionMatchIP="false" sessionTimeToUpdate="300"
+    sessionRegenerateDestroy="false"/>
+</Config>

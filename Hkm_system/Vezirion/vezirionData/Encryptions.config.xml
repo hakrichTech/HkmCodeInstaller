@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<Config>
+    <vezirion xmlns="System" 
+    key = ''
+    driver = 'OpenSSL'
+    blockSize = '16'
+    digest = 'SHA512'
+    />
+</Config>

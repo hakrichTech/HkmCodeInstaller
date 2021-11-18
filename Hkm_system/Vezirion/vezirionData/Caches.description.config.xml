@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<Config>
+    <vezirion xmlns="System" handler="The name of the preferred handler that should be used. If for some reason it is not available, the $backupHandler will be used in its place." backupHandler="The name of the handler that will be used in case the first one is unreachable. Often, 'file' is used here since the filesystem is always available, though that's not always practical for the app." cacheQueryString="Whether to take the URL query string into consideration when generating output cache files.  Enabled, take all query parameters into account. Please be aware that this may result in numerous cache files generated for the same page over and over again" prefix="This string is added to all cache item names to help avoid collisions if you run multiple applications with the same cache engine."/>
+</Config>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<Config>
+    <vezirion xmlns="System" 
+    DSN = "false"
+    BCCBatchSize = "200"
+    BCCBatchMode = "false"
+    priority = "3"
+    validate = "false"
+    charset = 'UTF-8'
+    mailType = 'text'
+    wrapChars = "76"
+    wordWrap = "true"
+    SMTPTimeout = "5"
+    SMTPKeepAlive = "false"
+    SMTPCrypto = 'tls'
+    SMTPPort = "25"
+    SMTPPass = ""
+    SMTPUser = ""
+    SMTPHost = ""
+    mailPath = '/usr/sbin/sendmail'
+    protocol = 'mail'
+    userAgent = 'Hakrich System'
+    fromName = ""
+    fromEmail = ""
+    replyToName = ""
+    replyToEmail = ""/>
+</Config>

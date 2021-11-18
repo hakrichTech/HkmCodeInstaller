@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<Config>
+    <vezirion xmlns="System" 
+    log = "true"
+    ignoreCodes = '404'
+    />
+</Config>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<Config>
+    <vezirion xmlns="System" 
+    CSRFTokenName="csrf_test_name" 
+    CSRFHeaderName="X-CSRF-TOKEN" 
+    CSRFCookieName="csrf_cookie_name" 
+    CSRFExpire="7200" 
+    CSRFRegenerate="true" 
+    CSRFRedirect="true" 
+    CSRFSameSite="Lax" 
+    CSPEnabled="false"/>
+</Config>

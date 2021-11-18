@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<Config>
+    <vezirion xmlns="System" 
+    DSN = "Enable notify message from server"
+    BCCBatchSize = "Number of emails in each BCC batch"
+    BCCBatchMode = "Enable BCC Batch Mode."
+    priority = "Email Priority. 1 = highest. 5 = lowest. 3 = normal"
+    validate = "Whether to validate the email address"
+    charset = 'Character set (utf-8, iso-8859-1, etc.)'
+    mailType = "Type of mail, either 'text' or 'html'"
+    wrapChars = "Character count to wrap at"
+    wordWrap = "Enable word-wrap"
+    SMTPTimeout = "SMTP Timeout (in seconds)"
+    SMTPKeepAlive = "Enable persistent SMTP connections"
+    SMTPCrypto = 'SMTP Encryption. Either tls or ssl'
+    SMTPPort = "SMTP Port"
+    SMTPPass = "SMTP Password"
+    SMTPUser = "SMTP Username"
+    SMTPHost = "SMTP Server Address"
+    mailPath = 'The server path to Sendmail'
+    protocol = 'The mail sending protocol: mail, sendmail, smtp'
+    userAgent = 'The "user agent"'
+    fromName = ""
+    fromEmail = ""
+    replyToName = ""
+    replyToEmail = ""/>
+</Config>

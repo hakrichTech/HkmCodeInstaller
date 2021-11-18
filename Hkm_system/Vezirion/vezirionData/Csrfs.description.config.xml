@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="ISO-8859-15"?>
+<Config>
+    <vezirion xmlns="System" 
+    CSRFTokenName="The token name" 
+    CSRFHeaderName="The header name." 
+    CSRFCookieName="The cookie name" 
+    CSRFExpire="The number in seconds the token should expire" 
+    CSRFRegenerate="Regenerate token on every submission" 
+    CSRFRedirect="Redirect to previous page with error on failure?" 
+    CSRFSameSite="Setting for CSRF SameSite cookie token. Allowed values are: - None, - Lax, - Strict, - ''. Defaults to `Lax` as recommended in this link: see https://portswigger.net/web-security/csrf/samesite-cookies" 
+    CSPEnabled="Enables the Response's Content Secure Policy to restrict the sources that can be used for images, scripts, CSS files, audio, video, etc. If enabled, the Response object will populate default values for the policy from the `ContentSecurityPolicy.php` file. Controllers can always add to those restrictions at run time. For a better understanding of CSP, see these documents: see http://www.html5rocks.com/en/tutorials/security/content-security-policy/ see http://www.w3.org/TR/CSP/"/>
+</Config>
