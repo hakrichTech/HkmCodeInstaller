@@ -28,7 +28,7 @@ class NewApp extends BaseVezirion
         'App'=>['Controllers','Views'],
         'Bin'=>['Boot'],
         'public' => ['asset','js','css'],
-        'writable'=>['cache','debugbar','logs','session','uploads']
+        'writable'=>['cache','debugger','logs','session','uploads']
     ];
 
 
