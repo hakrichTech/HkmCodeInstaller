@@ -184,7 +184,7 @@ trait GeneratorTrait
 		}
 
 		$paths = FileLocator::LIST_FILES($this->config::$templates['newApp']);
-print_r($this->config::$templates);exit;
+print_r($this->config::$templates);
 		print_r($paths);exit;
 
 		hkm_helper('filesystem');
