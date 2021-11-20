@@ -180,11 +180,12 @@ trait GeneratorTrait
 
 		if (! is_dir($dir))
 		{
-			mkdir($dir, 0777, true);
+// 			mkdir($dir, 0777, true);
 		}
 
 		$paths = FileLocator::LIST_FILES($this->config::$templates['newApp']);
-
+print_r($this->config::$templates);exit;
+		print_r($paths);exit;
 
 		hkm_helper('filesystem');
 
