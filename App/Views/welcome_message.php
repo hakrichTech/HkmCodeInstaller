@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head> 
 	<meta charset="UTF-8">
 	<title>Welcome to @HkmCode Framework V2.0.1!</title>
 	<meta name="description" content="The small framework with powerful features">
