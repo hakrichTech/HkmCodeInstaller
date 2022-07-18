@@ -1,0 +1,3789 @@
+# 
+# Translators:
+# Bruno S <brunoheyse@gmail.com>, 2021
+# Frederiek Wolff, 2016
+# Frederiek Wolff, 2016
+# Geert Janssen <geertjanssen@outlook.com>, 2017
+# Hans Quist <hqwebit.wkp@gmail.com>, 2018
+# Jan Blom <j.blom@ictfirst.nl>, 2017
+# Jasper D <pro.jasper@gmail.com>, 2018
+# Kees O <brainiac112@gmail.com>, 2021
+# Luc van der stap <stap@aecom.nl>, 2018
+# Philip Carpentier <philip@oic.be>, 2016
+# Ramon Kienhuis <ramonkienhuis@gmail.com>, 2013
+# Ramon Kienhuis <ramonkienhuis@gmail.com>, 2013
+# Robin Kuijpers <robinkuijpers@hotmail.com>, 2018
+# Sijmen Cozijnsen <sijmen@anandan.nl>, 2014
+# Sijmen Cozijnsen <sijmen@anandan.nl>, 2014
+# superswiegie <siegersuurbier@gmail.com>, 2014
+# Wesly Vandecasteele <wesly.vandecasteele@gmail.com>, 2021
+# Wouter de Wit <wjwdewit1@gmail.com>, 2020
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-11-07 12:37-0300\n"
+"PO-Revision-Date: 2021-04-01 16:48+0000\n"
+"Last-Translator: Wesly Vandecasteele <wesly.vandecasteele@gmail.com>\n"
+"Language-Team: Dutch (http://www.transifex.com/subwaydesign/projectsend/language/nl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: includes/Google\n"
+"X-Poedit-SearchPathExcluded-2: templates/default\n"
+"X-Poedit-SearchPathExcluded-3: templates/gallery\n"
+"X-Poedit-SearchPathExcluded-4: templates/pinboxes\n"
+"X-Poedit-SearchPathExcluded-5: node_modules\n"
+"X-Poedit-SearchPathExcluded-6: upload\n"
+"X-Poedit-SearchPathExcluded-7: vendor\n"
+
+#: actions-log.php:14
+msgid "Recent activities log"
+msgstr "Recente activiteitenlog"
+
+#: actions-log.php:39
+msgid "The selected activities were deleted."
+msgstr "De geselecteerde activiteiten zijn verwijderd."
+
+#: actions-log.php:43
+msgid "Please select at least one activity."
+msgstr "Selecteer ten minste één activiteit."
+
+#: actions-log.php:55
+msgid ""
+"The log was cleared. Only data used for statistics remained. You can delete "
+"them manually if you want."
+msgstr "Het logbestand is geleegd. Slechts statistische data is bewaard. Deze kan handmatig worden verwijderd."
+
+#: actions-log.php:128
+msgid "Filter activities"
+msgstr "Activiteiten filteren"
+
+#: actions-log.php:130 includes/widgets/actions-log.php:14
+msgid "All activities"
+msgstr "Alle activiteiten"
+
+#: actions-log.php:142 clients.php:153 manage-files.php:372
+#: manage-files.php:399 users.php:203
+msgid "Filter"
+msgstr "Filter"
+
+#: actions-log.php:153
+msgid "Activities actions"
+msgstr "Activiteitenacties"
+
+#: actions-log.php:157 categories.php:197 clients-membership-requests.php:181
+#: clients-requests.php:231 clients.php:168 groups.php:154
+#: manage-files.php:426 users.php:218
+msgid "Select action"
+msgstr "Selecteer actie"
+
+#: actions-log.php:158
+msgid "Download as csv"
+msgstr "Download als csv-bestand"
+
+#: actions-log.php:159
+msgid "Delete selected"
+msgstr "Verwijder geselecteerde"
+
+#: actions-log.php:160
+msgid "Clear entire log"
+msgstr "Verwijder gehele log"
+
+#: actions-log.php:170 categories.php:208 clients-membership-requests.php:193
+#: clients-requests.php:243 clients.php:181 groups.php:165
+#: manage-files.php:457 users.php:231
+msgid "Proceed"
+msgstr "Doorgaan"
+
+#: actions-log.php:177 categories.php:216 clients-membership-requests.php:200
+#: clients-requests.php:250 clients.php:188 groups.php:172
+#: manage-files.php:465 users.php:238
+msgid "Found"
+msgstr "Gevonden"
+
+#: actions-log.php:177
+msgid "activities"
+msgstr "activiteiten"
+
+#: actions-log.php:187 clients-membership-requests.php:235
+#: clients-requests.php:285 clients.php:201 groups.php:185
+#: manage-files.php:481 users.php:250
+msgid "The filters you selected returned no results."
+msgstr "De geselecteerde filters resulteerden in geen resultaten."
+
+#: actions-log.php:192
+msgid "There are no activities recorded."
+msgstr "Er zijn geen activiteiten vastgelegd."
+
+#: actions-log.php:219 download-information.php:131
+msgid "Date"
+msgstr "Datum"
+
+#: actions-log.php:224
+msgid "Author"
+msgstr "Eigenaar"
+
+#: actions-log.php:229
+msgid "Activity"
+msgstr "Activiteit"
+
+#: categories.php:14
+msgid "Categories administration"
+msgstr "Categorie administratie"
+
+#: categories.php:27
+msgid "The category was successfully created."
+msgstr "De categorie is succesvol aangemaakt."
+
+#: categories.php:31
+msgid "The category was successfully edited."
+msgstr "De categorie is succesvol gewijzigd."
+
+#: categories.php:53
+msgid "Please select at least one category."
+msgstr "Selecteer ten minste één categorie."
+
+#: categories.php:65
+msgid "The selected categories were deleted."
+msgstr "De geselecteerde categorieën zijn verwijderd."
+
+#: categories.php:105
+msgid "Create new category"
+msgstr "Nieuwe categorie maken"
+
+#: categories.php:115
+msgid "Edit category"
+msgstr "Categorie wijzigen"
+
+#: categories.php:160
+msgid "There was a problem saving to the database."
+msgstr "Er ging iets mis tijdens het opslaan naar de database."
+
+#: categories.php:165
+msgid "Please complete all the required fields."
+msgstr "Gelieve alle vereiste velden in te vullen."
+
+#: categories.php:193
+msgid "Selected categories actions"
+msgstr "Geselecteerde categoriënacties"
+
+#: categories.php:198 clients.php:171 groups.php:155 manage-files.php:446
+#: users.php:221
+msgid "Delete"
+msgstr "Verwijder"
+
+#: categories.php:216
+msgid "categories"
+msgstr "categoriën"
+
+#: categories.php:226 clients-membership-requests.php:232
+#: clients-requests.php:282 clients.php:198 groups.php:182
+#: import-orphans.php:276 manage-files.php:475 users.php:247
+msgid "Your search keywords returned no results."
+msgstr "Je zoekopdracht leverde geen resultaten op."
+
+#: categories.php:231
+msgid "There are no categories yet."
+msgstr "Er zijn nog geen categoriën."
+
+#: categories.php:255 includes/forms/categories.php:37
+#: includes/forms/clients.php:76 includes/forms/options/email.php:11
+#: includes/forms/users.php:37
+msgid "Name"
+msgstr "Naam"
+
+#: categories.php:258 clients.php:395 groups.php:241 groups.php:331
+#: header-menu.php:71 includes/forms/options/clients.php:70
+#: includes/widgets/system-information.php:49 install/make-config.php:329
+msgid "Files"
+msgstr "Bestanden"
+
+#: categories.php:261 files-edit.php:93 groups.php:234
+#: includes/forms/categories.php:59 includes/forms/file_editor.php:43
+#: includes/forms/groups.php:33
+msgid "Description"
+msgstr "Omschrijving"
+
+#: categories.php:265 clients.php:284 groups.php:256
+msgid "View"
+msgstr "Bekijk"
+
+#: categories.php:269 clients.php:288 files-edit.php:102 groups.php:260
+#: import-orphans.php:216 manage-files.php:594 users.php:315
+msgid "Actions"
+msgstr "Acties"
+
+#: categories.php:340 header-menu.php:83 header-menu.php:328
+#: manage-files.php:13
+msgid "Manage files"
+msgstr "Beheer bestanden"
+
+#: categories.php:343 clients.php:401 groups.php:335 manage-files.php:427
+#: manage-files.php:783 users.php:377
+msgid "Edit"
+msgstr "Bewerk"
+
+#: clients-add.php:14 includes/forms/clients.php:16
+msgid "Add client"
+msgstr "Voeg cliënt toe"
+
+#: clients-add.php:104 clients-edit.php:166 email-templates.php:160
+#: groups-add.php:61 groups-edit.php:92 options.php:262 register.php:129
+#: templates.php:56 users-add.php:89 users-edit.php:159
+msgid "There was an error. Please try again."
+msgstr "Er is een fout opgetreden. Probeer het opnieuw."
+
+#: clients-edit.php:141
+msgid "Edit client"
+msgstr "Bewerk cliënt"
+
+#: clients-edit.php:143 users-edit.php:138
+msgid "My account"
+msgstr "Mijn Account"
+
+#: clients-edit.php:159
+msgid "Client edited correctly."
+msgstr "De cliënt is correct aangepast."
+
+#: clients-edit.php:161
+msgid "Client created successfuly."
+msgstr "Client is met succes aangemaakt."
+
+#: clients-edit.php:178 users-edit.php:171
+msgid "A welcome message was not sent to the new account owner."
+msgstr "Er is geen welkomstbericht verstuurd naar de nieuwe client "
+
+#: clients-edit.php:182 users-edit.php:175
+msgid ""
+"A welcome message with login information was sent to the new account owner."
+msgstr "Er is een bericht met inloginformatie gestuurd naar de nieuwe client."
+
+#: clients-edit.php:186 register.php:153 users-edit.php:179
+msgid "E-mail notification couldn't be sent."
+msgstr "E-mailnotificatie kon niet worden verzonden."
+
+#: clients-edit.php:199 groups-edit.php:105 users-edit.php:193
+msgid "This page is not intended to be accessed directly."
+msgstr "Deze pagina is niet bedoeld om direct te benaderen."
+
+#: clients-edit.php:201
+msgid "No client was selected."
+msgstr "Er is geen cliënt geselecteerd."
+
+#: clients-edit.php:206
+msgid "There is no client with that ID number."
+msgstr "Er bestaat geen cliënt met deze ID."
+
+#: clients-edit.php:211 users-edit.php:205
+msgid "Your account type doesn't allow you to access this feature."
+msgstr "Deze account staat toegang voor deze functie niet toe."
+
+#: clients-membership-requests.php:15 clients-membership-requests.php:293
+#: clients-requests.php:345 header-menu.php:150
+msgid "Membership requests"
+msgstr "Lidmaatschapsverzoeken"
+
+#: clients-membership-requests.php:26 clients-requests.php:25
+msgid "The selected actions were applied."
+msgstr "De geselecteerde acties werden toegepast."
+
+#: clients-membership-requests.php:30
+msgid "The selected requests were deleted."
+msgstr "De geselecteerde aanvragen zijn verwijderd."
+
+#: clients-membership-requests.php:96 clients-requests.php:153 clients.php:73
+msgid "Please select at least one client."
+msgstr "Selecteer ten minste één cliënt."
+
+#: clients-membership-requests.php:177
+msgid "Selected requests actions"
+msgstr "Acties voor de geselecteerde aanvragen"
+
+#: clients-membership-requests.php:182 clients-requests.php:232
+msgid "Apply selection"
+msgstr "Pas selectie toe"
+
+#: clients-membership-requests.php:183 clients-requests.php:233
+msgid "Delete requests"
+msgstr "Verwijder verzoeken"
+
+#: clients-membership-requests.php:200 clients-requests.php:250
+msgid "requests"
+msgstr "verzoeken"
+
+#: clients-membership-requests.php:207
+msgid "New requests"
+msgstr "Nieuwe verzoeken"
+
+#: clients-membership-requests.php:212
+msgid "Denied requests"
+msgstr "Geweigerde aanvragen"
+
+#: clients-membership-requests.php:240 clients-requests.php:290
+msgid "There are no requests at the moment"
+msgstr "Er zijn  momenteel geen aanvragen"
+
+#: clients-membership-requests.php:278 clients-requests.php:326
+#: clients.php:238 includes/Classes/Emails.php:68
+#: includes/Classes/Emails.php:127 install/index.php:297 users.php:283
+msgid "Full name"
+msgstr "Volledige naam"
+
+#: clients-membership-requests.php:283 clients-requests.php:331
+#: clients.php:243 includes/forms/clients.php:83 includes/forms/users.php:44
+#: install/index.php:311 users.php:288
+msgid "Log in username"
+msgstr "Login gebruikersnaam"
+
+#: clients-membership-requests.php:289 clients-requests.php:337
+#: clients.php:249 includes/forms/clients.php:104
+#: includes/forms/login-ldap.php:6 includes/forms/login.php:15
+#: includes/forms/reset-password/enter-email.php:6 includes/forms/users.php:65
+#: users.php:294
+msgid "E-mail"
+msgstr "E-mail"
+
+#: clients-membership-requests.php:345 clients-requests.php:418
+msgid "Accept all"
+msgstr "Alles accepteren"
+
+#: clients-membership-requests.php:346 clients-requests.php:419
+msgid "Deny all"
+msgstr "Weiger alles"
+
+#: clients-requests.php:17 header-menu.php:122
+msgid "Account requests"
+msgstr "Account aanvragen"
+
+#: clients-requests.php:29 clients.php:67
+msgid "The selected clients were deleted."
+msgstr "De geselecteerde cliënten zijn verwijderd."
+
+#: clients-requests.php:227 clients.php:164
+msgid "Selected clients actions"
+msgstr "Geselecteerde cliëntacties"
+
+#: clients-requests.php:257
+msgid "New account requests"
+msgstr "Nieuwe account aanvragen"
+
+#: clients-requests.php:262
+msgid "Denied accounts"
+msgstr "Afgewezen accounts"
+
+#: clients-requests.php:341
+msgid "Account"
+msgstr "Account"
+
+#: clients-requests.php:358 manage-files.php:535
+msgid "Added on"
+msgstr "Toegevoegd op"
+
+#: clients.php:14
+msgid "Clients Administration"
+msgstr "Cliëntenadministratie"
+
+#: clients.php:41
+msgid "The selected clients were marked as active."
+msgstr "De geselecteerde cliënten zijn gemarkeerd als actief."
+
+#: clients.php:56
+msgid "The selected clients were marked as inactive."
+msgstr "De geselecteerde cliënten zijn gemarkeerd als inactief."
+
+#: clients.php:141 manage-files.php:386 users.php:191
+msgid "All statuses"
+msgstr "Alle statussen"
+
+#: clients.php:142 clients.php:330 templates.php:113 users.php:192
+#: users.php:336
+msgid "Active"
+msgstr "Actief"
+
+#: clients.php:143 clients.php:330 users.php:193 users.php:336
+msgid "Inactive"
+msgstr "Inactief"
+
+#: clients.php:169 templates.php:120 users.php:219
+msgid "Activate"
+msgstr "Activeer"
+
+#: clients.php:170 users.php:220
+msgid "Deactivate"
+msgstr "Deactiveer"
+
+#: clients.php:188
+msgid "clients"
+msgstr "cliënten"
+
+#: clients.php:206
+msgid "There are no clients at the moment"
+msgstr "Er zijn geen cliënten op dit moment"
+
+#: clients.php:231 groups.php:222 users.php:277
+msgid "Created"
+msgstr "Gemaakt"
+
+#: clients.php:253
+msgid "Uploads"
+msgstr "Uploads"
+
+#: clients.php:257
+msgid "Files: Direct"
+msgstr "Bestanden: direct"
+
+#: clients.php:261
+msgid "Files: Groups"
+msgstr "Bestanden: Groepen"
+
+#: clients.php:267 manage-files.php:575 users.php:306
+msgid "Status"
+msgstr "Status"
+
+#: clients.php:270
+msgid "Groups on"
+msgstr "Groepen in"
+
+#: clients.php:274
+msgid "Notify"
+msgstr "Meld"
+
+#: clients.php:280 users.php:311
+msgid "Max. upload size"
+msgstr "Max. Upload grootte"
+
+#: clients.php:388 download-information.php:197
+#: includes/forms/options/external_login.php:90 manage-files.php:643
+msgid "Yes"
+msgstr "Ja"
+
+#: clients.php:388 download-information.php:198
+#: includes/forms/options/external_login.php:91 manage-files.php:643
+msgid "No"
+msgstr "Nee"
+
+#: clients.php:391 users.php:373
+msgid "Default"
+msgstr "Standaard"
+
+#: clients.php:396 includes/forms/clients.php:23 includes/forms/clients.php:35
+#: includes/forms/file_editor.php:139
+#: includes/widgets/system-information.php:58
+msgid "Groups"
+msgstr "Groepen"
+
+#: clients.php:397
+msgid "As client"
+msgstr "Al gebruiker"
+
+#: dashboard.php:10 header-menu.php:59
+msgid "Dashboard"
+msgstr "Overzicht"
+
+#: download-information.php:12
+msgid "Download information"
+msgstr "Download informatie"
+
+#: download-information.php:59
+msgid "No file was selected."
+msgstr "Er is geen bestand geselecteerd."
+
+#: download-information.php:64
+msgid "There is no information with that file ID number."
+msgstr "Er is geen informatie beschikbaar voor het bestand met dat ID nummer."
+
+#: download-information.php:76 manage-files.php:589
+msgid "Total downloads"
+msgstr "Totale downloads"
+
+#: download-information.php:134
+msgid "Time"
+msgstr "Tijd"
+
+#: download-information.php:139 includes/text.strings.php:16
+msgid "Client"
+msgstr "Cliënt"
+
+#: download-information.php:144
+msgid "Anonymous"
+msgstr "Anoniem"
+
+#: download-information.php:149
+msgid "Client's IP"
+msgstr "Cliënt's IP"
+
+#: download-information.php:155
+msgid "Client's hostname"
+msgstr "Cliënt's Hostnaam"
+
+#: download-information.php:169
+msgid "Unique logged in clients/users"
+msgstr "Unieke ingelogde cliënten / gebruikers"
+
+#: download-information.php:172
+msgid "Total public downloads"
+msgstr "Totale publieke downloads"
+
+#: download.php:13 includes/forms/file_editor.php:32
+msgid "File information"
+msgstr "Bestandsinformatie"
+
+#: download.php:98
+msgid "Download file"
+msgstr "Download bestand"
+
+#: download.php:110 public.php:295 register.php:171 reset-password.php:266
+msgid "Go back to the homepage."
+msgstr "Ga terug naar de homepage."
+
+#: email-preview.php:11 header-menu.php:237
+msgid "E-mail templates"
+msgstr "E-mail templates"
+
+#: email-preview.php:11 manage-files.php:528 manage-files.php:629
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: email-templates.php:16 header-menu.php:242
+msgid "Header / footer"
+msgstr "Kop/Voet"
+
+#: email-templates.php:22 header-menu.php:246
+msgid "New file by user"
+msgstr "Nieuw bestand voor gebruiker"
+
+#: email-templates.php:29 header-menu.php:250
+msgid "New file by client"
+msgstr "Nieuw bestand voor cliënt"
+
+#: email-templates.php:36 header-menu.php:254
+msgid "New client (welcome)"
+msgstr "Nieuwe gebruiker (welkom)"
+
+#: email-templates.php:43 header-menu.php:258
+msgid "New client (self-registered)"
+msgstr "Nieuw gebruiker (zelfregistratie)"
+
+#: email-templates.php:50 header-menu.php:262
+msgid "Approve client account"
+msgstr "Accepteer  gebruikers account"
+
+#: email-templates.php:57 header-menu.php:266
+msgid "Deny client account"
+msgstr "weiger gebruikers account"
+
+#: email-templates.php:64 header-menu.php:274
+msgid "New user (welcome)"
+msgstr "Nieuwe gebruiker (welkom)"
+
+#: email-templates.php:71 header-menu.php:278
+msgid "Password reset"
+msgstr "Herstel wachtwoord"
+
+#: email-templates.php:78 header-menu.php:270
+msgid "Client updated memberships"
+msgstr "Door gebruiker bijgewerkte lidmaatschappen"
+
+#: email-templates.php:156 options.php:258 templates.php:52
+msgid "Options updated succesfuly."
+msgstr "Opties zijn succesvol geüpdatet."
+
+#: email-templates.php:171
+msgid "(to be used as href on a link tag)"
+msgstr "(te gebruiken als href op een link tag)"
+
+#: email-templates.php:179
+msgid ""
+"This email will be sent to a client whenever a new file has been assigned to"
+" his account."
+msgstr "Deze e-mail wordt verstuurd naar een cliënt wanneer een nieuw bestand is toegewezen aan zijn account."
+
+#: email-templates.php:185 email-templates.php:201
+msgid "Shows the list of files"
+msgstr "Toon bestandenlijst"
+
+#: email-templates.php:186 email-templates.php:202 email-templates.php:219
+#: email-templates.php:236 email-templates.php:254 email-templates.php:285
+#: email-templates.php:319
+msgid "The login link"
+msgstr "Login link"
+
+#: email-templates.php:195
+msgid ""
+"This email will be sent to the system administrator whenever a client "
+"uploads a new file."
+msgstr "Deze e-mail wordt verstuurd naar de systeembeheerder wanneer een cliënt een upload heeft gedaan van een nieuw bestand."
+
+#: email-templates.php:211
+msgid ""
+"This email will be sent to the new client after an administrator has created"
+" his new account. It would be best to include the log in details (username "
+"and password)."
+msgstr "Deze e-mail wordt verstuurd naar de nieuwe cliënt na een administrator zijn nieuwe account heeft aangemaakt. Het beste zou zijn om de inloggegevens (gebruikersnaam en wachtwoord) in te sluiten."
+
+#: email-templates.php:217 email-templates.php:235 email-templates.php:283
+#: email-templates.php:318
+msgid "The new username for this account"
+msgstr "Nieuw gebruikersnaam voor dit account"
+
+#: email-templates.php:218 email-templates.php:284
+msgid "The new password for this account"
+msgstr "Nieuw wachtwoord voor dit account"
+
+#: email-templates.php:228
+msgid ""
+"This email will be sent to the system administrator after a new client has "
+"created a new account for himself."
+msgstr "Deze e-mail wordt verstuurd naar de systeembeheerder na een nieuwe cliënt een nieuwe account voor zichzelf heeft gecreëerd."
+
+#: email-templates.php:234 email-templates.php:317
+msgid "The full name the client registered with"
+msgstr "Volledige naam waarmee cliënt geregistreeerd is"
+
+#: email-templates.php:237 email-templates.php:320
+msgid "List of groups that the client requests membership to"
+msgstr "Lijst met groepen waarvoor de cliënt het lidmaatschap aanvraagt"
+
+#: email-templates.php:246
+msgid ""
+"This email will be sent to a client that requested an account if it gets "
+"approved. Group membership requests are also mentioned on the email, "
+"separated by their approval status."
+msgstr "Deze e-mail wordt verzonden naar een gebruiker die een account heeft aangevraagd, wanneer deze aanvraag is goedgekeurd. Groepslidmaatschapsverzoeken worden ook vermeld in de e-mail, gescheiden door hun goedkeuringsstatus."
+
+#: email-templates.php:252
+msgid "List of approved group memberships"
+msgstr "Lijst met alle goedgekeurde gebruikers"
+
+#: email-templates.php:253
+msgid "List of denied group memberships"
+msgstr "Lijst met alle afgekeurde gebruikers"
+
+#: email-templates.php:263
+msgid ""
+"This email will be sent to a client that requested an account if it gets "
+"denied. All group membership requests for this account are denied "
+"automatically."
+msgstr "Deze e-mail wordt verzonden naar een gebruiker die een account heeft aangevraagd die wordt geweigerd. Alle groepslidmaatschapsverzoeken voor dit account worden evens automatisch geweigerd."
+
+#: email-templates.php:277
+msgid ""
+"This email will be sent to the new system user after an administrator has "
+"created his new account. It would be best to include the log in details "
+"(username and password)."
+msgstr "Deze e-mail wordt verstuurd naar het nieuwe systeem gebruiker na een administrator zijn nieuwe account heeft aangemaakt. Het beste zou zijn om de inloggegevens (gebruikersnaam en wachtwoord) in te sluiten."
+
+#: email-templates.php:294
+msgid ""
+"This email will be sent to a user or client when they try to reset their "
+"password."
+msgstr "Deze e-mail wordt verstuurd naar een gebruiker of cliënt wanneer ze proberen om hun wachtwoord te resetten."
+
+#: email-templates.php:300
+msgid "The username for this account"
+msgstr "Gebruikersnaam voor dit account"
+
+#: email-templates.php:301
+msgid "The text string unique to this request. Must be included somewhere."
+msgstr "De tekenreeks moet uniek zijn voor deze aanvraag. Moet ergens worden opgenomen."
+
+#: email-templates.php:302
+msgid "The link to continue the process"
+msgstr "De link om door te gaan met het proces"
+
+#: email-templates.php:311
+msgid ""
+"This email will be sent to the system administrator when a client edits his "
+"account and changes the public groups membership requests."
+msgstr "Dit e-mailbericht wordt naar de systeembeheerder verzonden wanneer een gebruiker zijn of haar account bewerkt en de openbare groepslidmaatschapsverzoeken heeft gewijzigd."
+
+#: email-templates.php:336
+msgid ""
+"Here you set up the header and footer of every email, or use the default "
+"ones available with the system. Use this to customize each part and include,"
+" for example, your own logo and markup."
+msgstr "Hier stelt u de kop-en voettekst van elke e-mail, of gebruik de standaard die beschikbaar zijn met het systeem. Gebruik dit om elk onderdeel aan te passen, bijvoorbeeld, uw eigen logo en opmaak."
+
+#: email-templates.php:337
+msgid ""
+"Do not forget to also include -and close accordingly- the basic structural "
+"HTML tags (DOCTYPE, HTML, HEADER, BODY)."
+msgstr "Vergeet niet om de basis HTML tags toe te voegen (DOCTYPE, HTML, HEADER, BODY)."
+
+#: email-templates.php:344
+msgid "Use custom header / footer"
+msgstr "Gebruik eigen kop / voet"
+
+#: email-templates.php:351
+msgid "Header"
+msgstr "Kop"
+
+#: email-templates.php:353 email-templates.php:367 email-templates.php:413
+msgid "You can use HTML tags here."
+msgstr "Je kunt HTML tags gebruiken."
+
+#: email-templates.php:358 email-templates.php:372 email-templates.php:437
+msgid "Replace with default"
+msgstr "Vervang met standaard"
+
+#: email-templates.php:365
+msgid "Footer"
+msgstr "Voet"
+
+#: email-templates.php:388
+msgid "Use custom subject"
+msgstr "Gebruik aangepast onderwerp"
+
+#: email-templates.php:395
+msgid "Add your custom subject"
+msgstr "Voeg je aangepaste onderwerp toe"
+
+#: email-templates.php:404
+msgid "Use custom template"
+msgstr "Eigen template"
+
+#: email-templates.php:411
+msgid "Template text"
+msgstr "Template tekst"
+
+#: email-templates.php:420
+msgid "The following tags can be used on this e-mails' body."
+msgstr "De volgende tags kan gebruikt worden in de e-mail body."
+
+#: email-templates.php:438
+msgid "Preview this template"
+msgstr "Deze template bekijken"
+
+#: email-templates.php:440
+msgid ""
+"Before trying this function, please save your changes to see them reflected "
+"on the preview."
+msgstr "Voordat u deze functie probeert, dient u om de wijzigingen in het voorbeeld te zien, het op te slaan."
+
+#: email-templates.php:449 options.php:315
+msgid "Save options"
+msgstr "Bewaar opties"
+
+#: email-test.php:12 header-menu.php:299
+msgid "Test email configuration"
+msgstr "Test e-mail configuratie"
+
+#: email-test.php:38
+msgid "Result"
+msgstr "Resultaat"
+
+#: email-test.php:46
+msgid "Send to:"
+msgstr "Verstuur naar:"
+
+#: email-test.php:53
+msgid "Message"
+msgstr "Bericht"
+
+#: email-test.php:59
+msgid "Send test email"
+msgstr "Verstuur test e-mail"
+
+#: error.php:13
+msgid "Access denied"
+msgstr "Toegang geweigerd"
+
+#: error.php:14
+msgid ""
+"Your account type doesn't allow you to view this page. Please contact a "
+"system administrator if you need to access this function."
+msgstr "Deze account is niet geautoriseerd om deze pagina te bekijken. Neem contact op met de beheerder als je toegang wilt."
+
+#: error.php:18
+msgid "Token mismatch"
+msgstr ""
+
+#: error.php:19
+msgid "The security token could not be validated."
+msgstr ""
+
+#: error.php:23
+msgid "Error 404"
+msgstr "404 fout"
+
+#: error.php:24
+msgid "Resource not found."
+msgstr "Bestand niet gevonden"
+
+#: error.php:28
+msgid "Error 403"
+msgstr "403 fout"
+
+#: error.php:29
+msgid "Forbidden."
+msgstr "Niet toegestaan"
+
+#: error.php:33
+msgid "Database error"
+msgstr "Databestand fout"
+
+#: error.php:34
+msgid "Can not connect to database"
+msgstr "Kan niet verbinden met het databestand"
+
+#: files-edit.php:25
+msgid "Edit files"
+msgstr "Bewerk bestanden"
+
+#: files-edit.php:87
+msgid "Files saved correctly"
+msgstr "Bestanden zijn correct opgeslaan"
+
+#: files-edit.php:92 includes/forms/file_editor.php:38 manage-files.php:545
+msgid "Title"
+msgstr "Titel"
+
+#: files-edit.php:94
+msgid "File Name"
+msgstr "Bestandsnaam"
+
+#: files-edit.php:98 files-edit.php:131 groups.php:247 groups.php:291
+#: includes/forms/groups.php:74
+msgid "Public"
+msgstr "Publiekelijk"
+
+#: files-edit.php:132 groups.php:296
+msgid "Private"
+msgstr "Prive"
+
+#: files-edit.php:142
+msgid "Edit file"
+msgstr "Bewerk bestand"
+
+#: files-edit.php:150 header-menu.php:338
+msgid "View my files"
+msgstr "Toon mijn bestanden"
+
+#: files-edit.php:169
+msgid ""
+"You can skip assigning if you want. The files are retained and you may add "
+"them to clients or groups later."
+msgstr "Je kunt het toekennen overslaan. De bestanden blijven behouden en kunnen later worden toegekend aan een cliënt of groep."
+
+#: footer.php:25
+msgid "Executed queries"
+msgstr "Uitgevoerde zoekopdrachten"
+
+#: groups-add.php:14
+msgid "Add clients group"
+msgstr "Voeg cliëntgroep toe"
+
+#: groups-edit.php:14
+msgid "Edit group"
+msgstr "Bewerk groep"
+
+#: groups-edit.php:84
+msgid "Group edited correctly."
+msgstr "Groep is correct gewijzigd."
+
+#: groups-edit.php:86
+msgid "Group created successfuly."
+msgstr "Groep is met succes aangemaakt"
+
+#: groups-edit.php:107
+msgid "No group was selected."
+msgstr "Er is geen groep geselecteerd."
+
+#: groups-edit.php:112
+msgid "There is no group with that ID number."
+msgstr "Er bestaat geen groep met deze ID."
+
+#: groups.php:14
+msgid "Groups administration"
+msgstr "Groepsadministratie"
+
+#: groups.php:23
+msgid "Groups where"
+msgstr "Groepen waar"
+
+#: groups.php:23
+msgid "is member"
+msgstr "is lid"
+
+#: groups.php:70
+msgid "The selected groups were deleted."
+msgstr "De geselecteerde groepen zijn verwijderd."
+
+#: groups.php:77
+msgid "Please select at least one group."
+msgstr "Selecteer ten minste één groep."
+
+#: groups.php:150
+msgid "Selected groups actions"
+msgstr "Geselecteerde groepsacties"
+
+#: groups.php:172
+msgid "groups"
+msgstr "groepen"
+
+#: groups.php:188
+msgid "The client does not exist."
+msgstr "De cliënt bestaat niet."
+
+#: groups.php:191
+msgid "There are no groups where this client is member."
+msgstr "Deze cliënt is geen lid van een groep."
+
+#: groups.php:196
+msgid "There are no groups created yet."
+msgstr "Er zijn geen groepen aanwezig."
+
+#: groups.php:229 includes/forms/groups.php:26
+msgid "Group name"
+msgstr "Groepsnaam"
+
+#: groups.php:238 includes/forms/groups.php:40
+msgid "Members"
+msgstr "Leden"
+
+#: groups.php:252
+msgid "Created by"
+msgstr "Gemaakt door"
+
+#: groups.php:367
+msgid ""
+"There are public groups, but the public page is disabled so the public links"
+" will not show anything."
+msgstr ""
+
+#: groups.php:368 includes/forms/groups.php:79
+msgid "Go to privacy options"
+msgstr "Ga naar de privacy instellingen"
+
+#: header-menu.php:76 header-menu.php:317
+msgid "Upload"
+msgstr "Upload"
+
+#: header-menu.php:87 import-orphans.php:18
+msgid "Find orphan files"
+msgstr "Vind niet-toegekende bestanden"
+
+#: header-menu.php:94 includes/forms/file_editor.php:171
+#: includes/widgets/system-information.php:61
+msgid "Categories"
+msgstr "Categoriën"
+
+#: header-menu.php:104 header-menu.php:207 includes/forms/file_editor.php:117
+#: includes/widgets/system-information.php:52 options.php:24
+msgid "Clients"
+msgstr "Cliënten"
+
+#: header-menu.php:110 header-menu.php:139 header-menu.php:166
+msgid "Add new"
+msgstr "Voeg nieuwe toe"
+
+#: header-menu.php:114
+msgid "Manage clients"
+msgstr "Beheer cliënten"
+
+#: header-menu.php:133
+msgid "Clients groups"
+msgstr "Cliëntengroepen"
+
+#: header-menu.php:143
+msgid "Manage groups"
+msgstr "Beheer groepen"
+
+#: header-menu.php:161
+msgid "System Users"
+msgstr "Systeemgebruikers"
+
+#: header-menu.php:170
+msgid "Manage system users"
+msgstr "Beheer administrators"
+
+#: header-menu.php:183 header-menu.php:188 templates.php:11
+msgid "Templates"
+msgstr "Sjablonen"
+
+#: header-menu.php:198
+msgid "Options"
+msgstr "Opties"
+
+#: header-menu.php:203 options.php:15
+msgid "General options"
+msgstr "Algemene opties"
+
+#: header-menu.php:211 includes/forms/options/privacy.php:1 options.php:34
+msgid "Privacy"
+msgstr "Privacy"
+
+#: header-menu.php:215 options.php:45
+msgid "E-mail notifications"
+msgstr "E-mailnotificaties"
+
+#: header-menu.php:219 options.php:56
+msgid "Security"
+msgstr "Beveiliging"
+
+#: header-menu.php:223 options.php:67
+msgid "Branding"
+msgstr "Branding"
+
+#: header-menu.php:227 options.php:72
+msgid "External Login"
+msgstr "Externe login"
+
+#: header-menu.php:290
+msgid "Tools"
+msgstr "Tools"
+
+#: header-menu.php:295
+msgid "Actions log"
+msgstr "Activiteiten log"
+
+#: header-unlogged.php:20
+msgid "setup"
+msgstr "setup"
+
+#: header.php:27
+msgid "System Administration"
+msgstr "Systeemadministratie"
+
+#: header.php:76
+msgid "Toogle menu"
+msgstr "Uitklapmenu"
+
+#: header.php:89 includes/forms/login-ldap.php:16 includes/forms/login.php:25
+#: includes/forms/options/general.php:62 install/make-config.php:317
+msgid "Language"
+msgstr "Taal"
+
+#: header.php:111
+msgid "My Account"
+msgstr "Mijn Account"
+
+#: header.php:114
+msgid "Logout"
+msgstr "Afmelden"
+
+#: header.php:137 includes/updates.messages.php:16
+msgid "System Notice:"
+msgstr "Systeembericht:"
+
+#: header.php:137
+msgid ""
+"You are using a development version. Some features may be unfinished or not "
+"working correctly."
+msgstr "Let op, u gebruikt een bètaversie. Sommige functies zijn mogelijk nog niet voltooid of werken mogelijk niet correct."
+
+#: header.php:162
+msgid "Warning:"
+msgstr "Waarschuwing:"
+
+#: header.php:162
+msgid ""
+"The following directories do not exist or have write permissions errors."
+msgstr ""
+
+#: header.php:163
+msgid "File uploading or other important functions might not work."
+msgstr ""
+
+#: import-orphans.php:25
+msgid ""
+"This list only shows the files that are allowed according to your security "
+"settings. If the file type you need to add is not listed here, add the "
+"extension to the \"Allowed file extensions\" box on the options page."
+msgstr "The lijst laat vanwege veiligheidsredenen slechts de bestanden zien die zijn toegestaan. Staat je bestand er niet bij? Voeg dan de extentie toe aan \"Toegestane bestandsformaten\"."
+
+#: import-orphans.php:161
+msgid "Showing"
+msgstr "Weergegeven"
+
+#: import-orphans.php:161 manage-files.php:465
+msgid "files"
+msgstr "bestanden"
+
+#: import-orphans.php:176
+msgid "The following files can be imported"
+msgstr "De volgende bestanden kunnen niet worden opgeslaan"
+
+#: import-orphans.php:196
+msgid "File name"
+msgstr "Bestandsnaam"
+
+#: import-orphans.php:202
+msgid "File size"
+msgstr "Bestandsgrootte"
+
+#: import-orphans.php:209
+msgid "Last modified"
+msgstr "Laatst aangepast"
+
+#: import-orphans.php:247
+msgid "Import"
+msgstr "Import"
+
+#: import-orphans.php:260 includes/Classes/TableGenerate.php:265
+msgid "Results navigation"
+msgstr "Resultaten-navigatie"
+
+#: import-orphans.php:266
+msgid "Import selected files"
+msgstr "Importeer geselecteerde bestanden"
+
+#: import-orphans.php:281
+msgid "There are no files available to add right now."
+msgstr "Er zijn geen bestanden aanwezig om toe te voegen."
+
+#: import-orphans.php:282
+msgid ""
+"To use this feature you need to upload your files via FTP to the folder"
+msgstr "Om deze functie te gebruiken moeten bestanden via de FTP worden geüpload"
+
+#: includes/Classes/ActionsLog.php:41
+msgid "Account logs in through the form"
+msgstr "Een account meldt zich aan door het formulier"
+
+#: includes/Classes/ActionsLog.php:43
+msgid "Account (user or client) logs out"
+msgstr "Account (gebruiker of cliënt) meldt zich af"
+
+#: includes/Classes/ActionsLog.php:44
+msgid "A user creates a new user account"
+msgstr "Een gebruiker maakt een nieuwe gebruikersaccount aan"
+
+#: includes/Classes/ActionsLog.php:45
+msgid "A user creates a new client account"
+msgstr "Een gebruiker maakt een nieuwe cliëntaccount aan"
+
+#: includes/Classes/ActionsLog.php:46
+msgid "A client registers an account for himself"
+msgstr "Een cliënt registreerde een account voor zichzelf"
+
+#: includes/Classes/ActionsLog.php:47
+msgid "A client registers using a social profile"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:48
+msgid "Account logged in using a social profile"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:49
+msgid "A file is uploaded by an user"
+msgstr "Een bestand werd geupload door een gebruiker"
+
+#: includes/Classes/ActionsLog.php:50
+msgid "A file is uploaded by a client"
+msgstr "Een bestand werd geupload door een een cliënt"
+
+#: includes/Classes/ActionsLog.php:51
+msgid "A file is downloaded by a user"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:52
+msgid "A file is downloaded by a client"
+msgstr "Een bestand werd gedownload door een cliënt"
+
+#: includes/Classes/ActionsLog.php:53
+msgid "An anonymous user downloaded a public file"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:54
+msgid "A zip file was generated"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:55
+msgid "A file has been unassigned from a client"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:56
+msgid "A file has been unassigned from a group"
+msgstr "Een bestand werd losgekoppeld van een groep"
+
+#: includes/Classes/ActionsLog.php:57
+msgid "A file has been deleted"
+msgstr "Een bestand werd verwijderd"
+
+#: includes/Classes/ActionsLog.php:58
+msgid "A user was edited"
+msgstr "Een gebruiker werd aangepast"
+
+#: includes/Classes/ActionsLog.php:59
+msgid "A client was edited"
+msgstr "Een cliënt werd gewijzigd"
+
+#: includes/Classes/ActionsLog.php:60
+msgid "A group was edited"
+msgstr "Een groep werd gewijzigd"
+
+#: includes/Classes/ActionsLog.php:61
+msgid "A user was deleted"
+msgstr "Een gebruiker werd verwijderd"
+
+#: includes/Classes/ActionsLog.php:62
+msgid "A client was deleted"
+msgstr "Een cliënt werd verwijderd"
+
+#: includes/Classes/ActionsLog.php:63
+msgid "A group was deleted"
+msgstr "Een groep werd verwijderd"
+
+#: includes/Classes/ActionsLog.php:64
+msgid "A user account was marked as active"
+msgstr "Een gebruikersaccount werd gemarkeerd als actief"
+
+#: includes/Classes/ActionsLog.php:65
+msgid "A user account was marked as inactive"
+msgstr "Een gebruikersaccount werd gemarkeerd als inactief"
+
+#: includes/Classes/ActionsLog.php:66
+msgid "A client account was marked as active"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:67
+msgid "A client account was marked as inactive"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:68
+msgid "A file was marked as hidden"
+msgstr "Een bestand werd gemarkeerd als verborgen"
+
+#: includes/Classes/ActionsLog.php:69
+msgid "A file was marked as visible"
+msgstr "Een bestand werd gemarkeerd als zichtbaar"
+
+#: includes/Classes/ActionsLog.php:70 includes/Classes/ActionsLog.php:71
+msgid "A file was marked as hidden for everyone"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:72
+msgid "A user creates a new group"
+msgstr "Een gebruiker maakt een nieuwe groep aan"
+
+#: includes/Classes/ActionsLog.php:73
+msgid "A file is assigned to a client"
+msgstr "Een bestand werd toegekend aan een cliënt"
+
+#: includes/Classes/ActionsLog.php:74
+msgid "A file is assigned to a group"
+msgstr "Een bestand werd toegekend aan een groep"
+
+#: includes/Classes/ActionsLog.php:75
+msgid "The logo on \"Branding\" was changed"
+msgstr "Het logo voor \"Branding\" is gewijzigd"
+
+#: includes/Classes/ActionsLog.php:76
+msgid "A system user edited a file"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:77
+msgid "A client edited a file"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:78
+msgid "A user created a category"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:79
+msgid "A user edited a category"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:80
+msgid "A user deleted a category"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:81
+msgid "A client account request was processed"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:82
+msgid "A client's groups membership requests were processed"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:83
+msgid "A file preview request was made"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:84
+msgid "ProjecSend has been installed"
+msgstr "ProjectSend is geïnstalleerd"
+
+#: includes/Classes/ActionsLog.php:85
+msgid "ProjectSend was updated"
+msgstr "ProjectSend is geüpdatet"
+
+#: includes/Classes/ActionsLog.php:86
+msgid "A client account request was approved"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:87
+msgid "A client account request was denied"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:88
+msgid "System options were updated"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:89
+msgid "An email template was updated"
+msgstr ""
+
+#: includes/Classes/Auth.php:259
+msgid "Email and password cannot be empty."
+msgstr ""
+
+#: includes/Classes/Auth.php:278
+#, php-format
+msgid "LDAP connection error: %s"
+msgstr ""
+
+#: includes/Classes/Auth.php:316 includes/Classes/Auth.php:326
+msgid "The supplied email or password does not match an existing record."
+msgstr ""
+
+#: includes/Classes/Auth.php:335
+msgid "Error binding to LDAP server."
+msgstr ""
+
+#: includes/Classes/Auth.php:358
+msgid "Error during log in."
+msgstr "Fout tijdens het inloggen"
+
+#: includes/Classes/Auth.php:368
+msgid "The supplied credentials are not valid."
+msgstr "De verstrekte inlog gegevens zijn niet correct."
+
+#: includes/Classes/Auth.php:371
+msgid "The supplied username doesn't exist."
+msgstr "De ingevoerde gebruikersnaam bestaat niet."
+
+#: includes/Classes/Auth.php:374
+msgid "The supplied password is incorrect."
+msgstr "Het ingevoerde wachtwoord is incorrect."
+
+#: includes/Classes/Auth.php:378
+msgid "This account is not active."
+msgstr "Account is niet actief."
+
+#: includes/Classes/Auth.php:380
+msgid ""
+"If you just registered, please wait until a system administrator approves "
+"your account."
+msgstr "Als je je net hebt geregistreerd, wacht todat de administror je account heeft geactiveerd."
+
+#: includes/Classes/Auth.php:384 register.php:111
+msgid ""
+"Client self registration is not allowed. If you need an account, please "
+"contact a system administrator."
+msgstr "Zelfregistratie voor cliënten is niet toegestaan. Een account nodig? Neem contact op met de systeemadministrator."
+
+#: includes/Classes/Auth.php:387
+msgid ""
+"Sign-in with Google cannot be used to create new accounts at this time."
+msgstr "Aanmelden bij Google kan momenteel niet gebruikt worden om een nieuwe account aan te maken."
+
+#: includes/Classes/Auth.php:390
+msgid "You must approve the requested permissions to sign in with Google."
+msgstr "U dient de gevraagde toestemmingen goed te keuren om aan te melden bij Google."
+
+#: includes/Classes/Auth.php:393
+msgid "Session timed out. Please log in again."
+msgstr "Uw sessie is verlopen. U moet opnieuw inloggen"
+
+#: includes/Classes/Emails.php:36
+msgid "New files uploaded for you"
+msgstr "Nieuwe bestanden zijn voor je geüpload"
+
+#: includes/Classes/Emails.php:37
+msgid "The following files are now available for you to download."
+msgstr "De volgende bestanden kunnen worden gedownload."
+
+#: includes/Classes/Emails.php:38
+msgid ""
+"If you prefer not to be notified about new files, please go to My Account "
+"and deactivate the notifications checkbox."
+msgstr "Als je liever geen notificaties ontvangt, ga dan naar Mijn Account en deactiveer de checkbox."
+
+#: includes/Classes/Emails.php:39
+msgid "You can access a list of all your files or upload your own"
+msgstr "Je kunt een lijst van alle bestanden bekijken of er zelf één uploaden"
+
+#: includes/Classes/Emails.php:40 includes/Classes/Emails.php:48
+msgid "by logging in here"
+msgstr "door hier in te loggen"
+
+#: includes/Classes/Emails.php:45
+msgid "New files uploaded by clients"
+msgstr "Nieuwe bestanden zijn geüpload door cliënten"
+
+#: includes/Classes/Emails.php:46
+msgid "New files has been uploaded by the following clients"
+msgstr "Nieuwe bestanden zijn geüpload door de volgende cliënten"
+
+#: includes/Classes/Emails.php:47
+msgid "You can manage these files"
+msgstr "Je kunt deze bestanden beheren"
+
+#: includes/Classes/Emails.php:53 includes/Classes/Emails.php:102
+msgid "Welcome to ProjectSend"
+msgstr "Welkom bij ProjectSend"
+
+#: includes/Classes/Emails.php:54
+msgid ""
+"A new account was created for you. From now on, you can access the files "
+"that have been uploaded under your account using the following credentials:"
+msgstr "Er is een account voor je aangemaakt. Vanaf nu kun je bestanden die zijn geupload onder jouw account bekijken met de volgende inloggegevens:"
+
+#: includes/Classes/Emails.php:55 includes/Classes/Emails.php:89
+msgid "You can log in following this link"
+msgstr "Inloggen kan via deze link"
+
+#: includes/Classes/Emails.php:56 includes/Classes/Emails.php:90
+#: includes/Classes/Emails.php:97
+msgid "Please contact the administrator if you need further assistance."
+msgstr "Neem contact op met de beheerder voor hulp."
+
+#: includes/Classes/Emails.php:57 includes/Classes/Emails.php:106
+msgid "Your username"
+msgstr "Je gebruikersnaam"
+
+#: includes/Classes/Emails.php:58 includes/Classes/Emails.php:107
+msgid "Your password"
+msgstr "Je wachtwoord"
+
+#: includes/Classes/Emails.php:66
+msgid "A new client has registered"
+msgstr ""
+
+#: includes/Classes/Emails.php:67
+msgid ""
+"A new account was created using the self registration form on your site. "
+"Registration information:"
+msgstr "Een nieuwe account is aangemaakt door middel van het registratieformulier. Registratieinformatie:"
+
+#: includes/Classes/Emails.php:69 includes/Classes/Emails.php:118
+#: includes/Classes/Emails.php:128 includes/forms/login.php:15
+#: includes/forms/options/email.php:100 install/make-config.php:251
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: includes/Classes/Emails.php:70
+msgid "Additionally, the client requests access to the following group(s)"
+msgstr "Aanvullend, de cliënt verzoekt toegang tot de volgende groep(en)"
+
+#: includes/Classes/Emails.php:73 includes/Classes/Emails.php:130
+msgid "Please log in to process the request."
+msgstr "Log in om het verzoek te verwerken."
+
+#: includes/Classes/Emails.php:74
+msgid ""
+"Remember, your new client will not be able to log in until an administrator "
+"has approved their account."
+msgstr "De nieuwe cliëntaccount moet eerst door de beheerder worden geactiveerd."
+
+#: includes/Classes/Emails.php:77
+msgid "Auto-approvals of new accounts are currently enabled."
+msgstr "Automatische goedkeuring van nieuwe accounts is momenteel niet actief."
+
+#: includes/Classes/Emails.php:78
+msgid "You can log in to manually deactivate it."
+msgstr "Je kunt inloggen en het handmatig uitzetten."
+
+#: includes/Classes/Emails.php:84
+msgid "You account has been approved"
+msgstr "Uw account is goedgekeurd"
+
+#: includes/Classes/Emails.php:85
+msgid "Your account has been approved."
+msgstr "Uw account is goedgekeurd"
+
+#: includes/Classes/Emails.php:86
+msgid "Additionally, your group membership requests have been processed."
+msgstr "Daarnaast, zijn uw groepslidmaatschapsverzoeken verwerkt."
+
+#: includes/Classes/Emails.php:87
+msgid "Approved requests:"
+msgstr "Geaccepteerde aanvragen"
+
+#: includes/Classes/Emails.php:88
+msgid "Denied requests:"
+msgstr "Geweigerde aanvragen"
+
+#: includes/Classes/Emails.php:95
+msgid "You account has been denied"
+msgstr "Uw account is geweigerd"
+
+#: includes/Classes/Emails.php:96
+msgid "Your account request has been denied."
+msgstr "Uw account aanvraag is geweigerd"
+
+#: includes/Classes/Emails.php:103
+msgid ""
+"A new account was created for you. From now on, you can access the system "
+"administrator using the following credentials:"
+msgstr "Een nieuwe account is voor je aangemaakt. Vanaf nu heb je toegang tot de systeemadministratie met de volgende inloggegevens:"
+
+#: includes/Classes/Emails.php:104
+msgid "Access the system panel here"
+msgstr "Klik hier voor het systeempaneel"
+
+#: includes/Classes/Emails.php:105
+msgid "Thank you for using ProjectSend."
+msgstr "Bedankt voor het gebruiken van ProjectSend."
+
+#: includes/Classes/Emails.php:113
+msgid "Password reset instructions"
+msgstr "Wachtwoord herstelinstructies"
+
+#: includes/Classes/Emails.php:114
+msgid ""
+"A request has been received to reset the password for the following account:"
+msgstr "Een verzoek is ontvangen om het wachtwoord opnieuw in te stellen voor de volgende account:"
+
+#: includes/Classes/Emails.php:115
+msgid "To continue, please visit the following link"
+msgstr "Om door te gaan, volg de link"
+
+#: includes/Classes/Emails.php:116
+msgid "The request is valid only for 24 hours."
+msgstr "Aanvraag is 24 uur geldig."
+
+#: includes/Classes/Emails.php:117
+msgid "If you did not make this request, simply ignore this email."
+msgstr "Als dit verzoek niet van jou komt, vergeet deze e-mail."
+
+#: includes/Classes/Emails.php:125
+msgid "A client has changed memberships requests"
+msgstr ""
+
+#: includes/Classes/Emails.php:126
+msgid ""
+"A client on you site has just changed his groups membership requests and "
+"needs your approval."
+msgstr "Een gebruiker van uw site heeft net zijn groepen-lidmaatschapsverzoeken gewijzigd en heeft uw goedkeuring nodig."
+
+#: includes/Classes/Emails.php:129
+msgid "The client requests access to the following group(s)"
+msgstr "De gebruiker vraagt ​​om toegang tot de volgende groep (en)"
+
+#: includes/Classes/Emails.php:283 includes/Classes/Emails.php:533
+msgid "No group requests made"
+msgstr ""
+
+#: includes/Classes/Emails.php:552
+msgid "Email configuration test"
+msgstr ""
+
+#: includes/Classes/Emails.php:604
+msgid "This is a test message"
+msgstr ""
+
+#: includes/Classes/Emails.php:733
+msgid ""
+"This email contains HTML formatting and cannot be displayed right now. "
+"Please use an HTML compatible reader."
+msgstr "Deze email bevat HTML-opmaak en kan niet worden weergegeven. Gebruik een HTML-ondersteunende emailcliënt."
+
+#: includes/Classes/TableGenerate.php:322
+msgid "Go to:"
+msgstr "Ga naar:"
+
+#: includes/Classes/Validation.php:270 includes/text.strings.php:65
+msgid "The following errors were found"
+msgstr "De volgende foutmeldingen zijn gevonden"
+
+#: includes/forms/categories.php:14
+msgid "Create"
+msgstr "Aanmaken"
+
+#: includes/forms/categories.php:17 includes/forms/file_editor.php:209
+msgid "Save"
+msgstr "Opslaan"
+
+#: includes/forms/categories.php:44
+msgid "Parent"
+msgstr "Ouder"
+
+#: includes/forms/categories.php:47 includes/forms/options/clients.php:53
+#: includes/forms/options/email.php:136 manage-files.php:656
+msgid "None"
+msgstr "Geen"
+
+#: includes/forms/categories.php:67
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: includes/forms/clients.php:9
+msgid "Will be visible on the client's file list"
+msgstr "Is zichtbaar in de cliënt's bestandslijst"
+
+#: includes/forms/clients.php:28
+msgid "Save client"
+msgstr "Bewaar cliënt"
+
+#: includes/forms/clients.php:40
+msgid "Create account"
+msgstr ""
+
+#: includes/forms/clients.php:40
+msgid "Request account"
+msgstr ""
+
+#: includes/forms/clients.php:46
+msgid "Your full name"
+msgstr "Je volledige naam"
+
+#: includes/forms/clients.php:50 includes/forms/clients.php:64
+msgid "Request access to groups"
+msgstr "Vraag toegang tot groepen aan"
+
+#: includes/forms/clients.php:55 includes/forms/users.php:25
+msgid "Update account"
+msgstr "Update account"
+
+#: includes/forms/clients.php:85 includes/forms/users.php:46
+msgid "Must be alphanumeric"
+msgstr "Alleen alfanumeriek"
+
+#: includes/forms/clients.php:90 includes/forms/login-ldap.php:11
+#: includes/forms/login.php:20 includes/forms/options/email.php:107
+#: includes/forms/users.php:51 install/index.php:318
+#: install/make-config.php:261
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: includes/forms/clients.php:98
+#: includes/forms/reset-password/enter-password.php:13
+#: includes/forms/users.php:59 install/index.php:326
+msgid "Generate"
+msgstr "Genereer"
+
+#: includes/forms/clients.php:106 includes/forms/users.php:67
+msgid "Must be valid and unique"
+msgstr "Dient geldig en uniek te zijn"
+
+#: includes/forms/clients.php:111
+msgid "Address"
+msgstr "Adres"
+
+#: includes/forms/clients.php:118
+msgid "Telephone"
+msgstr "Telefoon"
+
+#: includes/forms/clients.php:128
+msgid "Internal contact name"
+msgstr "Interne contactnaam"
+
+#: includes/forms/clients.php:135 includes/forms/users.php:95
+msgid "Max. upload filesize"
+msgstr "Max. Upload bestandsgrootte"
+
+#: includes/forms/clients.php:141 includes/forms/users.php:101
+msgid "Set to 0 to use the default system limit"
+msgstr "Stel in op 0 om de standaard systeemlimiet te gebruiken"
+
+#: includes/forms/clients.php:188 includes/forms/file_editor.php:118
+#: includes/forms/file_editor.php:140 includes/forms/file_editor.php:173
+#: includes/forms/groups.php:42
+msgid "Select one or more options. Type to search."
+msgstr "Selecteer één of meerdere opties. Type om te zoeken."
+
+#: includes/forms/clients.php:207 includes/forms/file_editor.php:130
+#: includes/forms/file_editor.php:152 includes/forms/file_editor.php:179
+#: includes/forms/groups.php:65
+msgid "Add all"
+msgstr "Voeg alles toe"
+
+#: includes/forms/clients.php:208 includes/forms/file_editor.php:131
+#: includes/forms/file_editor.php:153 includes/forms/file_editor.php:180
+#: includes/forms/groups.php:66
+msgid "Remove all"
+msgstr "Verwijder allemaal"
+
+#: includes/forms/clients.php:226
+msgid "Active (client can log in)"
+msgstr "Actief (cliënt kan zich aanmelden)"
+
+#: includes/forms/clients.php:237
+msgid "Notify new uploads by e-mail"
+msgstr "Meld nieuwe uploads met een e-mail"
+
+#: includes/forms/clients.php:248 includes/forms/users.php:120
+msgid "Send welcome email"
+msgstr "Verstuur welkom-mail"
+
+#: includes/forms/clients.php:256 includes/forms/users.php:128
+msgid "Require password change after first login"
+msgstr ""
+
+#: includes/forms/clients.php:269
+msgid "Verification"
+msgstr "Verificatie"
+
+#: includes/forms/clients.php:286 includes/forms/users.php:143
+msgid ""
+"This account information will be e-mailed to the address supplied above"
+msgstr "Deze accountinformatie wordt via e-mail naar het bovenstaande adres verstuurd"
+
+#: includes/forms/file_editor.php:39
+msgid "Enter here the required file title."
+msgstr "Vul hier de verplichte bestandsnaam in."
+
+#: includes/forms/file_editor.php:44
+msgid "Optionally, enter here a description for the file."
+msgstr "Optioneel, vul hier een omschrijving in."
+
+#: includes/forms/file_editor.php:63
+msgid "Expiration date"
+msgstr "Afloop datum"
+
+#: includes/forms/file_editor.php:66
+msgid "Select a date"
+msgstr "Selecteer een datum"
+
+#: includes/forms/file_editor.php:77
+msgid "File expires"
+msgstr "Bestand is verlopen"
+
+#: includes/forms/file_editor.php:88
+msgid "Public downloading"
+msgstr "Publiekelijk te downloaden"
+
+#: includes/forms/file_editor.php:92
+msgid "Allow public downloading of this file."
+msgstr "Publiekelijk toestaan dit bestand te downloaden."
+
+#: includes/forms/file_editor.php:116
+msgid "Assignations"
+msgstr "Koppelingen"
+
+#: includes/forms/file_editor.php:133 includes/forms/file_editor.php:155
+#: includes/forms/file_editor.php:182
+msgid "Copy selections to other files"
+msgstr "Kopieer selectie naar andere bestanden"
+
+#: includes/forms/file_editor.php:163
+msgid "Hidden (will not send notifications or show into the files list)"
+msgstr ""
+
+#: includes/forms/file_editor.php:172
+msgid "Add to"
+msgstr "Toevoegen aan"
+
+#: includes/forms/file_editor.php:197
+#, php-format
+msgid "File not found on disk: %s"
+msgstr ""
+
+#: includes/forms/file_editor.php:201
+#, php-format
+msgid "Record does not exist for file id: %d"
+msgstr ""
+
+#: includes/forms/groups.php:12
+msgid "Create group"
+msgstr "Maak groep"
+
+#: includes/forms/groups.php:16
+msgid "Save group"
+msgstr "Bewaar groep"
+
+#: includes/forms/groups.php:75
+msgid ""
+"Allows clients to request access to this group in the registraron process "
+"and when editing their own profile."
+msgstr ""
+
+#: includes/forms/groups.php:78
+msgid ""
+"The group cannot be made publicly visible while the public page is disabled."
+msgstr ""
+
+#: includes/forms/login-ldap.php:27 includes/forms/login.php:36
+msgid "default"
+msgstr "standaard"
+
+#: includes/forms/options/branding.php:1
+msgid "Current logo"
+msgstr "Huidige logo"
+
+#: includes/forms/options/branding.php:2
+msgid ""
+"Use this page to upload your company logo, or update the currently assigned "
+"one. This image will be shown to your clients when they access their file "
+"list."
+msgstr "Gebruik deze pagina om je bedrijfslogo te uploaden, of te updaten. Deze afbeelding wordt weergegeven wanneer cliënten hun bestandlijst bekijken."
+
+#: includes/forms/options/branding.php:23
+msgid "This preview uses a maximum width of 300px."
+msgstr "Deze preview gebruikt een maximale breedte van 300 px."
+
+#: includes/forms/options/branding.php:27
+msgid "Delete current logo"
+msgstr ""
+
+#: includes/forms/options/branding.php:34
+msgid "Select image to upload"
+msgstr "Selecteer de te uploaden afbeelding"
+
+#: includes/forms/options/clients.php:1
+msgid "New registrations"
+msgstr "Nieuwe registraties"
+
+#: includes/forms/options/clients.php:2
+msgid ""
+"Used only on self-registrations. These options will not apply to clients "
+"registered by system administrators."
+msgstr "Wordt alleen gebruikt bij zelfregistraties. Deze opties zijn niet van toepassing op door systeembeheerders aangemaakte cliënten."
+
+#: includes/forms/options/clients.php:7
+msgid "Clients can register themselves"
+msgstr "Cliënten kunnen zichzelf registreren"
+
+#: includes/forms/options/clients.php:15
+msgid "Auto approve new accounts"
+msgstr "Bevestig automatisch nieuwe accounts"
+
+#: includes/forms/options/clients.php:21
+msgid "Add clients to this group:"
+msgstr "Voeg cliënten toe aan deze groep:"
+
+#: includes/forms/options/clients.php:24
+msgid "None (does not enable this feature)"
+msgstr "Geen (schakelt deze optie niet in)"
+
+#: includes/forms/options/clients.php:43
+msgid ""
+"New clients will automatically be assigned to the group you have selected."
+msgstr "Nieuwe gebruikers worden automatisch toegekend aan de geselecteerde groep."
+
+#: includes/forms/options/clients.php:48
+msgid "Groups for which clients can request membership to:"
+msgstr "Groepen waarvoor cliënten het lidmaatschap kunnen aanvragen:"
+
+#: includes/forms/options/clients.php:54
+msgid "Public groups"
+msgstr "Openbare groepen"
+
+#: includes/forms/options/clients.php:55
+msgid "All groups"
+msgstr "Alle groepen"
+
+#: includes/forms/options/clients.php:64
+msgid ""
+"When a client registers a new account, an option will be presented to "
+"request becoming a member of a particular group."
+msgstr "Wanneer een cliënt een nieuw account registreert, wordt een optie weergegegven om te vragen om lid te worden van een bepaalde groep."
+
+#: includes/forms/options/clients.php:75
+msgid "Clients can upload files"
+msgstr "Cliënten kunnen bestanden uploaden"
+
+#: includes/forms/options/clients.php:83
+msgid "Clients can delete their own uploaded files"
+msgstr "Cliënten mogen hun ge-uploadde bestanden verwijderen"
+
+#: includes/forms/options/clients.php:91
+msgid "Clients can set expiration Date"
+msgstr "Cliënt kunnen vervaldatum instellen"
+
+#: includes/forms/options/clients.php:97
+msgid "When a file expires:"
+msgstr "Wanneer een bestand verloopt:"
+
+#: includes/forms/options/clients.php:100
+msgid "Don't show it on the files list"
+msgstr "Niet zichtbaar in de bestandenlijst"
+
+#: includes/forms/options/clients.php:101
+msgid "Show it anyway, but prevent download."
+msgstr "Toon het evengoed, maar verhinder downloaden."
+
+#: includes/forms/options/clients.php:103
+msgid ""
+"This only affects clients. On the admin side, you can still get the files."
+msgstr "Dit geldt alleen voor cliënten. Aan de beheer kant, kunt u de bestanden nog steeds benaderen."
+
+#: includes/forms/options/email.php:1
+msgid "\"From\" information"
+msgstr "\"Van\" informatie"
+
+#: includes/forms/options/email.php:4 install/index.php:304
+msgid "E-mail address"
+msgstr "E-mailadres"
+
+#: includes/forms/options/email.php:19
+msgid "Send copies"
+msgstr "Verstuurd kopieën"
+
+#: includes/forms/options/email.php:24
+msgid "When a system user uploads files"
+msgstr "Als een beheerder bestanden uploadt"
+
+#: includes/forms/options/email.php:32
+msgid "When a client uploads files"
+msgstr "Als een cliënt bestanden uploadt"
+
+#: includes/forms/options/email.php:38
+msgid ""
+"Define here who will receive copies of this emails. These are sent as BCC so"
+" neither recipient will see the other addresses."
+msgstr "Geef hier aan wie kopieën  van emails dienen te ontvangen. Ze worden als BCC meegestuurd."
+
+#: includes/forms/options/email.php:44
+msgid "Address supplied above (on \"From\")"
+msgstr "Boveningevoerde adres (in \"Formulier\")"
+
+#: includes/forms/options/email.php:50
+msgid "Also to this addresses"
+msgstr "Ook naar dit adres"
+
+#: includes/forms/options/email.php:53
+msgid "Separate e-mail addresses with a comma."
+msgstr "Scheid E-mailadressen met een komma."
+
+#: includes/forms/options/email.php:59
+msgid "Expiration"
+msgstr "Afloop"
+
+#: includes/forms/options/email.php:62
+msgid "Maximum sending attemps"
+msgstr "Maximaal geprobeerd te verzenden"
+
+#: includes/forms/options/email.php:65
+msgid ""
+"Define how many times will the system attemp to send each notification."
+msgstr "Geef aan hoevaak het systeem probeerd om email notificaties te versturen."
+
+#: includes/forms/options/email.php:70
+msgid "Days before expiring"
+msgstr "Dagen voordat het vervalt"
+
+#: includes/forms/options/email.php:73
+msgid "Notifications older than this will not be sent."
+msgstr "Notificaties ouder dan een week worden niet verzonden."
+
+#: includes/forms/options/email.php:73
+msgid "Set to 0 to disable."
+msgstr "Geef 0 in om niet te gebruiken."
+
+#: includes/forms/options/email.php:79
+msgid "E-mail sending options"
+msgstr "E-mailopties"
+
+#: includes/forms/options/email.php:80
+msgid ""
+"Here you can select which mail system will be used when sending the "
+"notifications. If you have a valid e-mail account, SMTP is the recommended "
+"option."
+msgstr "Hier kun je selecteren welk e-mailsysteem moet worden gebruikt voor het verzenden van de notificaties. Als je een geldige e-mailaccount hebt, wordt het gebruik van SMTP aangeraden."
+
+#: includes/forms/options/email.php:83
+msgid "Mailer"
+msgstr "Mailer"
+
+#: includes/forms/options/email.php:96
+msgid "SMTP & Gmail shared options"
+msgstr "SMTP & Gmail gedeelde opties"
+
+#: includes/forms/options/email.php:97
+msgid ""
+"You need to include your username (usually your e-mail address) and password"
+" if you have selected either SMTP or Gmail as your mailer."
+msgstr "De gebruikersnaam (meestal het emailadres) en wachtwoord zijn noodzakelijk wanneer SMTP of Gmail wordt gebruikt voor het versturen van mail."
+
+#: includes/forms/options/email.php:115
+msgid "SMTP options"
+msgstr "SMTP-opties"
+
+#: includes/forms/options/email.php:116
+msgid "If you selected SMTP as your mailer, please complete these options."
+msgstr "Heb je SMTP geselecteerd als mailer, completeer dan deze gegevens."
+
+#: includes/forms/options/email.php:119 install/make-config.php:231
+msgid "Host"
+msgstr "Host"
+
+#: includes/forms/options/email.php:126
+msgid "Port"
+msgstr "Poort"
+
+#: includes/forms/options/email.php:133
+msgid "Authentication"
+msgstr "Verificatie"
+
+#: includes/forms/options/email.php:145
+msgid "SSL options"
+msgstr ""
+
+#: includes/forms/options/email.php:150
+msgid "Verify peer"
+msgstr ""
+
+#: includes/forms/options/email.php:158
+msgid "Verify peer name"
+msgstr ""
+
+#: includes/forms/options/email.php:166
+msgid "Allow self signed"
+msgstr ""
+
+#: includes/forms/options/email.php:175
+msgid "After saving your options, you can test your configuration here"
+msgstr ""
+
+#: includes/forms/options/external_login.php:4
+msgid "Social Networks"
+msgstr ""
+
+#: includes/forms/options/external_login.php:5
+#, php-format
+msgid ""
+"Note: %s requires all accounts to be available locally. When a user connects"
+" via a social network or any other external source, a local account will be "
+"created with a random password."
+msgstr ""
+
+#: includes/forms/options/external_login.php:87
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#: includes/forms/options/external_login.php:96
+msgid "App ID"
+msgstr ""
+
+#: includes/forms/options/external_login.php:102
+msgid "App Secret"
+msgstr ""
+
+#: includes/forms/options/external_login.php:110
+msgid "Callback URI"
+msgstr "Callback URL"
+
+#: includes/forms/options/external_login.php:121
+#: includes/forms/options/security.php:105
+msgid "How do I obtain this credentials?"
+msgstr "Hoe kom ik aan deze gegevens?"
+
+#: includes/forms/options/general.php:1
+msgid "General"
+msgstr "Algemeen"
+
+#: includes/forms/options/general.php:2
+msgid ""
+"Basic information to be shown around the site. The time format and zones "
+"values affect how the clients see the dates on their files lists."
+msgstr "Basisinformatie wordt getoond op de website. De datum- en tijdweergave hebben invloed op de weergave van bovengenoemde in de bestandsweergave van de cliënten."
+
+#: includes/forms/options/general.php:5 install/index.php:278
+msgid "Site name"
+msgstr "Sitenaam"
+
+#: includes/forms/options/general.php:12
+msgid "Timezone"
+msgstr "Tijdzone"
+
+#: includes/forms/options/general.php:25
+msgid "Time format"
+msgstr "Tijdsformaat"
+
+#: includes/forms/options/general.php:28
+msgid "For example, d/m/Y h:i:s will result in something like"
+msgstr "Bijvoorbeeld, d/m/Y h:i:s resulteert in dit"
+
+#: includes/forms/options/general.php:29
+msgid "For the full list of available values, visit"
+msgstr "Voor de volledige lijst van beschikbare waarden, kijk op"
+
+#: includes/forms/options/general.php:29
+msgid "this page"
+msgstr "deze pagina"
+
+#: includes/forms/options/general.php:36
+msgid "Use custom footer text"
+msgstr "Gebruik eigen voet tekst"
+
+#: includes/forms/options/general.php:42
+msgid "Footer content"
+msgstr "Voet inhoud"
+
+#: includes/forms/options/general.php:50
+msgid "Editor"
+msgstr "Editor"
+
+#: includes/forms/options/general.php:55
+msgid "Use the visual editor on files descriptions"
+msgstr "Gebruik de visuele editor voor beschrijvingen van bestanden"
+
+#: includes/forms/options/general.php:67
+msgid "Detect user browser language"
+msgstr "Detecteer de taal van de gebruiker zijn browser"
+
+#: includes/forms/options/general.php:68
+msgid ""
+"If available, will override the default one from the system configuration "
+"file. Affects all users and clients."
+msgstr "Indien beschikbaar, zal dit de standaard instellingen van de systeemconfiguratie overschrijven. Heeft betrekking op alle gebruikers en cliënten."
+
+#: includes/forms/options/general.php:75
+msgid "Downloads"
+msgstr "Downloads"
+
+#: includes/forms/options/general.php:79
+msgid "Use XSendFile to serve files"
+msgstr ""
+
+#: includes/forms/options/general.php:80
+msgid ""
+"xsendfile improves downloads by allowing the web server to send the file "
+"directly (without php and it's limitations in the middle). This provides "
+"several optimizations, such as resumable, more stable downloads. This in an "
+"advanced feature that requires you to install and enable a module on your "
+"server."
+msgstr ""
+
+#: includes/forms/options/general.php:87
+msgid "System location"
+msgstr "Systeemlocatie"
+
+#: includes/forms/options/general.php:88
+msgid ""
+"These options are to be changed only if you are moving the system to another"
+" place. Changes here can cause ProjectSend to stop working."
+msgstr "Deze opties dienen slechts te worden gewijzigd wanneer het systeem wordt verplaatst. Veranderingen kunnen ervoor zorgen dat ProjectSend niet meer werkt."
+
+#: includes/forms/options/general.php:91
+msgid "System URI"
+msgstr "Systeem URL"
+
+#: includes/forms/options/privacy.php:6
+msgid "Prevent search engines from indexing this site"
+msgstr "Voorkom zoekmachines om deze site te indexeren"
+
+#: includes/forms/options/privacy.php:14
+msgid "Enable information page for private files"
+msgstr "Informatiepagina voor privé bestanden inschakelen"
+
+#: includes/forms/options/privacy.php:15
+msgid ""
+"If enabled, the file information landing page will be available even for "
+"files that are not marked as private. Downloading them will stay restricted."
+msgstr "Indien ingeschakeld, zal de landingspagina voor de bestandsinformatie zelfs beschikbaar zijn voor bestanden die niet als privé zijn gemarkeerd. Het downloaden ervan blijft beperkt."
+
+#: includes/forms/options/privacy.php:22
+msgid "Public groups and files listings page"
+msgstr "Openbare groepen en bestandslijsten pagina"
+
+#: includes/forms/options/privacy.php:27
+msgid "Enable page"
+msgstr "Schakel pagina in"
+
+#: includes/forms/options/privacy.php:29
+msgid "The url for the listings page is"
+msgstr "De URL voor de pagina met vermeldingen is"
+
+#: includes/forms/options/privacy.php:39
+msgid "Only for logged in clients"
+msgstr "Alleen voor ingelogde gebruikers"
+
+#: includes/forms/options/privacy.php:47
+msgid ""
+"Inside groups show all files, including those that are not marked as public."
+msgstr "Binnen groepen worden alle bestanden getoond, inclusief bestanden die niet als openbaar zijn gemarkeerd."
+
+#: includes/forms/options/privacy.php:55
+msgid "On public files, show the download link."
+msgstr "Laat de download link voor openbare bestanden zien."
+
+#: includes/forms/options/security.php:1
+msgid "Allowed file extensions"
+msgstr "Toegestane bestandsformaten"
+
+#: includes/forms/options/security.php:2
+msgid ""
+"Be careful when changing this options. They could affect not only the system"
+" but the whole server it is installed on."
+msgstr "Wees voorzichtig met deze optie. Het beïnvloedt niet slechts het systeem, maar de hele server waarop het is geïnstalleerd."
+
+#: includes/forms/options/security.php:3
+msgid "Important"
+msgstr "Belangrijk"
+
+#: includes/forms/options/security.php:3
+msgid "Separate allowed file types with a comma."
+msgstr "Separeer toegestane bestandstypen met een komma."
+
+#: includes/forms/options/security.php:6
+msgid "Limit file types uploading to"
+msgstr "Beperk het aantal uploadbare bestandstype tot"
+
+#: includes/forms/options/security.php:9
+msgid "No one"
+msgstr "Niemand"
+
+#: includes/forms/options/security.php:10
+msgid "Everyone"
+msgstr "Iedereen"
+
+#: includes/forms/options/security.php:11
+msgid "Clients only"
+msgstr "Slechts voor cliënten"
+
+#: includes/forms/options/security.php:22
+msgid ""
+"Warning: php extension is allowed. This is a serious security problem. If "
+"you are not sure that you need it, please remove it from the list."
+msgstr "Waarschuwing: php extensie is toegestaan. Dit is een ernstig beveiligingsprobleem. Als u niet zeker bent dat u het nodig hebt, verwijder het dan uit de lijst."
+
+#: includes/forms/options/security.php:29
+msgid "SVG files"
+msgstr ""
+
+#: includes/forms/options/security.php:33
+msgid "Show thumbnails for SVG files"
+msgstr ""
+
+#: includes/forms/options/security.php:41
+msgid "Passwords"
+msgstr "Wachtwoorden"
+
+#: includes/forms/options/security.php:42
+msgid "When setting up a password for an account, require at least:"
+msgstr "Wanneer een wachtwoord voor een account word aangemaakt, dan moet deze minimaal het volgende bevatten:"
+
+#: includes/forms/options/security.php:78
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: includes/forms/options/security.php:79
+msgid "Helps prevent SPAM on your registration form."
+msgstr "Helpt om SPAM te voorkomen op uw registratie formulier."
+
+#: includes/forms/options/security.php:84
+msgid "Use reCAPTCHA"
+msgstr "Gebruik reCAPTCHA"
+
+#: includes/forms/options/security.php:90
+msgid "Site key"
+msgstr "Site sleutel"
+
+#: includes/forms/options/security.php:97
+msgid "Secret key"
+msgstr "Geheime sleutel"
+
+#: includes/forms/reset-password/enter-email.php:10
+msgid ""
+"Please enter your account's e-mail address. You will receive a link to "
+"continue the process."
+msgstr "Geef van uw account het mailadres. U krijgt een link om het wachtwoord te herstellen."
+
+#: includes/forms/reset-password/enter-email.php:13
+msgid "Get a new password"
+msgstr "Krijg een nieuw wachtwoord"
+
+#: includes/forms/reset-password/enter-password.php:6
+msgid "New password"
+msgstr "Nieuw wachtwoord"
+
+#: includes/forms/reset-password/enter-password.php:17
+msgid ""
+"Please enter your desired new password. After that, you will be able to log "
+"in normally."
+msgstr "Geef uw nieuwe wachtwoord. Daarna zal je in staat zijn normaal in te loggen."
+
+#: includes/forms/reset-password/enter-password.php:20
+msgid "Set new password"
+msgstr "Nieuw wachtwoord instellen"
+
+#: includes/forms/upload.php:17
+msgid ""
+"Your browser doesn't support HTML5, Flash or Silverlight. Please update your"
+" browser or install Adobe Flash or Silverlight to continue."
+msgstr "Je browser ondersteunt geen HTML5, Flash of Silverlight. Update je browser of installeer  Adobe Flash of Silverlight om door te gaan."
+
+#: includes/forms/upload.php:21 upload.php:16
+msgid "Upload files"
+msgstr "Upload bestanden"
+
+#: includes/forms/upload.php:24
+msgid ""
+"Your files are being uploaded! Progress indicators may take a while to "
+"update, but work is still being done behind the scenes."
+msgstr "De betanden worden geüpload! De voortgangsindicator wordt geüpdatet, maar op de achtergrond is het systeem druk bezig."
+
+#: includes/forms/users.php:11
+msgid "Add user"
+msgstr "Voeg gebruiker toe"
+
+#: includes/forms/users.php:18
+msgid "Save user"
+msgstr "Bewaar gebruiker"
+
+#: includes/forms/users.php:75 users.php:300
+msgid "Role"
+msgstr "Rol"
+
+#: includes/forms/users.php:108
+msgid "Active (user can log in)"
+msgstr "Actief (gebruiker kan zich aanmelden)"
+
+#: includes/functions.actionslog.php:21 includes/functions.actionslog.php:22
+msgid "ProjectSend was installed"
+msgstr "ProjectSend is geïnstalleerd"
+
+#: includes/functions.actionslog.php:27 includes/functions.actionslog.php:207
+msgid "logged in to the system."
+msgstr "aangemeld op het systeem."
+
+#: includes/functions.actionslog.php:28 includes/functions.actionslog.php:208
+#, php-format
+msgid "%s logged in to the system"
+msgstr ""
+
+#: includes/functions.actionslog.php:33
+msgid "created the user account"
+msgstr "maakte de gebruikersaccount"
+
+#: includes/functions.actionslog.php:35
+#, php-format
+msgid "%s created the user account %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:40
+msgid "created the client account "
+msgstr "maakte de cliëntaccount."
+
+#: includes/functions.actionslog.php:42
+#, php-format
+msgid "%s created the client account %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:47
+msgid "created a client account for themself."
+msgstr "maakte een cliëntaccount voor zichzelf aan."
+
+#: includes/functions.actionslog.php:48
+#, php-format
+msgid "%s registered as a new client"
+msgstr ""
+
+#: includes/functions.actionslog.php:53
+msgid "(user) uploaded the file"
+msgstr "(gebruiker) uploadde het bestand"
+
+#: includes/functions.actionslog.php:55
+#, php-format
+msgid "%s (user) uploaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:60
+msgid "(client) uploaded the file"
+msgstr "(cliënt) uploadde het bestand"
+
+#: includes/functions.actionslog.php:62
+#, php-format
+msgid "%s (client) uploaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:67
+msgid "(user) downloaded the file"
+msgstr "(gebruiker) downloadde het bestand"
+
+#: includes/functions.actionslog.php:69
+#, php-format
+msgid "%s (user) downloaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:74
+msgid "(client) downloaded the file"
+msgstr "(cliënt) downloadde het bestand"
+
+#: includes/functions.actionslog.php:76
+#, php-format
+msgid "%s (client) downloaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:81
+msgid "generated a zip file"
+msgstr "genereerde een zip-bestand"
+
+#: includes/functions.actionslog.php:82
+#, php-format
+msgid "%s generated a zip file"
+msgstr ""
+
+#: includes/functions.actionslog.php:87 includes/functions.actionslog.php:96
+msgid "unassigned the file"
+msgstr "koppel het bestand los"
+
+#: includes/functions.actionslog.php:89
+msgid "from the client:"
+msgstr "van de cliënt:"
+
+#: includes/functions.actionslog.php:91
+#, php-format
+msgid "%s unassigned the file %s from the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:98
+msgid "from the group:"
+msgstr "van de groep:"
+
+#: includes/functions.actionslog.php:100
+#, php-format
+msgid "%s unassigned the file %s from the group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:105
+msgid "deleted the file"
+msgstr "verwijderde het bestand"
+
+#: includes/functions.actionslog.php:107
+#, php-format
+msgid "%s deleted the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:112
+msgid "edited the user"
+msgstr "bewerkte de gebruiker"
+
+#: includes/functions.actionslog.php:114
+#, php-format
+msgid "%s edited the user %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:119
+msgid "edited the client"
+msgstr "bewerkte de cliënt"
+
+#: includes/functions.actionslog.php:121
+#, php-format
+msgid "%s edited the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:126
+msgid "edited the group"
+msgstr "bewerkte de groep"
+
+#: includes/functions.actionslog.php:128
+#, php-format
+msgid "%s edited the group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:133
+msgid "deleted the user"
+msgstr "verwijderde de gebruiker"
+
+#: includes/functions.actionslog.php:135
+#, php-format
+msgid "%s deleted the user %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:140
+msgid "deleted the client"
+msgstr "verwijderde de cliënt"
+
+#: includes/functions.actionslog.php:142
+#, php-format
+msgid "%s deleted the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:147
+msgid "deleted the group"
+msgstr "verwijderde de groep"
+
+#: includes/functions.actionslog.php:149
+#, php-format
+msgid "%s deleted the group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:154
+msgid "activated the client"
+msgstr "activeerde de cliënt"
+
+#: includes/functions.actionslog.php:156
+#, php-format
+msgid "%s activated the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:161
+msgid "deactivated the client"
+msgstr "deactiveerde de cliënt"
+
+#: includes/functions.actionslog.php:163
+#, php-format
+msgid "%s deactivated the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:168
+msgid "marked as hidden the file"
+msgstr "gemarkeerd als een verborgen bestand"
+
+#: includes/functions.actionslog.php:170 includes/functions.actionslog.php:193
+msgid "to:"
+msgstr "naar:"
+
+#: includes/functions.actionslog.php:172
+#, php-format
+msgid "%s marked as hidden the file %s to %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:177
+msgid "marked as hidden for everyone the file"
+msgstr ""
+
+#: includes/functions.actionslog.php:179
+#, php-format
+msgid "%s marked as hidden for everyone the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:184
+msgid "marked as visible for everyone the file"
+msgstr ""
+
+#: includes/functions.actionslog.php:186
+#, php-format
+msgid "%s marked as visible for everyone the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:191
+msgid "marked as visible the file"
+msgstr "gemarkeerd als een zichtbaar bestand"
+
+#: includes/functions.actionslog.php:195
+#, php-format
+msgid "%s marked as visible the file %s to %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:200
+msgid "created the group"
+msgstr "maakte de groep"
+
+#: includes/functions.actionslog.php:202
+#, php-format
+msgid "%s created the group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:213 includes/functions.actionslog.php:222
+msgid "assigned the file"
+msgstr "kende het bestand toe"
+
+#: includes/functions.actionslog.php:215
+msgid "to the client:"
+msgstr "voor de cliënt:"
+
+#: includes/functions.actionslog.php:217
+#, php-format
+msgid "%s assigned the file %s to client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:224
+msgid "to the group:"
+msgstr "voor de groep:"
+
+#: includes/functions.actionslog.php:226
+#, php-format
+msgid "%s assigned the file %s to group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:231
+msgid "activated the user"
+msgstr "activeerde de gebruiker"
+
+#: includes/functions.actionslog.php:233
+#, php-format
+msgid "%s activated the user %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:238
+msgid "deactivated the user"
+msgstr "deactiveerde de gebruiker"
+
+#: includes/functions.actionslog.php:240
+#, php-format
+msgid "%s deactivated the user %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:245
+msgid "uploaded a new logo on \"Branding\""
+msgstr "uploadde een nieuw logo naar \"Branding\""
+
+#: includes/functions.actionslog.php:246
+#, php-format
+msgid "%s uploaded a new logo on \"Branding\""
+msgstr ""
+
+#: includes/functions.actionslog.php:251
+msgid "updated ProjectSend to version"
+msgstr "ProjectSend geüpdatet naar versie."
+
+#: includes/functions.actionslog.php:253
+#, php-format
+msgid "%s updated ProjectSend to version %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:258
+msgid "logged out of the system."
+msgstr "afgemeld van het systeem."
+
+#: includes/functions.actionslog.php:259
+#, php-format
+msgid "%s logged out of the system"
+msgstr ""
+
+#: includes/functions.actionslog.php:264
+msgid "(user) edited the file"
+msgstr "(gebruiker) bewerkte het bestand"
+
+#: includes/functions.actionslog.php:266
+#, php-format
+msgid "%s (user) edited the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:271
+msgid "(client) edited the file"
+msgstr "(cliënt) bewerkte het bestand"
+
+#: includes/functions.actionslog.php:273
+#, php-format
+msgid "%s (client) edited the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:278
+msgid "created the category"
+msgstr "maakte de categorie"
+
+#: includes/functions.actionslog.php:280
+#, php-format
+msgid "%s created the category %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:285
+msgid "edited the category"
+msgstr "bewerkte de categorie"
+
+#: includes/functions.actionslog.php:287
+#, php-format
+msgid "%s edited the category %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:292
+msgid "deleted the category"
+msgstr "verwijderde de categorie"
+
+#: includes/functions.actionslog.php:294
+#, php-format
+msgid "%s deleted the category %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:298
+msgid "An anonymous user"
+msgstr "Een anonieme gebruiker"
+
+#: includes/functions.actionslog.php:299
+msgid "downloaded the file"
+msgstr "heeft het bestand gedownload"
+
+#: includes/functions.actionslog.php:301
+#, php-format
+msgid "An anonymous user downloaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:306
+msgid "processed an account request for"
+msgstr "heeft een accountverzoek verwerkt voor"
+
+#: includes/functions.actionslog.php:308
+#, php-format
+msgid "%s processed an account request for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:313
+msgid "processed group memberships requests for"
+msgstr "verwerkt aanvragen voor groepslidmaatschappen voor"
+
+#: includes/functions.actionslog.php:315
+#, php-format
+msgid "%s processed group memberships requests for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:320
+msgid "requested a preview for the file"
+msgstr ""
+
+#: includes/functions.actionslog.php:322
+#, php-format
+msgid "%s requested a preview for the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:327
+msgid "created an account with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:328
+#, php-format
+msgid "%s created an account with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:333
+msgid "logged in with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:334
+#, php-format
+msgid "%s logged in with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:339
+msgid "approved an account request for"
+msgstr ""
+
+#: includes/functions.actionslog.php:341
+#, php-format
+msgid "%s approved an account request for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:346
+msgid "denied an account request for"
+msgstr ""
+
+#: includes/functions.actionslog.php:348
+#, php-format
+msgid "%s denied an account request for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:353
+msgid "updated system options"
+msgstr ""
+
+#: includes/functions.actionslog.php:356
+#, php-format
+msgid "%s updated system options: %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:361
+msgid "updated an email template"
+msgstr ""
+
+#: includes/functions.actionslog.php:364
+#, php-format
+msgid "%s updated email template: %s"
+msgstr ""
+
+#: includes/functions.forms.php:18
+msgid "Search"
+msgstr "Zoek"
+
+#: includes/functions.php:134
+msgid "An unexpected error has occurred"
+msgstr "Er trad een onverwachte op"
+
+#: includes/functions.php:135
+msgid "Could not generate a random password"
+msgstr "Er kon geen willekeurig wachtwoord worden gegenereerd"
+
+#: includes/functions.php:658
+msgid "Provided by"
+msgstr "Mogelijk gemaakt door"
+
+#: includes/functions.php:658
+msgid "version"
+msgstr "versie"
+
+#: includes/functions.php:658
+msgid "Free software"
+msgstr "Vrije software"
+
+#: includes/functions.php:693
+msgid "Important:"
+msgstr "Belangrijk:"
+
+#: includes/functions.php:693
+msgid ""
+"There are no clients or groups at the moment. You can still upload files and"
+" assign them later."
+msgstr "Er zijn op dit moment geen cliënten en / of groepen. U kunt nog steeds bestanden uploaden en deze later toewijzen."
+
+#: includes/functions.php:1313
+msgid "The password must contain, at least:"
+msgstr "Het wachtwoord moet minimaal bevatten:"
+
+#: includes/functions.session.permissions.php:79
+msgid "Password change is required for your account"
+msgstr ""
+
+#: includes/text.strings.php:13
+msgid "System Administrator"
+msgstr "Systeembeheerder"
+
+#: includes/text.strings.php:14
+msgid "Account Manager"
+msgstr "Accountmanager"
+
+#: includes/text.strings.php:15 manage-files.php:354 manage-files.php:553
+msgid "Uploader"
+msgstr "Uploader"
+
+#: includes/text.strings.php:31 index.php:20 install/index.php:98
+#: install/index.php:249
+msgid "Log in"
+msgstr "Aanmelden"
+
+#: includes/text.strings.php:32
+msgid "Logging in"
+msgstr "Inloggen"
+
+#: includes/text.strings.php:33
+msgid "Redirecting"
+msgstr "Wordt omgeleid"
+
+#: includes/text.strings.php:36
+msgid ""
+"Send this URL to someone to view the allowed group contents according to "
+"your privacy settings."
+msgstr "Stuur deze URL naar iemand om de volgens uw privacy-instellingen toegestane groepsinhoud te bekijken "
+
+#: includes/text.strings.php:37
+msgid ""
+"Send this URL to someone to download the file without registering or logging"
+" in."
+msgstr "Stuur deze URL aan iemand om het bestand zonder te registreren of in te loggen te downloaden."
+
+#: includes/text.strings.php:38
+msgid "Click to select and copy"
+msgstr "Klik om te selecteren en te kopiëren"
+
+#: includes/text.strings.php:39
+msgid "Succesfully copied to clipboard"
+msgstr "Succesvol gekopieerd naar klembord"
+
+#: includes/text.strings.php:40
+msgid "Content could not be copied to clipboard"
+msgstr "Inhoud kan niet naar het klembord worden gekopieerd"
+
+#: includes/text.strings.php:41
+msgid "Public URL"
+msgstr "Publiekelijke url"
+
+#: includes/text.strings.php:42
+msgid "Please select at least one item to proceed."
+msgstr "Selecteer ten minste één bestand om door te gaan."
+
+#: includes/text.strings.php:43
+#, php-format
+msgid "You are about to delete %d items. Are you sure you want to continue?"
+msgstr ""
+
+#: includes/text.strings.php:44
+msgid ""
+"You are about to delete all activities from the log. Only those used for "
+"statistics will remain. Are you sure you want to continue?"
+msgstr "U staat op het punt alle activiteiten uit het log te verwijderen. Slechts de statistische data wordt bewaard. Wilt u zeker doorgaan?"
+
+#: includes/text.strings.php:45
+msgid "Please wait while your download is prepared."
+msgstr "Wacht... terwijl de download wordt voorbereid."
+
+#: includes/text.strings.php:46
+msgid ""
+"This operation could take a few minutes, depending on the size of the files."
+msgstr "Deze bewerking kan enkele minuten duren, afhankelijk van de grootte van de bestanden."
+
+#: includes/text.strings.php:47
+#, php-format
+msgid ""
+"You are about to unassign %d files from this account. Are you sure you want "
+"to continue?"
+msgstr ""
+
+#: includes/text.strings.php:48
+msgid "No results where found."
+msgstr "Geen resultaten gevonden."
+
+#: includes/text.strings.php:50
+msgid "Please confirm: replace the custom template text with the default one?"
+msgstr "Bevestig alsjeblieft: vervang de aangepaste sjabloon tekst met de standaard?"
+
+#: includes/text.strings.php:51
+msgid "Error: the content could not be loaded"
+msgstr "Fout: Sommige bestanden kunnen niet worden verwijderd."
+
+#: includes/text.strings.php:54
+msgid "You must select at least one file to upload."
+msgstr "Er dient minimaal één te uploaden bestand te worden geselecteerd."
+
+#: includes/text.strings.php:55
+msgid ""
+"Are you sure? Files currently being uploaded will be discarded if you leave "
+"this page."
+msgstr ""
+
+#: includes/text.strings.php:56
+msgid "Copy selection to all files?"
+msgstr "Kopieer selectie naar alle bestanden?"
+
+#: includes/text.strings.php:57
+msgid ""
+"Some of your files uploaded correctly, but others could not be uploaded."
+msgstr ""
+
+#: includes/text.strings.php:58
+msgid "Go to the file editor"
+msgstr ""
+
+#: includes/text.strings.php:60
+msgid "Confirm this action?"
+msgstr ""
+
+#: includes/text.strings.php:61
+msgid "Failed to load file preview"
+msgstr ""
+
+#: includes/text.strings.php:62
+msgid "Failed to load resource"
+msgstr ""
+
+#: includes/text.strings.php:66
+#, php-format
+msgid "Validation \"%s\" failed for field \"%s\""
+msgstr ""
+
+#: includes/text.strings.php:67
+msgid "reCAPTCHA verification failed"
+msgstr "reCAPTCHA verificatie mislukt"
+
+#: includes/text.strings.php:68
+msgid "Name was not completed"
+msgstr "Naam is niet compleet"
+
+#: includes/text.strings.php:69
+msgid "No client was selected"
+msgstr "Er is geen cliënt geselecteerd"
+
+#: includes/text.strings.php:70
+msgid "Username was not completed"
+msgstr "Gebruikersnaam is niet ingevuld"
+
+#: includes/text.strings.php:71
+msgid "Password was not completed"
+msgstr "Het wachtwoord is niet compleet"
+
+#: includes/text.strings.php:72
+msgid "Password verification was not completed"
+msgstr "Wachtwoordverificatie is niet compleet"
+
+#: includes/text.strings.php:73
+msgid "E-mail was not completed"
+msgstr "E-mail is niet compleet"
+
+#: includes/text.strings.php:74
+msgid "Title was not completed"
+msgstr "Titel is niet ingevuld"
+
+#: includes/text.strings.php:75
+msgid "E-mail address is not valid"
+msgstr "E-mailadres is ongeldig"
+
+#: includes/text.strings.php:76
+msgid ""
+"Username must be alphanumeric and may contain dot (a-z,A-Z,0-9 and . "
+"allowed)"
+msgstr "Gebruikersnaam moet alfa-numeriek zijn en mag een punt bevatten (a-z,A-Z,0-9 en . toegestaan)"
+
+#: includes/text.strings.php:77
+msgid "Password must be alphanumeric (a-z,A-Z,0-9 allowed)"
+msgstr "Het wachtwoord dient alfanumeriek te zijn (a-z,A-Z,0-9 allowed)"
+
+#: includes/text.strings.php:78
+msgid "Passwords do not match"
+msgstr "De wachtwoorden komen niet overeen"
+
+#: includes/text.strings.php:79
+msgid "Password does not meet the required characters rules"
+msgstr "Het wachtwoord voldoet niet aan de vereiste karakters"
+
+#: includes/text.strings.php:80
+msgid "File size value must be a whole number"
+msgstr "Bestandsgrootte waarde moet een heel getal zijn"
+
+#: includes/text.strings.php:81
+msgid "User role was not specified"
+msgstr ""
+
+#: includes/text.strings.php:82
+msgid "An account with this username already exists."
+msgstr ""
+
+#: includes/text.strings.php:83
+msgid "An account with this e-mail address already exists."
+msgstr ""
+
+#: includes/text.strings.php:84
+msgid ""
+"Your password can only contain letters, numbers and the following "
+"characters:"
+msgstr "Het wachtwoord mag slechts letters, cijfers en de volgende karakters bevatten:"
+
+#: includes/text.strings.php:86
+msgid "Please complete all the fields."
+msgstr "Complementeer alle velden."
+
+#: includes/text.strings.php:89 includes/text.strings.php:90
+#, php-format
+msgid "Length should be between %d and %d characters long"
+msgstr ""
+
+#: includes/text.strings.php:93
+msgid "1 uppercase character"
+msgstr "1 hoofdletter"
+
+#: includes/text.strings.php:94
+msgid "1 lowercase character"
+msgstr "1 kleine letter"
+
+#: includes/text.strings.php:95
+msgid "1 number"
+msgstr "1 nummer"
+
+#: includes/text.strings.php:96
+msgid "1 special character"
+msgstr "1 speciaal karakter"
+
+#: includes/text.strings.php:99 install/index.php:77
+msgid "Sitename was not completed."
+msgstr "Sitenaam is niet compleet."
+
+#: includes/text.strings.php:100 install/index.php:78
+msgid "ProjectSend URI was not completed."
+msgstr "ProjectSend URL is niet compleet."
+
+#: includes/updates.functions.php:79
+#, php-format
+msgid "A safe chmod value of 755 could not be set for directory: %s"
+msgstr ""
+
+#: includes/updates.functions.php:87 includes/updates.functions.php:121
+#, php-format
+msgid "A safe chmod value of 644 could not be set for file: %s"
+msgstr ""
+
+#: includes/updates.functions.php:94
+msgid ""
+"Please correct the following errors to make sure that ProjectSend can send "
+"notifications emails."
+msgstr ""
+
+#: includes/updates.functions.php:115
+#, php-format
+msgid "System file does not exist: %s"
+msgstr ""
+
+#: includes/updates.functions.php:218
+msgid ""
+"This version changes the way files-to-clients relationships are stored on "
+"the database making it possible to assign a file to multiple clients. "
+"However some files did not update successfully. The following files may need"
+" to be reassigned to their clients by using the \"Find orphan files\" tool:"
+msgstr "Deze versie verandert de manier waarop de bestandsrelaties met de cliënten worden opgeslagen in de database, waardoor het mogelijk is geworden om een bestand aan meerdere cliënten toe te wijzen. Helaas zijn sommige bestanden niet goed ge-updated . De volgende bestanden moeten mogelijk opnieuw toegewezen worden aan hun cliënten, door gebruik te maken van de \"Vind niet-toegekende bestanden\" menu optie:"
+
+#: includes/updates.messages.php:16
+msgid "The database was updated to support this version of the software."
+msgstr "De database is geüpdatet zodat het deze versie ondersteunt."
+
+#: includes/updates.messages.php:23
+msgid "Do you want to support ProjectSend?"
+msgstr "Wil je ProjectSend supporten?"
+
+#: includes/updates.messages.php:24
+msgid ""
+"Please remember that this tool is free software. If you find the system "
+"useful"
+msgstr "Deze applicatie is vrije software. Wanneer je het nuttig vindt"
+
+#: includes/updates.messages.php:25
+msgid "please consider making a donation to support further development."
+msgstr "overweeg alstublieft een donatie als ondersteuning voor verder ontwikkeling."
+
+#: includes/updates.messages.php:26
+msgid "Thank you!"
+msgstr "Dank je wel!"
+
+#: includes/updates.messages.php:45
+msgid "Update available!"
+msgstr "Update beschikbaar!"
+
+#: includes/updates.messages.php:45
+#, php-format
+msgid "ProjectSend %s has been released"
+msgstr ""
+
+#: includes/updates.messages.php:48 manage-files.php:649
+msgid "Download"
+msgstr "Download"
+
+#: includes/updates.messages.php:48
+msgid "Changelog"
+msgstr ""
+
+#: includes/upload-send-notifications.php:243
+#: includes/upload-send-notifications.php:277
+msgid "E-mail notifications have been sent."
+msgstr "E-mailnotificaties zijn verzonden."
+
+#: includes/upload-send-notifications.php:257
+msgid "One or more notifications couldn't be sent."
+msgstr "Een of meer notificaties konden niet worden verzonden."
+
+#: includes/upload-send-notifications.php:281
+msgid "E-mail notifications for inactive clients were not sent."
+msgstr "E-mailnotificaties voor inactieve cliënten zijn niet verzonden."
+
+#: includes/widgets/actions-log.php:10
+msgid "Recent activites"
+msgstr "Recente activiteiten"
+
+#: includes/widgets/actions-log.php:33
+msgid "View all"
+msgstr "Toon alle"
+
+#: includes/widgets/ajax/statistics.php:77
+msgid "Uploads by users"
+msgstr "Upload door gebruikers"
+
+#: includes/widgets/ajax/statistics.php:83
+msgid "Uploads by clients"
+msgstr "Upload door cliënten"
+
+#: includes/widgets/ajax/statistics.php:89
+msgid "Downloads by known users"
+msgstr ""
+
+#: includes/widgets/ajax/statistics.php:95
+msgid "Public Downloads"
+msgstr "Publieke downloads"
+
+#: includes/widgets/news.php:10
+msgid "ProjectSend news"
+msgstr "ProjectSend nieuws"
+
+#: includes/widgets/statistics.php:12
+msgid "Statistics"
+msgstr "Statistiek"
+
+#: includes/widgets/statistics.php:19
+#, php-format
+msgid "%d days"
+msgstr ""
+
+#: includes/widgets/system-information.php:7 install/make-config.php:384
+msgid "System information"
+msgstr "Systeeminformatie"
+
+#: includes/widgets/system-information.php:9
+msgid "Software"
+msgstr "Software"
+
+#: includes/widgets/system-information.php:11
+#: includes/widgets/system-information.php:99
+msgid "Version"
+msgstr "versie"
+
+#: includes/widgets/system-information.php:17
+msgid "New version available"
+msgstr "Nieuwe versie beschikbaar"
+
+#: includes/widgets/system-information.php:22
+msgid "Default upload max. size"
+msgstr "Standaard max. upload grootte"
+
+#: includes/widgets/system-information.php:25
+msgid "Template"
+msgstr "Sjabloon"
+
+#: includes/widgets/system-information.php:26
+msgid "Change"
+msgstr "Aanpassen"
+
+#: includes/widgets/system-information.php:47
+msgid "Data"
+msgstr "Data"
+
+#: includes/widgets/system-information.php:55
+msgid "System users"
+msgstr "Systeemgebruikers"
+
+#: includes/widgets/system-information.php:76
+msgid "System"
+msgstr "Systeem"
+
+#: includes/widgets/system-information.php:78
+msgid "Server"
+msgstr "Server"
+
+#: includes/widgets/system-information.php:81
+msgid "PHP version"
+msgstr "PHP versie"
+
+#: includes/widgets/system-information.php:84
+msgid "Memory limit"
+msgstr "Geheugen limiet"
+
+#: includes/widgets/system-information.php:87
+msgid "Max execution time"
+msgstr "Max uitvoeringstijd"
+
+#: includes/widgets/system-information.php:90
+msgid "Post max size"
+msgstr "Maximale bestandsgrootte"
+
+#: includes/widgets/system-information.php:94
+msgid "Database"
+msgstr "Database"
+
+#: includes/widgets/system-information.php:96
+msgid "Driver"
+msgstr "Driver"
+
+#: index.php:67
+msgid "Forgot your password?"
+msgstr "Wachtwoord vergeten?"
+
+#: index.php:67
+msgid "Set up a new one."
+msgstr "Een nieuwe aanmaken."
+
+#: index.php:71 public.php:291
+msgid "Don't have an account yet?"
+msgstr "Heb je nog geen account?"
+
+#: index.php:71 public.php:291
+msgid "Register as a new client."
+msgstr "Registreer als een nieuwe cliënt."
+
+#: index.php:75
+msgid "This server does not allow self registrations."
+msgstr "De server staat geen zelfregistratie toe."
+
+#: index.php:76
+msgid "If you need an account, please contact a server administrator."
+msgstr "Een account nodig? Neem contact op met de beheerder."
+
+#: install/index.php:18
+#, php-format
+msgid "%s minimum version not met. Please upgrade to at least version %s"
+msgstr ""
+
+#: install/index.php:76 install/index.php:332 install/make-config.php:42
+msgid "Install"
+msgstr "Installeer"
+
+#: install/index.php:93
+msgid "Congratulations! Everything is up and running."
+msgstr "Gefeliciteerd! Alles is geïnstalleerd en draaiende."
+
+#: install/index.php:94
+msgid ""
+"You may proceed to log in with your newely created username and password."
+msgstr ""
+
+#: install/index.php:107
+msgid "Already installed"
+msgstr "Reeds geïnstalleerd"
+
+#: install/index.php:108
+msgid "It seems that ProjectSend is already installed here."
+msgstr "Het lijkt erop dat ProjectSend al is geïnstalleerd op deze locatie."
+
+#: install/index.php:109
+msgid ""
+"If you want to reinstall, please delete the system tables from the database "
+"and come back to the installation form."
+msgstr "Wilt u herinstalleren? Verwijder dan de tabellen uit de de database en keer terug naar het installatieformulier."
+
+#: install/index.php:216
+msgid "Database installation was successful, but errors were encountered."
+msgstr ""
+
+#: install/index.php:232
+msgid "The following directories could not be created:"
+msgstr ""
+
+#: install/index.php:239
+msgid "The following directories could not be chmodded to 755:"
+msgstr ""
+
+#: install/index.php:261
+msgid "There was an error writing to the database."
+msgstr ""
+
+#: install/index.php:272
+msgid "Basic system options"
+msgstr "Standaard systeemopties"
+
+#: install/index.php:273
+msgid ""
+"You need to provide this data for a correct system installation. The site "
+"name will be visible in the system panel, and the client's lists."
+msgstr "Deze gegevens zijn noodzakelijk voor een correcte installatie. De sitenaam is zichtbaar in het systeempaneel en de cliëntpagina's."
+
+#: install/index.php:274
+msgid "Remember to edit the file"
+msgstr "Vergeet niet het bestand aan te passen"
+
+#: install/index.php:274
+msgid ""
+"with your database settings before installing. If the file doesn't exist, "
+"you can create it by renaming the dummy file sys.config.sample.php."
+msgstr "met de database-instellingen voor de installatie. Als het bestand niet bestaat, kan het worden gemaakt door de dummy sys.config.sample.php te hernoemen."
+
+#: install/index.php:285
+msgid "ProjectSend URI (address)"
+msgstr "ProjectSend URL (adres)"
+
+#: install/index.php:293
+msgid "Default system administrator options"
+msgstr "Standaard systeemadministratoropties"
+
+#: install/index.php:294
+msgid ""
+"This info will be used to create a default system user, which can't be "
+"deleted afterwards. Password should be between"
+msgstr "Deze informatie wordt gebruikt om een systeembeheerder te maken, en kan niet worden verwijderd. Het wachtwoord moet tussen de"
+
+#: install/index.php:294
+msgid "and"
+msgstr "en"
+
+#: install/index.php:294
+msgid "characters long."
+msgstr "karakters lang."
+
+#: install/index.php:337
+msgid ""
+"After installing the system, you can go to the options page to set your "
+"timezone, preferred date display format and thumbnails parameters, besides "
+"being able to change the site options provided here."
+msgstr "Ga na installatie van het systeem naar de opties pagina om uw tijdzone, gewenst datum formaat, en de thumbnails parameters in te stellen. Daarnaast bent u in staat om de hier gegeven site opties aan te passen."
+
+#: install/make-config.php:20
+msgid "The configuration file already exists."
+msgstr "De configuratiefile bestaat al."
+
+#: install/make-config.php:193
+msgid "Successfully wrote the config file."
+msgstr "Het configuratiebestand werd succesvol aangemaakt."
+
+#: install/make-config.php:197
+msgid "Continue to installation"
+msgstr "Ga verder naar installatie"
+
+#: install/make-config.php:206
+msgid "Database configuration"
+msgstr "Databaseconfiguratie"
+
+#: install/make-config.php:207
+msgid "You need to provide this data for a correct database communication."
+msgstr "U dient deze data te voorzien voor een correcte databasecommunicatie."
+
+#: install/make-config.php:210
+msgid "Select driver"
+msgstr "Selecteer driver"
+
+#: install/make-config.php:215 install/make-config.php:221
+msgid "(not supported)"
+msgstr "(niet ondersteund)"
+
+#: install/make-config.php:241
+msgid "Database name"
+msgstr "Databasenaam"
+
+#: install/make-config.php:271
+msgid "Table prefix"
+msgstr "Tabelprefix"
+
+#: install/make-config.php:287
+msgid "The database is already populated"
+msgstr "De database bevat reeds informatie"
+
+#: install/make-config.php:301
+msgid "Reuse existing tables"
+msgstr "Hergebruik bestaande tabellen"
+
+#: install/make-config.php:314
+msgid "Language selection"
+msgstr "Taalkeuze"
+
+#: install/make-config.php:332
+msgid "Default maximum upload file size"
+msgstr "Standaard maximale bestandsgrootte"
+
+#: install/make-config.php:335
+msgid "Value expressed in MB, where 1GB = 1024"
+msgstr "Waarde uitgedrukt in MB, waarbij 1 GB = 1024 MB"
+
+#: install/make-config.php:341
+msgid "Folders"
+msgstr "Mappen"
+
+#: install/make-config.php:372
+msgid "Writable"
+msgstr "Schrijfbaar"
+
+#: install/make-config.php:374
+msgid "Not writable"
+msgstr "Niet beschrijfbaar"
+
+#: install/make-config.php:438 install/make-config.php:441
+msgid "Check again"
+msgstr "Opnieuw controleren"
+
+#: install/make-config.php:439
+msgid "Write config file"
+msgstr "Configuratiebestand schrijven"
+
+#: install/make-config.php:441
+msgid "Check"
+msgstr "Controleer"
+
+#: manage-files.php:35
+msgid "for client"
+msgstr "voor cliënt"
+
+#: manage-files.php:50
+msgid "for group"
+msgstr "voor groep"
+
+#: manage-files.php:65
+msgid "on category"
+msgstr "op categorie"
+
+#: manage-files.php:95 manage-files.php:113
+msgid "The selected files were marked as hidden."
+msgstr "De geselecteerde bestanden zijn gemarkeerd als onzichtbaar."
+
+#: manage-files.php:104 manage-files.php:122
+msgid "The selected files were marked as visible."
+msgstr "De gemarkeerde bestanden zijn gemarkeerd als zichtbaar."
+
+#: manage-files.php:134
+msgid "The selected files were succesfully unassigned."
+msgstr ""
+
+#: manage-files.php:156
+msgid "The selected files were deleted."
+msgstr "De geselecteerde bestanden zijn verwijderd."
+
+#: manage-files.php:160
+msgid "Some files could not be deleted."
+msgstr "Sommige bestanden konden niet worden verwijderd."
+
+#: manage-files.php:172
+msgid "Please select at least one file."
+msgstr "Selecteer ten minste één bestand."
+
+#: manage-files.php:387 manage-files.php:687
+msgid "Visible"
+msgstr "Zichtbaar"
+
+#: manage-files.php:388 manage-files.php:687
+msgid "Hidden"
+msgstr "Verborgen"
+
+#: manage-files.php:414
+msgid "Selected files actions"
+msgstr "Geselecteerde bestandacties"
+
+#: manage-files.php:431
+msgid "Download zipped"
+msgstr "Download zip-bestand"
+
+#: manage-files.php:433
+msgid "Set to hidden from everyone already assigned"
+msgstr ""
+
+#: manage-files.php:434
+msgid "Set to visible to everyone already assigned"
+msgstr ""
+
+#: manage-files.php:440
+msgid "Set to hidden"
+msgstr ""
+
+#: manage-files.php:441
+msgid "Set to visible"
+msgstr ""
+
+#: manage-files.php:442
+msgid "Unassign"
+msgstr "Loskoppelen"
+
+#: manage-files.php:478
+msgid "There are no files assigned to this category."
+msgstr "Er zijn geen bestanden toegewezen aan deze categorie."
+
+#: manage-files.php:484
+msgid "There are no files assigned to this client."
+msgstr "Er zijn geen bestanden toegewezen aan deze cliënt."
+
+#: manage-files.php:487
+msgid "You have not uploaded any files for this account."
+msgstr "Er zijn nog geen bestanden geüpload voor deze account."
+
+#: manage-files.php:492
+msgid "There are no files for this client."
+msgstr "Er zijn geen bestanden voor deze cliënt."
+
+#: manage-files.php:539
+msgid "Type"
+msgstr "soort"
+
+#: manage-files.php:548
+msgid "Size"
+msgstr "Grootte"
+
+#: manage-files.php:558
+msgid "Assigned"
+msgstr "Toegekend"
+
+#: manage-files.php:565
+msgid "Public permissions"
+msgstr "Openbare machtigingen"
+
+#: manage-files.php:570
+msgid "Expiry"
+msgstr "Verstrijken"
+
+#: manage-files.php:582
+msgid "Download count"
+msgstr "Aantal downloads"
+
+#: manage-files.php:653
+msgid "View information"
+msgstr "Bekijk informatie"
+
+#: manage-files.php:665
+msgid "Does not expire"
+msgstr "Verloopt nooit"
+
+#: manage-files.php:672
+msgid "Expired on"
+msgstr "Verloopt op"
+
+#: manage-files.php:676
+msgid "Expires on"
+msgstr "Verlopen op"
+
+#: manage-files.php:694
+msgid "times"
+msgstr "keer"
+
+#: manage-files.php:720
+msgid "downloads"
+msgstr "downloads"
+
+#: options.php:266
+msgid "Some fields were not completed. Options could not be saved."
+msgstr "Niet alle velden zijn compleet. Opties kunnen niet worden opgeslagen."
+
+#: options.php:279
+msgid "The file could not be moved to the corresponding folder."
+msgstr "Het bestand kan niet worden verplaatst naar de map."
+
+#: options.php:280
+msgid ""
+"This is most likely a permissions issue. If that's the case, it can be "
+"corrected via FTP by setting the chmod value of the"
+msgstr "Dit komt door een permissie-probleem. Dit kan worden gecorrigeerd door via FTP de chmod-waarde aan te passen van de"
+
+#: options.php:282
+msgid "directory to 755, or 777 as a last resource."
+msgstr "map naar 755, of 777 als laatste mogelijkheid."
+
+#: options.php:283
+msgid ""
+"If this doesn't solve the issue, try giving the same values to the "
+"directories above that one until it works."
+msgstr "Als dit het probleem niet oplost, probeer dan dezelfde waarden te gebruiken als de mappen in bovenliggende mappen hebben."
+
+#: options.php:287
+msgid "The file you selected is not an allowed format."
+msgstr "Het bestand dat u hebt geselecteerd, is geen toegestaan bestandstype."
+
+#: options.php:291
+msgid "There was an error uploading the file. Please try again."
+msgstr "Er is een fout opgetreden tijdens het uploaden. Probeer het opnieuw."
+
+#: public.php:53 public.php:97
+msgid "Public groups and files"
+msgstr "Openbare groepen en bestanden"
+
+#: public.php:244 public.php:273
+msgid "There are no files available."
+msgstr "Er zijn geen bestanden beschikbaar."
+
+#: register.php:12
+msgid "Register new account"
+msgstr "Registreer een nieuwe account"
+
+#: register.php:68
+msgid "Thank you for registering. Your account has been activated."
+msgstr ""
+
+#: register.php:95
+msgid "Account added correctly."
+msgstr "De account is correct toegevoegd."
+
+#: register.php:99
+msgid ""
+"Please remember that an administrator needs to approve your account before "
+"you can log in."
+msgstr "De beheerder zal je account moeten goedkeuren alvorens je kunt inloggen."
+
+#: register.php:103
+msgid "You may now log in with your new credentials."
+msgstr "Je kunt nu inloggen met je logingegevens."
+
+#: register.php:125
+msgid "Please contact a system administrator."
+msgstr "Neem contact op met de beheerder."
+
+#: register.php:134
+msgid ""
+"A folder for this account could not be created. Probably because of a server"
+" configuration."
+msgstr "Er kan voor deze account geen map worden gemaakt. De oorzaak is vermoedelijk een serverinstelling."
+
+#: register.php:139
+msgid ""
+"The account could not be created. A folder with this name already exists."
+msgstr "De account kon niet worden aangemaakt. Een folder met deze naam bestaat al."
+
+#: register.php:149
+msgid ""
+"An e-mail notification with login information was sent to the specified "
+"address."
+msgstr "Een emailbericht met logininformatie is naar het gespecificeerde adres gestuurd."
+
+#: reset-password.php:11
+msgid "Lost password"
+msgstr "Wachtwoord kwijt"
+
+#: reset-password.php:199
+msgid "The supplied email address does not correspond to any user."
+msgstr "De ingegeven e-mailadres komt niet overeen met een gebruiker."
+
+#: reset-password.php:202
+msgid "The request is not valid."
+msgstr "Aanvraag is niet geldig."
+
+#: reset-password.php:205
+msgid "This request has expired. Please make a new one."
+msgstr "Aanvraag is verlopen. Maak een nieuwe."
+
+#: reset-password.php:208
+msgid "This request has already been completed. Please make a new one."
+msgstr "Deze opdracht is reeds voltooid. Maak een nieuwe."
+
+#: reset-password.php:211
+msgid ""
+"There are 3 unused requests done in less than 24 hs. Please wait until one "
+"expires (1 day since made) to make a new one."
+msgstr "Er zijn 3 verzoeken gedaan in minder dan 24 uur. Wacht tot deze vervalt (1 dag ) om een nieuwe te maken."
+
+#: reset-password.php:224
+msgid ""
+"An e-mail with further instructions has been sent. Please check your inbox "
+"to proceed."
+msgstr "Een e-mail met instructies is verzonden. Controleer je e-mail om verder te gaan."
+
+#: reset-password.php:228
+msgid "E-mail couldn't be sent."
+msgstr "E-mail kon niet vestuurd worden."
+
+#: reset-password.php:229 reset-password.php:246
+msgid "If the problem persists, please contact an administrator."
+msgstr "Als het probleem blijft, neem contact op met de administrator."
+
+#: reset-password.php:241
+msgid "Your new password has been set. You can now log in using it."
+msgstr "Je nieuw wachtwoord is verstuurd. Je kunt nu inloggen."
+
+#: reset-password.php:245
+msgid "Your new password couldn't be set."
+msgstr "Je nieuw wachtwoord kon niet worden ingesteld."
+
+#: upload.php:42
+msgid ""
+"Click on Add files to select all the files that you want to upload, and then"
+" click continue. On the next step, you will be able to set a name and "
+"description for each uploaded file. Remember that the maximum allowed file "
+"size (in mb.) is "
+msgstr "Klik op Voeg bestanden toe en selecteer alle te uploaden bestanden, klik vervolgens op Doorgaan. In de vervolgstap kun je de bestandsnaam en een omschrijving toevoegen. De maximale bestandsgrootte (in Mb) is."
+
+#: users-add.php:14
+msgid "Add system user"
+msgstr "Voeg administrator toe"
+
+#: users-edit.php:133
+msgid "Edit system user"
+msgstr "Bewerk administrator"
+
+#: users-edit.php:152
+msgid "User edited correctly."
+msgstr "Gebruiker is correct bewerkt."
+
+#: users-edit.php:154
+msgid "User created successfuly."
+msgstr ""
+
+#: users-edit.php:195
+msgid "No user was selected."
+msgstr "Er is geen gebruiker geselecteerd."
+
+#: users-edit.php:200
+msgid "There is no user with that ID number."
+msgstr "Er bestaat geen gebruiker met deze ID."
+
+#: users.php:14
+msgid "Users administration"
+msgstr "Gebruikersadministratie"
+
+#: users.php:44
+msgid "The selected users were marked as active."
+msgstr "De geselecteerde gebruikers zijn gemarkeerd als actief."
+
+#: users.php:64
+msgid "You cannot deactivate your own account."
+msgstr "Je kunt je eigen account niet de-activeren."
+
+#: users.php:70
+msgid "The selected users were marked as inactive."
+msgstr "De geselecteerde gebruikers zijn gemarkeerd als inactief."
+
+#: users.php:87
+msgid "You cannot delete your own account."
+msgstr "Je kunt je eigen account niet verwijderen."
+
+#: users.php:93
+msgid "The selected users were deleted."
+msgstr "De geselecteerde gebruikers zijn verwijderd."
+
+#: users.php:100
+msgid "Please select at least one user."
+msgstr "Selecteer ten minste één gebruiker."
+
+#: users.php:173
+msgid "All roles"
+msgstr "Alle rollen"
+
+#: users.php:214
+msgid "Selected users actions"
+msgstr "Geselecteerde gebruikersacties"
+
+#: users.php:238
+msgid "users"
+msgstr "gebruikers"

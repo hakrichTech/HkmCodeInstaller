@@ -1,0 +1,3773 @@
+# 
+# Translators:
+# Χάρης Βαϊρλής <h.vairlis@gmail.com>, 2018
+# Vasiliki Kasi <vassiliki89k@yahoo.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-11-07 12:37-0300\n"
+"PO-Revision-Date: 2020-11-07 15:49+0000\n"
+"Last-Translator: Ignacio Nelson <info@subwaydesign.com.ar>\n"
+"Language-Team: Greek (Greece) (http://www.transifex.com/subwaydesign/projectsend/language/el_GR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: el_GR\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: includes/Google\n"
+"X-Poedit-SearchPathExcluded-2: templates/default\n"
+"X-Poedit-SearchPathExcluded-3: templates/gallery\n"
+"X-Poedit-SearchPathExcluded-4: templates/pinboxes\n"
+"X-Poedit-SearchPathExcluded-5: node_modules\n"
+"X-Poedit-SearchPathExcluded-6: upload\n"
+"X-Poedit-SearchPathExcluded-7: vendor\n"
+
+#: actions-log.php:14
+msgid "Recent activities log"
+msgstr "Αρχείο καταγραφής πρόσφατων ενεργειών"
+
+#: actions-log.php:39
+msgid "The selected activities were deleted."
+msgstr "Οι επιλεγμένες δραστηριότητες διαγράφηκαν."
+
+#: actions-log.php:43
+msgid "Please select at least one activity."
+msgstr "Παρακαλούμε επιλέξτε τουλάχιστον μία δραστηριότητα."
+
+#: actions-log.php:55
+msgid ""
+"The log was cleared. Only data used for statistics remained. You can delete "
+"them manually if you want."
+msgstr "Έγινε εκκαθάριση του αρχείου καταγραφής. Απέμειναν μόνο τα στατιστικά δεδομένα. Μπορείτε να τα διαγράψετε χειροκίνητα εάν το επιθυμείτε."
+
+#: actions-log.php:128
+msgid "Filter activities"
+msgstr "Φιλτράρισμα δραστηριοτήτων"
+
+#: actions-log.php:130 includes/widgets/actions-log.php:14
+msgid "All activities"
+msgstr "Όλες οι δραστηριότητες"
+
+#: actions-log.php:142 clients.php:153 manage-files.php:372
+#: manage-files.php:399 users.php:203
+msgid "Filter"
+msgstr "Φίλτρο"
+
+#: actions-log.php:153
+msgid "Activities actions"
+msgstr "Ενέργειες δραστηριοτήτων"
+
+#: actions-log.php:157 categories.php:197 clients-membership-requests.php:181
+#: clients-requests.php:231 clients.php:168 groups.php:154
+#: manage-files.php:426 users.php:218
+msgid "Select action"
+msgstr "Επιλέξτε ενέργεια"
+
+#: actions-log.php:158
+msgid "Download as csv"
+msgstr "Λήψη ως csv"
+
+#: actions-log.php:159
+msgid "Delete selected"
+msgstr "Διαγραφή επιλεγμένων"
+
+#: actions-log.php:160
+msgid "Clear entire log"
+msgstr "Εκκαθάριση ολόκληρου του αρχείου καταγραφής"
+
+#: actions-log.php:170 categories.php:208 clients-membership-requests.php:193
+#: clients-requests.php:243 clients.php:181 groups.php:165
+#: manage-files.php:457 users.php:231
+msgid "Proceed"
+msgstr "Προχωρήστε"
+
+#: actions-log.php:177 categories.php:216 clients-membership-requests.php:200
+#: clients-requests.php:250 clients.php:188 groups.php:172
+#: manage-files.php:465 users.php:238
+msgid "Found"
+msgstr "Βρέθηκε"
+
+#: actions-log.php:177
+msgid "activities"
+msgstr "δραστηριότητες"
+
+#: actions-log.php:187 clients-membership-requests.php:235
+#: clients-requests.php:285 clients.php:201 groups.php:185
+#: manage-files.php:481 users.php:250
+msgid "The filters you selected returned no results."
+msgstr "Τα φίλτρα που επιλέξατε δεν επέστρεψαν αποτελέσματα."
+
+#: actions-log.php:192
+msgid "There are no activities recorded."
+msgstr "Δεν υπάρχουν δραστηριότητες καταγεγραμμένες."
+
+#: actions-log.php:219 download-information.php:131
+msgid "Date"
+msgstr "Ημερομηνία"
+
+#: actions-log.php:224
+msgid "Author"
+msgstr "Συγγραφέας"
+
+#: actions-log.php:229
+msgid "Activity"
+msgstr "Δραστηριότητα"
+
+#: categories.php:14
+msgid "Categories administration"
+msgstr "Διαχείριση κατηγοριών"
+
+#: categories.php:27
+msgid "The category was successfully created."
+msgstr "Η κατηγορία δημιουργήθηκε επιτυχώς."
+
+#: categories.php:31
+msgid "The category was successfully edited."
+msgstr "Η κατηγορία επεξεργάστηκε επιτυχώς."
+
+#: categories.php:53
+msgid "Please select at least one category."
+msgstr "Επιλέξτε τουλάχιστον μία κατηγορία."
+
+#: categories.php:65
+msgid "The selected categories were deleted."
+msgstr "Οι επιλεγμένες κατηγορίες διαγράφηκαν."
+
+#: categories.php:105
+msgid "Create new category"
+msgstr "Δημιουργήστε νέα κατηγορία"
+
+#: categories.php:115
+msgid "Edit category"
+msgstr "Επεξεργασία κατηγορίας"
+
+#: categories.php:160
+msgid "There was a problem saving to the database."
+msgstr "Υπήρξε πρόβλημα κατά την αποθήκευση στη βάση δεδομένων."
+
+#: categories.php:165
+msgid "Please complete all the required fields."
+msgstr "Παρακαλούμε συμπληρώστε όλα τα απαιτούμενα πεδία."
+
+#: categories.php:193
+msgid "Selected categories actions"
+msgstr "Ενέργειες για τις επιλεγμένες κατηγορίες"
+
+#: categories.php:198 clients.php:171 groups.php:155 manage-files.php:446
+#: users.php:221
+msgid "Delete"
+msgstr "Διαγραφή"
+
+#: categories.php:216
+msgid "categories"
+msgstr "κατηγορίες"
+
+#: categories.php:226 clients-membership-requests.php:232
+#: clients-requests.php:282 clients.php:198 groups.php:182
+#: import-orphans.php:276 manage-files.php:475 users.php:247
+msgid "Your search keywords returned no results."
+msgstr "Οι λέξεις κλειδιά της αναζήτησής σας δεν επέστρεψαν αποτελέσματα."
+
+#: categories.php:231
+msgid "There are no categories yet."
+msgstr "Δεν υπάρχουν κατηγορίες ακόμη."
+
+#: categories.php:255 includes/forms/categories.php:37
+#: includes/forms/clients.php:76 includes/forms/options/email.php:11
+#: includes/forms/users.php:37
+msgid "Name"
+msgstr "Όνομα"
+
+#: categories.php:258 clients.php:395 groups.php:241 groups.php:331
+#: header-menu.php:71 includes/forms/options/clients.php:70
+#: includes/widgets/system-information.php:49 install/make-config.php:329
+msgid "Files"
+msgstr "Αρχεία"
+
+#: categories.php:261 files-edit.php:93 groups.php:234
+#: includes/forms/categories.php:59 includes/forms/file_editor.php:43
+#: includes/forms/groups.php:33
+msgid "Description"
+msgstr "Περιγραφή"
+
+#: categories.php:265 clients.php:284 groups.php:256
+msgid "View"
+msgstr "Προβολή"
+
+#: categories.php:269 clients.php:288 files-edit.php:102 groups.php:260
+#: import-orphans.php:216 manage-files.php:594 users.php:315
+msgid "Actions"
+msgstr "Ενέργειες"
+
+#: categories.php:340 header-menu.php:83 header-menu.php:328
+#: manage-files.php:13
+msgid "Manage files"
+msgstr "Διαχείριση αρχείων"
+
+#: categories.php:343 clients.php:401 groups.php:335 manage-files.php:427
+#: manage-files.php:783 users.php:377
+msgid "Edit"
+msgstr "Επεξεργασία"
+
+#: clients-add.php:14 includes/forms/clients.php:16
+msgid "Add client"
+msgstr "Προσθήκη πελάτη"
+
+#: clients-add.php:104 clients-edit.php:166 email-templates.php:160
+#: groups-add.php:61 groups-edit.php:92 options.php:262 register.php:129
+#: templates.php:56 users-add.php:89 users-edit.php:159
+msgid "There was an error. Please try again."
+msgstr "Υπήρξε κάποιο σφάλμα. Παρακαλούμε προσπαθήστε ξανά."
+
+#: clients-edit.php:141
+msgid "Edit client"
+msgstr "Επεξεργασία πελάτη"
+
+#: clients-edit.php:143 users-edit.php:138
+msgid "My account"
+msgstr "Ο λογαριασμός μου"
+
+#: clients-edit.php:159
+msgid "Client edited correctly."
+msgstr "Ο πελάτης επεξεργάστηκε με επιτυχία."
+
+#: clients-edit.php:161
+msgid "Client created successfuly."
+msgstr ""
+
+#: clients-edit.php:178 users-edit.php:171
+msgid "A welcome message was not sent to the new account owner."
+msgstr ""
+
+#: clients-edit.php:182 users-edit.php:175
+msgid ""
+"A welcome message with login information was sent to the new account owner."
+msgstr ""
+
+#: clients-edit.php:186 register.php:153 users-edit.php:179
+msgid "E-mail notification couldn't be sent."
+msgstr "Το e-mail ειδοποίησης δεν μπόρεσε να αποσταλεί."
+
+#: clients-edit.php:199 groups-edit.php:105 users-edit.php:193
+msgid "This page is not intended to be accessed directly."
+msgstr "Αυτή η σελίδα δεν προορίζεται για άμεση πρόσβαση."
+
+#: clients-edit.php:201
+msgid "No client was selected."
+msgstr "Δεν επιλέχθηκε πελάτης."
+
+#: clients-edit.php:206
+msgid "There is no client with that ID number."
+msgstr "Δεν υπάρχει πελάτης με αυτό το αναγνωριστικό ID."
+
+#: clients-edit.php:211 users-edit.php:205
+msgid "Your account type doesn't allow you to access this feature."
+msgstr "Ο τύπος του λογαριασμού σας δεν σας επιτρέπει να έχετε πρόσβαση σε αυτήν τη λειτουργία."
+
+#: clients-membership-requests.php:15 clients-membership-requests.php:293
+#: clients-requests.php:345 header-menu.php:150
+msgid "Membership requests"
+msgstr "Αιτήματα συμμετοχής"
+
+#: clients-membership-requests.php:26 clients-requests.php:25
+msgid "The selected actions were applied."
+msgstr "Οι επιλεγμένες ενέργειες εφαρμόστηκαν."
+
+#: clients-membership-requests.php:30
+msgid "The selected requests were deleted."
+msgstr "Τα επιλεγμένα αιτήματα διαγράφηκαν."
+
+#: clients-membership-requests.php:96 clients-requests.php:153 clients.php:73
+msgid "Please select at least one client."
+msgstr "Παρακαλούμε επιλέξτε τουλάχιστον έναν πελάτη."
+
+#: clients-membership-requests.php:177
+msgid "Selected requests actions"
+msgstr "Επιλεγμένες ενέργειες αιτήσεων"
+
+#: clients-membership-requests.php:182 clients-requests.php:232
+msgid "Apply selection"
+msgstr "Εφαρμογή επιλογής"
+
+#: clients-membership-requests.php:183 clients-requests.php:233
+msgid "Delete requests"
+msgstr "Διαγραφή αιτημάτων"
+
+#: clients-membership-requests.php:200 clients-requests.php:250
+msgid "requests"
+msgstr "αιτήματα"
+
+#: clients-membership-requests.php:207
+msgid "New requests"
+msgstr "Νέα αιτήματα"
+
+#: clients-membership-requests.php:212
+msgid "Denied requests"
+msgstr "Άρνηση αιτήσεων"
+
+#: clients-membership-requests.php:240 clients-requests.php:290
+msgid "There are no requests at the moment"
+msgstr "Δεν υπάρχουν αιτήσεις προς το παρών"
+
+#: clients-membership-requests.php:278 clients-requests.php:326
+#: clients.php:238 includes/Classes/Emails.php:68
+#: includes/Classes/Emails.php:127 install/index.php:297 users.php:283
+msgid "Full name"
+msgstr "Πλήρες όνομα"
+
+#: clients-membership-requests.php:283 clients-requests.php:331
+#: clients.php:243 includes/forms/clients.php:83 includes/forms/users.php:44
+#: install/index.php:311 users.php:288
+msgid "Log in username"
+msgstr "Όνομα χρήστη για την είσοδο"
+
+#: clients-membership-requests.php:289 clients-requests.php:337
+#: clients.php:249 includes/forms/clients.php:104
+#: includes/forms/login-ldap.php:6 includes/forms/login.php:15
+#: includes/forms/reset-password/enter-email.php:6 includes/forms/users.php:65
+#: users.php:294
+msgid "E-mail"
+msgstr "Διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#: clients-membership-requests.php:345 clients-requests.php:418
+msgid "Accept all"
+msgstr "Αποδοχή όλων"
+
+#: clients-membership-requests.php:346 clients-requests.php:419
+msgid "Deny all"
+msgstr "Άρνηση όλων"
+
+#: clients-requests.php:17 header-menu.php:122
+msgid "Account requests"
+msgstr "Αιτήματα λογαριασμού"
+
+#: clients-requests.php:29 clients.php:67
+msgid "The selected clients were deleted."
+msgstr "Οι επιλεγμένοι πελάτες διαγράφηκαν."
+
+#: clients-requests.php:227 clients.php:164
+msgid "Selected clients actions"
+msgstr "Ενέργειες επιλεγμένων πελατών"
+
+#: clients-requests.php:257
+msgid "New account requests"
+msgstr "Αιτήματα για νέο λογαριασμό"
+
+#: clients-requests.php:262
+msgid "Denied accounts"
+msgstr "Λογαριασμοί που έχει γίνει άρνηση"
+
+#: clients-requests.php:341
+msgid "Account"
+msgstr "Λογαριασμός"
+
+#: clients-requests.php:358 manage-files.php:535
+msgid "Added on"
+msgstr "Προστέθηκε σε"
+
+#: clients.php:14
+msgid "Clients Administration"
+msgstr "Διαχείριση πελατών"
+
+#: clients.php:41
+msgid "The selected clients were marked as active."
+msgstr "Οι επιλεγμένοι πελάτες επισημάνθηκαν ως ενεργοί."
+
+#: clients.php:56
+msgid "The selected clients were marked as inactive."
+msgstr "Οι επιλεγμένοι πελάτες επισημάνθηκαν ως ανενεργοί."
+
+#: clients.php:141 manage-files.php:386 users.php:191
+msgid "All statuses"
+msgstr "Όλες οι καταστάσεις"
+
+#: clients.php:142 clients.php:330 templates.php:113 users.php:192
+#: users.php:336
+msgid "Active"
+msgstr "Ενεργός"
+
+#: clients.php:143 clients.php:330 users.php:193 users.php:336
+msgid "Inactive"
+msgstr "Ανενεργός"
+
+#: clients.php:169 templates.php:120 users.php:219
+msgid "Activate"
+msgstr "Ενεργοποίηση"
+
+#: clients.php:170 users.php:220
+msgid "Deactivate"
+msgstr "Απενεργοποίηση"
+
+#: clients.php:188
+msgid "clients"
+msgstr "πελάτες"
+
+#: clients.php:206
+msgid "There are no clients at the moment"
+msgstr "Δεν υπάρχουν πελάτες αυτή τη στιγμή"
+
+#: clients.php:231 groups.php:222 users.php:277
+msgid "Created"
+msgstr ""
+
+#: clients.php:253
+msgid "Uploads"
+msgstr "Μεταμορφώσεις"
+
+#: clients.php:257
+msgid "Files: Direct"
+msgstr ""
+
+#: clients.php:261
+msgid "Files: Groups"
+msgstr "Αρχεία: Ομάδας"
+
+#: clients.php:267 manage-files.php:575 users.php:306
+msgid "Status"
+msgstr "Κατάσταση"
+
+#: clients.php:270
+msgid "Groups on"
+msgstr "Ομάδες σε"
+
+#: clients.php:274
+msgid "Notify"
+msgstr "Ειδοποίηση"
+
+#: clients.php:280 users.php:311
+msgid "Max. upload size"
+msgstr "Μέγιστο μέγεθος μεταμόρφωσης"
+
+#: clients.php:388 download-information.php:197
+#: includes/forms/options/external_login.php:90 manage-files.php:643
+msgid "Yes"
+msgstr "Ναι"
+
+#: clients.php:388 download-information.php:198
+#: includes/forms/options/external_login.php:91 manage-files.php:643
+msgid "No"
+msgstr "Όχι"
+
+#: clients.php:391 users.php:373
+msgid "Default"
+msgstr "Προεπιλογή"
+
+#: clients.php:396 includes/forms/clients.php:23 includes/forms/clients.php:35
+#: includes/forms/file_editor.php:139
+#: includes/widgets/system-information.php:58
+msgid "Groups"
+msgstr "Ομάδες"
+
+#: clients.php:397
+msgid "As client"
+msgstr "Ως πελάτης"
+
+#: dashboard.php:10 header-menu.php:59
+msgid "Dashboard"
+msgstr "Πίνακας ελέγχου"
+
+#: download-information.php:12
+msgid "Download information"
+msgstr "Πληροφορίες λήψης"
+
+#: download-information.php:59
+msgid "No file was selected."
+msgstr "Δεν επιλέχθηκε αρχείο."
+
+#: download-information.php:64
+msgid "There is no information with that file ID number."
+msgstr "Δεν υπάρχουν πληροφορίες με αυτό το αναγνωριστικό ID του αρχείου."
+
+#: download-information.php:76 manage-files.php:589
+msgid "Total downloads"
+msgstr "Σύνολο λήψεων"
+
+#: download-information.php:134
+msgid "Time"
+msgstr "Ώρα"
+
+#: download-information.php:139 includes/text.strings.php:16
+msgid "Client"
+msgstr "Πελάτης"
+
+#: download-information.php:144
+msgid "Anonymous"
+msgstr "Ανώνυμος"
+
+#: download-information.php:149
+msgid "Client's IP"
+msgstr "IP πελάτη"
+
+#: download-information.php:155
+msgid "Client's hostname"
+msgstr "Όνομα κεντρικού υπολογιστή του πελάτη"
+
+#: download-information.php:169
+msgid "Unique logged in clients/users"
+msgstr "Μοναδικά συνδεδεμένοι πελάτες/χρήστες"
+
+#: download-information.php:172
+msgid "Total public downloads"
+msgstr "Σύνολο δημόσιων λήψεων"
+
+#: download.php:13 includes/forms/file_editor.php:32
+msgid "File information"
+msgstr "Πληροφορίες αρχείου"
+
+#: download.php:98
+msgid "Download file"
+msgstr "Λήψη αρχείου"
+
+#: download.php:110 public.php:295 register.php:171 reset-password.php:266
+msgid "Go back to the homepage."
+msgstr "Επιστροφή στην κεντρική σελίδα."
+
+#: email-preview.php:11 header-menu.php:237
+msgid "E-mail templates"
+msgstr "Πρότυπα E-mails"
+
+#: email-preview.php:11 manage-files.php:528 manage-files.php:629
+msgid "Preview"
+msgstr "Προεπισκόπηση"
+
+#: email-templates.php:16 header-menu.php:242
+msgid "Header / footer"
+msgstr "Επικεφαλίδα / υποσέλιδο"
+
+#: email-templates.php:22 header-menu.php:246
+msgid "New file by user"
+msgstr "Νέο αρχείο από χρήστη"
+
+#: email-templates.php:29 header-menu.php:250
+msgid "New file by client"
+msgstr "Νέο αρχείο από πελάτη"
+
+#: email-templates.php:36 header-menu.php:254
+msgid "New client (welcome)"
+msgstr "Νέος πελάτης (καλωσόρισμα)"
+
+#: email-templates.php:43 header-menu.php:258
+msgid "New client (self-registered)"
+msgstr "Νέος πελάτης (έχει εγγραφεί μόνος του)"
+
+#: email-templates.php:50 header-menu.php:262
+msgid "Approve client account"
+msgstr "Έγκριση του λογαριασμού του πελάτη"
+
+#: email-templates.php:57 header-menu.php:266
+msgid "Deny client account"
+msgstr "Απόρριψη του λογαριασμού του πελάτη"
+
+#: email-templates.php:64 header-menu.php:274
+msgid "New user (welcome)"
+msgstr "Νέος χρήστης (καλωσόρισμα)"
+
+#: email-templates.php:71 header-menu.php:278
+msgid "Password reset"
+msgstr "Επαναφορά κωδικού"
+
+#: email-templates.php:78 header-menu.php:270
+msgid "Client updated memberships"
+msgstr "Ο πελάτης ενημέρωσε τα μέλη"
+
+#: email-templates.php:156 options.php:258 templates.php:52
+msgid "Options updated succesfuly."
+msgstr "Οι επιλογές ενημερώθηκαν επιτυχώς."
+
+#: email-templates.php:171
+msgid "(to be used as href on a link tag)"
+msgstr "(προς χρήση ως href σε ετικέτα σύνδεσης)"
+
+#: email-templates.php:179
+msgid ""
+"This email will be sent to a client whenever a new file has been assigned to"
+" his account."
+msgstr "Αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου θα σταλεί σε έναν πελάτη κάθε φορά που ένα νέο αρχείο έχει αντιστοιχιστεί στο λογαριασμό του."
+
+#: email-templates.php:185 email-templates.php:201
+msgid "Shows the list of files"
+msgstr "Εμφανίζει τη λίστα αρχείων"
+
+#: email-templates.php:186 email-templates.php:202 email-templates.php:219
+#: email-templates.php:236 email-templates.php:254 email-templates.php:285
+#: email-templates.php:319
+msgid "The login link"
+msgstr "Ο σύνδεσμος σύνδεσης"
+
+#: email-templates.php:195
+msgid ""
+"This email will be sent to the system administrator whenever a client "
+"uploads a new file."
+msgstr "Αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου θα σταλεί στον διαχειριστή συστήματος κάθε φορά που ένας πελάτης ανεβάζει ένα νέο αρχείο."
+
+#: email-templates.php:211
+msgid ""
+"This email will be sent to the new client after an administrator has created"
+" his new account. It would be best to include the log in details (username "
+"and password)."
+msgstr "Αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου θα σταλεί στο νέο πελάτη, μετά τη δημιουργία νέου λογαριασμού από έναν διαχειριστή. Θα ήταν καλύτερο να συμπεριλάβετε τα στοιχεία σύνδεσης (όνομα χρήστη και κωδικό πρόσβασης)."
+
+#: email-templates.php:217 email-templates.php:235 email-templates.php:283
+#: email-templates.php:318
+msgid "The new username for this account"
+msgstr "Το νέο όνομα χρήστη για αυτό τον λογαριασμό"
+
+#: email-templates.php:218 email-templates.php:284
+msgid "The new password for this account"
+msgstr "Ο νέος κωδικός πρόσβασης για αυτό το λογαριασμό"
+
+#: email-templates.php:228
+msgid ""
+"This email will be sent to the system administrator after a new client has "
+"created a new account for himself."
+msgstr "Αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου θα σταλεί στον διαχειριστή του συστήματος όταν κάποιος νέος πελάτης δημιουργήσει έναν νέο λογαριασμό για τον εαυτό του."
+
+#: email-templates.php:234 email-templates.php:317
+msgid "The full name the client registered with"
+msgstr "Το πλήρες όνομα του πελάτη με το οποίο έκανε εγγραφή"
+
+#: email-templates.php:237 email-templates.php:320
+msgid "List of groups that the client requests membership to"
+msgstr "Λίστα με τις ομάδες που ένα πελάτης ζητάει να γίνει μέλος"
+
+#: email-templates.php:246
+msgid ""
+"This email will be sent to a client that requested an account if it gets "
+"approved. Group membership requests are also mentioned on the email, "
+"separated by their approval status."
+msgstr "Αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου θα αποσταλεί σε έναν πελάτη που ζήτησε έναν λογαριασμό εάν εγκριθεί. Τα αιτήματα συμμετοχής σε ομάδες αναφέρονται επίσης στο μήνυμα ηλεκτρονικού ταχυδρομείου, διαχωρισμένα από την κατάσταση έγκρισης."
+
+#: email-templates.php:252
+msgid "List of approved group memberships"
+msgstr "Κατάλογος εγκεκριμένων μελών ομάδας"
+
+#: email-templates.php:253
+msgid "List of denied group memberships"
+msgstr "Κατάλογος απορριφθέντων μελών ομάδας"
+
+#: email-templates.php:263
+msgid ""
+"This email will be sent to a client that requested an account if it gets "
+"denied. All group membership requests for this account are denied "
+"automatically."
+msgstr "Αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου θα αποσταλεί σε έναν πελάτη που ζήτησε έναν λογαριασμό, εάν δεν του επιτραπεί. Όλα τα αιτήματα συμμετοχής σε ομάδες για αυτόν τον λογαριασμό αρνούνται αυτόματα."
+
+#: email-templates.php:277
+msgid ""
+"This email will be sent to the new system user after an administrator has "
+"created his new account. It would be best to include the log in details "
+"(username and password)."
+msgstr "Αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου θα σταλεί στον νέο χρήστη του συστήματος όταν ένας διαχειριστής δημιουργήσει το νέο του λογαριασμό. Θα ήταν καλύτερο να συμπεριλάβετε τα στοιχεία σύνδεσης (όνομα χρήστη και κωδικό πρόσβασης)."
+
+#: email-templates.php:294
+msgid ""
+"This email will be sent to a user or client when they try to reset their "
+"password."
+msgstr "Αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου θα σταλεί σε έναν χρήστη ή έναν πελάτη όταν προσπαθήσουν να επαναφέρουν τον κωδικό πρόσβασης τους."
+
+#: email-templates.php:300
+msgid "The username for this account"
+msgstr "Το όνομα χρήστη για αυτόν τον λογαριασμό"
+
+#: email-templates.php:301
+msgid "The text string unique to this request. Must be included somewhere."
+msgstr "Η γραμμή κειμένου είναι μοναδική για αυτό το αίτημα. Πρέπει να συμπεριληφθεί κάπου."
+
+#: email-templates.php:302
+msgid "The link to continue the process"
+msgstr "Ο σύνδεσμος για συνέχιση της διαδικασίας"
+
+#: email-templates.php:311
+msgid ""
+"This email will be sent to the system administrator when a client edits his "
+"account and changes the public groups membership requests."
+msgstr "Αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου θα σταλεί στον διαχειριστή του συστήματος όταν ένας πελάτης επεξεργαστεί τον λογαριασμό του και αλλάξει τις αιτήσεις συμμετοχής στις δημόσιες ομάδες."
+
+#: email-templates.php:336
+msgid ""
+"Here you set up the header and footer of every email, or use the default "
+"ones available with the system. Use this to customize each part and include,"
+" for example, your own logo and markup."
+msgstr "Εδώ ρυθμίζετε την κεφαλίδα και το υποσέλιδο κάθε email ή χρησιμοποιείτε τα προεπιλεγμένα διαθέσιμα του συστήματος. Χρησιμοποιήστε αυτό για να προσαρμόσετε κάθε τμήμα και να συμπεριλάβετε, για παράδειγμα, το δικό σας λογότυπο και τη σήμανση."
+
+#: email-templates.php:337
+msgid ""
+"Do not forget to also include -and close accordingly- the basic structural "
+"HTML tags (DOCTYPE, HTML, HEADER, BODY)."
+msgstr "Μην ξεχάσετε επίσης να συμπεριλάβετε -και να κλείσετε ανάλογα- τις βασικές δομικές ετικέτες HTML tags (DOCTYPE, HTML, HEADER, BODY)."
+
+#: email-templates.php:344
+msgid "Use custom header / footer"
+msgstr "Χρησιμοποιήστε προσαρμοσμένη κεφαλίδα / υποσέλιδο"
+
+#: email-templates.php:351
+msgid "Header"
+msgstr "Κεφαλίδα"
+
+#: email-templates.php:353 email-templates.php:367 email-templates.php:413
+msgid "You can use HTML tags here."
+msgstr "Μπορείτε να χρησιμοποιήσετε και HTML tags."
+
+#: email-templates.php:358 email-templates.php:372 email-templates.php:437
+msgid "Replace with default"
+msgstr "Αντικατάσταση με προεπιλογή"
+
+#: email-templates.php:365
+msgid "Footer"
+msgstr "Υποσέλιδο"
+
+#: email-templates.php:388
+msgid "Use custom subject"
+msgstr "Χρησιμοποιήστε προσαρμοσμένο θέμα"
+
+#: email-templates.php:395
+msgid "Add your custom subject"
+msgstr "Προσθέστε το προσαρμοσμένο θέμα σας"
+
+#: email-templates.php:404
+msgid "Use custom template"
+msgstr "Χρησιμοποιήστε προσαρμοσμένο πρότυπο"
+
+#: email-templates.php:411
+msgid "Template text"
+msgstr "Κείμενο προτύπου"
+
+#: email-templates.php:420
+msgid "The following tags can be used on this e-mails' body."
+msgstr "Τα ακόλουθα tags μπορούν να χρησιμοποιηθούν στο σώμα αυτού του μηνύματος ηλεκτρονικού ταχυδρομείου."
+
+#: email-templates.php:438
+msgid "Preview this template"
+msgstr "Προεπισκόπηση αυτού του προτύπου"
+
+#: email-templates.php:440
+msgid ""
+"Before trying this function, please save your changes to see them reflected "
+"on the preview."
+msgstr "Πριν δοκιμάσετε αυτήν τη λειτουργία, παρακαλούμε να αποθηκεύσετε τις αλλαγές σας για να τις δείτε στην προεπισκόπηση."
+
+#: email-templates.php:449 options.php:315
+msgid "Save options"
+msgstr "Αποθήκευση επιλογών"
+
+#: email-test.php:12 header-menu.php:299
+msgid "Test email configuration"
+msgstr ""
+
+#: email-test.php:38
+msgid "Result"
+msgstr ""
+
+#: email-test.php:46
+msgid "Send to:"
+msgstr ""
+
+#: email-test.php:53
+msgid "Message"
+msgstr ""
+
+#: email-test.php:59
+msgid "Send test email"
+msgstr ""
+
+#: error.php:13
+msgid "Access denied"
+msgstr "Δεν επιτρέπεται η πρόσβαση"
+
+#: error.php:14
+msgid ""
+"Your account type doesn't allow you to view this page. Please contact a "
+"system administrator if you need to access this function."
+msgstr "Ο τύπος του λογαριασμού σας δεν σας επιτρέπει να προβάλετε αυτήν τη σελίδα. Επικοινωνήστε με τον διαχειριστή του συστήματος εάν χρειάζεστε πρόσβαση σε αυτή τη λειτουργία."
+
+#: error.php:18
+msgid "Token mismatch"
+msgstr ""
+
+#: error.php:19
+msgid "The security token could not be validated."
+msgstr ""
+
+#: error.php:23
+msgid "Error 404"
+msgstr ""
+
+#: error.php:24
+msgid "Resource not found."
+msgstr ""
+
+#: error.php:28
+msgid "Error 403"
+msgstr ""
+
+#: error.php:29
+msgid "Forbidden."
+msgstr ""
+
+#: error.php:33
+msgid "Database error"
+msgstr ""
+
+#: error.php:34
+msgid "Can not connect to database"
+msgstr ""
+
+#: files-edit.php:25
+msgid "Edit files"
+msgstr ""
+
+#: files-edit.php:87
+msgid "Files saved correctly"
+msgstr ""
+
+#: files-edit.php:92 includes/forms/file_editor.php:38 manage-files.php:545
+msgid "Title"
+msgstr "Τίτλος"
+
+#: files-edit.php:94
+msgid "File Name"
+msgstr "Όνομα αρχείου"
+
+#: files-edit.php:98 files-edit.php:131 groups.php:247 groups.php:291
+#: includes/forms/groups.php:74
+msgid "Public"
+msgstr "Δημόσιο"
+
+#: files-edit.php:132 groups.php:296
+msgid "Private"
+msgstr "Ιδιωτικό"
+
+#: files-edit.php:142
+msgid "Edit file"
+msgstr "Επεξεργασία αρχείου"
+
+#: files-edit.php:150 header-menu.php:338
+msgid "View my files"
+msgstr "Προβολή των αρχείων μου"
+
+#: files-edit.php:169
+msgid ""
+"You can skip assigning if you want. The files are retained and you may add "
+"them to clients or groups later."
+msgstr "Μπορείτε να παραλείψετε την αντιστοίχιση αν θέλετε. Τα αρχεία διατηρούνται και μπορείτε να τα προσθέσετε αργότερα σε πελάτες ή ομάδες."
+
+#: footer.php:25
+msgid "Executed queries"
+msgstr "Εκτελεσμένα ερωτήματα"
+
+#: groups-add.php:14
+msgid "Add clients group"
+msgstr "Προσθέστε ομάδα πελατών"
+
+#: groups-edit.php:14
+msgid "Edit group"
+msgstr "Επεξεργασία ομάδας"
+
+#: groups-edit.php:84
+msgid "Group edited correctly."
+msgstr "Η ομάδα επεξεργάστηκε επιτυχώς."
+
+#: groups-edit.php:86
+msgid "Group created successfuly."
+msgstr ""
+
+#: groups-edit.php:107
+msgid "No group was selected."
+msgstr "Δεν έχει επιλεγεί ομάδα."
+
+#: groups-edit.php:112
+msgid "There is no group with that ID number."
+msgstr "Δεν υπάρχει ομάδα με αυτό το αναγνωριστικό ID."
+
+#: groups.php:14
+msgid "Groups administration"
+msgstr "Διαχείριση ομάδων"
+
+#: groups.php:23
+msgid "Groups where"
+msgstr "Ομάδες όπου"
+
+#: groups.php:23
+msgid "is member"
+msgstr "είναι μέλος"
+
+#: groups.php:70
+msgid "The selected groups were deleted."
+msgstr "Οι επιλεγμένες ομάδες διαγράφηκαν."
+
+#: groups.php:77
+msgid "Please select at least one group."
+msgstr "Παρακαλούμε επιλέξτε τουλάχιστον μια ομάδα."
+
+#: groups.php:150
+msgid "Selected groups actions"
+msgstr "Ενέργειες επιλεγμένων ομάδων"
+
+#: groups.php:172
+msgid "groups"
+msgstr "ομάδες"
+
+#: groups.php:188
+msgid "The client does not exist."
+msgstr "Ο πελάτης δεν υπάρχει."
+
+#: groups.php:191
+msgid "There are no groups where this client is member."
+msgstr "Δεν υπάρχουν ομάδες στις οποίες αυτός ο πελάτης είναι μέλος."
+
+#: groups.php:196
+msgid "There are no groups created yet."
+msgstr "Δεν έχουν δημιουργηθεί ακόμη ομάδες."
+
+#: groups.php:229 includes/forms/groups.php:26
+msgid "Group name"
+msgstr "Όνομα ομάδας"
+
+#: groups.php:238 includes/forms/groups.php:40
+msgid "Members"
+msgstr "Μέλη"
+
+#: groups.php:252
+msgid "Created by"
+msgstr "Δημιουργήθηκε από"
+
+#: groups.php:367
+msgid ""
+"There are public groups, but the public page is disabled so the public links"
+" will not show anything."
+msgstr ""
+
+#: groups.php:368 includes/forms/groups.php:79
+msgid "Go to privacy options"
+msgstr ""
+
+#: header-menu.php:76 header-menu.php:317
+msgid "Upload"
+msgstr "Μεταμόρφωση"
+
+#: header-menu.php:87 import-orphans.php:18
+msgid "Find orphan files"
+msgstr "Βρείτε ορφανά αρχεία"
+
+#: header-menu.php:94 includes/forms/file_editor.php:171
+#: includes/widgets/system-information.php:61
+msgid "Categories"
+msgstr "Κατηγορίες"
+
+#: header-menu.php:104 header-menu.php:207 includes/forms/file_editor.php:117
+#: includes/widgets/system-information.php:52 options.php:24
+msgid "Clients"
+msgstr "Πελάτες"
+
+#: header-menu.php:110 header-menu.php:139 header-menu.php:166
+msgid "Add new"
+msgstr "Προσθέστε νέο"
+
+#: header-menu.php:114
+msgid "Manage clients"
+msgstr "Διαχειριστείτε τους πελάτες"
+
+#: header-menu.php:133
+msgid "Clients groups"
+msgstr "Ομάδες πελατών"
+
+#: header-menu.php:143
+msgid "Manage groups"
+msgstr "Διαχειριστείτε τις ομάδες"
+
+#: header-menu.php:161
+msgid "System Users"
+msgstr "Χρήστες του συστήματος"
+
+#: header-menu.php:170
+msgid "Manage system users"
+msgstr "Διαχειριστείτε τους χρήστες του συστήματος"
+
+#: header-menu.php:183 header-menu.php:188 templates.php:11
+msgid "Templates"
+msgstr "Πρότυπα"
+
+#: header-menu.php:198
+msgid "Options"
+msgstr "Επιλογές"
+
+#: header-menu.php:203 options.php:15
+msgid "General options"
+msgstr "Γενικές ρυθμίσεις"
+
+#: header-menu.php:211 includes/forms/options/privacy.php:1 options.php:34
+msgid "Privacy"
+msgstr "Ιδιωτικότητα"
+
+#: header-menu.php:215 options.php:45
+msgid "E-mail notifications"
+msgstr "Ειδοποιήσεις μέσω e-mail"
+
+#: header-menu.php:219 options.php:56
+msgid "Security"
+msgstr "Ασφάλεια"
+
+#: header-menu.php:223 options.php:67
+msgid "Branding"
+msgstr "Branding"
+
+#: header-menu.php:227 options.php:72
+msgid "External Login"
+msgstr ""
+
+#: header-menu.php:290
+msgid "Tools"
+msgstr "Εργαλεία"
+
+#: header-menu.php:295
+msgid "Actions log"
+msgstr "Καταγραφή ενεργειών"
+
+#: header-unlogged.php:20
+msgid "setup"
+msgstr "ρύθμιση"
+
+#: header.php:27
+msgid "System Administration"
+msgstr "Διαχείριση συστήματος"
+
+#: header.php:76
+msgid "Toogle menu"
+msgstr "Εναλλαγή μενού"
+
+#: header.php:89 includes/forms/login-ldap.php:16 includes/forms/login.php:25
+#: includes/forms/options/general.php:62 install/make-config.php:317
+msgid "Language"
+msgstr "Γλώσσα"
+
+#: header.php:111
+msgid "My Account"
+msgstr "Ο λογαριασμός μου"
+
+#: header.php:114
+msgid "Logout"
+msgstr "Αποσύνδεση"
+
+#: header.php:137 includes/updates.messages.php:16
+msgid "System Notice:"
+msgstr "Σημείωση συστήματος:"
+
+#: header.php:137
+msgid ""
+"You are using a development version. Some features may be unfinished or not "
+"working correctly."
+msgstr "Χρησιμοποιείτε μια έκδοση που είναι υπό ανάπτυξη. Ορισμένες λειτουργίες ενδέχεται να είναι ημιτελείς ή να μην λειτουργούν σωστά."
+
+#: header.php:162
+msgid "Warning:"
+msgstr ""
+
+#: header.php:162
+msgid ""
+"The following directories do not exist or have write permissions errors."
+msgstr ""
+
+#: header.php:163
+msgid "File uploading or other important functions might not work."
+msgstr ""
+
+#: import-orphans.php:25
+msgid ""
+"This list only shows the files that are allowed according to your security "
+"settings. If the file type you need to add is not listed here, add the "
+"extension to the \"Allowed file extensions\" box on the options page."
+msgstr "Αυτή η λίστα εμφανίζει μόνο τα αρχεία που επιτρέπονται σύμφωνα με τις ρυθμίσεις ασφαλείας. Εάν ο τύπος αρχείου που θέλετε να προσθέσετε δεν παρατίθεται εδώ, προσθέστε την επέκταση στο πλαίσιο \"Επιτρεπόμενες επεκτάσεις αρχείων\" στη σελίδα επιλογών."
+
+#: import-orphans.php:161
+msgid "Showing"
+msgstr "Εμφάνιση"
+
+#: import-orphans.php:161 manage-files.php:465
+msgid "files"
+msgstr "αρχεία"
+
+#: import-orphans.php:176
+msgid "The following files can be imported"
+msgstr ""
+
+#: import-orphans.php:196
+msgid "File name"
+msgstr "Όνομα αρχείου"
+
+#: import-orphans.php:202
+msgid "File size"
+msgstr "Μέγεθος αρχείου"
+
+#: import-orphans.php:209
+msgid "Last modified"
+msgstr "Τελευταία τροποποίηση"
+
+#: import-orphans.php:247
+msgid "Import"
+msgstr ""
+
+#: import-orphans.php:260 includes/Classes/TableGenerate.php:265
+msgid "Results navigation"
+msgstr "Πλοήγηση αποτελεσμάτων"
+
+#: import-orphans.php:266
+msgid "Import selected files"
+msgstr ""
+
+#: import-orphans.php:281
+msgid "There are no files available to add right now."
+msgstr "Δεν υπάρχουν διαθέσιμα αρχεία για προσθήκη αυτή τη στιγμή."
+
+#: import-orphans.php:282
+msgid ""
+"To use this feature you need to upload your files via FTP to the folder"
+msgstr "Για να χρησιμοποιήσετε αυτή τη λειτουργία, πρέπει να φορτώσετε τα αρχεία σας μέσω FTP στο φάκελο"
+
+#: includes/Classes/ActionsLog.php:41
+msgid "Account logs in through the form"
+msgstr "Ο λογαριασμός συνδέεται μέσω της φόρμας"
+
+#: includes/Classes/ActionsLog.php:43
+msgid "Account (user or client) logs out"
+msgstr "Ο λογαριασμός (χρήστης ή πελάτης) αποσυνδέεται"
+
+#: includes/Classes/ActionsLog.php:44
+msgid "A user creates a new user account"
+msgstr "Ένας χρήστης δημιουργεί έναν νέο λογαριασμό χρήστη"
+
+#: includes/Classes/ActionsLog.php:45
+msgid "A user creates a new client account"
+msgstr "Ένας χρήστης δημιουργεί έναν νέο λογαριασμό πελάτη"
+
+#: includes/Classes/ActionsLog.php:46
+msgid "A client registers an account for himself"
+msgstr "Ένας πελάτης κάνει εγγραφή για τον εαυτό του"
+
+#: includes/Classes/ActionsLog.php:47
+msgid "A client registers using a social profile"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:48
+msgid "Account logged in using a social profile"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:49
+msgid "A file is uploaded by an user"
+msgstr "Ένα αρχείο μεταφορτώθηκε από ένα χρήστη"
+
+#: includes/Classes/ActionsLog.php:50
+msgid "A file is uploaded by a client"
+msgstr "Ένα αρχείο μεταφορτώθηκε από ένα πελάτη"
+
+#: includes/Classes/ActionsLog.php:51
+msgid "A file is downloaded by a user"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:52
+msgid "A file is downloaded by a client"
+msgstr "Ένα αρχείο έγινε λήψη από έναν πελάτη"
+
+#: includes/Classes/ActionsLog.php:53
+msgid "An anonymous user downloaded a public file"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:54
+msgid "A zip file was generated"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:55
+msgid "A file has been unassigned from a client"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:56
+msgid "A file has been unassigned from a group"
+msgstr "Για ένα αρχείο έχει αφαιρεθεί η αντιστοίχιση από μία ομάδα"
+
+#: includes/Classes/ActionsLog.php:57
+msgid "A file has been deleted"
+msgstr "Ένα αρχείο έχει διαγραφεί"
+
+#: includes/Classes/ActionsLog.php:58
+msgid "A user was edited"
+msgstr "Έγινε επεξεργασία ενός χρήστη"
+
+#: includes/Classes/ActionsLog.php:59
+msgid "A client was edited"
+msgstr "Έγινε επεξεργασία ενός πελάτη"
+
+#: includes/Classes/ActionsLog.php:60
+msgid "A group was edited"
+msgstr "Έγινε επεξεργασία μιας ομάδας"
+
+#: includes/Classes/ActionsLog.php:61
+msgid "A user was deleted"
+msgstr "Ένας χρήστης διαγράφηκε"
+
+#: includes/Classes/ActionsLog.php:62
+msgid "A client was deleted"
+msgstr "Ένας πελάτης διαγράφηκε"
+
+#: includes/Classes/ActionsLog.php:63
+msgid "A group was deleted"
+msgstr "Μια ομάδα διαγράφηκε"
+
+#: includes/Classes/ActionsLog.php:64
+msgid "A user account was marked as active"
+msgstr "Ένας λογαριασμός χρήστη επισημάνθηκε ως ενεργός"
+
+#: includes/Classes/ActionsLog.php:65
+msgid "A user account was marked as inactive"
+msgstr "Ένας λογαριασμός χρήστη επισημάνθηκε ως ανενεργός"
+
+#: includes/Classes/ActionsLog.php:66
+msgid "A client account was marked as active"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:67
+msgid "A client account was marked as inactive"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:68
+msgid "A file was marked as hidden"
+msgstr "Ένα αρχείο επισημάνθηκε ως κρυφό"
+
+#: includes/Classes/ActionsLog.php:69
+msgid "A file was marked as visible"
+msgstr "Ένα αρχείο επισημάνθηκε ως ορατό"
+
+#: includes/Classes/ActionsLog.php:70 includes/Classes/ActionsLog.php:71
+msgid "A file was marked as hidden for everyone"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:72
+msgid "A user creates a new group"
+msgstr "Ένας χρήστης δημιουργεί μια νέα ομάδα"
+
+#: includes/Classes/ActionsLog.php:73
+msgid "A file is assigned to a client"
+msgstr "Έγινε αντιστοίχιση ενός αρχείου σε έναν πελάτη"
+
+#: includes/Classes/ActionsLog.php:74
+msgid "A file is assigned to a group"
+msgstr "Έγινε αντιστοίχιση ενός αρχείου σε μια ομάδα"
+
+#: includes/Classes/ActionsLog.php:75
+msgid "The logo on \"Branding\" was changed"
+msgstr "Το λογότυπο στο Branding άλλαξε"
+
+#: includes/Classes/ActionsLog.php:76
+msgid "A system user edited a file"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:77
+msgid "A client edited a file"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:78
+msgid "A user created a category"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:79
+msgid "A user edited a category"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:80
+msgid "A user deleted a category"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:81
+msgid "A client account request was processed"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:82
+msgid "A client's groups membership requests were processed"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:83
+msgid "A file preview request was made"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:84
+msgid "ProjecSend has been installed"
+msgstr "Το ProjectSend εγκαταστάθηκε"
+
+#: includes/Classes/ActionsLog.php:85
+msgid "ProjectSend was updated"
+msgstr "Το ProjectSend ενημερώθηκε"
+
+#: includes/Classes/ActionsLog.php:86
+msgid "A client account request was approved"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:87
+msgid "A client account request was denied"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:88
+msgid "System options were updated"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:89
+msgid "An email template was updated"
+msgstr ""
+
+#: includes/Classes/Auth.php:259
+msgid "Email and password cannot be empty."
+msgstr ""
+
+#: includes/Classes/Auth.php:278
+#, php-format
+msgid "LDAP connection error: %s"
+msgstr ""
+
+#: includes/Classes/Auth.php:316 includes/Classes/Auth.php:326
+msgid "The supplied email or password does not match an existing record."
+msgstr ""
+
+#: includes/Classes/Auth.php:335
+msgid "Error binding to LDAP server."
+msgstr ""
+
+#: includes/Classes/Auth.php:358
+msgid "Error during log in."
+msgstr ""
+
+#: includes/Classes/Auth.php:368
+msgid "The supplied credentials are not valid."
+msgstr "Τα διαπιστευτήρια που χρησιμοποιήσατε δεν είναι έγκυρα."
+
+#: includes/Classes/Auth.php:371
+msgid "The supplied username doesn't exist."
+msgstr "Το παρεχόμενο όνομα χρήστη δεν υπάρχει."
+
+#: includes/Classes/Auth.php:374
+msgid "The supplied password is incorrect."
+msgstr "Ο παρεχόμενος κωδικός πρόσβασης είναι εσφαλμένος."
+
+#: includes/Classes/Auth.php:378
+msgid "This account is not active."
+msgstr "Αυτός ο λογαριασμός δεν είναι ενεργός."
+
+#: includes/Classes/Auth.php:380
+msgid ""
+"If you just registered, please wait until a system administrator approves "
+"your account."
+msgstr "Εάν μόλις εγγραφείτε, περιμένετε έως ότου ένας διαχειριστής συστήματος εγκρίνει τον λογαριασμό σας."
+
+#: includes/Classes/Auth.php:384 register.php:111
+msgid ""
+"Client self registration is not allowed. If you need an account, please "
+"contact a system administrator."
+msgstr "Δεν επιτρέπεται η εγγραφή από τον πελάτη. Εάν χρειάζεστε έναν λογαριασμό, επικοινωνήστε με έναν διαχειριστή συστήματος."
+
+#: includes/Classes/Auth.php:387
+msgid ""
+"Sign-in with Google cannot be used to create new accounts at this time."
+msgstr "Η σύνδεση με τη Google δεν μπορεί να χρησιμοποιηθεί για τη δημιουργία νέων λογαριασμών αυτή τη στιγμή."
+
+#: includes/Classes/Auth.php:390
+msgid "You must approve the requested permissions to sign in with Google."
+msgstr "Πρέπει να εγκρίνετε τα αιτούμενα δικαιώματα σύνδεσης για να συνδεθείτε με την Google."
+
+#: includes/Classes/Auth.php:393
+msgid "Session timed out. Please log in again."
+msgstr "Η συνεδρία τελείωσε. Συνδεθείτε ξανά."
+
+#: includes/Classes/Emails.php:36
+msgid "New files uploaded for you"
+msgstr "Νέα αρχεία μεταμορφώθηκαν για εσάς"
+
+#: includes/Classes/Emails.php:37
+msgid "The following files are now available for you to download."
+msgstr "Τα ακόλουθα αρχεία είναι πλέον διαθέσιμα για λήψη."
+
+#: includes/Classes/Emails.php:38
+msgid ""
+"If you prefer not to be notified about new files, please go to My Account "
+"and deactivate the notifications checkbox."
+msgstr "Αν προτιμάτε να μην ενημερώνεστε για νέα αρχεία, μεταβείτε στο πλαίσιο \"Ο λογαριασμός μου\" και απενεργοποιήστε το πλαίσιο ελέγχου \"ειδοποιήσεις\"."
+
+#: includes/Classes/Emails.php:39
+msgid "You can access a list of all your files or upload your own"
+msgstr "Έχετε πρόσβαση σε μια λίστα με όλα τα αρχεία σας ή να ανεβάσετε τη δική σας"
+
+#: includes/Classes/Emails.php:40 includes/Classes/Emails.php:48
+msgid "by logging in here"
+msgstr "να συνδεθείτε εδώ"
+
+#: includes/Classes/Emails.php:45
+msgid "New files uploaded by clients"
+msgstr "Νέα αρχεία μεταμορφώθηκαν από πελάτες"
+
+#: includes/Classes/Emails.php:46
+msgid "New files has been uploaded by the following clients"
+msgstr "Νέα αρχεία έχουν ανεβεί από τους ακόλουθους πελάτες"
+
+#: includes/Classes/Emails.php:47
+msgid "You can manage these files"
+msgstr "Μπορείτε να διαχειριστείτε αυτά τα αρχεία"
+
+#: includes/Classes/Emails.php:53 includes/Classes/Emails.php:102
+msgid "Welcome to ProjectSend"
+msgstr "Καλώς ήρθατε στο ProjectSend"
+
+#: includes/Classes/Emails.php:54
+msgid ""
+"A new account was created for you. From now on, you can access the files "
+"that have been uploaded under your account using the following credentials:"
+msgstr "Δημιουργήθηκε ένας νέος λογαριασμός για εσάς. Από εδώ και στο εξής, μπορείτε να αποκτήσετε πρόσβαση στα αρχεία που έχουν ανέβει στο λογαριασμό σας, χρησιμοποιώντας τα ακόλουθα διαπιστευτήρια:"
+
+#: includes/Classes/Emails.php:55 includes/Classes/Emails.php:89
+msgid "You can log in following this link"
+msgstr "Μπορείτε να συνδεθείτε ακολουθώντας αυτόν τον σύνδεσμο"
+
+#: includes/Classes/Emails.php:56 includes/Classes/Emails.php:90
+#: includes/Classes/Emails.php:97
+msgid "Please contact the administrator if you need further assistance."
+msgstr "Επικοινωνήστε με τον διαχειριστή εάν χρειάζεστε περαιτέρω βοήθεια."
+
+#: includes/Classes/Emails.php:57 includes/Classes/Emails.php:106
+msgid "Your username"
+msgstr "Το όνομα χρήστη σας"
+
+#: includes/Classes/Emails.php:58 includes/Classes/Emails.php:107
+msgid "Your password"
+msgstr "Ο κωδικός πρόσβασης σας"
+
+#: includes/Classes/Emails.php:66
+msgid "A new client has registered"
+msgstr ""
+
+#: includes/Classes/Emails.php:67
+msgid ""
+"A new account was created using the self registration form on your site. "
+"Registration information:"
+msgstr "Ένας νέος λογαριασμός δημιουργήθηκε χρησιμοποιώντας τη φόρμα εγγραφής στον ισότοπο σας. Πληροφορίες για την εγγραφή:"
+
+#: includes/Classes/Emails.php:69 includes/Classes/Emails.php:118
+#: includes/Classes/Emails.php:128 includes/forms/login.php:15
+#: includes/forms/options/email.php:100 install/make-config.php:251
+msgid "Username"
+msgstr "Όνομα χρήστη"
+
+#: includes/Classes/Emails.php:70
+msgid "Additionally, the client requests access to the following group(s)"
+msgstr "Επιπρόσθετα, ο πελάτης ζητά πρόσβαση στην ακόλουθη ομάδα (-ες)"
+
+#: includes/Classes/Emails.php:73 includes/Classes/Emails.php:130
+msgid "Please log in to process the request."
+msgstr "Παρακαλούμε συνδεθείτε για να επεξεργαστείτε το αίτημα."
+
+#: includes/Classes/Emails.php:74
+msgid ""
+"Remember, your new client will not be able to log in until an administrator "
+"has approved their account."
+msgstr "Θυμηθείτε ότι ο νέος πελάτης σας δεν θα μπορέσει να συνδεθεί έως ότου ο διαχειριστής εγκρίνει τον λογαριασμό του."
+
+#: includes/Classes/Emails.php:77
+msgid "Auto-approvals of new accounts are currently enabled."
+msgstr "Οι αυτόματες εγκρίσεις νέων λογαριασμών είναι αυτήν τη στιγμή ενεργοποιημένες."
+
+#: includes/Classes/Emails.php:78
+msgid "You can log in to manually deactivate it."
+msgstr "Μπορείτε να συνδεθείτε για να την απενεργοποιήσετε με μη αυτόματο τρόπο."
+
+#: includes/Classes/Emails.php:84
+msgid "You account has been approved"
+msgstr "Ο λογαριασμός σας έχει εγκριθεί"
+
+#: includes/Classes/Emails.php:85
+msgid "Your account has been approved."
+msgstr "Ο λογαριασμός σας έχει εγκριθεί."
+
+#: includes/Classes/Emails.php:86
+msgid "Additionally, your group membership requests have been processed."
+msgstr "Επιπλέον, έχουν υποβληθεί σε επεξεργασία τα αιτήματα συμμετοχής σε ομάδα."
+
+#: includes/Classes/Emails.php:87
+msgid "Approved requests:"
+msgstr "Εγκεκριμένα αιτήματα:"
+
+#: includes/Classes/Emails.php:88
+msgid "Denied requests:"
+msgstr "Αρνηθέντα αιτήματα:"
+
+#: includes/Classes/Emails.php:95
+msgid "You account has been denied"
+msgstr "Ο λογαριασμός σας έχει απορριφθεί"
+
+#: includes/Classes/Emails.php:96
+msgid "Your account request has been denied."
+msgstr "Το αίτημα του λογαριασμού σας απορρίφθηκε."
+
+#: includes/Classes/Emails.php:103
+msgid ""
+"A new account was created for you. From now on, you can access the system "
+"administrator using the following credentials:"
+msgstr "Δημιουργήθηκε ένας νέος λογαριασμός για εσάς. Από εδώ και πέρα, μπορείτε να έχετε πρόσβαση στο διαχειριστή του συστήματος χρησιμοποιώντας τα ακόλουθα διαπιστευτήρια:"
+
+#: includes/Classes/Emails.php:104
+msgid "Access the system panel here"
+msgstr "Μεταβείτε στον πίνακα συστήματος εδώ"
+
+#: includes/Classes/Emails.php:105
+msgid "Thank you for using ProjectSend."
+msgstr "Ευχαριστούμε που χρησιμοποιείτε το ProjectSend."
+
+#: includes/Classes/Emails.php:113
+msgid "Password reset instructions"
+msgstr "Οδηγίες επαναφοράς κωδικού πρόσβασης"
+
+#: includes/Classes/Emails.php:114
+msgid ""
+"A request has been received to reset the password for the following account:"
+msgstr "Έχει ληφθεί αίτημα για επαναφορά του κωδικού πρόσβασης για τον ακόλουθο λογαριασμό:"
+
+#: includes/Classes/Emails.php:115
+msgid "To continue, please visit the following link"
+msgstr "Για να συνεχίσετε, επισκεφθείτε τον ακόλουθο σύνδεσμο"
+
+#: includes/Classes/Emails.php:116
+msgid "The request is valid only for 24 hours."
+msgstr "Το αίτημα ισχύει μόνο για 24 ώρες."
+
+#: includes/Classes/Emails.php:117
+msgid "If you did not make this request, simply ignore this email."
+msgstr "Εάν δεν κάνατε εσείς αυτό το αίτημα, απλώς αγνοήστε αυτό το μήνυμα."
+
+#: includes/Classes/Emails.php:125
+msgid "A client has changed memberships requests"
+msgstr ""
+
+#: includes/Classes/Emails.php:126
+msgid ""
+"A client on you site has just changed his groups membership requests and "
+"needs your approval."
+msgstr "Ένας πελάτης στον ιστότοπο σας μόλις άλλαξε τις αιτήσεις συμμετοχής στις ομάδες του και χρειάζεται την έγκρισή σας."
+
+#: includes/Classes/Emails.php:129
+msgid "The client requests access to the following group(s)"
+msgstr "Ο πελάτης ζητά πρόσβαση στην ακόλουθη ομάδα (-ες)"
+
+#: includes/Classes/Emails.php:283 includes/Classes/Emails.php:533
+msgid "No group requests made"
+msgstr ""
+
+#: includes/Classes/Emails.php:552
+msgid "Email configuration test"
+msgstr ""
+
+#: includes/Classes/Emails.php:604
+msgid "This is a test message"
+msgstr ""
+
+#: includes/Classes/Emails.php:733
+msgid ""
+"This email contains HTML formatting and cannot be displayed right now. "
+"Please use an HTML compatible reader."
+msgstr "Αυτό το μήνυμα ηλεκτρονικού ταχυδρομείου περιέχει μορφοποίηση HTML και δεν μπορεί να εμφανιστεί αυτή τη στιγμή. Χρησιμοποιήστε έναν αναγνώστη συμβατό με HTML."
+
+#: includes/Classes/TableGenerate.php:322
+msgid "Go to:"
+msgstr "Μετάβαση σε:"
+
+#: includes/Classes/Validation.php:270 includes/text.strings.php:65
+msgid "The following errors were found"
+msgstr "Εντοπίστηκαν τα ακόλουθα σφάλματα"
+
+#: includes/forms/categories.php:14
+msgid "Create"
+msgstr "Δημιουργία"
+
+#: includes/forms/categories.php:17 includes/forms/file_editor.php:209
+msgid "Save"
+msgstr "Αποθήκευση"
+
+#: includes/forms/categories.php:44
+msgid "Parent"
+msgstr "Γονέας"
+
+#: includes/forms/categories.php:47 includes/forms/options/clients.php:53
+#: includes/forms/options/email.php:136 manage-files.php:656
+msgid "None"
+msgstr "Κανένας"
+
+#: includes/forms/categories.php:67
+msgid "Cancel"
+msgstr "Ακύρωση"
+
+#: includes/forms/clients.php:9
+msgid "Will be visible on the client's file list"
+msgstr "Θα είναι ορατό στη λίστα αρχείων του πελάτη"
+
+#: includes/forms/clients.php:28
+msgid "Save client"
+msgstr "Αποθήκευση πελάτη"
+
+#: includes/forms/clients.php:40
+msgid "Create account"
+msgstr ""
+
+#: includes/forms/clients.php:40
+msgid "Request account"
+msgstr ""
+
+#: includes/forms/clients.php:46
+msgid "Your full name"
+msgstr "Το πλήρες όνομά σας"
+
+#: includes/forms/clients.php:50 includes/forms/clients.php:64
+msgid "Request access to groups"
+msgstr "Ζητήστε πρόσβαση σε ομάδες"
+
+#: includes/forms/clients.php:55 includes/forms/users.php:25
+msgid "Update account"
+msgstr "Ενημέρωση λογαριασμού"
+
+#: includes/forms/clients.php:85 includes/forms/users.php:46
+msgid "Must be alphanumeric"
+msgstr "Πρέπει να είναι αλφαριθμητικό"
+
+#: includes/forms/clients.php:90 includes/forms/login-ldap.php:11
+#: includes/forms/login.php:20 includes/forms/options/email.php:107
+#: includes/forms/users.php:51 install/index.php:318
+#: install/make-config.php:261
+msgid "Password"
+msgstr "Κωδικός"
+
+#: includes/forms/clients.php:98
+#: includes/forms/reset-password/enter-password.php:13
+#: includes/forms/users.php:59 install/index.php:326
+msgid "Generate"
+msgstr "Παραγωγή"
+
+#: includes/forms/clients.php:106 includes/forms/users.php:67
+msgid "Must be valid and unique"
+msgstr "Πρέπει να είναι έγκυρο και μοναδικό"
+
+#: includes/forms/clients.php:111
+msgid "Address"
+msgstr "Διεύθυνση"
+
+#: includes/forms/clients.php:118
+msgid "Telephone"
+msgstr "Τηλέφωνο"
+
+#: includes/forms/clients.php:128
+msgid "Internal contact name"
+msgstr "Εσωτερικό όνομα επαφής"
+
+#: includes/forms/clients.php:135 includes/forms/users.php:95
+msgid "Max. upload filesize"
+msgstr "Μέγιστο μέγεθος μεταμόρφωσης αρχείων"
+
+#: includes/forms/clients.php:141 includes/forms/users.php:101
+msgid "Set to 0 to use the default system limit"
+msgstr "Θέστε το 0 για να χρησιμοποιήσετε το προεπιλεγμένο όριο του συστήματος"
+
+#: includes/forms/clients.php:188 includes/forms/file_editor.php:118
+#: includes/forms/file_editor.php:140 includes/forms/file_editor.php:173
+#: includes/forms/groups.php:42
+msgid "Select one or more options. Type to search."
+msgstr "Επιλέξτε μία ή περισσότερες επιλογές. Πληκτρολογείστε για αναζήτηση."
+
+#: includes/forms/clients.php:207 includes/forms/file_editor.php:130
+#: includes/forms/file_editor.php:152 includes/forms/file_editor.php:179
+#: includes/forms/groups.php:65
+msgid "Add all"
+msgstr "Προσθήκη όλων"
+
+#: includes/forms/clients.php:208 includes/forms/file_editor.php:131
+#: includes/forms/file_editor.php:153 includes/forms/file_editor.php:180
+#: includes/forms/groups.php:66
+msgid "Remove all"
+msgstr "Αφαίρεση όλων"
+
+#: includes/forms/clients.php:226
+msgid "Active (client can log in)"
+msgstr "Ενεργός (ο πελάτης μπορεί να εισέλθει)"
+
+#: includes/forms/clients.php:237
+msgid "Notify new uploads by e-mail"
+msgstr "Να στέλνονται ειδοποιήσεις για νέες μεταμορφώσεις αρχείων με e-mail"
+
+#: includes/forms/clients.php:248 includes/forms/users.php:120
+msgid "Send welcome email"
+msgstr "Στείλε e-mail καλωσορίσματος"
+
+#: includes/forms/clients.php:256 includes/forms/users.php:128
+msgid "Require password change after first login"
+msgstr ""
+
+#: includes/forms/clients.php:269
+msgid "Verification"
+msgstr "Επαλήθευση"
+
+#: includes/forms/clients.php:286 includes/forms/users.php:143
+msgid ""
+"This account information will be e-mailed to the address supplied above"
+msgstr "Οι πληροφορίες του λογαριασμού θα σταλούν με e-mail στην από πάνω διεύθυνση"
+
+#: includes/forms/file_editor.php:39
+msgid "Enter here the required file title."
+msgstr "Εισάγετε εδώ το όνομα αρχείου που αναζητάτε."
+
+#: includes/forms/file_editor.php:44
+msgid "Optionally, enter here a description for the file."
+msgstr "Προαιρετικά, εδώ μπορείτε να προσθέσετε περιγραφή για το αρχείο."
+
+#: includes/forms/file_editor.php:63
+msgid "Expiration date"
+msgstr "Ημερομηνία λήξης"
+
+#: includes/forms/file_editor.php:66
+msgid "Select a date"
+msgstr "Επιλέξτε μια ημερομηνία"
+
+#: includes/forms/file_editor.php:77
+msgid "File expires"
+msgstr "Το αρχείο λήγει"
+
+#: includes/forms/file_editor.php:88
+msgid "Public downloading"
+msgstr "Δημόσια λήψη"
+
+#: includes/forms/file_editor.php:92
+msgid "Allow public downloading of this file."
+msgstr "Επιτρέψτε τη δημόσια λήψη αυτού του αρχείου."
+
+#: includes/forms/file_editor.php:116
+msgid "Assignations"
+msgstr "Αντιστοιχίσεις"
+
+#: includes/forms/file_editor.php:133 includes/forms/file_editor.php:155
+#: includes/forms/file_editor.php:182
+msgid "Copy selections to other files"
+msgstr "Αντιγράψτε τις επιλογές σε άλλα αρχεία"
+
+#: includes/forms/file_editor.php:163
+msgid "Hidden (will not send notifications or show into the files list)"
+msgstr ""
+
+#: includes/forms/file_editor.php:172
+msgid "Add to"
+msgstr "Προσθήκη σε"
+
+#: includes/forms/file_editor.php:197
+#, php-format
+msgid "File not found on disk: %s"
+msgstr ""
+
+#: includes/forms/file_editor.php:201
+#, php-format
+msgid "Record does not exist for file id: %d"
+msgstr ""
+
+#: includes/forms/groups.php:12
+msgid "Create group"
+msgstr "Δημιουργία ομάδας"
+
+#: includes/forms/groups.php:16
+msgid "Save group"
+msgstr "Αποθήκευση ομάδας"
+
+#: includes/forms/groups.php:75
+msgid ""
+"Allows clients to request access to this group in the registraron process "
+"and when editing their own profile."
+msgstr ""
+
+#: includes/forms/groups.php:78
+msgid ""
+"The group cannot be made publicly visible while the public page is disabled."
+msgstr ""
+
+#: includes/forms/login-ldap.php:27 includes/forms/login.php:36
+msgid "default"
+msgstr "προεπιλογή"
+
+#: includes/forms/options/branding.php:1
+msgid "Current logo"
+msgstr "Τρέχον λογότυπο"
+
+#: includes/forms/options/branding.php:2
+msgid ""
+"Use this page to upload your company logo, or update the currently assigned "
+"one. This image will be shown to your clients when they access their file "
+"list."
+msgstr "Χρησιμοποιήστε αυτή τη σελίδα για να ανεβάσετε το λογότυπο της εταιρείας σας ή για να ενημερώσετε το τρέχον. Αυτή η εικόνα θα εμφανίζεται στους πελάτες σας όταν έχουν πρόσβαση στη λίστα αρχείων τους."
+
+#: includes/forms/options/branding.php:23
+msgid "This preview uses a maximum width of 300px."
+msgstr "Αυτή η προεπισκόπηση χρησιμοποιεί μέγιστο πλάτος 300px."
+
+#: includes/forms/options/branding.php:27
+msgid "Delete current logo"
+msgstr ""
+
+#: includes/forms/options/branding.php:34
+msgid "Select image to upload"
+msgstr "Επιλέξτε εικόνα για ανέβασμα"
+
+#: includes/forms/options/clients.php:1
+msgid "New registrations"
+msgstr "Νέες καταχωρίσεις"
+
+#: includes/forms/options/clients.php:2
+msgid ""
+"Used only on self-registrations. These options will not apply to clients "
+"registered by system administrators."
+msgstr "Χρησιμοποιείται μόνο σε εγγραφές που έκαναν οι πελάτες από μόνοι τους. Αυτές οι επιλογές δεν θα ισχύουν για πελάτες που έχουν εγγραφεί από διαχειριστές συστημάτων."
+
+#: includes/forms/options/clients.php:7
+msgid "Clients can register themselves"
+msgstr "Οι πελάτες μπορούν να εγγραφούν από μόνοι τους"
+
+#: includes/forms/options/clients.php:15
+msgid "Auto approve new accounts"
+msgstr "Αυτόματη έγκριση νέων λογαριασμών"
+
+#: includes/forms/options/clients.php:21
+msgid "Add clients to this group:"
+msgstr "Προσθέστε πελάτες σε αυτήν την ομάδα:"
+
+#: includes/forms/options/clients.php:24
+msgid "None (does not enable this feature)"
+msgstr "Καμία (δεν ενεργοποιεί αυτή τη λειτουργία)"
+
+#: includes/forms/options/clients.php:43
+msgid ""
+"New clients will automatically be assigned to the group you have selected."
+msgstr "Οι νέοι πελάτες θα αντιστοιχιστούν αυτόματα στην ομάδα που έχετε επιλέξει."
+
+#: includes/forms/options/clients.php:48
+msgid "Groups for which clients can request membership to:"
+msgstr "Ομάδες για τις οποίες οι πελάτες μπορούν να ζητήσουν συμμετοχή σε:"
+
+#: includes/forms/options/clients.php:54
+msgid "Public groups"
+msgstr "Δημόσιες ομάδες"
+
+#: includes/forms/options/clients.php:55
+msgid "All groups"
+msgstr "Όλες οι ομάδες"
+
+#: includes/forms/options/clients.php:64
+msgid ""
+"When a client registers a new account, an option will be presented to "
+"request becoming a member of a particular group."
+msgstr "Όταν ένας πελάτης καταχωρεί ένα νέο λογαριασμό, θα παρουσιαστεί μια επιλογή για να ζητήσει να γίνει μέλος μιας συγκεκριμένης ομάδας."
+
+#: includes/forms/options/clients.php:75
+msgid "Clients can upload files"
+msgstr "Οι πελάτες μπορούν να ανεβάσουν αρχεία"
+
+#: includes/forms/options/clients.php:83
+msgid "Clients can delete their own uploaded files"
+msgstr "Οι πελάτες μπορούν να διαγράψουν τα αρχεία που έχουν ανεβάσει"
+
+#: includes/forms/options/clients.php:91
+msgid "Clients can set expiration Date"
+msgstr "Οι πελάτες μπορούν να ορίσουν την ημερομηνία λήξης"
+
+#: includes/forms/options/clients.php:97
+msgid "When a file expires:"
+msgstr "Όταν λήγει ένα αρχείο:"
+
+#: includes/forms/options/clients.php:100
+msgid "Don't show it on the files list"
+msgstr "Μην το εμφανίζεις στη λίστα αρχείων"
+
+#: includes/forms/options/clients.php:101
+msgid "Show it anyway, but prevent download."
+msgstr "Εμφάνισε το ούτως ή άλλως, αλλά απέτρεψε τη λήψη."
+
+#: includes/forms/options/clients.php:103
+msgid ""
+"This only affects clients. On the admin side, you can still get the files."
+msgstr "Αυτό επηρεάζει μόνο τους πελάτες. Από την πλευρά του διαχειριστή, μπορείτε να λάβετε τα αρχεία."
+
+#: includes/forms/options/email.php:1
+msgid "\"From\" information"
+msgstr "Πληροφορίες «Από»"
+
+#: includes/forms/options/email.php:4 install/index.php:304
+msgid "E-mail address"
+msgstr "Διεύθυνση ηλεκτρονικού ταχυδρομείου"
+
+#: includes/forms/options/email.php:19
+msgid "Send copies"
+msgstr "Αποστολή αντιγράφων"
+
+#: includes/forms/options/email.php:24
+msgid "When a system user uploads files"
+msgstr "Όταν ένας χρήστης του συστήματος ανεβάσει αρχεία"
+
+#: includes/forms/options/email.php:32
+msgid "When a client uploads files"
+msgstr "Όταν ένας πελάτης ανεβάσει αρχεία"
+
+#: includes/forms/options/email.php:38
+msgid ""
+"Define here who will receive copies of this emails. These are sent as BCC so"
+" neither recipient will see the other addresses."
+msgstr "Καθορίστε εδώ ποιος θα λάβει αντίγραφα αυτών των μηνυμάτων ηλεκτρονικού ταχυδρομείου. Αυτά αποστέλλονται ως BCC, επομένως ούτε ο παραλήπτης θα δει τις άλλες διευθύνσεις."
+
+#: includes/forms/options/email.php:44
+msgid "Address supplied above (on \"From\")"
+msgstr "Διεύθυνση που παρέχεται παραπάνω (στο \"Από\")"
+
+#: includes/forms/options/email.php:50
+msgid "Also to this addresses"
+msgstr "Επίσης σε αυτές τις διευθύνσεις"
+
+#: includes/forms/options/email.php:53
+msgid "Separate e-mail addresses with a comma."
+msgstr "Διαχωρίστε τις διευθύνσεις ηλεκτρονικού ταχυδρομείου με ένα κόμμα."
+
+#: includes/forms/options/email.php:59
+msgid "Expiration"
+msgstr "Λήξη"
+
+#: includes/forms/options/email.php:62
+msgid "Maximum sending attemps"
+msgstr "Μέγιστες προσπάθειες αποστολής"
+
+#: includes/forms/options/email.php:65
+msgid ""
+"Define how many times will the system attemp to send each notification."
+msgstr "Καθορίστε πόσες φορές το σύστημα προσπαθεί να στείλει κάθε ειδοποίηση."
+
+#: includes/forms/options/email.php:70
+msgid "Days before expiring"
+msgstr "Ημέρες πριν από τη λήξη"
+
+#: includes/forms/options/email.php:73
+msgid "Notifications older than this will not be sent."
+msgstr "Οι ειδοποιήσεις πιο παλιές από αυτές δεν θα αποσταλούν."
+
+#: includes/forms/options/email.php:73
+msgid "Set to 0 to disable."
+msgstr "Ρυθμίστε στο 0 για απενεργοποίηση."
+
+#: includes/forms/options/email.php:79
+msgid "E-mail sending options"
+msgstr "Επιλογές αποστολής μηνυμάτων ηλεκτρονικού ταχυδρομείου"
+
+#: includes/forms/options/email.php:80
+msgid ""
+"Here you can select which mail system will be used when sending the "
+"notifications. If you have a valid e-mail account, SMTP is the recommended "
+"option."
+msgstr "Εδώ μπορείτε να επιλέξετε ποιο σύστημα αλληλογραφίας θα χρησιμοποιηθεί κατά την αποστολή των ειδοποιήσεων. Αν έχετε έγκυρο λογαριασμό ηλεκτρονικού ταχυδρομείου, η συνιστώμενη επιλογή είναι η SMTP."
+
+#: includes/forms/options/email.php:83
+msgid "Mailer"
+msgstr "Mailer"
+
+#: includes/forms/options/email.php:96
+msgid "SMTP & Gmail shared options"
+msgstr "Κοινόχρηστες επιλογές SMTP & Gmail"
+
+#: includes/forms/options/email.php:97
+msgid ""
+"You need to include your username (usually your e-mail address) and password"
+" if you have selected either SMTP or Gmail as your mailer."
+msgstr "Θα πρέπει να συμπεριλάβετε το όνομα χρήστη (συνήθως τη διεύθυνση ηλεκτρονικού ταχυδρομείου σας) και τον κωδικό πρόσβασης σας εάν έχετε επιλέξει το SMTP ή το Gmail ως mailer."
+
+#: includes/forms/options/email.php:115
+msgid "SMTP options"
+msgstr "Επιλογές SMTP"
+
+#: includes/forms/options/email.php:116
+msgid "If you selected SMTP as your mailer, please complete these options."
+msgstr "Εάν έχετε επιλέξει το SMTP ως mailer, συμπληρώστε αυτές τις επιλογές."
+
+#: includes/forms/options/email.php:119 install/make-config.php:231
+msgid "Host"
+msgstr "Φιλοξενεία"
+
+#: includes/forms/options/email.php:126
+msgid "Port"
+msgstr "Πόρτα"
+
+#: includes/forms/options/email.php:133
+msgid "Authentication"
+msgstr "Αυθεντικοποίηση"
+
+#: includes/forms/options/email.php:145
+msgid "SSL options"
+msgstr ""
+
+#: includes/forms/options/email.php:150
+msgid "Verify peer"
+msgstr ""
+
+#: includes/forms/options/email.php:158
+msgid "Verify peer name"
+msgstr ""
+
+#: includes/forms/options/email.php:166
+msgid "Allow self signed"
+msgstr ""
+
+#: includes/forms/options/email.php:175
+msgid "After saving your options, you can test your configuration here"
+msgstr ""
+
+#: includes/forms/options/external_login.php:4
+msgid "Social Networks"
+msgstr ""
+
+#: includes/forms/options/external_login.php:5
+#, php-format
+msgid ""
+"Note: %s requires all accounts to be available locally. When a user connects"
+" via a social network or any other external source, a local account will be "
+"created with a random password."
+msgstr ""
+
+#: includes/forms/options/external_login.php:87
+msgid "Enabled"
+msgstr "Ενεργοποιήθηκε"
+
+#: includes/forms/options/external_login.php:96
+msgid "App ID"
+msgstr ""
+
+#: includes/forms/options/external_login.php:102
+msgid "App Secret"
+msgstr ""
+
+#: includes/forms/options/external_login.php:110
+msgid "Callback URI"
+msgstr "URI επανάκλησης"
+
+#: includes/forms/options/external_login.php:121
+#: includes/forms/options/security.php:105
+msgid "How do I obtain this credentials?"
+msgstr "Πώς μπορώ να αποκτήσω αυτά τα διαπιστευτήρια;"
+
+#: includes/forms/options/general.php:1
+msgid "General"
+msgstr "Γενικά"
+
+#: includes/forms/options/general.php:2
+msgid ""
+"Basic information to be shown around the site. The time format and zones "
+"values affect how the clients see the dates on their files lists."
+msgstr "Βασικές πληροφορίες που θα εμφανίζονται στον ιστότοπο. Οι τιμές μορφής ώρας και ζώνες επηρεάζουν τον τρόπο με τον οποίο οι πελάτες βλέπουν τις ημερομηνίες στις λίστες αρχείων τους."
+
+#: includes/forms/options/general.php:5 install/index.php:278
+msgid "Site name"
+msgstr "Όνομα ιστότοπου"
+
+#: includes/forms/options/general.php:12
+msgid "Timezone"
+msgstr "Ζώνη ώρας"
+
+#: includes/forms/options/general.php:25
+msgid "Time format"
+msgstr "Μορφή ώρας"
+
+#: includes/forms/options/general.php:28
+msgid "For example, d/m/Y h:i:s will result in something like"
+msgstr "Για παράδειγμα, d/m/Y h:i:s θα οδηγήσει σε κάτι σαν"
+
+#: includes/forms/options/general.php:29
+msgid "For the full list of available values, visit"
+msgstr "Για τον πλήρη κατάλογο των διαθέσιμων τιμών, επισκεφθείτε"
+
+#: includes/forms/options/general.php:29
+msgid "this page"
+msgstr "αυτή η σελίδα"
+
+#: includes/forms/options/general.php:36
+msgid "Use custom footer text"
+msgstr "Χρησιμοποιήστε προσαρμοσμένο κείμενο υποσέλιδου"
+
+#: includes/forms/options/general.php:42
+msgid "Footer content"
+msgstr "Περιεχόμενο υποσέλιδου"
+
+#: includes/forms/options/general.php:50
+msgid "Editor"
+msgstr "Συντάκτης"
+
+#: includes/forms/options/general.php:55
+msgid "Use the visual editor on files descriptions"
+msgstr "Χρησιμοποιήστε το πρόγραμμα επεξεργασίας σε περιγραφές αρχείων"
+
+#: includes/forms/options/general.php:67
+msgid "Detect user browser language"
+msgstr "Εντοπισμός γλώσσας προγράμματος περιήγησης χρηστών"
+
+#: includes/forms/options/general.php:68
+msgid ""
+"If available, will override the default one from the system configuration "
+"file. Affects all users and clients."
+msgstr "Εάν είναι διαθέσιμη, θα αντικαταστήσει την προεπιλεγμένη από το αρχείο ρυθμίσεων του συστήματος. Επηρεάζει όλους τους χρήστες και τους πελάτες."
+
+#: includes/forms/options/general.php:75
+msgid "Downloads"
+msgstr "Λήψεις"
+
+#: includes/forms/options/general.php:79
+msgid "Use XSendFile to serve files"
+msgstr ""
+
+#: includes/forms/options/general.php:80
+msgid ""
+"xsendfile improves downloads by allowing the web server to send the file "
+"directly (without php and it's limitations in the middle). This provides "
+"several optimizations, such as resumable, more stable downloads. This in an "
+"advanced feature that requires you to install and enable a module on your "
+"server."
+msgstr ""
+
+#: includes/forms/options/general.php:87
+msgid "System location"
+msgstr "Θέση συστήματος"
+
+#: includes/forms/options/general.php:88
+msgid ""
+"These options are to be changed only if you are moving the system to another"
+" place. Changes here can cause ProjectSend to stop working."
+msgstr "Αυτές οι επιλογές πρέπει να αλλάξουν μόνο εάν μετακινείτε το σύστημα σε άλλη θέση. Οι αλλαγές εδώ μπορεί να προκαλέσουν διακοπή λειτουργίας του ProjectSend."
+
+#: includes/forms/options/general.php:91
+msgid "System URI"
+msgstr "URI του συστήματος"
+
+#: includes/forms/options/privacy.php:6
+msgid "Prevent search engines from indexing this site"
+msgstr "Αποτρέψετε τις μηχανές αναζήτησης από την ευρετηρίαση αυτού του ιστότοπου"
+
+#: includes/forms/options/privacy.php:14
+msgid "Enable information page for private files"
+msgstr "Ενεργοποίηση σελίδας πληροφοριών για ιδιωτικά αρχεία"
+
+#: includes/forms/options/privacy.php:15
+msgid ""
+"If enabled, the file information landing page will be available even for "
+"files that are not marked as private. Downloading them will stay restricted."
+msgstr "Αν είναι ενεργοποιημένη, η σελίδα προορισμού πληροφοριών αρχείων θα είναι διαθέσιμη ακόμα και για αρχεία που δεν έχουν επισημανθεί ως ιδιωτικά. Η λήψη τους θα παραμείνει περιορισμένη."
+
+#: includes/forms/options/privacy.php:22
+msgid "Public groups and files listings page"
+msgstr "Δημόσιες ομάδες και σελίδα καταχωρήσεων των αρχείων"
+
+#: includes/forms/options/privacy.php:27
+msgid "Enable page"
+msgstr "Ενεργοποίηση σελίδας"
+
+#: includes/forms/options/privacy.php:29
+msgid "The url for the listings page is"
+msgstr "Η διεύθυνση url για τη σελίδα καταχωρήσεων είναι"
+
+#: includes/forms/options/privacy.php:39
+msgid "Only for logged in clients"
+msgstr "Μόνο για συνδεδεμένους πελάτες"
+
+#: includes/forms/options/privacy.php:47
+msgid ""
+"Inside groups show all files, including those that are not marked as public."
+msgstr "Μέσα στις ομάδες εμφανίζονται όλα τα αρχεία, συμπεριλαμβανομένων εκείνων που δεν έχουν επισημανθεί ως δημόσια."
+
+#: includes/forms/options/privacy.php:55
+msgid "On public files, show the download link."
+msgstr "Σε δημόσια αρχεία, εμφάνισε τον σύνδεσμο λήψης."
+
+#: includes/forms/options/security.php:1
+msgid "Allowed file extensions"
+msgstr "Επιτρεπόμενες επεκτάσεις αρχείων"
+
+#: includes/forms/options/security.php:2
+msgid ""
+"Be careful when changing this options. They could affect not only the system"
+" but the whole server it is installed on."
+msgstr "Προσέξτε όταν αλλάζετε αυτές τις επιλογές. Θα μπορούσαν να επηρεάσουν όχι μόνο το σύστημα αλλά ολόκληρο το διακομιστή στον οποίο είναι εγκατεστημένο."
+
+#: includes/forms/options/security.php:3
+msgid "Important"
+msgstr "Σημαντικό"
+
+#: includes/forms/options/security.php:3
+msgid "Separate allowed file types with a comma."
+msgstr "Ξεχωρίστε τους επιτρεπόμενους τύπους αρχείων με κόμμα."
+
+#: includes/forms/options/security.php:6
+msgid "Limit file types uploading to"
+msgstr "Περιορισμός των τύπων αρχείων που μεταφορτώνονται σε"
+
+#: includes/forms/options/security.php:9
+msgid "No one"
+msgstr "Κανένα"
+
+#: includes/forms/options/security.php:10
+msgid "Everyone"
+msgstr "Όλοι"
+
+#: includes/forms/options/security.php:11
+msgid "Clients only"
+msgstr "Μόνο πελάτες"
+
+#: includes/forms/options/security.php:22
+msgid ""
+"Warning: php extension is allowed. This is a serious security problem. If "
+"you are not sure that you need it, please remove it from the list."
+msgstr "Προειδοποίηση: επιτρέπεται η επέκταση php. Αυτό είναι ένα σοβαρό πρόβλημα ασφάλειας. Εάν δεν είστε βέβαιοι ότι το χρειάζεστε, αφαιρέστε το από τη λίστα."
+
+#: includes/forms/options/security.php:29
+msgid "SVG files"
+msgstr ""
+
+#: includes/forms/options/security.php:33
+msgid "Show thumbnails for SVG files"
+msgstr ""
+
+#: includes/forms/options/security.php:41
+msgid "Passwords"
+msgstr "Κωδικοί πρόσβασης"
+
+#: includes/forms/options/security.php:42
+msgid "When setting up a password for an account, require at least:"
+msgstr "Κατά τη ρύθμιση ενός κωδικού πρόσβασης για έναν λογαριασμό, απαιτήστε τουλάχιστον:"
+
+#: includes/forms/options/security.php:78
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: includes/forms/options/security.php:79
+msgid "Helps prevent SPAM on your registration form."
+msgstr "Βοηθά στην αποτροπή του SPAM στη φόρμα εγγραφής σας."
+
+#: includes/forms/options/security.php:84
+msgid "Use reCAPTCHA"
+msgstr "Χρησιμοποιήστε το reCAPTCHA"
+
+#: includes/forms/options/security.php:90
+msgid "Site key"
+msgstr "Κλειδί ιστοτόπου"
+
+#: includes/forms/options/security.php:97
+msgid "Secret key"
+msgstr "Μυστικό κλειδί"
+
+#: includes/forms/reset-password/enter-email.php:10
+msgid ""
+"Please enter your account's e-mail address. You will receive a link to "
+"continue the process."
+msgstr "Εισαγάγετε τη διεύθυνση ηλεκτρονικού ταχυδρομείου του λογαριασμού σας. Θα λάβετε ένα σύνδεσμο για να συνεχίσετε τη διαδικασία."
+
+#: includes/forms/reset-password/enter-email.php:13
+msgid "Get a new password"
+msgstr "Λάβετε έναν νέο κωδικό πρόσβασης"
+
+#: includes/forms/reset-password/enter-password.php:6
+msgid "New password"
+msgstr "Νέος κωδικός πρόσβασης"
+
+#: includes/forms/reset-password/enter-password.php:17
+msgid ""
+"Please enter your desired new password. After that, you will be able to log "
+"in normally."
+msgstr "Εισαγάγετε τον νέο κωδικό πρόσβασης σας. Μετά από αυτό, θα μπορείτε να συνδεθείτε κανονικά."
+
+#: includes/forms/reset-password/enter-password.php:20
+msgid "Set new password"
+msgstr "Ορίστε νέο κωδικό πρόσβασης"
+
+#: includes/forms/upload.php:17
+msgid ""
+"Your browser doesn't support HTML5, Flash or Silverlight. Please update your"
+" browser or install Adobe Flash or Silverlight to continue."
+msgstr "Το πρόγραμμα περιήγησης σας δεν υποστηρίζει HTML5, Flash ή Silverlight. Ενημερώστε τον περιηγητή σας browser ή εγκαταστήστε το Adobe Flash ή το Silverlight για να συνεχίσετε."
+
+#: includes/forms/upload.php:21 upload.php:16
+msgid "Upload files"
+msgstr "Μεταφόρτωση αρχείων"
+
+#: includes/forms/upload.php:24
+msgid ""
+"Your files are being uploaded! Progress indicators may take a while to "
+"update, but work is still being done behind the scenes."
+msgstr "Τα αρχεία σας ανεβαίνουν! Οι δείκτες προόδου ενδέχεται να χρειαστούν λίγο χρόνο για να ενημερωθούν, αλλά συνεχίζονται οι εργασίες στο παρασκήνιο."
+
+#: includes/forms/users.php:11
+msgid "Add user"
+msgstr "Προσθήκη χρήστη"
+
+#: includes/forms/users.php:18
+msgid "Save user"
+msgstr "Αποθήκευση χρήστη"
+
+#: includes/forms/users.php:75 users.php:300
+msgid "Role"
+msgstr "Ρόλος"
+
+#: includes/forms/users.php:108
+msgid "Active (user can log in)"
+msgstr "Ενεργός (ο χρήστης μπορεί να συνδεθεί)"
+
+#: includes/functions.actionslog.php:21 includes/functions.actionslog.php:22
+msgid "ProjectSend was installed"
+msgstr "Το ProjectSend εγκαταστάθηκε"
+
+#: includes/functions.actionslog.php:27 includes/functions.actionslog.php:207
+msgid "logged in to the system."
+msgstr "συνδέθηκε στο σύστημα."
+
+#: includes/functions.actionslog.php:28 includes/functions.actionslog.php:208
+#, php-format
+msgid "%s logged in to the system"
+msgstr ""
+
+#: includes/functions.actionslog.php:33
+msgid "created the user account"
+msgstr "δημιούργησε τον λογαριασμό χρήστη"
+
+#: includes/functions.actionslog.php:35
+#, php-format
+msgid "%s created the user account %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:40
+msgid "created the client account "
+msgstr "δημιούργησε τον λογαριασμό πελάτη "
+
+#: includes/functions.actionslog.php:42
+#, php-format
+msgid "%s created the client account %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:47
+msgid "created a client account for themself."
+msgstr "δημιούργησε έναν λογαριασμό πελάτη για τον εαυτό του."
+
+#: includes/functions.actionslog.php:48
+#, php-format
+msgid "%s registered as a new client"
+msgstr ""
+
+#: includes/functions.actionslog.php:53
+msgid "(user) uploaded the file"
+msgstr "Ο/Η (χρήστης) πραγματοποίησε μεταφόρτωση του αρχείου"
+
+#: includes/functions.actionslog.php:55
+#, php-format
+msgid "%s (user) uploaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:60
+msgid "(client) uploaded the file"
+msgstr "Ο/Η (πελάτης) πραγματοποίησε μεταφόρτωση του αρχείου"
+
+#: includes/functions.actionslog.php:62
+#, php-format
+msgid "%s (client) uploaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:67
+msgid "(user) downloaded the file"
+msgstr "Ο/Η (χρήστης) πραγματοποίησε λήψη του αρχείου"
+
+#: includes/functions.actionslog.php:69
+#, php-format
+msgid "%s (user) downloaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:74
+msgid "(client) downloaded the file"
+msgstr "Ο/Η (πελάτης) πραγματοποίησε λήψη του αρχείου"
+
+#: includes/functions.actionslog.php:76
+#, php-format
+msgid "%s (client) downloaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:81
+msgid "generated a zip file"
+msgstr "δημιούργησε ένα αρχείο zip"
+
+#: includes/functions.actionslog.php:82
+#, php-format
+msgid "%s generated a zip file"
+msgstr ""
+
+#: includes/functions.actionslog.php:87 includes/functions.actionslog.php:96
+msgid "unassigned the file"
+msgstr "αφαίρεσε την αντιστοίχιση για το αρχείο"
+
+#: includes/functions.actionslog.php:89
+msgid "from the client:"
+msgstr "από τον πελάτη:"
+
+#: includes/functions.actionslog.php:91
+#, php-format
+msgid "%s unassigned the file %s from the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:98
+msgid "from the group:"
+msgstr "από την ομάδα:"
+
+#: includes/functions.actionslog.php:100
+#, php-format
+msgid "%s unassigned the file %s from the group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:105
+msgid "deleted the file"
+msgstr "διέγραψε το αρχείο"
+
+#: includes/functions.actionslog.php:107
+#, php-format
+msgid "%s deleted the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:112
+msgid "edited the user"
+msgstr "επεξεργάστηκε τον χρήστη"
+
+#: includes/functions.actionslog.php:114
+#, php-format
+msgid "%s edited the user %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:119
+msgid "edited the client"
+msgstr "επεξεργάστηκε τον πελάτη"
+
+#: includes/functions.actionslog.php:121
+#, php-format
+msgid "%s edited the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:126
+msgid "edited the group"
+msgstr "επεξεργάστηκε την ομάδα"
+
+#: includes/functions.actionslog.php:128
+#, php-format
+msgid "%s edited the group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:133
+msgid "deleted the user"
+msgstr "διέγραψε τον χρήστη"
+
+#: includes/functions.actionslog.php:135
+#, php-format
+msgid "%s deleted the user %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:140
+msgid "deleted the client"
+msgstr "διέγραψε τον πελάτη"
+
+#: includes/functions.actionslog.php:142
+#, php-format
+msgid "%s deleted the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:147
+msgid "deleted the group"
+msgstr "διέγραψε την ομάδα"
+
+#: includes/functions.actionslog.php:149
+#, php-format
+msgid "%s deleted the group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:154
+msgid "activated the client"
+msgstr "ενεργοποίησε τον πελάτη"
+
+#: includes/functions.actionslog.php:156
+#, php-format
+msgid "%s activated the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:161
+msgid "deactivated the client"
+msgstr "απενεργοποίησε τον πελάτη"
+
+#: includes/functions.actionslog.php:163
+#, php-format
+msgid "%s deactivated the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:168
+msgid "marked as hidden the file"
+msgstr "επισήμανε ως κρυφό το αρχείο"
+
+#: includes/functions.actionslog.php:170 includes/functions.actionslog.php:193
+msgid "to:"
+msgstr "σε:"
+
+#: includes/functions.actionslog.php:172
+#, php-format
+msgid "%s marked as hidden the file %s to %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:177
+msgid "marked as hidden for everyone the file"
+msgstr ""
+
+#: includes/functions.actionslog.php:179
+#, php-format
+msgid "%s marked as hidden for everyone the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:184
+msgid "marked as visible for everyone the file"
+msgstr ""
+
+#: includes/functions.actionslog.php:186
+#, php-format
+msgid "%s marked as visible for everyone the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:191
+msgid "marked as visible the file"
+msgstr "επισήμανε ως ορατό το αρχείο"
+
+#: includes/functions.actionslog.php:195
+#, php-format
+msgid "%s marked as visible the file %s to %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:200
+msgid "created the group"
+msgstr "δημιούργησε την ομάδα"
+
+#: includes/functions.actionslog.php:202
+#, php-format
+msgid "%s created the group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:213 includes/functions.actionslog.php:222
+msgid "assigned the file"
+msgstr "αντιστοίχισε το αρχείο"
+
+#: includes/functions.actionslog.php:215
+msgid "to the client:"
+msgstr "στον πελάτη:"
+
+#: includes/functions.actionslog.php:217
+#, php-format
+msgid "%s assigned the file %s to client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:224
+msgid "to the group:"
+msgstr "στην ομάδα:"
+
+#: includes/functions.actionslog.php:226
+#, php-format
+msgid "%s assigned the file %s to group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:231
+msgid "activated the user"
+msgstr "ενεργοποίησε τον χρήστη"
+
+#: includes/functions.actionslog.php:233
+#, php-format
+msgid "%s activated the user %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:238
+msgid "deactivated the user"
+msgstr "απενεργοποίησε τον χρήστη"
+
+#: includes/functions.actionslog.php:240
+#, php-format
+msgid "%s deactivated the user %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:245
+msgid "uploaded a new logo on \"Branding\""
+msgstr "ανέβηκε ένα νέο λογότυπο στο \"Branding\""
+
+#: includes/functions.actionslog.php:246
+#, php-format
+msgid "%s uploaded a new logo on \"Branding\""
+msgstr ""
+
+#: includes/functions.actionslog.php:251
+msgid "updated ProjectSend to version"
+msgstr "ενημέρωσε το ProjectSend στην έκδοση"
+
+#: includes/functions.actionslog.php:253
+#, php-format
+msgid "%s updated ProjectSend to version %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:258
+msgid "logged out of the system."
+msgstr "αποσυνδέθηκε από το σύστημα."
+
+#: includes/functions.actionslog.php:259
+#, php-format
+msgid "%s logged out of the system"
+msgstr ""
+
+#: includes/functions.actionslog.php:264
+msgid "(user) edited the file"
+msgstr "Ο/Η (χρήστης) επεξεργάστηκε το αρχείο"
+
+#: includes/functions.actionslog.php:266
+#, php-format
+msgid "%s (user) edited the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:271
+msgid "(client) edited the file"
+msgstr "Ο/Η (πελάτης) επεξεργάστηκε το αρχείο"
+
+#: includes/functions.actionslog.php:273
+#, php-format
+msgid "%s (client) edited the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:278
+msgid "created the category"
+msgstr "δημιούργησε τη κατηγορία"
+
+#: includes/functions.actionslog.php:280
+#, php-format
+msgid "%s created the category %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:285
+msgid "edited the category"
+msgstr "επεξεργάστηκε τη κατηγορία"
+
+#: includes/functions.actionslog.php:287
+#, php-format
+msgid "%s edited the category %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:292
+msgid "deleted the category"
+msgstr "διέγραψε τη κατηγορία"
+
+#: includes/functions.actionslog.php:294
+#, php-format
+msgid "%s deleted the category %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:298
+msgid "An anonymous user"
+msgstr "Ένας ανώνυμος χρήστης"
+
+#: includes/functions.actionslog.php:299
+msgid "downloaded the file"
+msgstr "έκανε λήψη του αρχείου"
+
+#: includes/functions.actionslog.php:301
+#, php-format
+msgid "An anonymous user downloaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:306
+msgid "processed an account request for"
+msgstr "επεξεργάστηκε ένα αίτημα λογαριασμού για"
+
+#: includes/functions.actionslog.php:308
+#, php-format
+msgid "%s processed an account request for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:313
+msgid "processed group memberships requests for"
+msgstr "επεξεργάστηκε αιτήσεις συμμετοχής σε ομάδες για"
+
+#: includes/functions.actionslog.php:315
+#, php-format
+msgid "%s processed group memberships requests for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:320
+msgid "requested a preview for the file"
+msgstr ""
+
+#: includes/functions.actionslog.php:322
+#, php-format
+msgid "%s requested a preview for the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:327
+msgid "created an account with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:328
+#, php-format
+msgid "%s created an account with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:333
+msgid "logged in with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:334
+#, php-format
+msgid "%s logged in with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:339
+msgid "approved an account request for"
+msgstr ""
+
+#: includes/functions.actionslog.php:341
+#, php-format
+msgid "%s approved an account request for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:346
+msgid "denied an account request for"
+msgstr ""
+
+#: includes/functions.actionslog.php:348
+#, php-format
+msgid "%s denied an account request for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:353
+msgid "updated system options"
+msgstr ""
+
+#: includes/functions.actionslog.php:356
+#, php-format
+msgid "%s updated system options: %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:361
+msgid "updated an email template"
+msgstr ""
+
+#: includes/functions.actionslog.php:364
+#, php-format
+msgid "%s updated email template: %s"
+msgstr ""
+
+#: includes/functions.forms.php:18
+msgid "Search"
+msgstr "Αναζήτηση"
+
+#: includes/functions.php:134
+msgid "An unexpected error has occurred"
+msgstr "Παρουσιάστηκε μη αναμενόμενο σφάλμα"
+
+#: includes/functions.php:135
+msgid "Could not generate a random password"
+msgstr "Δεν ήταν δυνατή η δημιουργία τυχαίου κωδικού πρόσβασης"
+
+#: includes/functions.php:658
+msgid "Provided by"
+msgstr "Παρέχεται από"
+
+#: includes/functions.php:658
+msgid "version"
+msgstr "έκδοση"
+
+#: includes/functions.php:658
+msgid "Free software"
+msgstr "Ελεύθερο λογισμικό"
+
+#: includes/functions.php:693
+msgid "Important:"
+msgstr "Σημαντικό:"
+
+#: includes/functions.php:693
+msgid ""
+"There are no clients or groups at the moment. You can still upload files and"
+" assign them later."
+msgstr "Δεν υπάρχουν πελάτες ή ομάδες αυτήν τη στιγμή. Μπορείτε να ανεβάσετε αρχεία και να τα αντιστοιχίσετε αργότερα."
+
+#: includes/functions.php:1313
+msgid "The password must contain, at least:"
+msgstr "Ο κωδικός πρόσβασης πρέπει να περιέχει τουλάχιστον:"
+
+#: includes/functions.session.permissions.php:79
+msgid "Password change is required for your account"
+msgstr ""
+
+#: includes/text.strings.php:13
+msgid "System Administrator"
+msgstr "Διαχειριστής του συστήματος"
+
+#: includes/text.strings.php:14
+msgid "Account Manager"
+msgstr "Account Manager"
+
+#: includes/text.strings.php:15 manage-files.php:354 manage-files.php:553
+msgid "Uploader"
+msgstr "Uploader"
+
+#: includes/text.strings.php:31 index.php:20 install/index.php:98
+#: install/index.php:249
+msgid "Log in"
+msgstr "Σύνδεση"
+
+#: includes/text.strings.php:32
+msgid "Logging in"
+msgstr "Συνδέεται"
+
+#: includes/text.strings.php:33
+msgid "Redirecting"
+msgstr "Ανακατεύθυνση"
+
+#: includes/text.strings.php:36
+msgid ""
+"Send this URL to someone to view the allowed group contents according to "
+"your privacy settings."
+msgstr "Στείλτε αυτήν τη διεύθυνση URL σε κάποιον για να δεί τα περιεχόμενα της ομάδας που επιτρέπεται σύμφωνα με τις ρυθμίσεις απορρήτου."
+
+#: includes/text.strings.php:37
+msgid ""
+"Send this URL to someone to download the file without registering or logging"
+" in."
+msgstr "Στείλτε αυτήν τη διεύθυνση URL σε κάποιον για να κατεβάσει το αρχείο χωρίς να εγγραφεί ή να συνδεθεί."
+
+#: includes/text.strings.php:38
+msgid "Click to select and copy"
+msgstr "Κάντε κλικ για να επιλέξετε και να αντιγράψετε"
+
+#: includes/text.strings.php:39
+msgid "Succesfully copied to clipboard"
+msgstr "Αντιγραφή με επιτυχία στο πρόχειρο"
+
+#: includes/text.strings.php:40
+msgid "Content could not be copied to clipboard"
+msgstr "Δεν ήταν δυνατή η αντιγραφή περιεχομένου στο πρόχειρο"
+
+#: includes/text.strings.php:41
+msgid "Public URL"
+msgstr "Δημόσιος σύνδεσμος URL"
+
+#: includes/text.strings.php:42
+msgid "Please select at least one item to proceed."
+msgstr "Επιλέξτε τουλάχιστον ένα στοιχείο για να προχωρήσετε."
+
+#: includes/text.strings.php:43
+#, php-format
+msgid "You are about to delete %d items. Are you sure you want to continue?"
+msgstr ""
+
+#: includes/text.strings.php:44
+msgid ""
+"You are about to delete all activities from the log. Only those used for "
+"statistics will remain. Are you sure you want to continue?"
+msgstr "Πρόκειται να διαγράψετε όλες τις δραστηριότητες από το αρχείο καταγραφής. Μόνο αυτά που χρησιμοποιούνται για στατιστικές θα παραμείνουν. Είστε σίγουροι ότι θέλετε να συνεχίσετε;"
+
+#: includes/text.strings.php:45
+msgid "Please wait while your download is prepared."
+msgstr "Περιμένετε μέχρι να ετοιμαστεί η λήψη σας."
+
+#: includes/text.strings.php:46
+msgid ""
+"This operation could take a few minutes, depending on the size of the files."
+msgstr "Αυτή η λειτουργία μπορεί να διαρκέσει μερικά λεπτά, ανάλογα με το μέγεθος των αρχείων."
+
+#: includes/text.strings.php:47
+#, php-format
+msgid ""
+"You are about to unassign %d files from this account. Are you sure you want "
+"to continue?"
+msgstr ""
+
+#: includes/text.strings.php:48
+msgid "No results where found."
+msgstr "Δεν βρέθηκαν αποτελέσματα."
+
+#: includes/text.strings.php:50
+msgid "Please confirm: replace the custom template text with the default one?"
+msgstr "Επιβεβαιώστε: αντικαταστήστε το κείμενο του προσαρμοσμένου προτύπου με το προεπιλεγμένο;"
+
+#: includes/text.strings.php:51
+msgid "Error: the content could not be loaded"
+msgstr "Σφάλμα: δεν ήταν δυνατή η φόρτωση του περιεχομένου"
+
+#: includes/text.strings.php:54
+msgid "You must select at least one file to upload."
+msgstr "Πρέπει να επιλέξετε τουλάχιστον ένα αρχείο για ανέβασμα."
+
+#: includes/text.strings.php:55
+msgid ""
+"Are you sure? Files currently being uploaded will be discarded if you leave "
+"this page."
+msgstr ""
+
+#: includes/text.strings.php:56
+msgid "Copy selection to all files?"
+msgstr "Θέλετε να αντιγράψτε τις επιλογές σε όλα τα αρχεία;"
+
+#: includes/text.strings.php:57
+msgid ""
+"Some of your files uploaded correctly, but others could not be uploaded."
+msgstr ""
+
+#: includes/text.strings.php:58
+msgid "Go to the file editor"
+msgstr ""
+
+#: includes/text.strings.php:60
+msgid "Confirm this action?"
+msgstr ""
+
+#: includes/text.strings.php:61
+msgid "Failed to load file preview"
+msgstr ""
+
+#: includes/text.strings.php:62
+msgid "Failed to load resource"
+msgstr ""
+
+#: includes/text.strings.php:66
+#, php-format
+msgid "Validation \"%s\" failed for field \"%s\""
+msgstr ""
+
+#: includes/text.strings.php:67
+msgid "reCAPTCHA verification failed"
+msgstr "η επαλήθευση reCAPTCHA απέτυχε"
+
+#: includes/text.strings.php:68
+msgid "Name was not completed"
+msgstr "Το όνομα δεν συμπληρώθηκε"
+
+#: includes/text.strings.php:69
+msgid "No client was selected"
+msgstr "Δεν επιλέχθηκε πελάτης"
+
+#: includes/text.strings.php:70
+msgid "Username was not completed"
+msgstr "Το όνομα χρήστη δεν συμπληρώθηκε"
+
+#: includes/text.strings.php:71
+msgid "Password was not completed"
+msgstr "Ο κωδικός πρόσβασης δεν συμπληρώθηκε"
+
+#: includes/text.strings.php:72
+msgid "Password verification was not completed"
+msgstr "Η επαλήθευση κωδικού πρόσβασης δεν συμπληρώθηκε"
+
+#: includes/text.strings.php:73
+msgid "E-mail was not completed"
+msgstr "Το μήνυμα ηλεκτρονικού ταχυδρομείου δεν συμπληρώθηκε"
+
+#: includes/text.strings.php:74
+msgid "Title was not completed"
+msgstr "Ο τίτλος δεν συμπληρώθηκε"
+
+#: includes/text.strings.php:75
+msgid "E-mail address is not valid"
+msgstr "Η διεύθυνση ηλεκτρονικού ταχυδρομείου δεν είναι έγκυρη"
+
+#: includes/text.strings.php:76
+msgid ""
+"Username must be alphanumeric and may contain dot (a-z,A-Z,0-9 and . "
+"allowed)"
+msgstr "Το όνομα χρήστη πρέπει να είναι αλφαριθμητικό και μπορεί να περιέχει τελεία (a-z, A-Z, 0-9 και . επιτρέπονται)"
+
+#: includes/text.strings.php:77
+msgid "Password must be alphanumeric (a-z,A-Z,0-9 allowed)"
+msgstr "Ο κωδικός πρόσβασης πρέπει να είναι αλφαριθμητικός (a-z, A-Z, 0-9 επιτρέπονται)"
+
+#: includes/text.strings.php:78
+msgid "Passwords do not match"
+msgstr "Οι κωδικοί πρόσβασης δεν ταιριάζουν"
+
+#: includes/text.strings.php:79
+msgid "Password does not meet the required characters rules"
+msgstr "Ο κωδικός πρόσβασης δεν πληροί τους απαιτούμενους κανόνες χαρακτήρων"
+
+#: includes/text.strings.php:80
+msgid "File size value must be a whole number"
+msgstr "Η τιμή μεγέθους αρχείου πρέπει να είναι ακέραιος αριθμός"
+
+#: includes/text.strings.php:81
+msgid "User role was not specified"
+msgstr ""
+
+#: includes/text.strings.php:82
+msgid "An account with this username already exists."
+msgstr ""
+
+#: includes/text.strings.php:83
+msgid "An account with this e-mail address already exists."
+msgstr ""
+
+#: includes/text.strings.php:84
+msgid ""
+"Your password can only contain letters, numbers and the following "
+"characters:"
+msgstr "Ο κωδικός πρόσβασης σας μπορεί να περιέχει μόνο γράμματα, αριθμούς και τους ακόλουθους χαρακτήρες:"
+
+#: includes/text.strings.php:86
+msgid "Please complete all the fields."
+msgstr "Παρακαλούμε συμπληρώστε όλα τα πεδία."
+
+#: includes/text.strings.php:89 includes/text.strings.php:90
+#, php-format
+msgid "Length should be between %d and %d characters long"
+msgstr ""
+
+#: includes/text.strings.php:93
+msgid "1 uppercase character"
+msgstr "1 κεφαλαίο χαρακτήρα"
+
+#: includes/text.strings.php:94
+msgid "1 lowercase character"
+msgstr "1 πεζό χαρακτήρα"
+
+#: includes/text.strings.php:95
+msgid "1 number"
+msgstr "1 αριθμό"
+
+#: includes/text.strings.php:96
+msgid "1 special character"
+msgstr "1 ειδικό χαρακτήρα"
+
+#: includes/text.strings.php:99 install/index.php:77
+msgid "Sitename was not completed."
+msgstr "Το όνομα ιστότοπου δεν συμπληρώθηκε."
+
+#: includes/text.strings.php:100 install/index.php:78
+msgid "ProjectSend URI was not completed."
+msgstr "Το ProjectSend URI δεν συμπληρώθηκε."
+
+#: includes/updates.functions.php:79
+#, php-format
+msgid "A safe chmod value of 755 could not be set for directory: %s"
+msgstr ""
+
+#: includes/updates.functions.php:87 includes/updates.functions.php:121
+#, php-format
+msgid "A safe chmod value of 644 could not be set for file: %s"
+msgstr ""
+
+#: includes/updates.functions.php:94
+msgid ""
+"Please correct the following errors to make sure that ProjectSend can send "
+"notifications emails."
+msgstr ""
+
+#: includes/updates.functions.php:115
+#, php-format
+msgid "System file does not exist: %s"
+msgstr ""
+
+#: includes/updates.functions.php:218
+msgid ""
+"This version changes the way files-to-clients relationships are stored on "
+"the database making it possible to assign a file to multiple clients. "
+"However some files did not update successfully. The following files may need"
+" to be reassigned to their clients by using the \"Find orphan files\" tool:"
+msgstr "Αυτή η έκδοση αλλάζει τον τρόπο με τον οποίο αποθηκεύονται οι σχέσεις αρχείων σε πελάτες στη βάση δεδομένων, καθιστώντας δυνατή την αντιστοίχιση ενός αρχείου σε πολλούς πελάτες. Ωστόσο, ορισμένα αρχεία δεν ενημερώθηκαν με επιτυχία. Τα ακόλουθα αρχεία ίσως χρειαστεί να αντιστοιχιστούν εκ νέου στους πελάτες τους χρησιμοποιώντας το εργαλείο \"Εύρεση ορφανών αρχείων\":"
+
+#: includes/updates.messages.php:16
+msgid "The database was updated to support this version of the software."
+msgstr "Η βάση δεδομένων ενημερώθηκε για να υποστηρίξει αυτήν την έκδοση του λογισμικού."
+
+#: includes/updates.messages.php:23
+msgid "Do you want to support ProjectSend?"
+msgstr "Θέλετε να υποστηρίξετε το ProjectSend;"
+
+#: includes/updates.messages.php:24
+msgid ""
+"Please remember that this tool is free software. If you find the system "
+"useful"
+msgstr "Λάβετε υπόψη ότι αυτό το εργαλείο είναι ελεύθερο λογισμικό. Αν το σύστημα είναι χρήσιμο"
+
+#: includes/updates.messages.php:25
+msgid "please consider making a donation to support further development."
+msgstr "παρακαλούμε να κάνετε μια δωρεά για να στηρίξετε την περαιτέρω ανάπτυξη."
+
+#: includes/updates.messages.php:26
+msgid "Thank you!"
+msgstr "Ευχαριστούμε!"
+
+#: includes/updates.messages.php:45
+msgid "Update available!"
+msgstr "Ενημέρωση είναι διαθέσιμη!"
+
+#: includes/updates.messages.php:45
+#, php-format
+msgid "ProjectSend %s has been released"
+msgstr ""
+
+#: includes/updates.messages.php:48 manage-files.php:649
+msgid "Download"
+msgstr "Λήψη"
+
+#: includes/updates.messages.php:48
+msgid "Changelog"
+msgstr ""
+
+#: includes/upload-send-notifications.php:243
+#: includes/upload-send-notifications.php:277
+msgid "E-mail notifications have been sent."
+msgstr "Ειδοποιήσεις ηλεκτρονικού ταχυδρομείου έχουν σταλεί."
+
+#: includes/upload-send-notifications.php:257
+msgid "One or more notifications couldn't be sent."
+msgstr "Δεν ήταν δυνατή η αποστολή μιας ή περισσότερων ειδοποιήσεων."
+
+#: includes/upload-send-notifications.php:281
+msgid "E-mail notifications for inactive clients were not sent."
+msgstr "Οι ειδοποιήσεις ηλεκτρονικού ταχυδρομείου για ανενεργούς πελάτες δεν στάλθηκαν."
+
+#: includes/widgets/actions-log.php:10
+msgid "Recent activites"
+msgstr "Πρόσφατες δραστηριότητες"
+
+#: includes/widgets/actions-log.php:33
+msgid "View all"
+msgstr "Προβολή όλων"
+
+#: includes/widgets/ajax/statistics.php:77
+msgid "Uploads by users"
+msgstr "Μεταφορτώσεις από χρήστες"
+
+#: includes/widgets/ajax/statistics.php:83
+msgid "Uploads by clients"
+msgstr "Μεταφορτώσεις από πελάτες"
+
+#: includes/widgets/ajax/statistics.php:89
+msgid "Downloads by known users"
+msgstr ""
+
+#: includes/widgets/ajax/statistics.php:95
+msgid "Public Downloads"
+msgstr "Δημόσιες λήψεις"
+
+#: includes/widgets/news.php:10
+msgid "ProjectSend news"
+msgstr "Νέα του ProjectSend"
+
+#: includes/widgets/statistics.php:12
+msgid "Statistics"
+msgstr "Στατιστικά"
+
+#: includes/widgets/statistics.php:19
+#, php-format
+msgid "%d days"
+msgstr ""
+
+#: includes/widgets/system-information.php:7 install/make-config.php:384
+msgid "System information"
+msgstr "Πληροφορίες συστήματος"
+
+#: includes/widgets/system-information.php:9
+msgid "Software"
+msgstr "Λογισμικό"
+
+#: includes/widgets/system-information.php:11
+#: includes/widgets/system-information.php:99
+msgid "Version"
+msgstr "Έκδοση"
+
+#: includes/widgets/system-information.php:17
+msgid "New version available"
+msgstr "Νέα διαθέσιμη έκδοση"
+
+#: includes/widgets/system-information.php:22
+msgid "Default upload max. size"
+msgstr "Προεπιλεγμένο μέγιστο μέγεθος μεταμορφώσεων"
+
+#: includes/widgets/system-information.php:25
+msgid "Template"
+msgstr "Πρότυπο"
+
+#: includes/widgets/system-information.php:26
+msgid "Change"
+msgstr "Αλλαγή"
+
+#: includes/widgets/system-information.php:47
+msgid "Data"
+msgstr "Δεδομένα"
+
+#: includes/widgets/system-information.php:55
+msgid "System users"
+msgstr "Χρήστες του συστήματος"
+
+#: includes/widgets/system-information.php:76
+msgid "System"
+msgstr "Σύστημα"
+
+#: includes/widgets/system-information.php:78
+msgid "Server"
+msgstr "Διακομιστής"
+
+#: includes/widgets/system-information.php:81
+msgid "PHP version"
+msgstr "Έκδοση PHP"
+
+#: includes/widgets/system-information.php:84
+msgid "Memory limit"
+msgstr "Όριο μνήμης"
+
+#: includes/widgets/system-information.php:87
+msgid "Max execution time"
+msgstr "Μέγιστος χρόνος εκτέλεσης"
+
+#: includes/widgets/system-information.php:90
+msgid "Post max size"
+msgstr "Μέγιστο μέγεθος Post"
+
+#: includes/widgets/system-information.php:94
+msgid "Database"
+msgstr "Βάση δεδομένων"
+
+#: includes/widgets/system-information.php:96
+msgid "Driver"
+msgstr "Οδηγός"
+
+#: index.php:67
+msgid "Forgot your password?"
+msgstr "Ξεχάσατε τον κωδικό σας;"
+
+#: index.php:67
+msgid "Set up a new one."
+msgstr "Ορίστε ένα νέο κωδικό πρόσβασης."
+
+#: index.php:71 public.php:291
+msgid "Don't have an account yet?"
+msgstr "Δεν έχετε ακόμα λογαριασμό;"
+
+#: index.php:71 public.php:291
+msgid "Register as a new client."
+msgstr "Εγγραφείτε ως νέος πελάτης."
+
+#: index.php:75
+msgid "This server does not allow self registrations."
+msgstr "Αυτός ο διακομιστής δεν επιτρέπει εγγραφές."
+
+#: index.php:76
+msgid "If you need an account, please contact a server administrator."
+msgstr "Εάν χρειάζεστε έναν λογαριασμό, επικοινωνήστε με έναν διαχειριστή του διακομιστή."
+
+#: install/index.php:18
+#, php-format
+msgid "%s minimum version not met. Please upgrade to at least version %s"
+msgstr ""
+
+#: install/index.php:76 install/index.php:332 install/make-config.php:42
+msgid "Install"
+msgstr "Εγκατάσταση"
+
+#: install/index.php:93
+msgid "Congratulations! Everything is up and running."
+msgstr "Συγχαρητήρια! Όλα είναι πάνω και λειτουργούν."
+
+#: install/index.php:94
+msgid ""
+"You may proceed to log in with your newely created username and password."
+msgstr ""
+
+#: install/index.php:107
+msgid "Already installed"
+msgstr "Ήδη εγκατεστημένο"
+
+#: install/index.php:108
+msgid "It seems that ProjectSend is already installed here."
+msgstr "Φαίνεται ότι το ProjectSend είναι ήδη εγκατεστημένο εδώ."
+
+#: install/index.php:109
+msgid ""
+"If you want to reinstall, please delete the system tables from the database "
+"and come back to the installation form."
+msgstr "Εάν θέλετε να το επανεγκαταστήσετε, διαγράψτε τους πίνακες συστήματος από τη βάση δεδομένων και επιστρέψτε στη φόρμα εγκατάστασης."
+
+#: install/index.php:216
+msgid "Database installation was successful, but errors were encountered."
+msgstr ""
+
+#: install/index.php:232
+msgid "The following directories could not be created:"
+msgstr ""
+
+#: install/index.php:239
+msgid "The following directories could not be chmodded to 755:"
+msgstr ""
+
+#: install/index.php:261
+msgid "There was an error writing to the database."
+msgstr ""
+
+#: install/index.php:272
+msgid "Basic system options"
+msgstr "Βασικές επιλογές συστήματος"
+
+#: install/index.php:273
+msgid ""
+"You need to provide this data for a correct system installation. The site "
+"name will be visible in the system panel, and the client's lists."
+msgstr "Πρέπει να δώσετε αυτά τα δεδομένα για σωστή εγκατάσταση του συστήματος. Το όνομα του ιστότοπου θα είναι ορατό στον πίνακα συστήματος και στις λίστες του πελάτη."
+
+#: install/index.php:274
+msgid "Remember to edit the file"
+msgstr "Θυμηθείτε να επεξεργαστείτε το αρχείο"
+
+#: install/index.php:274
+msgid ""
+"with your database settings before installing. If the file doesn't exist, "
+"you can create it by renaming the dummy file sys.config.sample.php."
+msgstr "με τις ρυθμίσεις της βάσης δεδομένων πριν από την εγκατάσταση. Εάν το αρχείο δεν υπάρχει, μπορείτε να το δημιουργήσετε με μετονομασία του αρχείου sys.config.sample.php."
+
+#: install/index.php:285
+msgid "ProjectSend URI (address)"
+msgstr "ProjectSend URI (διεύθυνση)"
+
+#: install/index.php:293
+msgid "Default system administrator options"
+msgstr "Προεπιλεγμένες επιλογές διαχειριστή συστήματος"
+
+#: install/index.php:294
+msgid ""
+"This info will be used to create a default system user, which can't be "
+"deleted afterwards. Password should be between"
+msgstr "Αυτές οι πληροφορίες θα χρησιμοποιηθούν για τη δημιουργία ενός προεπιλεγμένου χρήστη του συστήματος, ο οποίος δεν μπορεί να διαγραφεί στη συνέχεια. Ο κωδικός πρόσβασης πρέπει να είναι μεταξύ"
+
+#: install/index.php:294
+msgid "and"
+msgstr "και"
+
+#: install/index.php:294
+msgid "characters long."
+msgstr "χαρακτήρες μακρυά."
+
+#: install/index.php:337
+msgid ""
+"After installing the system, you can go to the options page to set your "
+"timezone, preferred date display format and thumbnails parameters, besides "
+"being able to change the site options provided here."
+msgstr "Αφού εγκαταστήσετε το σύστημα, μπορείτε να μεταβείτε στη σελίδα επιλογών για να ορίσετε τη ζώνη ώρας, την προτιμώμενη μορφή εμφάνισης ημερομηνίας και τις παραμέτρους των μικρογραφιών, εκτός από τη δυνατότητα αλλαγής των επιλογών τοποθεσίας που παρέχονται εδώ."
+
+#: install/make-config.php:20
+msgid "The configuration file already exists."
+msgstr "Το αρχείο configuration υπάρχει ήδη."
+
+#: install/make-config.php:193
+msgid "Successfully wrote the config file."
+msgstr "Έγραψε με επιτυχία το αρχείο config."
+
+#: install/make-config.php:197
+msgid "Continue to installation"
+msgstr "Συνεχίστε την εγκατάσταση"
+
+#: install/make-config.php:206
+msgid "Database configuration"
+msgstr "Διαμόρφωση βάσης δεδομένων"
+
+#: install/make-config.php:207
+msgid "You need to provide this data for a correct database communication."
+msgstr "Πρέπει να δώσετε αυτά τα δεδομένα για μια σωστή επικοινωνία βάσης δεδομένων."
+
+#: install/make-config.php:210
+msgid "Select driver"
+msgstr "Επιλέξτε οδηγό"
+
+#: install/make-config.php:215 install/make-config.php:221
+msgid "(not supported)"
+msgstr "(δεν υποστηρίζεται)"
+
+#: install/make-config.php:241
+msgid "Database name"
+msgstr "Όνομα βάσης δεδομένων"
+
+#: install/make-config.php:271
+msgid "Table prefix"
+msgstr "Πρόθεμα πίνακα"
+
+#: install/make-config.php:287
+msgid "The database is already populated"
+msgstr "Η βάση δεδομένων έχει ήδη συμπληρωθεί"
+
+#: install/make-config.php:301
+msgid "Reuse existing tables"
+msgstr "Επαναχρησιμοποίηση υφιστάμενων πινάκων"
+
+#: install/make-config.php:314
+msgid "Language selection"
+msgstr "Επιλογή γλώσσας"
+
+#: install/make-config.php:332
+msgid "Default maximum upload file size"
+msgstr "Προεπιλεγμένο μέγιστο μέγεθος αρχείου για ανέβασμα"
+
+#: install/make-config.php:335
+msgid "Value expressed in MB, where 1GB = 1024"
+msgstr "Τιμή εκφράζεται σε MB, όπου 1GB = 1024"
+
+#: install/make-config.php:341
+msgid "Folders"
+msgstr "Φάκελοι"
+
+#: install/make-config.php:372
+msgid "Writable"
+msgstr "Διαθέσιμο προς επεξεργασία"
+
+#: install/make-config.php:374
+msgid "Not writable"
+msgstr "Μη διαθέσιμο προς επεξεργασία"
+
+#: install/make-config.php:438 install/make-config.php:441
+msgid "Check again"
+msgstr "Ελέγξετε ξανά"
+
+#: install/make-config.php:439
+msgid "Write config file"
+msgstr "Γράψτε το αρχείο config"
+
+#: install/make-config.php:441
+msgid "Check"
+msgstr "Έλεγχος"
+
+#: manage-files.php:35
+msgid "for client"
+msgstr "για πελάτη"
+
+#: manage-files.php:50
+msgid "for group"
+msgstr "για ομάδα"
+
+#: manage-files.php:65
+msgid "on category"
+msgstr "στην κατηγορία"
+
+#: manage-files.php:95 manage-files.php:113
+msgid "The selected files were marked as hidden."
+msgstr "Τα επιλεγμένα αρχεία επισημάνθηκαν ως κρυφά."
+
+#: manage-files.php:104 manage-files.php:122
+msgid "The selected files were marked as visible."
+msgstr "Τα επιλεγμένα αρχεία επισημάνθηκαν ως ορατά."
+
+#: manage-files.php:134
+msgid "The selected files were succesfully unassigned."
+msgstr ""
+
+#: manage-files.php:156
+msgid "The selected files were deleted."
+msgstr "Τα επιλεγμένα αρχεία διαγράφηκαν."
+
+#: manage-files.php:160
+msgid "Some files could not be deleted."
+msgstr "Δεν ήταν δυνατή η διαγραφή ορισμένων αρχείων."
+
+#: manage-files.php:172
+msgid "Please select at least one file."
+msgstr "Επιλέξτε τουλάχιστον ένα αρχείο."
+
+#: manage-files.php:387 manage-files.php:687
+msgid "Visible"
+msgstr "Ορατό"
+
+#: manage-files.php:388 manage-files.php:687
+msgid "Hidden"
+msgstr "Κρυφό"
+
+#: manage-files.php:414
+msgid "Selected files actions"
+msgstr "Ενέργειες επιλεγμένων αρχείων"
+
+#: manage-files.php:431
+msgid "Download zipped"
+msgstr "Λήψη συμπιεσμένου"
+
+#: manage-files.php:433
+msgid "Set to hidden from everyone already assigned"
+msgstr ""
+
+#: manage-files.php:434
+msgid "Set to visible to everyone already assigned"
+msgstr ""
+
+#: manage-files.php:440
+msgid "Set to hidden"
+msgstr ""
+
+#: manage-files.php:441
+msgid "Set to visible"
+msgstr ""
+
+#: manage-files.php:442
+msgid "Unassign"
+msgstr "Κατάργηση αντιστοίχισης"
+
+#: manage-files.php:478
+msgid "There are no files assigned to this category."
+msgstr "Δεν υπάρχουν αρχεία που έχουν αντιστοιχιστεί σε αυτήν την κατηγορία."
+
+#: manage-files.php:484
+msgid "There are no files assigned to this client."
+msgstr "Δεν υπάρχουν αρχεία που έχουν αντιστοιχιστεί σε αυτόν τον πελάτη."
+
+#: manage-files.php:487
+msgid "You have not uploaded any files for this account."
+msgstr "Δεν έχετε ανεβάσει αρχεία για αυτόν τον λογαριασμό."
+
+#: manage-files.php:492
+msgid "There are no files for this client."
+msgstr "Δεν υπάρχουν αρχεία για αυτόν τον πελάτη."
+
+#: manage-files.php:539
+msgid "Type"
+msgstr "Τύπος"
+
+#: manage-files.php:548
+msgid "Size"
+msgstr "Μέγεθος"
+
+#: manage-files.php:558
+msgid "Assigned"
+msgstr "Έγινε αντιστοίχιση"
+
+#: manage-files.php:565
+msgid "Public permissions"
+msgstr "Δημόσια δικαιώματα"
+
+#: manage-files.php:570
+msgid "Expiry"
+msgstr "Λήξη"
+
+#: manage-files.php:582
+msgid "Download count"
+msgstr "Αριθμός λήψεων"
+
+#: manage-files.php:653
+msgid "View information"
+msgstr "Προβολή πληροφοριών"
+
+#: manage-files.php:665
+msgid "Does not expire"
+msgstr "Δεν λήγει"
+
+#: manage-files.php:672
+msgid "Expired on"
+msgstr "Έληξε στις"
+
+#: manage-files.php:676
+msgid "Expires on"
+msgstr "Λήγει στις"
+
+#: manage-files.php:694
+msgid "times"
+msgstr "φορές"
+
+#: manage-files.php:720
+msgid "downloads"
+msgstr "λήψεις"
+
+#: options.php:266
+msgid "Some fields were not completed. Options could not be saved."
+msgstr "Ορισμένα πεδία δεν συμπληρώθηκαν. Δεν ήταν δυνατή η αποθήκευση των επιλογών."
+
+#: options.php:279
+msgid "The file could not be moved to the corresponding folder."
+msgstr "Δεν ήταν δυνατή η μετακίνηση του αρχείου στον αντίστοιχο φάκελο."
+
+#: options.php:280
+msgid ""
+"This is most likely a permissions issue. If that's the case, it can be "
+"corrected via FTP by setting the chmod value of the"
+msgstr "Αυτό είναι πιθανότατα ένα ζήτημα δικαιωμάτων. Αν συμβαίνει αυτό, μπορεί να διορθωθεί μέσω του FTP ρυθμίζοντας την τιμή chmod του"
+
+#: options.php:282
+msgid "directory to 755, or 777 as a last resource."
+msgstr "τον κατάλογο σε 755 ή 777 ως τελευταία πηγή."
+
+#: options.php:283
+msgid ""
+"If this doesn't solve the issue, try giving the same values to the "
+"directories above that one until it works."
+msgstr "Εάν αυτό δεν επιλύσει το πρόβλημα, προσπαθήστε να δώσετε τις ίδιες τιμές στους καταλόγους πάνω από αυτό, έως ότου λειτουργήσει."
+
+#: options.php:287
+msgid "The file you selected is not an allowed format."
+msgstr "Το αρχείο που επιλέξατε δεν είναι μια επιτρεπόμενη μορφή."
+
+#: options.php:291
+msgid "There was an error uploading the file. Please try again."
+msgstr "Παρουσιάστηκε σφάλμα κατά τη μεταφόρτωση του αρχείου. Προσπαθήστε ξανά."
+
+#: public.php:53 public.php:97
+msgid "Public groups and files"
+msgstr "Δημόσιες ομάδες και αρχεία"
+
+#: public.php:244 public.php:273
+msgid "There are no files available."
+msgstr "Δεν υπάρχουν διαθέσιμα αρχεία."
+
+#: register.php:12
+msgid "Register new account"
+msgstr "Εγγραφή νέου λογαριασμού"
+
+#: register.php:68
+msgid "Thank you for registering. Your account has been activated."
+msgstr ""
+
+#: register.php:95
+msgid "Account added correctly."
+msgstr "Ο λογαριασμός προστέθηκε σωστά."
+
+#: register.php:99
+msgid ""
+"Please remember that an administrator needs to approve your account before "
+"you can log in."
+msgstr "Λάβετε υπόψη ότι ένας διαχειριστής πρέπει να εγκρίνει τον λογαριασμό σας για να μπορέσετε να συνδεθείτε."
+
+#: register.php:103
+msgid "You may now log in with your new credentials."
+msgstr "Τώρα μπορείτε να συνδεθείτε με τα νέα σας διαπιστευτήρια."
+
+#: register.php:125
+msgid "Please contact a system administrator."
+msgstr "Επικοινωνήστε με έναν διαχειριστή συστήματος."
+
+#: register.php:134
+msgid ""
+"A folder for this account could not be created. Probably because of a server"
+" configuration."
+msgstr "Δεν ήταν δυνατή η δημιουργία φακέλου για αυτόν τον λογαριασμό. Πιθανώς λόγω της διαμόρφωσης του διακομιστή."
+
+#: register.php:139
+msgid ""
+"The account could not be created. A folder with this name already exists."
+msgstr "Δεν ήταν δυνατή η δημιουργία του λογαριασμού. Ένας φάκελος με αυτό το όνομα υπάρχει ήδη."
+
+#: register.php:149
+msgid ""
+"An e-mail notification with login information was sent to the specified "
+"address."
+msgstr "Μια ειδοποίηση ηλεκτρονικού ταχυδρομείου με πληροφορίες σύνδεσης στάλθηκε στην καθορισμένη διεύθυνση."
+
+#: reset-password.php:11
+msgid "Lost password"
+msgstr "Χαμένος κωδικός"
+
+#: reset-password.php:199
+msgid "The supplied email address does not correspond to any user."
+msgstr "Η παρεχόμενη διεύθυνση ηλεκτρονικού ταχυδρομείου δεν αντιστοιχεί σε χρήστη."
+
+#: reset-password.php:202
+msgid "The request is not valid."
+msgstr "Το αίτημα δεν είναι έγκυρο."
+
+#: reset-password.php:205
+msgid "This request has expired. Please make a new one."
+msgstr "Αυτό το αίτημα έχει λήξει. Δημιουργήστε ένα νέο."
+
+#: reset-password.php:208
+msgid "This request has already been completed. Please make a new one."
+msgstr "Αυτό το αίτημα έχει ήδη ολοκληρωθεί. Δημιουργήστε ένα νέο."
+
+#: reset-password.php:211
+msgid ""
+"There are 3 unused requests done in less than 24 hs. Please wait until one "
+"expires (1 day since made) to make a new one."
+msgstr "Υπάρχουν 3 αχρησιμοποίητα αιτήματα σε λιγότερο από 24 ώρες. Περιμένετε μέχρι να λήξει μία (1 ημέρα από την πραγματοποίηση) για να δημιουργήσετε μια νέα."
+
+#: reset-password.php:224
+msgid ""
+"An e-mail with further instructions has been sent. Please check your inbox "
+"to proceed."
+msgstr "Έχει σταλεί ένα μήνυμα ηλεκτρονικού ταχυδρομείου με περαιτέρω οδηγίες. Ελέγξτε τα εισερχόμενα σας για να συνεχίσετε."
+
+#: reset-password.php:228
+msgid "E-mail couldn't be sent."
+msgstr "Δεν ήταν δυνατή η αποστολή του ηλεκτρονικού ταχυδρομείου."
+
+#: reset-password.php:229 reset-password.php:246
+msgid "If the problem persists, please contact an administrator."
+msgstr "Εάν το πρόβλημα παραμένει, επικοινωνήστε με έναν διαχειριστή."
+
+#: reset-password.php:241
+msgid "Your new password has been set. You can now log in using it."
+msgstr "Ο νέος σας κωδικός πρόσβασης έχει οριστεί. Τώρα μπορείτε να συνδεθείτε χρησιμοποιώντας το."
+
+#: reset-password.php:245
+msgid "Your new password couldn't be set."
+msgstr "Δεν ήταν δυνατή η ρύθμιση του νέου σας κωδικού πρόσβασης."
+
+#: upload.php:42
+msgid ""
+"Click on Add files to select all the files that you want to upload, and then"
+" click continue. On the next step, you will be able to set a name and "
+"description for each uploaded file. Remember that the maximum allowed file "
+"size (in mb.) is "
+msgstr "Κάντε κλικ στην επιλογή Προσθήκη αρχείων για να επιλέξετε όλα τα αρχεία που θέλετε να μεταφορτώσετε και, στη συνέχεια, κάντε κλικ στο κουμπί Συνέχεια. Στο επόμενο βήμα, θα μπορείτε να ορίσετε ένα όνομα και μια περιγραφή για κάθε αρχείο που έχει αποσταλεί. Θυμηθείτε ότι το μέγιστο επιτρεπόμενο μέγεθος αρχείου (σε mb.) είναι "
+
+#: users-add.php:14
+msgid "Add system user"
+msgstr "Προσθέστε χρήστη του συστήματος"
+
+#: users-edit.php:133
+msgid "Edit system user"
+msgstr "Επεξεργαστείτε το χρήστη του συστήματος"
+
+#: users-edit.php:152
+msgid "User edited correctly."
+msgstr "Έγινε επεξεργασία του χρήστη με επιτυχία."
+
+#: users-edit.php:154
+msgid "User created successfuly."
+msgstr ""
+
+#: users-edit.php:195
+msgid "No user was selected."
+msgstr "Δεν επιλέχθηκε κανένας χρήστης."
+
+#: users-edit.php:200
+msgid "There is no user with that ID number."
+msgstr "Δεν υπάρχει χρήστης με αυτό το ID."
+
+#: users.php:14
+msgid "Users administration"
+msgstr "Διαχείριση χρηστών"
+
+#: users.php:44
+msgid "The selected users were marked as active."
+msgstr "Οι επιλεγμένοι χρήστες επισημάνθηκαν ως ενεργοί."
+
+#: users.php:64
+msgid "You cannot deactivate your own account."
+msgstr "Δεν μπορείτε να απενεργοποιήσετε το δικό σας λογαριασμό."
+
+#: users.php:70
+msgid "The selected users were marked as inactive."
+msgstr "Οι επιλεγμένοι χρήστες επισημάνθηκαν ως ανενεργοί."
+
+#: users.php:87
+msgid "You cannot delete your own account."
+msgstr "Δεν μπορείτε να διαγράψετε το δικό σας λογαριασμό."
+
+#: users.php:93
+msgid "The selected users were deleted."
+msgstr "Οι επιλεγμένοι χρήστες διαγράφηκαν."
+
+#: users.php:100
+msgid "Please select at least one user."
+msgstr "Επιλέξτε τουλάχιστον έναν χρήστη."
+
+#: users.php:173
+msgid "All roles"
+msgstr "Όλοι οι ρόλοι"
+
+#: users.php:214
+msgid "Selected users actions"
+msgstr "Ενέργειες επιλεγμένων χρηστών"
+
+#: users.php:238
+msgid "users"
+msgstr "χρήστες"

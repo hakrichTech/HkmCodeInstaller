@@ -1,0 +1,59 @@
+# 
+# Translators:
+# Aigars Jacmenkins <aezaurs@gmail.com>, 2021
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2021-01-19 17:34+0000\n"
+"Last-Translator: Aigars Jacmenkins <aezaurs@gmail.com>\n"
+"Language-Team: Latvian (Latvia) (http://www.transifex.com/subwaydesign/projectsend/language/lv_LV/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: lv_LV\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n != 0 ? 1 : 2);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:24
+msgid "Gallery"
+msgstr "Galerija"
+
+#: template.php:75
+msgid "Logout"
+msgstr "Izlogoties"
+
+#: template.php:76
+msgid "Manage files"
+msgstr "Pārvaldīt datnes"
+
+#: template.php:77
+msgid "Upload"
+msgstr "Augšuplādēt"
+
+#: template.php:86
+msgid "Filter by category"
+msgstr "Šķirot pēc kategorijas"
+
+#: template.php:89
+msgid "All files"
+msgstr "Visas datnes"
+
+#: template.php:122
+msgid "There are no files."
+msgstr "Šeit nav pieejamu datņu"
+
+#: template.php:135
+msgid "File expired"
+msgstr "Datnes termiņš iztecējis"
+
+#: template.php:150
+msgid "Download"
+msgstr "Lejuplādēt"
+
+#: template.php:157
+msgid "Select"
+msgstr "Izvēlēties"

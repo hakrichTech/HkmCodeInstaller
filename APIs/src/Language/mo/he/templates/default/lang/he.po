@@ -1,0 +1,103 @@
+# 
+# Translators:
+# טל יוסף <tal9409@gmail.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2020-11-07 15:50+0000\n"
+"Last-Translator: Ignacio Nelson <info@subwaydesign.com.ar>\n"
+"Language-Team: Hebrew (http://www.transifex.com/subwaydesign/projectsend/language/he/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: he\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n == 2 && n % 1 == 0) ? 1: (n % 10 == 0 && n % 1 == 0 && n > 10) ? 2 : 3;\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:20
+msgid "File downloads"
+msgstr "הורדות"
+
+#: template.php:45
+msgid "All categories"
+msgstr "כל הקטגוריות"
+
+#: template.php:52
+msgid "Filter"
+msgstr "מסנן"
+
+#: template.php:66
+msgid "Selected files actions"
+msgstr "פעולות לקבצים נבחרים"
+
+#: template.php:70
+msgid "Select action"
+msgstr ""
+
+#: template.php:71
+msgid "Download zipped"
+msgstr "הורדת Zip"
+
+#: template.php:81
+msgid "Proceed"
+msgstr "בצע"
+
+#: template.php:89
+msgid "Found"
+msgstr ""
+
+#: template.php:89
+msgid "files"
+msgstr "קבצים"
+
+#: template.php:99
+msgid "Your search keywords returned no results."
+msgstr "החיפוש שהקלדת לא החזיר תוצאות."
+
+#: template.php:104
+msgid "There are no files available."
+msgstr "אין קבצים זמינים."
+
+#: template.php:130
+msgid "Title"
+msgstr "כותרת"
+
+#: template.php:133
+msgid "Type"
+msgstr ""
+
+#: template.php:139
+msgid "Description"
+msgstr "תיאור"
+
+#: template.php:146
+msgid "Size"
+msgstr "גודל"
+
+#: template.php:153
+msgid "Date"
+msgstr "תאריך"
+
+#: template.php:156
+msgid "Expiration date"
+msgstr "תאריך תפוגה"
+
+#: template.php:160
+msgid "Image preview"
+msgstr "תצוגה מקדימה"
+
+#: template.php:164 template.php:234
+msgid "Download"
+msgstr "הורדה"
+
+#: template.php:210
+msgid "Never"
+msgstr "לעולם לא"
+
+#: template.php:230
+msgid "File expired"
+msgstr "קובץ פג-תוקף"

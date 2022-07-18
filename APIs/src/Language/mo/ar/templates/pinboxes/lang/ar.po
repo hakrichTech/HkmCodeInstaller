@@ -1,0 +1,79 @@
+# 
+# Translators:
+# Anthony Abi Zeid, 2022
+# ‫محمد الجيلاني (عاشق الورد)‬‎ <darhost56@gmail.com>, 2018
+# mohammed abozid <mhmd.abo.zid.2090@gmail.com>, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2022-01-21 10:21+0000\n"
+"Last-Translator: Anthony Abi Zeid\n"
+"Language-Team: Arabic (http://www.transifex.com/subwaydesign/projectsend/language/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: font-awesome-4.6.3\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+
+#: template.php:20
+msgid "Available files"
+msgstr "ملفات متاحة"
+
+#: template.php:58
+msgid "Welcome"
+msgstr "اهلا"
+
+#: template.php:63
+msgid "Search..."
+msgstr "بحث.."
+
+#: template.php:73
+msgid "Categories"
+msgstr "اقسام"
+
+#: template.php:75
+msgid "All files"
+msgstr "كل الملفات"
+
+#: template.php:95
+msgid "Download zipped"
+msgstr "Download zipped"
+
+#: template.php:100
+msgid "Upload"
+msgstr "Upload"
+
+#: template.php:105
+msgid "Manage"
+msgstr "Manage"
+
+#: template.php:110
+msgid "Logout"
+msgstr "تسجيل خروج"
+
+#: template.php:125
+msgid "There are no files."
+msgstr "لا توجد ملفات."
+
+#: template.php:174
+msgid "File size:"
+msgstr "حجم الملف:"
+
+#: template.php:181
+msgid "Expiration date:"
+msgstr "انتهاء صلاحية الملف:"
+
+#: template.php:192
+msgid "Download"
+msgstr "تنزيل"
+
+#: template.php:202
+msgid "File expired"
+msgstr "ملف منتهي الصلاحية"

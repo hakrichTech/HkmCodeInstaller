@@ -1,0 +1,105 @@
+# 
+# Translators:
+# Alex Lo <alexlo0612@hotmail.com.tw>, 2018
+# coco coco, 2017-2018
+# 黃重誠 <ndouble19710331@gmail.com>, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2020-11-07 15:50+0000\n"
+"Last-Translator: Ignacio Nelson <info@subwaydesign.com.ar>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/subwaydesign/projectsend/language/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:20
+msgid "File downloads"
+msgstr "下載檔案"
+
+#: template.php:45
+msgid "All categories"
+msgstr "所有類別"
+
+#: template.php:52
+msgid "Filter"
+msgstr "過濾器"
+
+#: template.php:66
+msgid "Selected files actions"
+msgstr "選擇的檔案操作"
+
+#: template.php:70
+msgid "Select action"
+msgstr ""
+
+#: template.php:71
+msgid "Download zipped"
+msgstr "下載為壓縮檔"
+
+#: template.php:81
+msgid "Proceed"
+msgstr "已處理，繼續下一步"
+
+#: template.php:89
+msgid "Found"
+msgstr ""
+
+#: template.php:89
+msgid "files"
+msgstr "檔案"
+
+#: template.php:99
+msgid "Your search keywords returned no results."
+msgstr "您的搜尋的關鍵字沒有結果。"
+
+#: template.php:104
+msgid "There are no files available."
+msgstr "沒有可用的文件。"
+
+#: template.php:130
+msgid "Title"
+msgstr "標題"
+
+#: template.php:133
+msgid "Type"
+msgstr ""
+
+#: template.php:139
+msgid "Description"
+msgstr "描述"
+
+#: template.php:146
+msgid "Size"
+msgstr "大小"
+
+#: template.php:153
+msgid "Date"
+msgstr "日期"
+
+#: template.php:156
+msgid "Expiration date"
+msgstr "過期日"
+
+#: template.php:160
+msgid "Image preview"
+msgstr "圖片預覽"
+
+#: template.php:164 template.php:234
+msgid "Download"
+msgstr "下載"
+
+#: template.php:210
+msgid "Never"
+msgstr "永不"
+
+#: template.php:230
+msgid "File expired"
+msgstr "檔案已過期"

@@ -1,0 +1,3776 @@
+# 
+# Translators:
+# Alex Lo <alexlo0612@hotmail.com.tw>, 2018
+# coco coco, 2017-2018
+# 黃重誠 <ndouble19710331@gmail.com>, 2019
+# T C <tmche3@gmail.com>, 2018
+# 黃重誠 <ndouble19710331@gmail.com>, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-11-07 12:37-0300\n"
+"PO-Revision-Date: 2020-11-07 15:49+0000\n"
+"Last-Translator: Ignacio Nelson <info@subwaydesign.com.ar>\n"
+"Language-Team: Chinese (Taiwan) (http://www.transifex.com/subwaydesign/projectsend/language/zh_TW/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: zh_TW\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: includes/Google\n"
+"X-Poedit-SearchPathExcluded-2: templates/default\n"
+"X-Poedit-SearchPathExcluded-3: templates/gallery\n"
+"X-Poedit-SearchPathExcluded-4: templates/pinboxes\n"
+"X-Poedit-SearchPathExcluded-5: node_modules\n"
+"X-Poedit-SearchPathExcluded-6: upload\n"
+"X-Poedit-SearchPathExcluded-7: vendor\n"
+
+#: actions-log.php:14
+msgid "Recent activities log"
+msgstr "最近活動日誌"
+
+#: actions-log.php:39
+msgid "The selected activities were deleted."
+msgstr "選定的活動被刪除。"
+
+#: actions-log.php:43
+msgid "Please select at least one activity."
+msgstr "請至少選擇一項活動。"
+
+#: actions-log.php:55
+msgid ""
+"The log was cleared. Only data used for statistics remained. You can delete "
+"them manually if you want."
+msgstr "日誌被清除，只有統計數據仍然存在。 如果不需要，您可以手動刪除。"
+
+#: actions-log.php:128
+msgid "Filter activities"
+msgstr "過濾活動"
+
+#: actions-log.php:130 includes/widgets/actions-log.php:14
+msgid "All activities"
+msgstr "所有活動"
+
+#: actions-log.php:142 clients.php:153 manage-files.php:372
+#: manage-files.php:399 users.php:203
+msgid "Filter"
+msgstr "過濾"
+
+#: actions-log.php:153
+msgid "Activities actions"
+msgstr "活動作業"
+
+#: actions-log.php:157 categories.php:197 clients-membership-requests.php:181
+#: clients-requests.php:231 clients.php:168 groups.php:154
+#: manage-files.php:426 users.php:218
+msgid "Select action"
+msgstr "選擇動作"
+
+#: actions-log.php:158
+msgid "Download as csv"
+msgstr "下載為csv檔"
+
+#: actions-log.php:159
+msgid "Delete selected"
+msgstr "刪除所選"
+
+#: actions-log.php:160
+msgid "Clear entire log"
+msgstr "清除整個日誌"
+
+#: actions-log.php:170 categories.php:208 clients-membership-requests.php:193
+#: clients-requests.php:243 clients.php:181 groups.php:165
+#: manage-files.php:457 users.php:231
+msgid "Proceed"
+msgstr "執行"
+
+#: actions-log.php:177 categories.php:216 clients-membership-requests.php:200
+#: clients-requests.php:250 clients.php:188 groups.php:172
+#: manage-files.php:465 users.php:238
+msgid "Found"
+msgstr "發現"
+
+#: actions-log.php:177
+msgid "activities"
+msgstr "活動"
+
+#: actions-log.php:187 clients-membership-requests.php:235
+#: clients-requests.php:285 clients.php:201 groups.php:185
+#: manage-files.php:481 users.php:250
+msgid "The filters you selected returned no results."
+msgstr "您選擇的過濾器沒有任何結果。"
+
+#: actions-log.php:192
+msgid "There are no activities recorded."
+msgstr "沒有記錄活動"
+
+#: actions-log.php:219 download-information.php:131
+msgid "Date"
+msgstr "日期"
+
+#: actions-log.php:224
+msgid "Author"
+msgstr "作者"
+
+#: actions-log.php:229
+msgid "Activity"
+msgstr "活動"
+
+#: categories.php:14
+msgid "Categories administration"
+msgstr "分類管理"
+
+#: categories.php:27
+msgid "The category was successfully created."
+msgstr "該類別已成功增加"
+
+#: categories.php:31
+msgid "The category was successfully edited."
+msgstr "該類別已成功編輯"
+
+#: categories.php:53
+msgid "Please select at least one category."
+msgstr "請選擇至少一個類別"
+
+#: categories.php:65
+msgid "The selected categories were deleted."
+msgstr "選擇類別已刪除"
+
+#: categories.php:105
+msgid "Create new category"
+msgstr "增加新類別"
+
+#: categories.php:115
+msgid "Edit category"
+msgstr "編輯類別"
+
+#: categories.php:160
+msgid "There was a problem saving to the database."
+msgstr "儲存資料庫時發生問題。"
+
+#: categories.php:165
+msgid "Please complete all the required fields."
+msgstr "請填寫所有必填欄位"
+
+#: categories.php:193
+msgid "Selected categories actions"
+msgstr "所選的類別動作"
+
+#: categories.php:198 clients.php:171 groups.php:155 manage-files.php:446
+#: users.php:221
+msgid "Delete"
+msgstr "刪除"
+
+#: categories.php:216
+msgid "categories"
+msgstr "類別"
+
+#: categories.php:226 clients-membership-requests.php:232
+#: clients-requests.php:282 clients.php:198 groups.php:182
+#: import-orphans.php:276 manage-files.php:475 users.php:247
+msgid "Your search keywords returned no results."
+msgstr "您的搜尋的關鍵字沒有結果"
+
+#: categories.php:231
+msgid "There are no categories yet."
+msgstr "目前還沒有類別"
+
+#: categories.php:255 includes/forms/categories.php:37
+#: includes/forms/clients.php:76 includes/forms/options/email.php:11
+#: includes/forms/users.php:37
+msgid "Name"
+msgstr "名稱"
+
+#: categories.php:258 clients.php:395 groups.php:241 groups.php:331
+#: header-menu.php:71 includes/forms/options/clients.php:70
+#: includes/widgets/system-information.php:49 install/make-config.php:329
+msgid "Files"
+msgstr "檔案"
+
+#: categories.php:261 files-edit.php:93 groups.php:234
+#: includes/forms/categories.php:59 includes/forms/file_editor.php:43
+#: includes/forms/groups.php:33
+msgid "Description"
+msgstr "描述"
+
+#: categories.php:265 clients.php:284 groups.php:256
+msgid "View"
+msgstr "視圖"
+
+#: categories.php:269 clients.php:288 files-edit.php:102 groups.php:260
+#: import-orphans.php:216 manage-files.php:594 users.php:315
+msgid "Actions"
+msgstr "作業"
+
+#: categories.php:340 header-menu.php:83 header-menu.php:328
+#: manage-files.php:13
+msgid "Manage files"
+msgstr "管理檔案"
+
+#: categories.php:343 clients.php:401 groups.php:335 manage-files.php:427
+#: manage-files.php:783 users.php:377
+msgid "Edit"
+msgstr "編輯"
+
+#: clients-add.php:14 includes/forms/clients.php:16
+msgid "Add client"
+msgstr "增加客戶端"
+
+#: clients-add.php:104 clients-edit.php:166 email-templates.php:160
+#: groups-add.php:61 groups-edit.php:92 options.php:262 register.php:129
+#: templates.php:56 users-add.php:89 users-edit.php:159
+msgid "There was an error. Please try again."
+msgstr "發生一個錯誤。 請再試一次"
+
+#: clients-edit.php:141
+msgid "Edit client"
+msgstr "編輯客戶端"
+
+#: clients-edit.php:143 users-edit.php:138
+msgid "My account"
+msgstr "帳號資訊"
+
+#: clients-edit.php:159
+msgid "Client edited correctly."
+msgstr "客戶端編輯完成"
+
+#: clients-edit.php:161
+msgid "Client created successfuly."
+msgstr ""
+
+#: clients-edit.php:178 users-edit.php:171
+msgid "A welcome message was not sent to the new account owner."
+msgstr ""
+
+#: clients-edit.php:182 users-edit.php:175
+msgid ""
+"A welcome message with login information was sent to the new account owner."
+msgstr ""
+
+#: clients-edit.php:186 register.php:153 users-edit.php:179
+msgid "E-mail notification couldn't be sent."
+msgstr "無法發送電子郵件通知"
+
+#: clients-edit.php:199 groups-edit.php:105 users-edit.php:193
+msgid "This page is not intended to be accessed directly."
+msgstr "本頁面不允許直接訪問"
+
+#: clients-edit.php:201
+msgid "No client was selected."
+msgstr "沒有選擇客戶端"
+
+#: clients-edit.php:206
+msgid "There is no client with that ID number."
+msgstr "沒有使用此ID帳號之客戶端"
+
+#: clients-edit.php:211 users-edit.php:205
+msgid "Your account type doesn't allow you to access this feature."
+msgstr "您的帳號類型不允許您訪問此功能"
+
+#: clients-membership-requests.php:15 clients-membership-requests.php:293
+#: clients-requests.php:345 header-menu.php:150
+msgid "Membership requests"
+msgstr "加入會員申請"
+
+#: clients-membership-requests.php:26 clients-requests.php:25
+msgid "The selected actions were applied."
+msgstr "選擇的操作已被套用。"
+
+#: clients-membership-requests.php:30
+msgid "The selected requests were deleted."
+msgstr "選擇的作業已被刪除"
+
+#: clients-membership-requests.php:96 clients-requests.php:153 clients.php:73
+msgid "Please select at least one client."
+msgstr "請選擇至少一個客戶端"
+
+#: clients-membership-requests.php:177
+msgid "Selected requests actions"
+msgstr "選擇的申請作業"
+
+#: clients-membership-requests.php:182 clients-requests.php:232
+msgid "Apply selection"
+msgstr "套用選擇"
+
+#: clients-membership-requests.php:183 clients-requests.php:233
+msgid "Delete requests"
+msgstr "刪除申請作業"
+
+#: clients-membership-requests.php:200 clients-requests.php:250
+msgid "requests"
+msgstr "申請作業"
+
+#: clients-membership-requests.php:207
+msgid "New requests"
+msgstr "新提出申請"
+
+#: clients-membership-requests.php:212
+msgid "Denied requests"
+msgstr "被拒絕的申請"
+
+#: clients-membership-requests.php:240 clients-requests.php:290
+msgid "There are no requests at the moment"
+msgstr "目前沒有任何要求"
+
+#: clients-membership-requests.php:278 clients-requests.php:326
+#: clients.php:238 includes/Classes/Emails.php:68
+#: includes/Classes/Emails.php:127 install/index.php:297 users.php:283
+msgid "Full name"
+msgstr "全名"
+
+#: clients-membership-requests.php:283 clients-requests.php:331
+#: clients.php:243 includes/forms/clients.php:83 includes/forms/users.php:44
+#: install/index.php:311 users.php:288
+msgid "Log in username"
+msgstr "使用者名稱"
+
+#: clients-membership-requests.php:289 clients-requests.php:337
+#: clients.php:249 includes/forms/clients.php:104
+#: includes/forms/login-ldap.php:6 includes/forms/login.php:15
+#: includes/forms/reset-password/enter-email.php:6 includes/forms/users.php:65
+#: users.php:294
+msgid "E-mail"
+msgstr "電子郵件"
+
+#: clients-membership-requests.php:345 clients-requests.php:418
+msgid "Accept all"
+msgstr "全都接受"
+
+#: clients-membership-requests.php:346 clients-requests.php:419
+msgid "Deny all"
+msgstr "全部拒絕"
+
+#: clients-requests.php:17 header-menu.php:122
+msgid "Account requests"
+msgstr "帳號申請管理"
+
+#: clients-requests.php:29 clients.php:67
+msgid "The selected clients were deleted."
+msgstr "選擇之客戶端已被刪除"
+
+#: clients-requests.php:227 clients.php:164
+msgid "Selected clients actions"
+msgstr "選擇之客戶端執行"
+
+#: clients-requests.php:257
+msgid "New account requests"
+msgstr "新帳號申請"
+
+#: clients-requests.php:262
+msgid "Denied accounts"
+msgstr "被拒絕的帳號"
+
+#: clients-requests.php:341
+msgid "Account"
+msgstr "帳號"
+
+#: clients-requests.php:358 manage-files.php:535
+msgid "Added on"
+msgstr "已加入於"
+
+#: clients.php:14
+msgid "Clients Administration"
+msgstr "客戶端管理"
+
+#: clients.php:41
+msgid "The selected clients were marked as active."
+msgstr "選取的客戶端標記為啟用"
+
+#: clients.php:56
+msgid "The selected clients were marked as inactive."
+msgstr "選取的客戶端標記為停用"
+
+#: clients.php:141 manage-files.php:386 users.php:191
+msgid "All statuses"
+msgstr "所有狀態"
+
+#: clients.php:142 clients.php:330 templates.php:113 users.php:192
+#: users.php:336
+msgid "Active"
+msgstr "活躍"
+
+#: clients.php:143 clients.php:330 users.php:193 users.php:336
+msgid "Inactive"
+msgstr "待用"
+
+#: clients.php:169 templates.php:120 users.php:219
+msgid "Activate"
+msgstr "啟用"
+
+#: clients.php:170 users.php:220
+msgid "Deactivate"
+msgstr "停用"
+
+#: clients.php:188
+msgid "clients"
+msgstr "客戶端"
+
+#: clients.php:206
+msgid "There are no clients at the moment"
+msgstr "目前沒有客戶端"
+
+#: clients.php:231 groups.php:222 users.php:277
+msgid "Created"
+msgstr ""
+
+#: clients.php:253
+msgid "Uploads"
+msgstr "上傳"
+
+#: clients.php:257
+msgid "Files: Direct"
+msgstr ""
+
+#: clients.php:261
+msgid "Files: Groups"
+msgstr "檔案:群組"
+
+#: clients.php:267 manage-files.php:575 users.php:306
+msgid "Status"
+msgstr "狀態"
+
+#: clients.php:270
+msgid "Groups on"
+msgstr "群組於"
+
+#: clients.php:274
+msgid "Notify"
+msgstr "通知"
+
+#: clients.php:280 users.php:311
+msgid "Max. upload size"
+msgstr "最大上傳大小"
+
+#: clients.php:388 download-information.php:197
+#: includes/forms/options/external_login.php:90 manage-files.php:643
+msgid "Yes"
+msgstr "是"
+
+#: clients.php:388 download-information.php:198
+#: includes/forms/options/external_login.php:91 manage-files.php:643
+msgid "No"
+msgstr "否"
+
+#: clients.php:391 users.php:373
+msgid "Default"
+msgstr "預設"
+
+#: clients.php:396 includes/forms/clients.php:23 includes/forms/clients.php:35
+#: includes/forms/file_editor.php:139
+#: includes/widgets/system-information.php:58
+msgid "Groups"
+msgstr "群組"
+
+#: clients.php:397
+msgid "As client"
+msgstr "作為客戶端"
+
+#: dashboard.php:10 header-menu.php:59
+msgid "Dashboard"
+msgstr "儀表板"
+
+#: download-information.php:12
+msgid "Download information"
+msgstr "下載資訊"
+
+#: download-information.php:59
+msgid "No file was selected."
+msgstr "沒有選擇檔案"
+
+#: download-information.php:64
+msgid "There is no information with that file ID number."
+msgstr "沒有任何該檔案ID帳號相關訊息"
+
+#: download-information.php:76 manage-files.php:589
+msgid "Total downloads"
+msgstr "合計下載"
+
+#: download-information.php:134
+msgid "Time"
+msgstr "時間"
+
+#: download-information.php:139 includes/text.strings.php:16
+msgid "Client"
+msgstr "客戶端"
+
+#: download-information.php:144
+msgid "Anonymous"
+msgstr "匿名"
+
+#: download-information.php:149
+msgid "Client's IP"
+msgstr "客戶端IP"
+
+#: download-information.php:155
+msgid "Client's hostname"
+msgstr "客戶端主機名稱"
+
+#: download-information.php:169
+msgid "Unique logged in clients/users"
+msgstr "唯一登入的客戶端/使用者"
+
+#: download-information.php:172
+msgid "Total public downloads"
+msgstr "合計公開下載總數"
+
+#: download.php:13 includes/forms/file_editor.php:32
+msgid "File information"
+msgstr "檔案資訊"
+
+#: download.php:98
+msgid "Download file"
+msgstr "下載檔案"
+
+#: download.php:110 public.php:295 register.php:171 reset-password.php:266
+msgid "Go back to the homepage."
+msgstr "返回首頁"
+
+#: email-preview.php:11 header-menu.php:237
+msgid "E-mail templates"
+msgstr "電子郵件版面"
+
+#: email-preview.php:11 manage-files.php:528 manage-files.php:629
+msgid "Preview"
+msgstr "預覽"
+
+#: email-templates.php:16 header-menu.php:242
+msgid "Header / footer"
+msgstr "頁首/頁尾"
+
+#: email-templates.php:22 header-menu.php:246
+msgid "New file by user"
+msgstr "分派檔案通知信件"
+
+#: email-templates.php:29 header-menu.php:250
+msgid "New file by client"
+msgstr "上傳檔案通知信"
+
+#: email-templates.php:36 header-menu.php:254
+msgid "New client (welcome)"
+msgstr "創建帳號通報(使用者)"
+
+#: email-templates.php:43 header-menu.php:258
+msgid "New client (self-registered)"
+msgstr "創建帳號通報(系統管理人)"
+
+#: email-templates.php:50 header-menu.php:262
+msgid "Approve client account"
+msgstr "帳號核准通報"
+
+#: email-templates.php:57 header-menu.php:266
+msgid "Deny client account"
+msgstr "帳號拒絕通報"
+
+#: email-templates.php:64 header-menu.php:274
+msgid "New user (welcome)"
+msgstr "系統帳號創建通報(使用者)"
+
+#: email-templates.php:71 header-menu.php:278
+msgid "Password reset"
+msgstr "重設密碼"
+
+#: email-templates.php:78 header-menu.php:270
+msgid "Client updated memberships"
+msgstr "會員資料異動通報"
+
+#: email-templates.php:156 options.php:258 templates.php:52
+msgid "Options updated succesfuly."
+msgstr "系統設定參數更新成功"
+
+#: email-templates.php:171
+msgid "(to be used as href on a link tag)"
+msgstr "(在連結標籤上所使用之超連結)"
+
+#: email-templates.php:179
+msgid ""
+"This email will be sent to a client whenever a new file has been assigned to"
+" his account."
+msgstr "只要將新檔案分配給該帳號，該電子郵件就會發送到該客戶端"
+
+#: email-templates.php:185 email-templates.php:201
+msgid "Shows the list of files"
+msgstr "顯示檔案列表"
+
+#: email-templates.php:186 email-templates.php:202 email-templates.php:219
+#: email-templates.php:236 email-templates.php:254 email-templates.php:285
+#: email-templates.php:319
+msgid "The login link"
+msgstr "登入網址"
+
+#: email-templates.php:195
+msgid ""
+"This email will be sent to the system administrator whenever a client "
+"uploads a new file."
+msgstr "只要用戶上傳新檔案，此電子郵件就會發送給系統管理員"
+
+#: email-templates.php:211
+msgid ""
+"This email will be sent to the new client after an administrator has created"
+" his new account. It would be best to include the log in details (username "
+"and password)."
+msgstr "管理員新增帳號後，此電子郵件將發送給新客戶端。須包括登入詳細信息(用戶名稱和密碼)"
+
+#: email-templates.php:217 email-templates.php:235 email-templates.php:283
+#: email-templates.php:318
+msgid "The new username for this account"
+msgstr "此帳號之新使用者名稱"
+
+#: email-templates.php:218 email-templates.php:284
+msgid "The new password for this account"
+msgstr "此帳號之新密碼"
+
+#: email-templates.php:228
+msgid ""
+"This email will be sent to the system administrator after a new client has "
+"created a new account for himself."
+msgstr "當客戶端建置新帳號後，此電子郵件將被傳送至系統管理人"
+
+#: email-templates.php:234 email-templates.php:317
+msgid "The full name the client registered with"
+msgstr "客戶端註冊之全名"
+
+#: email-templates.php:237 email-templates.php:320
+msgid "List of groups that the client requests membership to"
+msgstr "群組內客戶端成員列表"
+
+#: email-templates.php:246
+msgid ""
+"This email will be sent to a client that requested an account if it gets "
+"approved. Group membership requests are also mentioned on the email, "
+"separated by their approval status."
+msgstr "如果帳號獲得批准，此電子郵件將發送給申請帳號的客戶端。電子郵件中還會分別列出群組內成員身份以及其審核狀態"
+
+#: email-templates.php:252
+msgid "List of approved group memberships"
+msgstr "已批准之群組成員列表"
+
+#: email-templates.php:253
+msgid "List of denied group memberships"
+msgstr "已拒絕之群組成員列表"
+
+#: email-templates.php:263
+msgid ""
+"This email will be sent to a client that requested an account if it gets "
+"denied. All group membership requests for this account are denied "
+"automatically."
+msgstr "如果帳號被拒絕，此電子郵件將發送給申請帳號的客戶。所有與此帳號有關之群組申請都將自動被拒絕"
+
+#: email-templates.php:277
+msgid ""
+"This email will be sent to the new system user after an administrator has "
+"created his new account. It would be best to include the log in details "
+"(username and password)."
+msgstr "管理員新增帳號後，此電子郵件將發送給新系統用戶。包含登入詳細訊息(用戶名稱和密碼)"
+
+#: email-templates.php:294
+msgid ""
+"This email will be sent to a user or client when they try to reset their "
+"password."
+msgstr "當他們嘗試重置密碼時，會將此電子郵件發送給使用者或客戶端"
+
+#: email-templates.php:300
+msgid "The username for this account"
+msgstr "此帳號之使用者名稱"
+
+#: email-templates.php:301
+msgid "The text string unique to this request. Must be included somewhere."
+msgstr "此申請作業中唯一的文字，必須被包含在某個項目內"
+
+#: email-templates.php:302
+msgid "The link to continue the process"
+msgstr "該連結會繼續執行過程"
+
+#: email-templates.php:311
+msgid ""
+"This email will be sent to the system administrator when a client edits his "
+"account and changes the public groups membership requests."
+msgstr "當客戶編輯其帳號並更改公共群組成員資格申請時，此電子郵件將發送給系統管理員"
+
+#: email-templates.php:336
+msgid ""
+"Here you set up the header and footer of every email, or use the default "
+"ones available with the system. Use this to customize each part and include,"
+" for example, your own logo and markup."
+msgstr "在這裡，您可以設定每封電子郵件的頁首和頁尾，或使用系統提供的預設的頁首和頁尾。使用它來自定義每個地方，例如，包括您自己的Logo和標記"
+
+#: email-templates.php:337
+msgid ""
+"Do not forget to also include -and close accordingly- the basic structural "
+"HTML tags (DOCTYPE, HTML, HEADER, BODY)."
+msgstr "不要忘記加入 - 並整合 - 基本HTML標記語法(DOCTYPE，HTML，HEADER，BODY)"
+
+#: email-templates.php:344
+msgid "Use custom header / footer"
+msgstr "使用自定義頁首/頁尾"
+
+#: email-templates.php:351
+msgid "Header"
+msgstr "頁首"
+
+#: email-templates.php:353 email-templates.php:367 email-templates.php:413
+msgid "You can use HTML tags here."
+msgstr "您可以在此處使用HTML標記"
+
+#: email-templates.php:358 email-templates.php:372 email-templates.php:437
+msgid "Replace with default"
+msgstr "取代預設"
+
+#: email-templates.php:365
+msgid "Footer"
+msgstr "頁尾"
+
+#: email-templates.php:388
+msgid "Use custom subject"
+msgstr "使用自定主題"
+
+#: email-templates.php:395
+msgid "Add your custom subject"
+msgstr "增加自定義主題"
+
+#: email-templates.php:404
+msgid "Use custom template"
+msgstr "使用自定頁面樣板"
+
+#: email-templates.php:411
+msgid "Template text"
+msgstr "頁面樣板內文"
+
+#: email-templates.php:420
+msgid "The following tags can be used on this e-mails' body."
+msgstr "電子郵件內文中可以使用以下標記"
+
+#: email-templates.php:438
+msgid "Preview this template"
+msgstr "預覽頁面樣板"
+
+#: email-templates.php:440
+msgid ""
+"Before trying this function, please save your changes to see them reflected "
+"on the preview."
+msgstr "在測試此功能之前，請保存您的更改以查看預覽中反應改變"
+
+#: email-templates.php:449 options.php:315
+msgid "Save options"
+msgstr "系統設定參數儲存"
+
+#: email-test.php:12 header-menu.php:299
+msgid "Test email configuration"
+msgstr ""
+
+#: email-test.php:38
+msgid "Result"
+msgstr ""
+
+#: email-test.php:46
+msgid "Send to:"
+msgstr ""
+
+#: email-test.php:53
+msgid "Message"
+msgstr ""
+
+#: email-test.php:59
+msgid "Send test email"
+msgstr ""
+
+#: error.php:13
+msgid "Access denied"
+msgstr "拒絕訪問"
+
+#: error.php:14
+msgid ""
+"Your account type doesn't allow you to view this page. Please contact a "
+"system administrator if you need to access this function."
+msgstr "您的帳號類型不允許您查看此頁面。如果需要訪問此功能，請與系統管理員聯繫"
+
+#: error.php:18
+msgid "Token mismatch"
+msgstr ""
+
+#: error.php:19
+msgid "The security token could not be validated."
+msgstr ""
+
+#: error.php:23
+msgid "Error 404"
+msgstr ""
+
+#: error.php:24
+msgid "Resource not found."
+msgstr ""
+
+#: error.php:28
+msgid "Error 403"
+msgstr ""
+
+#: error.php:29
+msgid "Forbidden."
+msgstr ""
+
+#: error.php:33
+msgid "Database error"
+msgstr ""
+
+#: error.php:34
+msgid "Can not connect to database"
+msgstr ""
+
+#: files-edit.php:25
+msgid "Edit files"
+msgstr ""
+
+#: files-edit.php:87
+msgid "Files saved correctly"
+msgstr ""
+
+#: files-edit.php:92 includes/forms/file_editor.php:38 manage-files.php:545
+msgid "Title"
+msgstr "標題"
+
+#: files-edit.php:94
+msgid "File Name"
+msgstr "檔案名稱"
+
+#: files-edit.php:98 files-edit.php:131 groups.php:247 groups.php:291
+#: includes/forms/groups.php:74
+msgid "Public"
+msgstr "公開"
+
+#: files-edit.php:132 groups.php:296
+msgid "Private"
+msgstr "私人"
+
+#: files-edit.php:142
+msgid "Edit file"
+msgstr "編輯檔案"
+
+#: files-edit.php:150 header-menu.php:338
+msgid "View my files"
+msgstr "檢視我的檔案"
+
+#: files-edit.php:169
+msgid ""
+"You can skip assigning if you want. The files are retained and you may add "
+"them to clients or groups later."
+msgstr "現在可以先跳過檔案分派，日後可視需求再將檔案指派給客戶端或群組"
+
+#: footer.php:25
+msgid "Executed queries"
+msgstr "執行查詢"
+
+#: groups-add.php:14
+msgid "Add clients group"
+msgstr "增加客戶端群組"
+
+#: groups-edit.php:14
+msgid "Edit group"
+msgstr "編輯群組"
+
+#: groups-edit.php:84
+msgid "Group edited correctly."
+msgstr "群組編輯完成"
+
+#: groups-edit.php:86
+msgid "Group created successfuly."
+msgstr ""
+
+#: groups-edit.php:107
+msgid "No group was selected."
+msgstr "沒有群組被選擇"
+
+#: groups-edit.php:112
+msgid "There is no group with that ID number."
+msgstr "沒有具有該ID帳號的群組"
+
+#: groups.php:14
+msgid "Groups administration"
+msgstr "群組管理"
+
+#: groups.php:23
+msgid "Groups where"
+msgstr "群組條件"
+
+#: groups.php:23
+msgid "is member"
+msgstr "是群組成員"
+
+#: groups.php:70
+msgid "The selected groups were deleted."
+msgstr "選擇之群組已刪除"
+
+#: groups.php:77
+msgid "Please select at least one group."
+msgstr "請選擇至少一個群組"
+
+#: groups.php:150
+msgid "Selected groups actions"
+msgstr "選定群組作業"
+
+#: groups.php:172
+msgid "groups"
+msgstr "群組"
+
+#: groups.php:188
+msgid "The client does not exist."
+msgstr "客戶端不存在"
+
+#: groups.php:191
+msgid "There are no groups where this client is member."
+msgstr "此用戶不是群組的成員。"
+
+#: groups.php:196
+msgid "There are no groups created yet."
+msgstr "尚未創建群組"
+
+#: groups.php:229 includes/forms/groups.php:26
+msgid "Group name"
+msgstr "群組名稱"
+
+#: groups.php:238 includes/forms/groups.php:40
+msgid "Members"
+msgstr "成員"
+
+#: groups.php:252
+msgid "Created by"
+msgstr "由ProjectSend製作"
+
+#: groups.php:367
+msgid ""
+"There are public groups, but the public page is disabled so the public links"
+" will not show anything."
+msgstr ""
+
+#: groups.php:368 includes/forms/groups.php:79
+msgid "Go to privacy options"
+msgstr ""
+
+#: header-menu.php:76 header-menu.php:317
+msgid "Upload"
+msgstr "上傳"
+
+#: header-menu.php:87 import-orphans.php:18
+msgid "Find orphan files"
+msgstr "尋找尚未指派檔案"
+
+#: header-menu.php:94 includes/forms/file_editor.php:171
+#: includes/widgets/system-information.php:61
+msgid "Categories"
+msgstr "類別"
+
+#: header-menu.php:104 header-menu.php:207 includes/forms/file_editor.php:117
+#: includes/widgets/system-information.php:52 options.php:24
+msgid "Clients"
+msgstr "客戶端"
+
+#: header-menu.php:110 header-menu.php:139 header-menu.php:166
+msgid "Add new"
+msgstr "增加"
+
+#: header-menu.php:114
+msgid "Manage clients"
+msgstr "客戶端管理"
+
+#: header-menu.php:133
+msgid "Clients groups"
+msgstr "客戶端群組"
+
+#: header-menu.php:143
+msgid "Manage groups"
+msgstr "群組管理"
+
+#: header-menu.php:161
+msgid "System Users"
+msgstr "系統使用者"
+
+#: header-menu.php:170
+msgid "Manage system users"
+msgstr "管理系統使用者"
+
+#: header-menu.php:183 header-menu.php:188 templates.php:11
+msgid "Templates"
+msgstr "頁面樣板"
+
+#: header-menu.php:198
+msgid "Options"
+msgstr "系統設定"
+
+#: header-menu.php:203 options.php:15
+msgid "General options"
+msgstr "通用參數"
+
+#: header-menu.php:211 includes/forms/options/privacy.php:1 options.php:34
+msgid "Privacy"
+msgstr "隱私"
+
+#: header-menu.php:215 options.php:45
+msgid "E-mail notifications"
+msgstr "電子郵件通知"
+
+#: header-menu.php:219 options.php:56
+msgid "Security"
+msgstr "安全性"
+
+#: header-menu.php:223 options.php:67
+msgid "Branding"
+msgstr "橫幅影像"
+
+#: header-menu.php:227 options.php:72
+msgid "External Login"
+msgstr ""
+
+#: header-menu.php:290
+msgid "Tools"
+msgstr "系統工具"
+
+#: header-menu.php:295
+msgid "Actions log"
+msgstr "作業記錄"
+
+#: header-unlogged.php:20
+msgid "setup"
+msgstr "設定"
+
+#: header.php:27
+msgid "System Administration"
+msgstr "系統管理員"
+
+#: header.php:76
+msgid "Toogle menu"
+msgstr "切換選單"
+
+#: header.php:89 includes/forms/login-ldap.php:16 includes/forms/login.php:25
+#: includes/forms/options/general.php:62 install/make-config.php:317
+msgid "Language"
+msgstr "語言"
+
+#: header.php:111
+msgid "My Account"
+msgstr "帳號資訊"
+
+#: header.php:114
+msgid "Logout"
+msgstr "登出"
+
+#: header.php:137 includes/updates.messages.php:16
+msgid "System Notice:"
+msgstr "系統通知:"
+
+#: header.php:137
+msgid ""
+"You are using a development version. Some features may be unfinished or not "
+"working correctly."
+msgstr "您正在使用開發版本。某些功能可能未完成或無法正常工作"
+
+#: header.php:162
+msgid "Warning:"
+msgstr ""
+
+#: header.php:162
+msgid ""
+"The following directories do not exist or have write permissions errors."
+msgstr ""
+
+#: header.php:163
+msgid "File uploading or other important functions might not work."
+msgstr ""
+
+#: import-orphans.php:25
+msgid ""
+"This list only shows the files that are allowed according to your security "
+"settings. If the file type you need to add is not listed here, add the "
+"extension to the \"Allowed file extensions\" box on the options page."
+msgstr "此列表僅顯示根據您的安全設置允許的檔案。如果此處未列出您需要增加的檔案類型，請將副檔名增加到選項頁面上的“允許的檔案副檔名”框中。"
+
+#: import-orphans.php:161
+msgid "Showing"
+msgstr "顯示中"
+
+#: import-orphans.php:161 manage-files.php:465
+msgid "files"
+msgstr "檔案"
+
+#: import-orphans.php:176
+msgid "The following files can be imported"
+msgstr ""
+
+#: import-orphans.php:196
+msgid "File name"
+msgstr "檔案名稱"
+
+#: import-orphans.php:202
+msgid "File size"
+msgstr "檔案大小"
+
+#: import-orphans.php:209
+msgid "Last modified"
+msgstr "最後修改"
+
+#: import-orphans.php:247
+msgid "Import"
+msgstr ""
+
+#: import-orphans.php:260 includes/Classes/TableGenerate.php:265
+msgid "Results navigation"
+msgstr "成果導覽"
+
+#: import-orphans.php:266
+msgid "Import selected files"
+msgstr ""
+
+#: import-orphans.php:281
+msgid "There are no files available to add right now."
+msgstr "目前沒有檔案可以提供加入"
+
+#: import-orphans.php:282
+msgid ""
+"To use this feature you need to upload your files via FTP to the folder"
+msgstr "為使用此功能，您需先透過FTP將檔案上傳至目錄中"
+
+#: includes/Classes/ActionsLog.php:41
+msgid "Account logs in through the form"
+msgstr "帳號通過表單登錄"
+
+#: includes/Classes/ActionsLog.php:43
+msgid "Account (user or client) logs out"
+msgstr "帳號(使用者或客戶端)登出"
+
+#: includes/Classes/ActionsLog.php:44
+msgid "A user creates a new user account"
+msgstr "使用者創建了一個新的使用者帳號"
+
+#: includes/Classes/ActionsLog.php:45
+msgid "A user creates a new client account"
+msgstr "使用者創建了一個新的客戶端帳號"
+
+#: includes/Classes/ActionsLog.php:46
+msgid "A client registers an account for himself"
+msgstr "一個客戶端註冊了新帳號"
+
+#: includes/Classes/ActionsLog.php:47
+msgid "A client registers using a social profile"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:48
+msgid "Account logged in using a social profile"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:49
+msgid "A file is uploaded by an user"
+msgstr "一個使用者上傳了一個檔案"
+
+#: includes/Classes/ActionsLog.php:50
+msgid "A file is uploaded by a client"
+msgstr "一個客戶端上傳了一個檔案"
+
+#: includes/Classes/ActionsLog.php:51
+msgid "A file is downloaded by a user"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:52
+msgid "A file is downloaded by a client"
+msgstr "一個客戶端下載了一個檔案"
+
+#: includes/Classes/ActionsLog.php:53
+msgid "An anonymous user downloaded a public file"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:54
+msgid "A zip file was generated"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:55
+msgid "A file has been unassigned from a client"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:56
+msgid "A file has been unassigned from a group"
+msgstr "一個檔案被群組取消指派"
+
+#: includes/Classes/ActionsLog.php:57
+msgid "A file has been deleted"
+msgstr "一個檔案已被刪除"
+
+#: includes/Classes/ActionsLog.php:58
+msgid "A user was edited"
+msgstr "一個使用者已被編輯"
+
+#: includes/Classes/ActionsLog.php:59
+msgid "A client was edited"
+msgstr "一個客戶端已被編輯"
+
+#: includes/Classes/ActionsLog.php:60
+msgid "A group was edited"
+msgstr "一個群組已編輯"
+
+#: includes/Classes/ActionsLog.php:61
+msgid "A user was deleted"
+msgstr "一個使用者已被刪除"
+
+#: includes/Classes/ActionsLog.php:62
+msgid "A client was deleted"
+msgstr "一個客戶端已被刪除"
+
+#: includes/Classes/ActionsLog.php:63
+msgid "A group was deleted"
+msgstr "一個群組已被刪除"
+
+#: includes/Classes/ActionsLog.php:64
+msgid "A user account was marked as active"
+msgstr "使用者帳號被標記為啟用狀態"
+
+#: includes/Classes/ActionsLog.php:65
+msgid "A user account was marked as inactive"
+msgstr "使用者帳號被標記為停用狀態"
+
+#: includes/Classes/ActionsLog.php:66
+msgid "A client account was marked as active"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:67
+msgid "A client account was marked as inactive"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:68
+msgid "A file was marked as hidden"
+msgstr "一個檔案被標示隱藏"
+
+#: includes/Classes/ActionsLog.php:69
+msgid "A file was marked as visible"
+msgstr "一個檔案被標示顯示"
+
+#: includes/Classes/ActionsLog.php:70 includes/Classes/ActionsLog.php:71
+msgid "A file was marked as hidden for everyone"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:72
+msgid "A user creates a new group"
+msgstr "一個使用者創建了一個新的群組"
+
+#: includes/Classes/ActionsLog.php:73
+msgid "A file is assigned to a client"
+msgstr "一個檔案被指派到客戶端"
+
+#: includes/Classes/ActionsLog.php:74
+msgid "A file is assigned to a group"
+msgstr "一個檔案被指派到群組"
+
+#: includes/Classes/ActionsLog.php:75
+msgid "The logo on \"Branding\" was changed"
+msgstr "橫幅端上的Logo已更改"
+
+#: includes/Classes/ActionsLog.php:76
+msgid "A system user edited a file"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:77
+msgid "A client edited a file"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:78
+msgid "A user created a category"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:79
+msgid "A user edited a category"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:80
+msgid "A user deleted a category"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:81
+msgid "A client account request was processed"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:82
+msgid "A client's groups membership requests were processed"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:83
+msgid "A file preview request was made"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:84
+msgid "ProjecSend has been installed"
+msgstr "ProjectSend 已經安裝完成"
+
+#: includes/Classes/ActionsLog.php:85
+msgid "ProjectSend was updated"
+msgstr "ProjectSend已經完成升級"
+
+#: includes/Classes/ActionsLog.php:86
+msgid "A client account request was approved"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:87
+msgid "A client account request was denied"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:88
+msgid "System options were updated"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:89
+msgid "An email template was updated"
+msgstr ""
+
+#: includes/Classes/Auth.php:259
+msgid "Email and password cannot be empty."
+msgstr ""
+
+#: includes/Classes/Auth.php:278
+#, php-format
+msgid "LDAP connection error: %s"
+msgstr ""
+
+#: includes/Classes/Auth.php:316 includes/Classes/Auth.php:326
+msgid "The supplied email or password does not match an existing record."
+msgstr ""
+
+#: includes/Classes/Auth.php:335
+msgid "Error binding to LDAP server."
+msgstr ""
+
+#: includes/Classes/Auth.php:358
+msgid "Error during log in."
+msgstr ""
+
+#: includes/Classes/Auth.php:368
+msgid "The supplied credentials are not valid."
+msgstr "提供的憑證無效"
+
+#: includes/Classes/Auth.php:371
+msgid "The supplied username doesn't exist."
+msgstr "輸入之使用者名稱不存在"
+
+#: includes/Classes/Auth.php:374
+msgid "The supplied password is incorrect."
+msgstr "輸入之密碼不正確"
+
+#: includes/Classes/Auth.php:378
+msgid "This account is not active."
+msgstr "此帳號沒有啟用"
+
+#: includes/Classes/Auth.php:380
+msgid ""
+"If you just registered, please wait until a system administrator approves "
+"your account."
+msgstr "如果您剛剛註冊，請等待系統管理員批准您的帳號"
+
+#: includes/Classes/Auth.php:384 register.php:111
+msgid ""
+"Client self registration is not allowed. If you need an account, please "
+"contact a system administrator."
+msgstr "不允許客戶端自行註冊，如果您需要帳號，請與系統管理員聯繫"
+
+#: includes/Classes/Auth.php:387
+msgid ""
+"Sign-in with Google cannot be used to create new accounts at this time."
+msgstr "使用Google帳號登入者，目前無法用於創建新帳戶"
+
+#: includes/Classes/Auth.php:390
+msgid "You must approve the requested permissions to sign in with Google."
+msgstr "您必須批准所提出之申請的權限才能使用Google帳號登錄"
+
+#: includes/Classes/Auth.php:393
+msgid "Session timed out. Please log in again."
+msgstr "Session已過期。請重新登入"
+
+#: includes/Classes/Emails.php:36
+msgid "New files uploaded for you"
+msgstr "為您上傳的新檔案"
+
+#: includes/Classes/Emails.php:37
+msgid "The following files are now available for you to download."
+msgstr "您現在可以下載以下檔案"
+
+#: includes/Classes/Emails.php:38
+msgid ""
+"If you prefer not to be notified about new files, please go to My Account "
+"and deactivate the notifications checkbox."
+msgstr "如果您不希望收到有關新檔案的通知，請移至帳號資訊並停用通知複選框"
+
+#: includes/Classes/Emails.php:39
+msgid "You can access a list of all your files or upload your own"
+msgstr "您可以訪問所有檔案的列表或上傳自己的檔案"
+
+#: includes/Classes/Emails.php:40 includes/Classes/Emails.php:48
+msgid "by logging in here"
+msgstr "從這登入系統"
+
+#: includes/Classes/Emails.php:45
+msgid "New files uploaded by clients"
+msgstr "客戶端上傳的新檔案"
+
+#: includes/Classes/Emails.php:46
+msgid "New files has been uploaded by the following clients"
+msgstr "下列客戶端上傳的新檔案"
+
+#: includes/Classes/Emails.php:47
+msgid "You can manage these files"
+msgstr "您可以管理這些檔案"
+
+#: includes/Classes/Emails.php:53 includes/Classes/Emails.php:102
+msgid "Welcome to ProjectSend"
+msgstr "歡迎使用ProjectSend"
+
+#: includes/Classes/Emails.php:54
+msgid ""
+"A new account was created for you. From now on, you can access the files "
+"that have been uploaded under your account using the following credentials:"
+msgstr "您已創建了一個新帳號。從現在開始，您可以使用以下憑證訪問已在您帳號下上傳的檔案:"
+
+#: includes/Classes/Emails.php:55 includes/Classes/Emails.php:89
+msgid "You can log in following this link"
+msgstr "您可以使用此鏈接進行登入"
+
+#: includes/Classes/Emails.php:56 includes/Classes/Emails.php:90
+#: includes/Classes/Emails.php:97
+msgid "Please contact the administrator if you need further assistance."
+msgstr "如果您需要進一步的幫助，請聯繫管理員"
+
+#: includes/Classes/Emails.php:57 includes/Classes/Emails.php:106
+msgid "Your username"
+msgstr "您的使用者帳號"
+
+#: includes/Classes/Emails.php:58 includes/Classes/Emails.php:107
+msgid "Your password"
+msgstr "您的密碼"
+
+#: includes/Classes/Emails.php:66
+msgid "A new client has registered"
+msgstr ""
+
+#: includes/Classes/Emails.php:67
+msgid ""
+"A new account was created using the self registration form on your site. "
+"Registration information:"
+msgstr "一個新使用者於您的網站自行註冊創建了新帳號。註冊資訊:"
+
+#: includes/Classes/Emails.php:69 includes/Classes/Emails.php:118
+#: includes/Classes/Emails.php:128 includes/forms/login.php:15
+#: includes/forms/options/email.php:100 install/make-config.php:251
+msgid "Username"
+msgstr "使用者名稱"
+
+#: includes/Classes/Emails.php:70
+msgid "Additionally, the client requests access to the following group(s)"
+msgstr "此外，客戶端申請加入以下群組(多個)"
+
+#: includes/Classes/Emails.php:73 includes/Classes/Emails.php:130
+msgid "Please log in to process the request."
+msgstr "請先登入再作業"
+
+#: includes/Classes/Emails.php:74
+msgid ""
+"Remember, your new client will not be able to log in until an administrator "
+"has approved their account."
+msgstr "請住意，在管理員審核其帳號之前，您的帳號將無法登入"
+
+#: includes/Classes/Emails.php:77
+msgid "Auto-approvals of new accounts are currently enabled."
+msgstr "目前已啟用新帳號的自動審核"
+
+#: includes/Classes/Emails.php:78
+msgid "You can log in to manually deactivate it."
+msgstr "您可以登錄以手動停用它。"
+
+#: includes/Classes/Emails.php:84
+msgid "You account has been approved"
+msgstr "您的帳號已通過審核"
+
+#: includes/Classes/Emails.php:85
+msgid "Your account has been approved."
+msgstr "您的帳號已通過審核"
+
+#: includes/Classes/Emails.php:86
+msgid "Additionally, your group membership requests have been processed."
+msgstr "此外，已完成您的加入群組申請作業"
+
+#: includes/Classes/Emails.php:87
+msgid "Approved requests:"
+msgstr "批准的申請:"
+
+#: includes/Classes/Emails.php:88
+msgid "Denied requests:"
+msgstr "拒絕的要求:"
+
+#: includes/Classes/Emails.php:95
+msgid "You account has been denied"
+msgstr "您的帳號已被拒絕"
+
+#: includes/Classes/Emails.php:96
+msgid "Your account request has been denied."
+msgstr "您的帳號申請已被拒絕"
+
+#: includes/Classes/Emails.php:103
+msgid ""
+"A new account was created for you. From now on, you can access the system "
+"administrator using the following credentials:"
+msgstr "為您創建了一個新帳號。從現在開始，您可以使用以下憑證訪問系統管理員:"
+
+#: includes/Classes/Emails.php:104
+msgid "Access the system panel here"
+msgstr "訪問系統面板"
+
+#: includes/Classes/Emails.php:105
+msgid "Thank you for using ProjectSend."
+msgstr "感謝您使用ProjectSend"
+
+#: includes/Classes/Emails.php:113
+msgid "Password reset instructions"
+msgstr "密碼重置說明"
+
+#: includes/Classes/Emails.php:114
+msgid ""
+"A request has been received to reset the password for the following account:"
+msgstr "收到一條申請作業需要重置以下帳號的密碼:"
+
+#: includes/Classes/Emails.php:115
+msgid "To continue, please visit the following link"
+msgstr "繼續作業,請造訪下列連結"
+
+#: includes/Classes/Emails.php:116
+msgid "The request is valid only for 24 hours."
+msgstr "該申請作業僅在24小時內有效"
+
+#: includes/Classes/Emails.php:117
+msgid "If you did not make this request, simply ignore this email."
+msgstr "如果您未提出此項申請作業，請忽略此電子郵件"
+
+#: includes/Classes/Emails.php:125
+msgid "A client has changed memberships requests"
+msgstr ""
+
+#: includes/Classes/Emails.php:126
+msgid ""
+"A client on you site has just changed his groups membership requests and "
+"needs your approval."
+msgstr "您網站上的客戶端剛剛更改了他的群組成員，需要您的批准"
+
+#: includes/Classes/Emails.php:129
+msgid "The client requests access to the following group(s)"
+msgstr "客戶端申請加入以下群組(多個)"
+
+#: includes/Classes/Emails.php:283 includes/Classes/Emails.php:533
+msgid "No group requests made"
+msgstr ""
+
+#: includes/Classes/Emails.php:552
+msgid "Email configuration test"
+msgstr ""
+
+#: includes/Classes/Emails.php:604
+msgid "This is a test message"
+msgstr ""
+
+#: includes/Classes/Emails.php:733
+msgid ""
+"This email contains HTML formatting and cannot be displayed right now. "
+"Please use an HTML compatible reader."
+msgstr "此電子郵件包含HTML格式，目前無法顯示。請使用相容HTML的瀏覽器。"
+
+#: includes/Classes/TableGenerate.php:322
+msgid "Go to:"
+msgstr "移至:"
+
+#: includes/Classes/Validation.php:270 includes/text.strings.php:65
+msgid "The following errors were found"
+msgstr "發現以下錯誤"
+
+#: includes/forms/categories.php:14
+msgid "Create"
+msgstr "創建"
+
+#: includes/forms/categories.php:17 includes/forms/file_editor.php:209
+msgid "Save"
+msgstr "儲存"
+
+#: includes/forms/categories.php:44
+msgid "Parent"
+msgstr "上一層"
+
+#: includes/forms/categories.php:47 includes/forms/options/clients.php:53
+#: includes/forms/options/email.php:136 manage-files.php:656
+msgid "None"
+msgstr "無"
+
+#: includes/forms/categories.php:67
+msgid "Cancel"
+msgstr "取消"
+
+#: includes/forms/clients.php:9
+msgid "Will be visible on the client's file list"
+msgstr "將顯示在客戶端之檔案列表中"
+
+#: includes/forms/clients.php:28
+msgid "Save client"
+msgstr "儲存客戶端"
+
+#: includes/forms/clients.php:40
+msgid "Create account"
+msgstr ""
+
+#: includes/forms/clients.php:40
+msgid "Request account"
+msgstr ""
+
+#: includes/forms/clients.php:46
+msgid "Your full name"
+msgstr "您的全名"
+
+#: includes/forms/clients.php:50 includes/forms/clients.php:64
+msgid "Request access to groups"
+msgstr "申請加入群組"
+
+#: includes/forms/clients.php:55 includes/forms/users.php:25
+msgid "Update account"
+msgstr "更新帳號"
+
+#: includes/forms/clients.php:85 includes/forms/users.php:46
+msgid "Must be alphanumeric"
+msgstr "必須是英數字"
+
+#: includes/forms/clients.php:90 includes/forms/login-ldap.php:11
+#: includes/forms/login.php:20 includes/forms/options/email.php:107
+#: includes/forms/users.php:51 install/index.php:318
+#: install/make-config.php:261
+msgid "Password"
+msgstr "密碼"
+
+#: includes/forms/clients.php:98
+#: includes/forms/reset-password/enter-password.php:13
+#: includes/forms/users.php:59 install/index.php:326
+msgid "Generate"
+msgstr "自動產生密碼"
+
+#: includes/forms/clients.php:106 includes/forms/users.php:67
+msgid "Must be valid and unique"
+msgstr "必須有效且唯一"
+
+#: includes/forms/clients.php:111
+msgid "Address"
+msgstr "地址"
+
+#: includes/forms/clients.php:118
+msgid "Telephone"
+msgstr "電話"
+
+#: includes/forms/clients.php:128
+msgid "Internal contact name"
+msgstr "內部聯絡人姓名"
+
+#: includes/forms/clients.php:135 includes/forms/users.php:95
+msgid "Max. upload filesize"
+msgstr "最大上傳檔案大小"
+
+#: includes/forms/clients.php:141 includes/forms/users.php:101
+msgid "Set to 0 to use the default system limit"
+msgstr "設定為0以使用系統的預設限制值"
+
+#: includes/forms/clients.php:188 includes/forms/file_editor.php:118
+#: includes/forms/file_editor.php:140 includes/forms/file_editor.php:173
+#: includes/forms/groups.php:42
+msgid "Select one or more options. Type to search."
+msgstr "選擇一個或多個選項，輸入搜索。"
+
+#: includes/forms/clients.php:207 includes/forms/file_editor.php:130
+#: includes/forms/file_editor.php:152 includes/forms/file_editor.php:179
+#: includes/forms/groups.php:65
+msgid "Add all"
+msgstr "全部加入"
+
+#: includes/forms/clients.php:208 includes/forms/file_editor.php:131
+#: includes/forms/file_editor.php:153 includes/forms/file_editor.php:180
+#: includes/forms/groups.php:66
+msgid "Remove all"
+msgstr "全部移除"
+
+#: includes/forms/clients.php:226
+msgid "Active (client can log in)"
+msgstr "活動(客戶端可以登入)"
+
+#: includes/forms/clients.php:237
+msgid "Notify new uploads by e-mail"
+msgstr "以電子郵件通知新的檔案上傳"
+
+#: includes/forms/clients.php:248 includes/forms/users.php:120
+msgid "Send welcome email"
+msgstr "發送歡迎電子郵件"
+
+#: includes/forms/clients.php:256 includes/forms/users.php:128
+msgid "Require password change after first login"
+msgstr ""
+
+#: includes/forms/clients.php:269
+msgid "Verification"
+msgstr "驗證"
+
+#: includes/forms/clients.php:286 includes/forms/users.php:143
+msgid ""
+"This account information will be e-mailed to the address supplied above"
+msgstr "發送帳號資訊到上面提供之電子郵件地址"
+
+#: includes/forms/file_editor.php:39
+msgid "Enter here the required file title."
+msgstr "在此輸入所需檔案標題"
+
+#: includes/forms/file_editor.php:44
+msgid "Optionally, enter here a description for the file."
+msgstr "非必要選項,在此輸入檔案描述"
+
+#: includes/forms/file_editor.php:63
+msgid "Expiration date"
+msgstr "截止日期"
+
+#: includes/forms/file_editor.php:66
+msgid "Select a date"
+msgstr "請選擇日期"
+
+#: includes/forms/file_editor.php:77
+msgid "File expires"
+msgstr "檔案過期"
+
+#: includes/forms/file_editor.php:88
+msgid "Public downloading"
+msgstr "公開下載中"
+
+#: includes/forms/file_editor.php:92
+msgid "Allow public downloading of this file."
+msgstr "此檔案允許公開下載"
+
+#: includes/forms/file_editor.php:116
+msgid "Assignations"
+msgstr "任務"
+
+#: includes/forms/file_editor.php:133 includes/forms/file_editor.php:155
+#: includes/forms/file_editor.php:182
+msgid "Copy selections to other files"
+msgstr "複製選項至其他檔案"
+
+#: includes/forms/file_editor.php:163
+msgid "Hidden (will not send notifications or show into the files list)"
+msgstr ""
+
+#: includes/forms/file_editor.php:172
+msgid "Add to"
+msgstr "增加到"
+
+#: includes/forms/file_editor.php:197
+#, php-format
+msgid "File not found on disk: %s"
+msgstr ""
+
+#: includes/forms/file_editor.php:201
+#, php-format
+msgid "Record does not exist for file id: %d"
+msgstr ""
+
+#: includes/forms/groups.php:12
+msgid "Create group"
+msgstr "創建群組"
+
+#: includes/forms/groups.php:16
+msgid "Save group"
+msgstr "儲存群組"
+
+#: includes/forms/groups.php:75
+msgid ""
+"Allows clients to request access to this group in the registraron process "
+"and when editing their own profile."
+msgstr ""
+
+#: includes/forms/groups.php:78
+msgid ""
+"The group cannot be made publicly visible while the public page is disabled."
+msgstr ""
+
+#: includes/forms/login-ldap.php:27 includes/forms/login.php:36
+msgid "default"
+msgstr "預設"
+
+#: includes/forms/options/branding.php:1
+msgid "Current logo"
+msgstr "目前系統使用之橫幅Logo"
+
+#: includes/forms/options/branding.php:2
+msgid ""
+"Use this page to upload your company logo, or update the currently assigned "
+"one. This image will be shown to your clients when they access their file "
+"list."
+msgstr "使用此頁面上傳您公司Logo，或更新當前指定的Logo。當您的客戶端訪問其檔案列表時，將向您的客戶端顯示此圖像。"
+
+#: includes/forms/options/branding.php:23
+msgid "This preview uses a maximum width of 300px."
+msgstr "預覽最大寬度為300px"
+
+#: includes/forms/options/branding.php:27
+msgid "Delete current logo"
+msgstr ""
+
+#: includes/forms/options/branding.php:34
+msgid "Select image to upload"
+msgstr "選擇上傳影像"
+
+#: includes/forms/options/clients.php:1
+msgid "New registrations"
+msgstr "新註冊"
+
+#: includes/forms/options/clients.php:2
+msgid ""
+"Used only on self-registrations. These options will not apply to clients "
+"registered by system administrators."
+msgstr "僅用於自行註冊。這些選項不適用於系統管理員新增的用戶。"
+
+#: includes/forms/options/clients.php:7
+msgid "Clients can register themselves"
+msgstr "用戶可以自行註冊"
+
+#: includes/forms/options/clients.php:15
+msgid "Auto approve new accounts"
+msgstr "自動批准新帳號"
+
+#: includes/forms/options/clients.php:21
+msgid "Add clients to this group:"
+msgstr "指定加入群組:"
+
+#: includes/forms/options/clients.php:24
+msgid "None (does not enable this feature)"
+msgstr "無(不啟用此功能)"
+
+#: includes/forms/options/clients.php:43
+msgid ""
+"New clients will automatically be assigned to the group you have selected."
+msgstr "新客戶端將自動指派到您選擇的群組"
+
+#: includes/forms/options/clients.php:48
+msgid "Groups for which clients can request membership to:"
+msgstr "可以申請加入群組:"
+
+#: includes/forms/options/clients.php:54
+msgid "Public groups"
+msgstr "公開群組"
+
+#: includes/forms/options/clients.php:55
+msgid "All groups"
+msgstr "全部群組"
+
+#: includes/forms/options/clients.php:64
+msgid ""
+"When a client registers a new account, an option will be presented to "
+"request becoming a member of a particular group."
+msgstr "當客戶端註冊新帳號時，有一個選項可以申請加入成為特定群組的成員"
+
+#: includes/forms/options/clients.php:75
+msgid "Clients can upload files"
+msgstr "客戶端可上傳檔案"
+
+#: includes/forms/options/clients.php:83
+msgid "Clients can delete their own uploaded files"
+msgstr "客戶端可刪除自己上傳檔案"
+
+#: includes/forms/options/clients.php:91
+msgid "Clients can set expiration Date"
+msgstr "客戶端可已設定到期日期"
+
+#: includes/forms/options/clients.php:97
+msgid "When a file expires:"
+msgstr "當檔案過期:"
+
+#: includes/forms/options/clients.php:100
+msgid "Don't show it on the files list"
+msgstr "不顯示於檔案清單"
+
+#: includes/forms/options/clients.php:101
+msgid "Show it anyway, but prevent download."
+msgstr "強制顯示，但阻止下載"
+
+#: includes/forms/options/clients.php:103
+msgid ""
+"This only affects clients. On the admin side, you can still get the files."
+msgstr "這只會影響客戶端。在管理員方面，您仍然可以獲取檔案"
+
+#: includes/forms/options/email.php:1
+msgid "\"From\" information"
+msgstr "\"電子郵件寄件\"資訊"
+
+#: includes/forms/options/email.php:4 install/index.php:304
+msgid "E-mail address"
+msgstr "電子郵件地址"
+
+#: includes/forms/options/email.php:19
+msgid "Send copies"
+msgstr "傳送副本"
+
+#: includes/forms/options/email.php:24
+msgid "When a system user uploads files"
+msgstr "當系統用戶上傳檔案時"
+
+#: includes/forms/options/email.php:32
+msgid "When a client uploads files"
+msgstr "當客戶端上傳檔案時"
+
+#: includes/forms/options/email.php:38
+msgid ""
+"Define here who will receive copies of this emails. These are sent as BCC so"
+" neither recipient will see the other addresses."
+msgstr "在此定義之電子郵件副本，均採BCC發送的，因此任何收件人都不會看到其他地址"
+
+#: includes/forms/options/email.php:44
+msgid "Address supplied above (on \"From\")"
+msgstr "上述提供之電子郵件地址(使用在\"電子郵件寄件資訊\")"
+
+#: includes/forms/options/email.php:50
+msgid "Also to this addresses"
+msgstr "也寄送到這個地址"
+
+#: includes/forms/options/email.php:53
+msgid "Separate e-mail addresses with a comma."
+msgstr "用逗號分隔Email地址"
+
+#: includes/forms/options/email.php:59
+msgid "Expiration"
+msgstr "運作期限"
+
+#: includes/forms/options/email.php:62
+msgid "Maximum sending attemps"
+msgstr "最大發送嘗試次數"
+
+#: includes/forms/options/email.php:65
+msgid ""
+"Define how many times will the system attemp to send each notification."
+msgstr "定義系統嘗試發送每個通知的次數"
+
+#: includes/forms/options/email.php:70
+msgid "Days before expiring"
+msgstr "使用期限"
+
+#: includes/forms/options/email.php:73
+msgid "Notifications older than this will not be sent."
+msgstr "超過此時間的通知將不會被發送"
+
+#: includes/forms/options/email.php:73
+msgid "Set to 0 to disable."
+msgstr "設置為0以禁用"
+
+#: includes/forms/options/email.php:79
+msgid "E-mail sending options"
+msgstr "電子郵件傳送參數"
+
+#: includes/forms/options/email.php:80
+msgid ""
+"Here you can select which mail system will be used when sending the "
+"notifications. If you have a valid e-mail account, SMTP is the recommended "
+"option."
+msgstr "您可以在此處選擇發送通知時將使用的郵件系統。如果您有有效的電子郵件帳號，則建議使用SMTP"
+
+#: includes/forms/options/email.php:83
+msgid "Mailer"
+msgstr "發送電子郵件"
+
+#: includes/forms/options/email.php:96
+msgid "SMTP & Gmail shared options"
+msgstr "SMTP和Gmail共享參數"
+
+#: includes/forms/options/email.php:97
+msgid ""
+"You need to include your username (usually your e-mail address) and password"
+" if you have selected either SMTP or Gmail as your mailer."
+msgstr "如果您選擇SMTP或Gmail作為發送電子郵件，則需要包含您的用戶名(通常是您的電子郵件地址)和密碼"
+
+#: includes/forms/options/email.php:115
+msgid "SMTP options"
+msgstr "SMTP參數"
+
+#: includes/forms/options/email.php:116
+msgid "If you selected SMTP as your mailer, please complete these options."
+msgstr "如果您選擇SMTP作為郵件程序，請填寫這些參數"
+
+#: includes/forms/options/email.php:119 install/make-config.php:231
+msgid "Host"
+msgstr "主機"
+
+#: includes/forms/options/email.php:126
+msgid "Port"
+msgstr "Port"
+
+#: includes/forms/options/email.php:133
+msgid "Authentication"
+msgstr "認證"
+
+#: includes/forms/options/email.php:145
+msgid "SSL options"
+msgstr ""
+
+#: includes/forms/options/email.php:150
+msgid "Verify peer"
+msgstr ""
+
+#: includes/forms/options/email.php:158
+msgid "Verify peer name"
+msgstr ""
+
+#: includes/forms/options/email.php:166
+msgid "Allow self signed"
+msgstr ""
+
+#: includes/forms/options/email.php:175
+msgid "After saving your options, you can test your configuration here"
+msgstr ""
+
+#: includes/forms/options/external_login.php:4
+msgid "Social Networks"
+msgstr ""
+
+#: includes/forms/options/external_login.php:5
+#, php-format
+msgid ""
+"Note: %s requires all accounts to be available locally. When a user connects"
+" via a social network or any other external source, a local account will be "
+"created with a random password."
+msgstr ""
+
+#: includes/forms/options/external_login.php:87
+msgid "Enabled"
+msgstr "啟用"
+
+#: includes/forms/options/external_login.php:96
+msgid "App ID"
+msgstr ""
+
+#: includes/forms/options/external_login.php:102
+msgid "App Secret"
+msgstr ""
+
+#: includes/forms/options/external_login.php:110
+msgid "Callback URI"
+msgstr "回調 URI"
+
+#: includes/forms/options/external_login.php:121
+#: includes/forms/options/security.php:105
+msgid "How do I obtain this credentials?"
+msgstr "要如何取得憑證？"
+
+#: includes/forms/options/general.php:1
+msgid "General"
+msgstr "一般"
+
+#: includes/forms/options/general.php:2
+msgid ""
+"Basic information to be shown around the site. The time format and zones "
+"values affect how the clients see the dates on their files lists."
+msgstr "顯示本網站的基本資訊。時間格式和時區會影響客戶端在其檔案列表中查看日期的方式"
+
+#: includes/forms/options/general.php:5 install/index.php:278
+msgid "Site name"
+msgstr "網站名稱"
+
+#: includes/forms/options/general.php:12
+msgid "Timezone"
+msgstr "時區"
+
+#: includes/forms/options/general.php:25
+msgid "Time format"
+msgstr "時間格式"
+
+#: includes/forms/options/general.php:28
+msgid "For example, d/m/Y h:i:s will result in something like"
+msgstr "例如，d/m/Y h:i:s 將會以設定結果顯示類似"
+
+#: includes/forms/options/general.php:29
+msgid "For the full list of available values, visit"
+msgstr "為取得完整可用數據內容列表，請訪問"
+
+#: includes/forms/options/general.php:29
+msgid "this page"
+msgstr "這網頁"
+
+#: includes/forms/options/general.php:36
+msgid "Use custom footer text"
+msgstr "使用自定義頁尾"
+
+#: includes/forms/options/general.php:42
+msgid "Footer content"
+msgstr "頁尾內容"
+
+#: includes/forms/options/general.php:50
+msgid "Editor"
+msgstr "編輯"
+
+#: includes/forms/options/general.php:55
+msgid "Use the visual editor on files descriptions"
+msgstr "在檔案內容描述上使用所見及所得編輯器"
+
+#: includes/forms/options/general.php:67
+msgid "Detect user browser language"
+msgstr "偵測使用者瀏覽器語言"
+
+#: includes/forms/options/general.php:68
+msgid ""
+"If available, will override the default one from the system configuration "
+"file. Affects all users and clients."
+msgstr "如果可用，將覆蓋系統配置檔案中的預設值。影響所有使用者和客戶端。"
+
+#: includes/forms/options/general.php:75
+msgid "Downloads"
+msgstr "下載次數"
+
+#: includes/forms/options/general.php:79
+msgid "Use XSendFile to serve files"
+msgstr ""
+
+#: includes/forms/options/general.php:80
+msgid ""
+"xsendfile improves downloads by allowing the web server to send the file "
+"directly (without php and it's limitations in the middle). This provides "
+"several optimizations, such as resumable, more stable downloads. This in an "
+"advanced feature that requires you to install and enable a module on your "
+"server."
+msgstr ""
+
+#: includes/forms/options/general.php:87
+msgid "System location"
+msgstr "系統位置"
+
+#: includes/forms/options/general.php:88
+msgid ""
+"These options are to be changed only if you are moving the system to another"
+" place. Changes here can cause ProjectSend to stop working."
+msgstr "只有在將系統重新安裝到其他位置時才能更改這些選項。此處的更改可能導致ProjectSend無法正常作業"
+
+#: includes/forms/options/general.php:91
+msgid "System URI"
+msgstr "系統統一資源標誌符URI"
+
+#: includes/forms/options/privacy.php:6
+msgid "Prevent search engines from indexing this site"
+msgstr "阻止搜索引擎索引此站點"
+
+#: includes/forms/options/privacy.php:14
+msgid "Enable information page for private files"
+msgstr "啟用私人檔案的資訊頁面"
+
+#: includes/forms/options/privacy.php:15
+msgid ""
+"If enabled, the file information landing page will be available even for "
+"files that are not marked as private. Downloading them will stay restricted."
+msgstr "如果啟用，將可取用檔案資訊登載頁面，包含未被標記為私有之檔案。下載它們將會受到限制"
+
+#: includes/forms/options/privacy.php:22
+msgid "Public groups and files listings page"
+msgstr "公共群組和檔案列表頁面"
+
+#: includes/forms/options/privacy.php:27
+msgid "Enable page"
+msgstr "啟用頁面"
+
+#: includes/forms/options/privacy.php:29
+msgid "The url for the listings page is"
+msgstr "列表頁面之網址是"
+
+#: includes/forms/options/privacy.php:39
+msgid "Only for logged in clients"
+msgstr "只提供已登入之客戶端"
+
+#: includes/forms/options/privacy.php:47
+msgid ""
+"Inside groups show all files, including those that are not marked as public."
+msgstr "內部群組顯示所有檔案，包括未標記為公共檔案項目"
+
+#: includes/forms/options/privacy.php:55
+msgid "On public files, show the download link."
+msgstr "在公共檔案上，顯示下載鏈接"
+
+#: includes/forms/options/security.php:1
+msgid "Allowed file extensions"
+msgstr "允許的檔案副檔名"
+
+#: includes/forms/options/security.php:2
+msgid ""
+"Be careful when changing this options. They could affect not only the system"
+" but the whole server it is installed on."
+msgstr "更改此選項時要小心。它們不僅會影響系統，還會影響它所安裝的整個服務器"
+
+#: includes/forms/options/security.php:3
+msgid "Important"
+msgstr "重要"
+
+#: includes/forms/options/security.php:3
+msgid "Separate allowed file types with a comma."
+msgstr "使用逗點分隔允許的檔案類型"
+
+#: includes/forms/options/security.php:6
+msgid "Limit file types uploading to"
+msgstr "限制上傳檔案類型為"
+
+#: includes/forms/options/security.php:9
+msgid "No one"
+msgstr "一個都沒有"
+
+#: includes/forms/options/security.php:10
+msgid "Everyone"
+msgstr "全部使用者"
+
+#: includes/forms/options/security.php:11
+msgid "Clients only"
+msgstr "僅支援客戶端"
+
+#: includes/forms/options/security.php:22
+msgid ""
+"Warning: php extension is allowed. This is a serious security problem. If "
+"you are not sure that you need it, please remove it from the list."
+msgstr "警告：允許php擴展。這是一個嚴重的安全問題。如果您不確定是否需要，請將其從列表中刪除。"
+
+#: includes/forms/options/security.php:29
+msgid "SVG files"
+msgstr ""
+
+#: includes/forms/options/security.php:33
+msgid "Show thumbnails for SVG files"
+msgstr ""
+
+#: includes/forms/options/security.php:41
+msgid "Passwords"
+msgstr "密碼"
+
+#: includes/forms/options/security.php:42
+msgid "When setting up a password for an account, require at least:"
+msgstr "設定帳號之密碼至少需要："
+
+#: includes/forms/options/security.php:78
+msgid "reCAPTCHA"
+msgstr "驗證碼"
+
+#: includes/forms/options/security.php:79
+msgid "Helps prevent SPAM on your registration form."
+msgstr "有助於防止您的註冊表單被判斷為垃圾郵件"
+
+#: includes/forms/options/security.php:84
+msgid "Use reCAPTCHA"
+msgstr "使用驗證碼"
+
+#: includes/forms/options/security.php:90
+msgid "Site key"
+msgstr "網站金鑰"
+
+#: includes/forms/options/security.php:97
+msgid "Secret key"
+msgstr "金鑰"
+
+#: includes/forms/reset-password/enter-email.php:10
+msgid ""
+"Please enter your account's e-mail address. You will receive a link to "
+"continue the process."
+msgstr "請輸入您帳號之電子郵件地址，透過電子郵件您將會收到一個連結來繼續完成這個過程"
+
+#: includes/forms/reset-password/enter-email.php:13
+msgid "Get a new password"
+msgstr "取得新密碼"
+
+#: includes/forms/reset-password/enter-password.php:6
+msgid "New password"
+msgstr "新密碼"
+
+#: includes/forms/reset-password/enter-password.php:17
+msgid ""
+"Please enter your desired new password. After that, you will be able to log "
+"in normally."
+msgstr "請輸入新密碼，輸入完成後您將可正常登入系統"
+
+#: includes/forms/reset-password/enter-password.php:20
+msgid "Set new password"
+msgstr "設定新密碼"
+
+#: includes/forms/upload.php:17
+msgid ""
+"Your browser doesn't support HTML5, Flash or Silverlight. Please update your"
+" browser or install Adobe Flash or Silverlight to continue."
+msgstr "您的瀏覽器不支持HTML5，Flash或Silverlight。請先更新您的瀏覽器或安裝Adobe Flash或Silverlight再繼續。"
+
+#: includes/forms/upload.php:21 upload.php:16
+msgid "Upload files"
+msgstr "上傳檔案"
+
+#: includes/forms/upload.php:24
+msgid ""
+"Your files are being uploaded! Progress indicators may take a while to "
+"update, but work is still being done behind the scenes."
+msgstr "您的檔案正在上傳！進度指標可能需要一段時間才能更新，但工作仍在幕後進行。"
+
+#: includes/forms/users.php:11
+msgid "Add user"
+msgstr "增加使用者"
+
+#: includes/forms/users.php:18
+msgid "Save user"
+msgstr "儲存使用者"
+
+#: includes/forms/users.php:75 users.php:300
+msgid "Role"
+msgstr "規則"
+
+#: includes/forms/users.php:108
+msgid "Active (user can log in)"
+msgstr "啟用(使用者可登入)"
+
+#: includes/functions.actionslog.php:21 includes/functions.actionslog.php:22
+msgid "ProjectSend was installed"
+msgstr "ProjectSend 已安裝"
+
+#: includes/functions.actionslog.php:27 includes/functions.actionslog.php:207
+msgid "logged in to the system."
+msgstr "登入此系統"
+
+#: includes/functions.actionslog.php:28 includes/functions.actionslog.php:208
+#, php-format
+msgid "%s logged in to the system"
+msgstr ""
+
+#: includes/functions.actionslog.php:33
+msgid "created the user account"
+msgstr "已創建使用者帳號"
+
+#: includes/functions.actionslog.php:35
+#, php-format
+msgid "%s created the user account %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:40
+msgid "created the client account "
+msgstr "已創建客戶端帳號"
+
+#: includes/functions.actionslog.php:42
+#, php-format
+msgid "%s created the client account %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:47
+msgid "created a client account for themself."
+msgstr "客戶端已創建帳號"
+
+#: includes/functions.actionslog.php:48
+#, php-format
+msgid "%s registered as a new client"
+msgstr ""
+
+#: includes/functions.actionslog.php:53
+msgid "(user) uploaded the file"
+msgstr "(使用者)上傳了該檔案"
+
+#: includes/functions.actionslog.php:55
+#, php-format
+msgid "%s (user) uploaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:60
+msgid "(client) uploaded the file"
+msgstr "(客戶端)上傳了該檔案"
+
+#: includes/functions.actionslog.php:62
+#, php-format
+msgid "%s (client) uploaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:67
+msgid "(user) downloaded the file"
+msgstr "(使用者)下載了該檔案"
+
+#: includes/functions.actionslog.php:69
+#, php-format
+msgid "%s (user) downloaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:74
+msgid "(client) downloaded the file"
+msgstr "(客戶端)下載了該檔案"
+
+#: includes/functions.actionslog.php:76
+#, php-format
+msgid "%s (client) downloaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:81
+msgid "generated a zip file"
+msgstr "產製Zip檔案"
+
+#: includes/functions.actionslog.php:82
+#, php-format
+msgid "%s generated a zip file"
+msgstr ""
+
+#: includes/functions.actionslog.php:87 includes/functions.actionslog.php:96
+msgid "unassigned the file"
+msgstr "取消指派檔案"
+
+#: includes/functions.actionslog.php:89
+msgid "from the client:"
+msgstr "從客戶端:"
+
+#: includes/functions.actionslog.php:91
+#, php-format
+msgid "%s unassigned the file %s from the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:98
+msgid "from the group:"
+msgstr "從群組:"
+
+#: includes/functions.actionslog.php:100
+#, php-format
+msgid "%s unassigned the file %s from the group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:105
+msgid "deleted the file"
+msgstr "已刪除檔案"
+
+#: includes/functions.actionslog.php:107
+#, php-format
+msgid "%s deleted the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:112
+msgid "edited the user"
+msgstr "已編輯使用者"
+
+#: includes/functions.actionslog.php:114
+#, php-format
+msgid "%s edited the user %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:119
+msgid "edited the client"
+msgstr "已編輯客戶端"
+
+#: includes/functions.actionslog.php:121
+#, php-format
+msgid "%s edited the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:126
+msgid "edited the group"
+msgstr "已編輯群組"
+
+#: includes/functions.actionslog.php:128
+#, php-format
+msgid "%s edited the group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:133
+msgid "deleted the user"
+msgstr "已刪除使用者"
+
+#: includes/functions.actionslog.php:135
+#, php-format
+msgid "%s deleted the user %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:140
+msgid "deleted the client"
+msgstr "已刪除客戶端"
+
+#: includes/functions.actionslog.php:142
+#, php-format
+msgid "%s deleted the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:147
+msgid "deleted the group"
+msgstr "已刪除群組"
+
+#: includes/functions.actionslog.php:149
+#, php-format
+msgid "%s deleted the group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:154
+msgid "activated the client"
+msgstr "啟用客戶端"
+
+#: includes/functions.actionslog.php:156
+#, php-format
+msgid "%s activated the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:161
+msgid "deactivated the client"
+msgstr "停用客戶端"
+
+#: includes/functions.actionslog.php:163
+#, php-format
+msgid "%s deactivated the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:168
+msgid "marked as hidden the file"
+msgstr "標示為隱藏檔案"
+
+#: includes/functions.actionslog.php:170 includes/functions.actionslog.php:193
+msgid "to:"
+msgstr "指定到:"
+
+#: includes/functions.actionslog.php:172
+#, php-format
+msgid "%s marked as hidden the file %s to %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:177
+msgid "marked as hidden for everyone the file"
+msgstr ""
+
+#: includes/functions.actionslog.php:179
+#, php-format
+msgid "%s marked as hidden for everyone the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:184
+msgid "marked as visible for everyone the file"
+msgstr ""
+
+#: includes/functions.actionslog.php:186
+#, php-format
+msgid "%s marked as visible for everyone the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:191
+msgid "marked as visible the file"
+msgstr "標記檔案為顯示"
+
+#: includes/functions.actionslog.php:195
+#, php-format
+msgid "%s marked as visible the file %s to %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:200
+msgid "created the group"
+msgstr "創建群組"
+
+#: includes/functions.actionslog.php:202
+#, php-format
+msgid "%s created the group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:213 includes/functions.actionslog.php:222
+msgid "assigned the file"
+msgstr "已指派檔案"
+
+#: includes/functions.actionslog.php:215
+msgid "to the client:"
+msgstr "指定到客戶端:"
+
+#: includes/functions.actionslog.php:217
+#, php-format
+msgid "%s assigned the file %s to client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:224
+msgid "to the group:"
+msgstr "指定到群組:"
+
+#: includes/functions.actionslog.php:226
+#, php-format
+msgid "%s assigned the file %s to group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:231
+msgid "activated the user"
+msgstr "啟用使用者"
+
+#: includes/functions.actionslog.php:233
+#, php-format
+msgid "%s activated the user %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:238
+msgid "deactivated the user"
+msgstr "停用使用者"
+
+#: includes/functions.actionslog.php:240
+#, php-format
+msgid "%s deactivated the user %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:245
+msgid "uploaded a new logo on \"Branding\""
+msgstr "上傳了一個新Logo在“橫幅”區"
+
+#: includes/functions.actionslog.php:246
+#, php-format
+msgid "%s uploaded a new logo on \"Branding\""
+msgstr ""
+
+#: includes/functions.actionslog.php:251
+msgid "updated ProjectSend to version"
+msgstr "將ProjectSend升級到版本"
+
+#: includes/functions.actionslog.php:253
+#, php-format
+msgid "%s updated ProjectSend to version %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:258
+msgid "logged out of the system."
+msgstr "登出此系統"
+
+#: includes/functions.actionslog.php:259
+#, php-format
+msgid "%s logged out of the system"
+msgstr ""
+
+#: includes/functions.actionslog.php:264
+msgid "(user) edited the file"
+msgstr "(使用者)已編輯該檔案"
+
+#: includes/functions.actionslog.php:266
+#, php-format
+msgid "%s (user) edited the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:271
+msgid "(client) edited the file"
+msgstr "(客戶端)已編輯該檔案"
+
+#: includes/functions.actionslog.php:273
+#, php-format
+msgid "%s (client) edited the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:278
+msgid "created the category"
+msgstr "已創建該類別"
+
+#: includes/functions.actionslog.php:280
+#, php-format
+msgid "%s created the category %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:285
+msgid "edited the category"
+msgstr "已編輯該類別"
+
+#: includes/functions.actionslog.php:287
+#, php-format
+msgid "%s edited the category %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:292
+msgid "deleted the category"
+msgstr "已刪除該類別"
+
+#: includes/functions.actionslog.php:294
+#, php-format
+msgid "%s deleted the category %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:298
+msgid "An anonymous user"
+msgstr "匿名使用者"
+
+#: includes/functions.actionslog.php:299
+msgid "downloaded the file"
+msgstr "已下載檔案"
+
+#: includes/functions.actionslog.php:301
+#, php-format
+msgid "An anonymous user downloaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:306
+msgid "processed an account request for"
+msgstr "已處理帳號申請為了"
+
+#: includes/functions.actionslog.php:308
+#, php-format
+msgid "%s processed an account request for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:313
+msgid "processed group memberships requests for"
+msgstr "申請加入群組成員作業已完成，提出者"
+
+#: includes/functions.actionslog.php:315
+#, php-format
+msgid "%s processed group memberships requests for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:320
+msgid "requested a preview for the file"
+msgstr ""
+
+#: includes/functions.actionslog.php:322
+#, php-format
+msgid "%s requested a preview for the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:327
+msgid "created an account with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:328
+#, php-format
+msgid "%s created an account with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:333
+msgid "logged in with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:334
+#, php-format
+msgid "%s logged in with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:339
+msgid "approved an account request for"
+msgstr ""
+
+#: includes/functions.actionslog.php:341
+#, php-format
+msgid "%s approved an account request for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:346
+msgid "denied an account request for"
+msgstr ""
+
+#: includes/functions.actionslog.php:348
+#, php-format
+msgid "%s denied an account request for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:353
+msgid "updated system options"
+msgstr ""
+
+#: includes/functions.actionslog.php:356
+#, php-format
+msgid "%s updated system options: %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:361
+msgid "updated an email template"
+msgstr ""
+
+#: includes/functions.actionslog.php:364
+#, php-format
+msgid "%s updated email template: %s"
+msgstr ""
+
+#: includes/functions.forms.php:18
+msgid "Search"
+msgstr "搜尋"
+
+#: includes/functions.php:134
+msgid "An unexpected error has occurred"
+msgstr "發生意外的錯誤"
+
+#: includes/functions.php:135
+msgid "Could not generate a random password"
+msgstr "無法生成隨機密碼"
+
+#: includes/functions.php:658
+msgid "Provided by"
+msgstr "提供由"
+
+#: includes/functions.php:658
+msgid "version"
+msgstr "版本"
+
+#: includes/functions.php:658
+msgid "Free software"
+msgstr "開放軟體"
+
+#: includes/functions.php:693
+msgid "Important:"
+msgstr "重要說明:"
+
+#: includes/functions.php:693
+msgid ""
+"There are no clients or groups at the moment. You can still upload files and"
+" assign them later."
+msgstr "目前沒有客戶端或群組。但您仍然可以先上傳檔案以後再進行指派作業"
+
+#: includes/functions.php:1313
+msgid "The password must contain, at least:"
+msgstr "密碼必須包含幾個項目,至少:"
+
+#: includes/functions.session.permissions.php:79
+msgid "Password change is required for your account"
+msgstr ""
+
+#: includes/text.strings.php:13
+msgid "System Administrator"
+msgstr "系統管理員"
+
+#: includes/text.strings.php:14
+msgid "Account Manager"
+msgstr "帳號管理員"
+
+#: includes/text.strings.php:15 manage-files.php:354 manage-files.php:553
+msgid "Uploader"
+msgstr "上傳"
+
+#: includes/text.strings.php:31 index.php:20 install/index.php:98
+#: install/index.php:249
+msgid "Log in"
+msgstr "登入"
+
+#: includes/text.strings.php:32
+msgid "Logging in"
+msgstr "登入中"
+
+#: includes/text.strings.php:33
+msgid "Redirecting"
+msgstr "重新指向"
+
+#: includes/text.strings.php:36
+msgid ""
+"Send this URL to someone to view the allowed group contents according to "
+"your privacy settings."
+msgstr "根據您的隱私設置將此網址發送允許瀏覽內容之群組"
+
+#: includes/text.strings.php:37
+msgid ""
+"Send this URL to someone to download the file without registering or logging"
+" in."
+msgstr "將此網址發送給某人以下載該檔案，不需先行註冊或登錄"
+
+#: includes/text.strings.php:38
+msgid "Click to select and copy"
+msgstr "點擊選擇並複製"
+
+#: includes/text.strings.php:39
+msgid "Succesfully copied to clipboard"
+msgstr "成功複製到剪貼簿"
+
+#: includes/text.strings.php:40
+msgid "Content could not be copied to clipboard"
+msgstr "內容無法複製到剪貼簿"
+
+#: includes/text.strings.php:41
+msgid "Public URL"
+msgstr "檔案公開之網址"
+
+#: includes/text.strings.php:42
+msgid "Please select at least one item to proceed."
+msgstr "請選擇至少一個項目進行操作"
+
+#: includes/text.strings.php:43
+#, php-format
+msgid "You are about to delete %d items. Are you sure you want to continue?"
+msgstr ""
+
+#: includes/text.strings.php:44
+msgid ""
+"You are about to delete all activities from the log. Only those used for "
+"statistics will remain. Are you sure you want to continue?"
+msgstr "即將從日誌中刪除所有活動。只剩下用於統計的那些資訊。您確定要繼續執行嗎?"
+
+#: includes/text.strings.php:45
+msgid "Please wait while your download is prepared."
+msgstr "請等待下載準備即將就緒"
+
+#: includes/text.strings.php:46
+msgid ""
+"This operation could take a few minutes, depending on the size of the files."
+msgstr "此操作可能需要幾分鐘，實際時間與檔案容量大小有關"
+
+#: includes/text.strings.php:47
+#, php-format
+msgid ""
+"You are about to unassign %d files from this account. Are you sure you want "
+"to continue?"
+msgstr ""
+
+#: includes/text.strings.php:48
+msgid "No results where found."
+msgstr "篩選後沒有結果"
+
+#: includes/text.strings.php:50
+msgid "Please confirm: replace the custom template text with the default one?"
+msgstr "請確認:使用自定頁面樣板作為預設頁面樣板?"
+
+#: includes/text.strings.php:51
+msgid "Error: the content could not be loaded"
+msgstr "錯誤：無法加載內容"
+
+#: includes/text.strings.php:54
+msgid "You must select at least one file to upload."
+msgstr "您至少需選擇一個檔案上傳"
+
+#: includes/text.strings.php:55
+msgid ""
+"Are you sure? Files currently being uploaded will be discarded if you leave "
+"this page."
+msgstr ""
+
+#: includes/text.strings.php:56
+msgid "Copy selection to all files?"
+msgstr "複製選項至全部檔案？"
+
+#: includes/text.strings.php:57
+msgid ""
+"Some of your files uploaded correctly, but others could not be uploaded."
+msgstr ""
+
+#: includes/text.strings.php:58
+msgid "Go to the file editor"
+msgstr ""
+
+#: includes/text.strings.php:60
+msgid "Confirm this action?"
+msgstr ""
+
+#: includes/text.strings.php:61
+msgid "Failed to load file preview"
+msgstr ""
+
+#: includes/text.strings.php:62
+msgid "Failed to load resource"
+msgstr ""
+
+#: includes/text.strings.php:66
+#, php-format
+msgid "Validation \"%s\" failed for field \"%s\""
+msgstr ""
+
+#: includes/text.strings.php:67
+msgid "reCAPTCHA verification failed"
+msgstr "驗證碼認證失敗"
+
+#: includes/text.strings.php:68
+msgid "Name was not completed"
+msgstr "名稱未輸入"
+
+#: includes/text.strings.php:69
+msgid "No client was selected"
+msgstr "沒有選擇客戶端"
+
+#: includes/text.strings.php:70
+msgid "Username was not completed"
+msgstr "使用者名稱沒有輸入"
+
+#: includes/text.strings.php:71
+msgid "Password was not completed"
+msgstr "密碼沒有輸入"
+
+#: includes/text.strings.php:72
+msgid "Password verification was not completed"
+msgstr "密碼驗證未完成"
+
+#: includes/text.strings.php:73
+msgid "E-mail was not completed"
+msgstr "電子郵件未輸入"
+
+#: includes/text.strings.php:74
+msgid "Title was not completed"
+msgstr "未完成主題輸入"
+
+#: includes/text.strings.php:75
+msgid "E-mail address is not valid"
+msgstr "電子郵件地址不合法"
+
+#: includes/text.strings.php:76
+msgid ""
+"Username must be alphanumeric and may contain dot (a-z,A-Z,0-9 and . "
+"allowed)"
+msgstr "使用者名稱必須是英數字大小寫以及小數點(允許a-z，A-Z，0-9和.)"
+
+#: includes/text.strings.php:77
+msgid "Password must be alphanumeric (a-z,A-Z,0-9 allowed)"
+msgstr "密碼必須是英數字大小寫(允許a-z，A-Z，0-9)"
+
+#: includes/text.strings.php:78
+msgid "Passwords do not match"
+msgstr "密碼不吻合"
+
+#: includes/text.strings.php:79
+msgid "Password does not meet the required characters rules"
+msgstr "密碼不符合所需的英數字規則"
+
+#: includes/text.strings.php:80
+msgid "File size value must be a whole number"
+msgstr "檔案容量大小值必須是整數"
+
+#: includes/text.strings.php:81
+msgid "User role was not specified"
+msgstr ""
+
+#: includes/text.strings.php:82
+msgid "An account with this username already exists."
+msgstr ""
+
+#: includes/text.strings.php:83
+msgid "An account with this e-mail address already exists."
+msgstr ""
+
+#: includes/text.strings.php:84
+msgid ""
+"Your password can only contain letters, numbers and the following "
+"characters:"
+msgstr "您的密碼只能包含英,數字及以下符號:"
+
+#: includes/text.strings.php:86
+msgid "Please complete all the fields."
+msgstr "請填寫所有欄位"
+
+#: includes/text.strings.php:89 includes/text.strings.php:90
+#, php-format
+msgid "Length should be between %d and %d characters long"
+msgstr ""
+
+#: includes/text.strings.php:93
+msgid "1 uppercase character"
+msgstr "1個大寫字母"
+
+#: includes/text.strings.php:94
+msgid "1 lowercase character"
+msgstr "1個小寫字母"
+
+#: includes/text.strings.php:95
+msgid "1 number"
+msgstr "1個數字"
+
+#: includes/text.strings.php:96
+msgid "1 special character"
+msgstr "1個特殊符號"
+
+#: includes/text.strings.php:99 install/index.php:77
+msgid "Sitename was not completed."
+msgstr "網站名稱Sitename沒有設定完成"
+
+#: includes/text.strings.php:100 install/index.php:78
+msgid "ProjectSend URI was not completed."
+msgstr "ProjectSend 網址URI沒有設定完成"
+
+#: includes/updates.functions.php:79
+#, php-format
+msgid "A safe chmod value of 755 could not be set for directory: %s"
+msgstr ""
+
+#: includes/updates.functions.php:87 includes/updates.functions.php:121
+#, php-format
+msgid "A safe chmod value of 644 could not be set for file: %s"
+msgstr ""
+
+#: includes/updates.functions.php:94
+msgid ""
+"Please correct the following errors to make sure that ProjectSend can send "
+"notifications emails."
+msgstr ""
+
+#: includes/updates.functions.php:115
+#, php-format
+msgid "System file does not exist: %s"
+msgstr ""
+
+#: includes/updates.functions.php:218
+msgid ""
+"This version changes the way files-to-clients relationships are stored on "
+"the database making it possible to assign a file to multiple clients. "
+"However some files did not update successfully. The following files may need"
+" to be reassigned to their clients by using the \"Find orphan files\" tool:"
+msgstr "此版本更改了檔案與客戶端對應關係在數據庫中的儲存方式，為了可以將檔案指派給多個客戶端。但是有些檔案沒有成功更新。可能需要使用“查找未指派檔案”工具將以下檔案重新指派給其客戶端"
+
+#: includes/updates.messages.php:16
+msgid "The database was updated to support this version of the software."
+msgstr "為支持此版本的軟體，本資料庫已更新，"
+
+#: includes/updates.messages.php:23
+msgid "Do you want to support ProjectSend?"
+msgstr "您想要支援ProjectSend嗎?"
+
+#: includes/updates.messages.php:24
+msgid ""
+"Please remember that this tool is free software. If you find the system "
+"useful"
+msgstr "請記住，此工具是開放式軟體。如果您認為本系統是有效用的"
+
+#: includes/updates.messages.php:25
+msgid "please consider making a donation to support further development."
+msgstr "請考慮贊助支援本軟體未來發展"
+
+#: includes/updates.messages.php:26
+msgid "Thank you!"
+msgstr "感謝您!"
+
+#: includes/updates.messages.php:45
+msgid "Update available!"
+msgstr "有更新版本可以取用!"
+
+#: includes/updates.messages.php:45
+#, php-format
+msgid "ProjectSend %s has been released"
+msgstr ""
+
+#: includes/updates.messages.php:48 manage-files.php:649
+msgid "Download"
+msgstr "下載"
+
+#: includes/updates.messages.php:48
+msgid "Changelog"
+msgstr ""
+
+#: includes/upload-send-notifications.php:243
+#: includes/upload-send-notifications.php:277
+msgid "E-mail notifications have been sent."
+msgstr "Email通知已經傳送"
+
+#: includes/upload-send-notifications.php:257
+msgid "One or more notifications couldn't be sent."
+msgstr "一個或多個通知傳送失敗"
+
+#: includes/upload-send-notifications.php:281
+msgid "E-mail notifications for inactive clients were not sent."
+msgstr "Email通知不會傳送給停用之使用者"
+
+#: includes/widgets/actions-log.php:10
+msgid "Recent activites"
+msgstr "最近的活動"
+
+#: includes/widgets/actions-log.php:33
+msgid "View all"
+msgstr "檢視全部"
+
+#: includes/widgets/ajax/statistics.php:77
+msgid "Uploads by users"
+msgstr "使用者上傳"
+
+#: includes/widgets/ajax/statistics.php:83
+msgid "Uploads by clients"
+msgstr "客戶端上傳"
+
+#: includes/widgets/ajax/statistics.php:89
+msgid "Downloads by known users"
+msgstr ""
+
+#: includes/widgets/ajax/statistics.php:95
+msgid "Public Downloads"
+msgstr "提供公開下載"
+
+#: includes/widgets/news.php:10
+msgid "ProjectSend news"
+msgstr "ProjectSend 最新消息"
+
+#: includes/widgets/statistics.php:12
+msgid "Statistics"
+msgstr "狀態"
+
+#: includes/widgets/statistics.php:19
+#, php-format
+msgid "%d days"
+msgstr ""
+
+#: includes/widgets/system-information.php:7 install/make-config.php:384
+msgid "System information"
+msgstr "系統資訊"
+
+#: includes/widgets/system-information.php:9
+msgid "Software"
+msgstr "軟體"
+
+#: includes/widgets/system-information.php:11
+#: includes/widgets/system-information.php:99
+msgid "Version"
+msgstr "版本"
+
+#: includes/widgets/system-information.php:17
+msgid "New version available"
+msgstr "目前有新版本"
+
+#: includes/widgets/system-information.php:22
+msgid "Default upload max. size"
+msgstr "預設上傳最大.容量"
+
+#: includes/widgets/system-information.php:25
+msgid "Template"
+msgstr "頁面樣板"
+
+#: includes/widgets/system-information.php:26
+msgid "Change"
+msgstr "異動"
+
+#: includes/widgets/system-information.php:47
+msgid "Data"
+msgstr "資料"
+
+#: includes/widgets/system-information.php:55
+msgid "System users"
+msgstr "系統使用者"
+
+#: includes/widgets/system-information.php:76
+msgid "System"
+msgstr "系統"
+
+#: includes/widgets/system-information.php:78
+msgid "Server"
+msgstr "伺服器"
+
+#: includes/widgets/system-information.php:81
+msgid "PHP version"
+msgstr "PHP版本"
+
+#: includes/widgets/system-information.php:84
+msgid "Memory limit"
+msgstr "記憶體限制"
+
+#: includes/widgets/system-information.php:87
+msgid "Max execution time"
+msgstr "最長執行時間"
+
+#: includes/widgets/system-information.php:90
+msgid "Post max size"
+msgstr "發布最大尺寸"
+
+#: includes/widgets/system-information.php:94
+msgid "Database"
+msgstr "資料庫"
+
+#: includes/widgets/system-information.php:96
+msgid "Driver"
+msgstr "磁碟"
+
+#: index.php:67
+msgid "Forgot your password?"
+msgstr "忘記密碼?"
+
+#: index.php:67
+msgid "Set up a new one."
+msgstr "重新設定一組新的密碼"
+
+#: index.php:71 public.php:291
+msgid "Don't have an account yet?"
+msgstr "尚未創建帳號?"
+
+#: index.php:71 public.php:291
+msgid "Register as a new client."
+msgstr "註冊一個新的客戶端"
+
+#: index.php:75
+msgid "This server does not allow self registrations."
+msgstr "系統未開放自行註冊"
+
+#: index.php:76
+msgid "If you need an account, please contact a server administrator."
+msgstr "如果您需要一組帳號,請聯絡系統管理人"
+
+#: install/index.php:18
+#, php-format
+msgid "%s minimum version not met. Please upgrade to at least version %s"
+msgstr ""
+
+#: install/index.php:76 install/index.php:332 install/make-config.php:42
+msgid "Install"
+msgstr "安裝"
+
+#: install/index.php:93
+msgid "Congratulations! Everything is up and running."
+msgstr "恭喜！系統一切都在正常運行"
+
+#: install/index.php:94
+msgid ""
+"You may proceed to log in with your newely created username and password."
+msgstr ""
+
+#: install/index.php:107
+msgid "Already installed"
+msgstr "已經安裝"
+
+#: install/index.php:108
+msgid "It seems that ProjectSend is already installed here."
+msgstr "似乎ProjectSend已經安裝在此伺服器"
+
+#: install/index.php:109
+msgid ""
+"If you want to reinstall, please delete the system tables from the database "
+"and come back to the installation form."
+msgstr "如果要重新安裝，請從資料庫中刪除系統表並返回install頁面"
+
+#: install/index.php:216
+msgid "Database installation was successful, but errors were encountered."
+msgstr ""
+
+#: install/index.php:232
+msgid "The following directories could not be created:"
+msgstr ""
+
+#: install/index.php:239
+msgid "The following directories could not be chmodded to 755:"
+msgstr ""
+
+#: install/index.php:261
+msgid "There was an error writing to the database."
+msgstr ""
+
+#: install/index.php:272
+msgid "Basic system options"
+msgstr "基本系統選項"
+
+#: install/index.php:273
+msgid ""
+"You need to provide this data for a correct system installation. The site "
+"name will be visible in the system panel, and the client's lists."
+msgstr "您需要提供這些資訊才能進行正確的系統安裝。網站名稱將顯示在系統版面和客戶端列表中"
+
+#: install/index.php:274
+msgid "Remember to edit the file"
+msgstr "請記得編輯檔案"
+
+#: install/index.php:274
+msgid ""
+"with your database settings before installing. If the file doesn't exist, "
+"you can create it by renaming the dummy file sys.config.sample.php."
+msgstr "記錄數據庫相關設置，在系統安裝之前如果該檔案不存在，您可以通過重命名檔案sys.config.sample.php來創建它"
+
+#: install/index.php:285
+msgid "ProjectSend URI (address)"
+msgstr "ProjectSend URI (網址)"
+
+#: install/index.php:293
+msgid "Default system administrator options"
+msgstr "預設系統管理人選項"
+
+#: install/index.php:294
+msgid ""
+"This info will be used to create a default system user, which can't be "
+"deleted afterwards. Password should be between"
+msgstr "此信息將用於創建預設系統用戶，此系統使用者不能刪除。密碼長度應介於"
+
+#: install/index.php:294
+msgid "and"
+msgstr "以及"
+
+#: install/index.php:294
+msgid "characters long."
+msgstr "字元長度"
+
+#: install/index.php:337
+msgid ""
+"After installing the system, you can go to the options page to set your "
+"timezone, preferred date display format and thumbnails parameters, besides "
+"being able to change the site options provided here."
+msgstr "安裝系統後，您可以透過選項頁面來設置時區，預設日期顯示格式和縮略圖參數，此外還可以更改此處提供的網站設定選項。"
+
+#: install/make-config.php:20
+msgid "The configuration file already exists."
+msgstr "系統設定檔案已存在"
+
+#: install/make-config.php:193
+msgid "Successfully wrote the config file."
+msgstr "成功編寫配置檔案"
+
+#: install/make-config.php:197
+msgid "Continue to installation"
+msgstr "繼續安裝"
+
+#: install/make-config.php:206
+msgid "Database configuration"
+msgstr "資料庫配置"
+
+#: install/make-config.php:207
+msgid "You need to provide this data for a correct database communication."
+msgstr "您需要提供正確的資料庫連線配置"
+
+#: install/make-config.php:210
+msgid "Select driver"
+msgstr "選擇磁碟"
+
+#: install/make-config.php:215 install/make-config.php:221
+msgid "(not supported)"
+msgstr "(不支援)"
+
+#: install/make-config.php:241
+msgid "Database name"
+msgstr "資料庫名稱"
+
+#: install/make-config.php:271
+msgid "Table prefix"
+msgstr "資料表字首"
+
+#: install/make-config.php:287
+msgid "The database is already populated"
+msgstr "資料庫已完成填充"
+
+#: install/make-config.php:301
+msgid "Reuse existing tables"
+msgstr "重複使用已存在表單"
+
+#: install/make-config.php:314
+msgid "Language selection"
+msgstr "語言選擇"
+
+#: install/make-config.php:332
+msgid "Default maximum upload file size"
+msgstr "預設最大上傳檔案大小"
+
+#: install/make-config.php:335
+msgid "Value expressed in MB, where 1GB = 1024"
+msgstr "以MB表示其值，其中1GB = 1024MB"
+
+#: install/make-config.php:341
+msgid "Folders"
+msgstr "目錄"
+
+#: install/make-config.php:372
+msgid "Writable"
+msgstr "可存取"
+
+#: install/make-config.php:374
+msgid "Not writable"
+msgstr "不可存取"
+
+#: install/make-config.php:438 install/make-config.php:441
+msgid "Check again"
+msgstr "再次檢查"
+
+#: install/make-config.php:439
+msgid "Write config file"
+msgstr "寫config檔案"
+
+#: install/make-config.php:441
+msgid "Check"
+msgstr "檢查"
+
+#: manage-files.php:35
+msgid "for client"
+msgstr "提供客戶端使用"
+
+#: manage-files.php:50
+msgid "for group"
+msgstr "提供群組使用"
+
+#: manage-files.php:65
+msgid "on category"
+msgstr "在類別上"
+
+#: manage-files.php:95 manage-files.php:113
+msgid "The selected files were marked as hidden."
+msgstr "選擇之檔案已被標示為隱藏"
+
+#: manage-files.php:104 manage-files.php:122
+msgid "The selected files were marked as visible."
+msgstr "選擇檔案已被標示為顯示"
+
+#: manage-files.php:134
+msgid "The selected files were succesfully unassigned."
+msgstr ""
+
+#: manage-files.php:156
+msgid "The selected files were deleted."
+msgstr "選擇之檔案已被刪除"
+
+#: manage-files.php:160
+msgid "Some files could not be deleted."
+msgstr "一些檔案不能被刪除"
+
+#: manage-files.php:172
+msgid "Please select at least one file."
+msgstr "請選擇至少一個檔案"
+
+#: manage-files.php:387 manage-files.php:687
+msgid "Visible"
+msgstr "顯示"
+
+#: manage-files.php:388 manage-files.php:687
+msgid "Hidden"
+msgstr "已隱藏"
+
+#: manage-files.php:414
+msgid "Selected files actions"
+msgstr "選定之檔案操作"
+
+#: manage-files.php:431
+msgid "Download zipped"
+msgstr "下載壓縮"
+
+#: manage-files.php:433
+msgid "Set to hidden from everyone already assigned"
+msgstr ""
+
+#: manage-files.php:434
+msgid "Set to visible to everyone already assigned"
+msgstr ""
+
+#: manage-files.php:440
+msgid "Set to hidden"
+msgstr ""
+
+#: manage-files.php:441
+msgid "Set to visible"
+msgstr ""
+
+#: manage-files.php:442
+msgid "Unassign"
+msgstr "未指派"
+
+#: manage-files.php:478
+msgid "There are no files assigned to this category."
+msgstr "沒有指派給此類別的檔案"
+
+#: manage-files.php:484
+msgid "There are no files assigned to this client."
+msgstr "沒有檔案指派給這客戶端"
+
+#: manage-files.php:487
+msgid "You have not uploaded any files for this account."
+msgstr "您尚未為此帳號上傳任何檔案"
+
+#: manage-files.php:492
+msgid "There are no files for this client."
+msgstr "此客戶端沒有檔案"
+
+#: manage-files.php:539
+msgid "Type"
+msgstr "型態"
+
+#: manage-files.php:548
+msgid "Size"
+msgstr "檔案大小"
+
+#: manage-files.php:558
+msgid "Assigned"
+msgstr "已指派"
+
+#: manage-files.php:565
+msgid "Public permissions"
+msgstr "公共權限"
+
+#: manage-files.php:570
+msgid "Expiry"
+msgstr "使用期限"
+
+#: manage-files.php:582
+msgid "Download count"
+msgstr "下載次數"
+
+#: manage-files.php:653
+msgid "View information"
+msgstr "顯示資訊"
+
+#: manage-files.php:665
+msgid "Does not expire"
+msgstr "不會過期"
+
+#: manage-files.php:672
+msgid "Expired on"
+msgstr "已過期"
+
+#: manage-files.php:676
+msgid "Expires on"
+msgstr "期限"
+
+#: manage-files.php:694
+msgid "times"
+msgstr "次數"
+
+#: manage-files.php:720
+msgid "downloads"
+msgstr "下載"
+
+#: options.php:266
+msgid "Some fields were not completed. Options could not be saved."
+msgstr "有些欄位沒有填寫完成。無法保存選項"
+
+#: options.php:279
+msgid "The file could not be moved to the corresponding folder."
+msgstr "該檔案無法移動到相應的目錄"
+
+#: options.php:280
+msgid ""
+"This is most likely a permissions issue. If that's the case, it can be "
+"corrected via FTP by setting the chmod value of the"
+msgstr "這很可能是權限問題。如果是這種情況，為了可以正常使用FTP，需設置權限給"
+
+#: options.php:282
+msgid "directory to 755, or 777 as a last resource."
+msgstr "目錄擁有者755,或所有人777讀寫與執行權限"
+
+#: options.php:283
+msgid ""
+"If this doesn't solve the issue, try giving the same values to the "
+"directories above that one until it works."
+msgstr "如果這不能解決問題，請嘗試將相同的讀寫執行權限賦予上面的目錄，直到它使用為止"
+
+#: options.php:287
+msgid "The file you selected is not an allowed format."
+msgstr "您選擇的檔案不是允許的格式"
+
+#: options.php:291
+msgid "There was an error uploading the file. Please try again."
+msgstr "上傳檔案時發生錯誤。請再試一次"
+
+#: public.php:53 public.php:97
+msgid "Public groups and files"
+msgstr "公開的群組和檔案"
+
+#: public.php:244 public.php:273
+msgid "There are no files available."
+msgstr "沒有檔案可以提供"
+
+#: register.php:12
+msgid "Register new account"
+msgstr "註冊新帳號"
+
+#: register.php:68
+msgid "Thank you for registering. Your account has been activated."
+msgstr ""
+
+#: register.php:95
+msgid "Account added correctly."
+msgstr "帳號創建完成"
+
+#: register.php:99
+msgid ""
+"Please remember that an administrator needs to approve your account before "
+"you can log in."
+msgstr "請記住，管理員需要先批准您的帳戶，然後才能登錄系統"
+
+#: register.php:103
+msgid "You may now log in with your new credentials."
+msgstr "您現在可以使用新憑據登錄"
+
+#: register.php:125
+msgid "Please contact a system administrator."
+msgstr "請聯絡系統管理人"
+
+#: register.php:134
+msgid ""
+"A folder for this account could not be created. Probably because of a server"
+" configuration."
+msgstr "無法創建此帳戶的目錄。可能是因為服務器配置問題"
+
+#: register.php:139
+msgid ""
+"The account could not be created. A folder with this name already exists."
+msgstr "帳號無法創建，此帳號目錄已經存在"
+
+#: register.php:149
+msgid ""
+"An e-mail notification with login information was sent to the specified "
+"address."
+msgstr "帶有登入訊息的電子郵件通知已發送到指定的信箱"
+
+#: reset-password.php:11
+msgid "Lost password"
+msgstr "忘記密碼"
+
+#: reset-password.php:199
+msgid "The supplied email address does not correspond to any user."
+msgstr "沒有用戶使用這個電子郵件地址。"
+
+#: reset-password.php:202
+msgid "The request is not valid."
+msgstr "申請作業無效!"
+
+#: reset-password.php:205
+msgid "This request has expired. Please make a new one."
+msgstr "作業已過期。請重新執行"
+
+#: reset-password.php:208
+msgid "This request has already been completed. Please make a new one."
+msgstr "此作業已完成，請再重新提出一項新的申請作業"
+
+#: reset-password.php:211
+msgid ""
+"There are 3 unused requests done in less than 24 hs. Please wait until one "
+"expires (1 day since made) to make a new one."
+msgstr "在24小時內已有3個未使用之申請作業。請等待其中一個申請作業到期(1天以後)再重新提出作業申請"
+
+#: reset-password.php:224
+msgid ""
+"An e-mail with further instructions has been sent. Please check your inbox "
+"to proceed."
+msgstr "已發送進一步說明的電子郵件。請檢查您的收件箱以繼續作業"
+
+#: reset-password.php:228
+msgid "E-mail couldn't be sent."
+msgstr "電子郵件無法傳送"
+
+#: reset-password.php:229 reset-password.php:246
+msgid "If the problem persists, please contact an administrator."
+msgstr "如果問題依然存在，請聯絡系統管理人"
+
+#: reset-password.php:241
+msgid "Your new password has been set. You can now log in using it."
+msgstr "您的新密碼已經設定，現在您可以使用新密碼登入"
+
+#: reset-password.php:245
+msgid "Your new password couldn't be set."
+msgstr "您的新密碼無法設定"
+
+#: upload.php:42
+msgid ""
+"Click on Add files to select all the files that you want to upload, and then"
+" click continue. On the next step, you will be able to set a name and "
+"description for each uploaded file. Remember that the maximum allowed file "
+"size (in mb.) is "
+msgstr "點選“增加檔案”以選擇要上載的所有檔案，然後再點選“繼續”。在下一步中，您將能夠為每個上載的檔案設置名稱和描述。請記住，允許的最大檔案大小（以mb為單位）是"
+
+#: users-add.php:14
+msgid "Add system user"
+msgstr "增加系統管理使用者"
+
+#: users-edit.php:133
+msgid "Edit system user"
+msgstr "編輯系統使用者"
+
+#: users-edit.php:152
+msgid "User edited correctly."
+msgstr "使用者編輯正確"
+
+#: users-edit.php:154
+msgid "User created successfuly."
+msgstr ""
+
+#: users-edit.php:195
+msgid "No user was selected."
+msgstr "沒有選擇使用者"
+
+#: users-edit.php:200
+msgid "There is no user with that ID number."
+msgstr "沒有該ID帳號之使用者"
+
+#: users.php:14
+msgid "Users administration"
+msgstr "用戶管理"
+
+#: users.php:44
+msgid "The selected users were marked as active."
+msgstr "被選擇之使用者已被標示為啟用"
+
+#: users.php:64
+msgid "You cannot deactivate your own account."
+msgstr "使用者不能停用自己的帳號"
+
+#: users.php:70
+msgid "The selected users were marked as inactive."
+msgstr "所選擇之使用者已被標示為停用"
+
+#: users.php:87
+msgid "You cannot delete your own account."
+msgstr "使用者不能刪除自己的帳號"
+
+#: users.php:93
+msgid "The selected users were deleted."
+msgstr "被選擇之使用者已被刪除"
+
+#: users.php:100
+msgid "Please select at least one user."
+msgstr "請選擇至少一位使用者"
+
+#: users.php:173
+msgid "All roles"
+msgstr "全部規則"
+
+#: users.php:214
+msgid "Selected users actions"
+msgstr "選擇之使用者活動"
+
+#: users.php:238
+msgid "users"
+msgstr "使用者"

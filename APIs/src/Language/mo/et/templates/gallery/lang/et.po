@@ -1,0 +1,60 @@
+# 
+# Translators:
+# Kristian Kynk <kristian@kaamera.ee>, 2019
+# Tarmo Kähr <tarmo.kahr@gmail.com>, 2021
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2021-11-25 22:26+0000\n"
+"Last-Translator: Tarmo Kähr <tarmo.kahr@gmail.com>\n"
+"Language-Team: Estonian (http://www.transifex.com/subwaydesign/projectsend/language/et/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: et\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:24
+msgid "Gallery"
+msgstr "Galerii"
+
+#: template.php:75
+msgid "Logout"
+msgstr "Logi välja"
+
+#: template.php:76
+msgid "Manage files"
+msgstr "Halda faile"
+
+#: template.php:77
+msgid "Upload"
+msgstr "Lae üles"
+
+#: template.php:86
+msgid "Filter by category"
+msgstr "Filtreeri kategooria järgi"
+
+#: template.php:89
+msgid "All files"
+msgstr "Kõik failid"
+
+#: template.php:122
+msgid "There are no files."
+msgstr "Faile pole"
+
+#: template.php:135
+msgid "File expired"
+msgstr "Fail aegunud"
+
+#: template.php:150
+msgid "Download"
+msgstr "Lae alla"
+
+#: template.php:157
+msgid "Select"
+msgstr "Vali"

@@ -1,0 +1,61 @@
+# 
+# Translators:
+# Alexander Son <soneus72@snu.ac.kr>, 2019-2020
+# Eric S <sh_son@hotmail.com>, 2013
+# JungSu Bae <jsb3868@gmail.com>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2020-12-30 16:00+0000\n"
+"Last-Translator: Alexander Son <soneus72@snu.ac.kr>\n"
+"Language-Team: Korean (Korea) (http://www.transifex.com/subwaydesign/projectsend/language/ko_KR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ko_KR\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:24
+msgid "Gallery"
+msgstr "갤러리"
+
+#: template.php:75
+msgid "Logout"
+msgstr "나가기"
+
+#: template.php:76
+msgid "Manage files"
+msgstr "파일 관리하기"
+
+#: template.php:77
+msgid "Upload"
+msgstr "올리기"
+
+#: template.php:86
+msgid "Filter by category"
+msgstr "분류로 고르기"
+
+#: template.php:89
+msgid "All files"
+msgstr "전체 파일"
+
+#: template.php:122
+msgid "There are no files."
+msgstr "파일이 없습니다."
+
+#: template.php:135
+msgid "File expired"
+msgstr "파일 만료됨"
+
+#: template.php:150
+msgid "Download"
+msgstr "내려받기"
+
+#: template.php:157
+msgid "Select"
+msgstr "선택하기"

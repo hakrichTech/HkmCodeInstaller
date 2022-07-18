@@ -1,0 +1,106 @@
+# 
+# Translators:
+# Anssi Rajakallio <dozebox@gmail.com>, 2015
+# Björn Ericsson, 2015
+# Kari Söderholm <haprog@haprogszone.net>, 2013
+# Niilo Hilse, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2020-11-07 15:50+0000\n"
+"Last-Translator: Ignacio Nelson <info@subwaydesign.com.ar>\n"
+"Language-Team: Finnish (http://www.transifex.com/subwaydesign/projectsend/language/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:20
+msgid "File downloads"
+msgstr "Tiedostolataukset"
+
+#: template.php:45
+msgid "All categories"
+msgstr "Kaikki kategoriat"
+
+#: template.php:52
+msgid "Filter"
+msgstr "Suodata"
+
+#: template.php:66
+msgid "Selected files actions"
+msgstr "Valittujen tiedostojen toiminnot"
+
+#: template.php:70
+msgid "Select action"
+msgstr ""
+
+#: template.php:71
+msgid "Download zipped"
+msgstr "Lataa ZIP-pakettina"
+
+#: template.php:81
+msgid "Proceed"
+msgstr "Jatka"
+
+#: template.php:89
+msgid "Found"
+msgstr ""
+
+#: template.php:89
+msgid "files"
+msgstr "tiedosto(a)"
+
+#: template.php:99
+msgid "Your search keywords returned no results."
+msgstr "Antamillasi hakusanoilla ei löytynyt yhtään tuloksia."
+
+#: template.php:104
+msgid "There are no files available."
+msgstr "Tiedostoja ei ole saatavilla."
+
+#: template.php:130
+msgid "Title"
+msgstr "Otsikko"
+
+#: template.php:133
+msgid "Type"
+msgstr ""
+
+#: template.php:139
+msgid "Description"
+msgstr "Kuvaus"
+
+#: template.php:146
+msgid "Size"
+msgstr "Koko"
+
+#: template.php:153
+msgid "Date"
+msgstr "Päiväys"
+
+#: template.php:156
+msgid "Expiration date"
+msgstr "Viimeinen voimassaoloaika"
+
+#: template.php:160
+msgid "Image preview"
+msgstr "Esikatselukuva"
+
+#: template.php:164 template.php:234
+msgid "Download"
+msgstr "Lataa"
+
+#: template.php:210
+msgid "Never"
+msgstr "Ei koskaan"
+
+#: template.php:230
+msgid "File expired"
+msgstr "Tiedosto vanhentunut"

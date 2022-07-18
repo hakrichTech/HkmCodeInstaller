@@ -1,0 +1,77 @@
+# 
+# Translators:
+# Hồ Đức Hòa <hoduchoa379@gmail.com>, 2013-2014
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2020-11-07 15:50+0000\n"
+"Last-Translator: Ignacio Nelson <info@subwaydesign.com.ar>\n"
+"Language-Team: Vietnamese (Viet Nam) (http://www.transifex.com/subwaydesign/projectsend/language/vi_VN/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: vi_VN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: font-awesome-4.6.3\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+
+#: template.php:20
+msgid "Available files"
+msgstr "Các tập tin có sẵn"
+
+#: template.php:58
+msgid "Welcome"
+msgstr "Chào mừng"
+
+#: template.php:63
+msgid "Search..."
+msgstr "Tìm kiếm..."
+
+#: template.php:73
+msgid "Categories"
+msgstr ""
+
+#: template.php:75
+msgid "All files"
+msgstr ""
+
+#: template.php:95
+msgid "Download zipped"
+msgstr ""
+
+#: template.php:100
+msgid "Upload"
+msgstr ""
+
+#: template.php:105
+msgid "Manage"
+msgstr ""
+
+#: template.php:110
+msgid "Logout"
+msgstr "Đăng xuất"
+
+#: template.php:125
+msgid "There are no files."
+msgstr "Hiện tại chưa có tập tin nào."
+
+#: template.php:174
+msgid "File size:"
+msgstr "Kích thước tập tin:"
+
+#: template.php:181
+msgid "Expiration date:"
+msgstr ""
+
+#: template.php:192
+msgid "Download"
+msgstr "Tải về"
+
+#: template.php:202
+msgid "File expired"
+msgstr "Tập tin đã hết hạn"

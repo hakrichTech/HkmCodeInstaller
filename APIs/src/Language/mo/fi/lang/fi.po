@@ -1,0 +1,3778 @@
+# 
+# Translators:
+# Anssi Rajakallio <dozebox@gmail.com>, 2015
+# Björn Ericsson, 2015
+# Kari Söderholm <haprog@haprogszone.net>, 2013,2015
+# Kim Andersson <kim@anderssonit.com>, 2020
+# Niilo Hilse, 2018
+# Teemu Rantsi, 2020
+# Teemu Rantsi, 2020
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-11-07 12:37-0300\n"
+"PO-Revision-Date: 2020-11-23 06:58+0000\n"
+"Last-Translator: Teemu Rantsi\n"
+"Language-Team: Finnish (http://www.transifex.com/subwaydesign/projectsend/language/fi/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fi\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: includes/Google\n"
+"X-Poedit-SearchPathExcluded-2: templates/default\n"
+"X-Poedit-SearchPathExcluded-3: templates/gallery\n"
+"X-Poedit-SearchPathExcluded-4: templates/pinboxes\n"
+"X-Poedit-SearchPathExcluded-5: node_modules\n"
+"X-Poedit-SearchPathExcluded-6: upload\n"
+"X-Poedit-SearchPathExcluded-7: vendor\n"
+
+#: actions-log.php:14
+msgid "Recent activities log"
+msgstr "Viimeaikaisten tapahtumien loki"
+
+#: actions-log.php:39
+msgid "The selected activities were deleted."
+msgstr "Valitut tapahtumat poistettiin."
+
+#: actions-log.php:43
+msgid "Please select at least one activity."
+msgstr "Valitse vähintään yksi toiminto."
+
+#: actions-log.php:55
+msgid ""
+"The log was cleared. Only data used for statistics remained. You can delete "
+"them manually if you want."
+msgstr "Tapahtumaloki tyhjennettiin. Vain statistiikkadata jäi jäljelle. Voit halutessasi tyhjentää ne manuaalisesti."
+
+#: actions-log.php:128
+msgid "Filter activities"
+msgstr "Suodata tapahtumia"
+
+#: actions-log.php:130 includes/widgets/actions-log.php:14
+msgid "All activities"
+msgstr "Kaikki tapahtumat"
+
+#: actions-log.php:142 clients.php:153 manage-files.php:372
+#: manage-files.php:399 users.php:203
+msgid "Filter"
+msgstr "Suodata"
+
+#: actions-log.php:153
+msgid "Activities actions"
+msgstr "Tapahtumien toiminnot"
+
+#: actions-log.php:157 categories.php:197 clients-membership-requests.php:181
+#: clients-requests.php:231 clients.php:168 groups.php:154
+#: manage-files.php:426 users.php:218
+msgid "Select action"
+msgstr "Valitse toiminto"
+
+#: actions-log.php:158
+msgid "Download as csv"
+msgstr "Lataa CSV-tiedostona"
+
+#: actions-log.php:159
+msgid "Delete selected"
+msgstr "Poista valitut"
+
+#: actions-log.php:160
+msgid "Clear entire log"
+msgstr "Tyhjennä koko loki"
+
+#: actions-log.php:170 categories.php:208 clients-membership-requests.php:193
+#: clients-requests.php:243 clients.php:181 groups.php:165
+#: manage-files.php:457 users.php:231
+msgid "Proceed"
+msgstr "Jatka"
+
+#: actions-log.php:177 categories.php:216 clients-membership-requests.php:200
+#: clients-requests.php:250 clients.php:188 groups.php:172
+#: manage-files.php:465 users.php:238
+msgid "Found"
+msgstr "Löydetty"
+
+#: actions-log.php:177
+msgid "activities"
+msgstr "tapahtumat"
+
+#: actions-log.php:187 clients-membership-requests.php:235
+#: clients-requests.php:285 clients.php:201 groups.php:185
+#: manage-files.php:481 users.php:250
+msgid "The filters you selected returned no results."
+msgstr "Valitsemillasi suodatusehdoilla ei löytynyt tuloksia."
+
+#: actions-log.php:192
+msgid "There are no activities recorded."
+msgstr "Tapahtumia ei ole tallennettu."
+
+#: actions-log.php:219 download-information.php:131
+msgid "Date"
+msgstr "Päiväys"
+
+#: actions-log.php:224
+msgid "Author"
+msgstr "Tekijä"
+
+#: actions-log.php:229
+msgid "Activity"
+msgstr "Tapahtuma"
+
+#: categories.php:14
+msgid "Categories administration"
+msgstr "Kategorioiden hallinta"
+
+#: categories.php:27
+msgid "The category was successfully created."
+msgstr "Kategoria lisätty onnistuneesti."
+
+#: categories.php:31
+msgid "The category was successfully edited."
+msgstr "Kategorian muokkaus onnistui."
+
+#: categories.php:53
+msgid "Please select at least one category."
+msgstr "Valitse vähintään yksi kategoria."
+
+#: categories.php:65
+msgid "The selected categories were deleted."
+msgstr "Valitut kategoriat poistettiin."
+
+#: categories.php:105
+msgid "Create new category"
+msgstr "Luo uusi kategoria"
+
+#: categories.php:115
+msgid "Edit category"
+msgstr "Muokkaa kategoriaa"
+
+#: categories.php:160
+msgid "There was a problem saving to the database."
+msgstr "Virhe tallennettaessa tietokantaan."
+
+#: categories.php:165
+msgid "Please complete all the required fields."
+msgstr "Ole hyvä ja täytä kaikki kentät."
+
+#: categories.php:193
+msgid "Selected categories actions"
+msgstr "Valittujen kategorioiden toiminnot"
+
+#: categories.php:198 clients.php:171 groups.php:155 manage-files.php:446
+#: users.php:221
+msgid "Delete"
+msgstr "Poista"
+
+#: categories.php:216
+msgid "categories"
+msgstr "kategoriaa"
+
+#: categories.php:226 clients-membership-requests.php:232
+#: clients-requests.php:282 clients.php:198 groups.php:182
+#: import-orphans.php:276 manage-files.php:475 users.php:247
+msgid "Your search keywords returned no results."
+msgstr "Antamillasi hakusanoilla ei löytynyt yhtään tuloksia."
+
+#: categories.php:231
+msgid "There are no categories yet."
+msgstr "Kategorioita ei vielä ole."
+
+#: categories.php:255 includes/forms/categories.php:37
+#: includes/forms/clients.php:76 includes/forms/options/email.php:11
+#: includes/forms/users.php:37
+msgid "Name"
+msgstr "Nimi"
+
+#: categories.php:258 clients.php:395 groups.php:241 groups.php:331
+#: header-menu.php:71 includes/forms/options/clients.php:70
+#: includes/widgets/system-information.php:49 install/make-config.php:329
+msgid "Files"
+msgstr "Tiedostot"
+
+#: categories.php:261 files-edit.php:93 groups.php:234
+#: includes/forms/categories.php:59 includes/forms/file_editor.php:43
+#: includes/forms/groups.php:33
+msgid "Description"
+msgstr "Kuvaus"
+
+#: categories.php:265 clients.php:284 groups.php:256
+msgid "View"
+msgstr "Näytä"
+
+#: categories.php:269 clients.php:288 files-edit.php:102 groups.php:260
+#: import-orphans.php:216 manage-files.php:594 users.php:315
+msgid "Actions"
+msgstr "Toiminnot"
+
+#: categories.php:340 header-menu.php:83 header-menu.php:328
+#: manage-files.php:13
+msgid "Manage files"
+msgstr "Hallitse tiedostoja"
+
+#: categories.php:343 clients.php:401 groups.php:335 manage-files.php:427
+#: manage-files.php:783 users.php:377
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: clients-add.php:14 includes/forms/clients.php:16
+msgid "Add client"
+msgstr "Lisää asiakas"
+
+#: clients-add.php:104 clients-edit.php:166 email-templates.php:160
+#: groups-add.php:61 groups-edit.php:92 options.php:262 register.php:129
+#: templates.php:56 users-add.php:89 users-edit.php:159
+msgid "There was an error. Please try again."
+msgstr "Virhe havaittu. Ole hyvä ja yritä uudelleen."
+
+#: clients-edit.php:141
+msgid "Edit client"
+msgstr "Muokkaa asiakasta"
+
+#: clients-edit.php:143 users-edit.php:138
+msgid "My account"
+msgstr "Oma tili"
+
+#: clients-edit.php:159
+msgid "Client edited correctly."
+msgstr "Asiakasta muokattu."
+
+#: clients-edit.php:161
+msgid "Client created successfuly."
+msgstr "Asiakas luotiin onnistuneesti."
+
+#: clients-edit.php:178 users-edit.php:171
+msgid "A welcome message was not sent to the new account owner."
+msgstr "Tervetuloviestiä ei lähetetty uudelle käyttäjälle."
+
+#: clients-edit.php:182 users-edit.php:175
+msgid ""
+"A welcome message with login information was sent to the new account owner."
+msgstr "Tervetuloviesti kirjautumistiedoilla lähetettiin uudelle käyttäjälle."
+
+#: clients-edit.php:186 register.php:153 users-edit.php:179
+msgid "E-mail notification couldn't be sent."
+msgstr "Sähköposti-ilmoitusta ei voitu lähettää."
+
+#: clients-edit.php:199 groups-edit.php:105 users-edit.php:193
+msgid "This page is not intended to be accessed directly."
+msgstr "Tätä sivua ei ole tarkoitettu avattavaksi suoraan."
+
+#: clients-edit.php:201
+msgid "No client was selected."
+msgstr "Yhtään asiakasta ei valittu."
+
+#: clients-edit.php:206
+msgid "There is no client with that ID number."
+msgstr "Kyseisellä ID-numerolla ei ole asiakasta."
+
+#: clients-edit.php:211 users-edit.php:205
+msgid "Your account type doesn't allow you to access this feature."
+msgstr "Käyttäjätilisi tyyppi ei salli sinun käyttää tätä toimintoa."
+
+#: clients-membership-requests.php:15 clients-membership-requests.php:293
+#: clients-requests.php:345 header-menu.php:150
+msgid "Membership requests"
+msgstr "Jäsenyyspyynnöt"
+
+#: clients-membership-requests.php:26 clients-requests.php:25
+msgid "The selected actions were applied."
+msgstr "Valitut toiminnot otettu käyttöön."
+
+#: clients-membership-requests.php:30
+msgid "The selected requests were deleted."
+msgstr "Valitut pyynnöt poistettu."
+
+#: clients-membership-requests.php:96 clients-requests.php:153 clients.php:73
+msgid "Please select at least one client."
+msgstr "Valitse vähintään yksi asiakas."
+
+#: clients-membership-requests.php:177
+msgid "Selected requests actions"
+msgstr "Valittujen pyyntöjen toiminnot"
+
+#: clients-membership-requests.php:182 clients-requests.php:232
+msgid "Apply selection"
+msgstr "Ota valinta käyttöön"
+
+#: clients-membership-requests.php:183 clients-requests.php:233
+msgid "Delete requests"
+msgstr "Poista pyyntöjä"
+
+#: clients-membership-requests.php:200 clients-requests.php:250
+msgid "requests"
+msgstr "pyyntöä"
+
+#: clients-membership-requests.php:207
+msgid "New requests"
+msgstr "Uudet pyynnöt"
+
+#: clients-membership-requests.php:212
+msgid "Denied requests"
+msgstr "Estetyt pyynnö"
+
+#: clients-membership-requests.php:240 clients-requests.php:290
+msgid "There are no requests at the moment"
+msgstr "Pyyntöjä ei juuri nyt ole"
+
+#: clients-membership-requests.php:278 clients-requests.php:326
+#: clients.php:238 includes/Classes/Emails.php:68
+#: includes/Classes/Emails.php:127 install/index.php:297 users.php:283
+msgid "Full name"
+msgstr "Koko nimi"
+
+#: clients-membership-requests.php:283 clients-requests.php:331
+#: clients.php:243 includes/forms/clients.php:83 includes/forms/users.php:44
+#: install/index.php:311 users.php:288
+msgid "Log in username"
+msgstr "Käyttäjätunnus"
+
+#: clients-membership-requests.php:289 clients-requests.php:337
+#: clients.php:249 includes/forms/clients.php:104
+#: includes/forms/login-ldap.php:6 includes/forms/login.php:15
+#: includes/forms/reset-password/enter-email.php:6 includes/forms/users.php:65
+#: users.php:294
+msgid "E-mail"
+msgstr "Sähköposti"
+
+#: clients-membership-requests.php:345 clients-requests.php:418
+msgid "Accept all"
+msgstr "Hyväksy kaikki"
+
+#: clients-membership-requests.php:346 clients-requests.php:419
+msgid "Deny all"
+msgstr "Estä kaikki"
+
+#: clients-requests.php:17 header-menu.php:122
+msgid "Account requests"
+msgstr "Tilipyynnöt"
+
+#: clients-requests.php:29 clients.php:67
+msgid "The selected clients were deleted."
+msgstr "Valitut asiakkaat poistettiin."
+
+#: clients-requests.php:227 clients.php:164
+msgid "Selected clients actions"
+msgstr "Valittujen asiakkaiden toiminnot"
+
+#: clients-requests.php:257
+msgid "New account requests"
+msgstr "Uudet tilipyynnöt"
+
+#: clients-requests.php:262
+msgid "Denied accounts"
+msgstr "Estetyt tilit"
+
+#: clients-requests.php:341
+msgid "Account"
+msgstr "Tili"
+
+#: clients-requests.php:358 manage-files.php:535
+msgid "Added on"
+msgstr "Lisätty"
+
+#: clients.php:14
+msgid "Clients Administration"
+msgstr "Asiakkaiden hallinta"
+
+#: clients.php:41
+msgid "The selected clients were marked as active."
+msgstr "Valitut asiakkaat merkittiin aktiivisiksi."
+
+#: clients.php:56
+msgid "The selected clients were marked as inactive."
+msgstr "Valitut asiakkaat merkittiin inaktiivisiksi."
+
+#: clients.php:141 manage-files.php:386 users.php:191
+msgid "All statuses"
+msgstr "Kaikki statukset"
+
+#: clients.php:142 clients.php:330 templates.php:113 users.php:192
+#: users.php:336
+msgid "Active"
+msgstr "Aktiivinen"
+
+#: clients.php:143 clients.php:330 users.php:193 users.php:336
+msgid "Inactive"
+msgstr "Epäaktiivinen"
+
+#: clients.php:169 templates.php:120 users.php:219
+msgid "Activate"
+msgstr "Aktivoi"
+
+#: clients.php:170 users.php:220
+msgid "Deactivate"
+msgstr "Deaktivoi"
+
+#: clients.php:188
+msgid "clients"
+msgstr "asiakasta"
+
+#: clients.php:206
+msgid "There are no clients at the moment"
+msgstr "Asiakkaita ei ole."
+
+#: clients.php:231 groups.php:222 users.php:277
+msgid "Created"
+msgstr "Luotu"
+
+#: clients.php:253
+msgid "Uploads"
+msgstr "Lataukset"
+
+#: clients.php:257
+msgid "Files: Direct"
+msgstr "Tiedostot: Suora"
+
+#: clients.php:261
+msgid "Files: Groups"
+msgstr "Tiedostot: Ryhmät"
+
+#: clients.php:267 manage-files.php:575 users.php:306
+msgid "Status"
+msgstr "Tila"
+
+#: clients.php:270
+msgid "Groups on"
+msgstr "Ryhmät"
+
+#: clients.php:274
+msgid "Notify"
+msgstr "Ilmoita"
+
+#: clients.php:280 users.php:311
+msgid "Max. upload size"
+msgstr "Suurin sallittu tiedostokoko"
+
+#: clients.php:388 download-information.php:197
+#: includes/forms/options/external_login.php:90 manage-files.php:643
+msgid "Yes"
+msgstr "Kyllä"
+
+#: clients.php:388 download-information.php:198
+#: includes/forms/options/external_login.php:91 manage-files.php:643
+msgid "No"
+msgstr "Ei"
+
+#: clients.php:391 users.php:373
+msgid "Default"
+msgstr "Oletus"
+
+#: clients.php:396 includes/forms/clients.php:23 includes/forms/clients.php:35
+#: includes/forms/file_editor.php:139
+#: includes/widgets/system-information.php:58
+msgid "Groups"
+msgstr "Ryhmät"
+
+#: clients.php:397
+msgid "As client"
+msgstr "Asiakkaana"
+
+#: dashboard.php:10 header-menu.php:59
+msgid "Dashboard"
+msgstr "Kojelauta"
+
+#: download-information.php:12
+msgid "Download information"
+msgstr "Lataustiedot"
+
+#: download-information.php:59
+msgid "No file was selected."
+msgstr "Ei valittua tiedostoa"
+
+#: download-information.php:64
+msgid "There is no information with that file ID number."
+msgstr "ID-numerolla ei löytynyt tietoa."
+
+#: download-information.php:76 manage-files.php:589
+msgid "Total downloads"
+msgstr "Latauksia yhteensä"
+
+#: download-information.php:134
+msgid "Time"
+msgstr "Aika"
+
+#: download-information.php:139 includes/text.strings.php:16
+msgid "Client"
+msgstr "Asiakas"
+
+#: download-information.php:144
+msgid "Anonymous"
+msgstr "Anonyymi"
+
+#: download-information.php:149
+msgid "Client's IP"
+msgstr "Asiakkaan IP-osoite"
+
+#: download-information.php:155
+msgid "Client's hostname"
+msgstr "Asiakkaan isäntänimi"
+
+#: download-information.php:169
+msgid "Unique logged in clients/users"
+msgstr "Uniikkeja kirjautumisia"
+
+#: download-information.php:172
+msgid "Total public downloads"
+msgstr "Julkisia latauksia yhteensä"
+
+#: download.php:13 includes/forms/file_editor.php:32
+msgid "File information"
+msgstr "Tiedoston tiedot"
+
+#: download.php:98
+msgid "Download file"
+msgstr "Lataa tiedosto"
+
+#: download.php:110 public.php:295 register.php:171 reset-password.php:266
+msgid "Go back to the homepage."
+msgstr "Siirry takaisin etusivulle."
+
+#: email-preview.php:11 header-menu.php:237
+msgid "E-mail templates"
+msgstr "Sähköpostin viestipohjat"
+
+#: email-preview.php:11 manage-files.php:528 manage-files.php:629
+msgid "Preview"
+msgstr "Esikatselu"
+
+#: email-templates.php:16 header-menu.php:242
+msgid "Header / footer"
+msgstr "Ylä-/alatunniste"
+
+#: email-templates.php:22 header-menu.php:246
+msgid "New file by user"
+msgstr "Uusi tiedosto käyttäjältä"
+
+#: email-templates.php:29 header-menu.php:250
+msgid "New file by client"
+msgstr "Uusi tiedosto asiakkaalta"
+
+#: email-templates.php:36 header-menu.php:254
+msgid "New client (welcome)"
+msgstr "Uusi asiakas (tervetuloa)"
+
+#: email-templates.php:43 header-menu.php:258
+msgid "New client (self-registered)"
+msgstr "Uusi asiakas (itse rekisteröitynyt)"
+
+#: email-templates.php:50 header-menu.php:262
+msgid "Approve client account"
+msgstr "Hyväksy asiakastili"
+
+#: email-templates.php:57 header-menu.php:266
+msgid "Deny client account"
+msgstr "Estä asiakastili"
+
+#: email-templates.php:64 header-menu.php:274
+msgid "New user (welcome)"
+msgstr "Uusi käyttäjä (tervetuloa)"
+
+#: email-templates.php:71 header-menu.php:278
+msgid "Password reset"
+msgstr "Salasanan resetointi"
+
+#: email-templates.php:78 header-menu.php:270
+msgid "Client updated memberships"
+msgstr "Asiakkaan päivittämät jäsenyydet"
+
+#: email-templates.php:156 options.php:258 templates.php:52
+msgid "Options updated succesfuly."
+msgstr "Asetukset päivitetty."
+
+#: email-templates.php:171
+msgid "(to be used as href on a link tag)"
+msgstr "(käytetään linkin href-attribuutissa)"
+
+#: email-templates.php:179
+msgid ""
+"This email will be sent to a client whenever a new file has been assigned to"
+" his account."
+msgstr "Tämä sähköpostiviesti lähetetään asiakkaalle aina kun uusi tiedosto liitetään hänen käyttäjätiliinsä."
+
+#: email-templates.php:185 email-templates.php:201
+msgid "Shows the list of files"
+msgstr "Näyttää listan tiedostoista"
+
+#: email-templates.php:186 email-templates.php:202 email-templates.php:219
+#: email-templates.php:236 email-templates.php:254 email-templates.php:285
+#: email-templates.php:319
+msgid "The login link"
+msgstr "Kirjautumislinkki"
+
+#: email-templates.php:195
+msgid ""
+"This email will be sent to the system administrator whenever a client "
+"uploads a new file."
+msgstr "Tämä sähköpostiviesti lähetetään järjestelmänvalvojalle aina kun asiakas lähettää uuden tiedoston palveluun."
+
+#: email-templates.php:211
+msgid ""
+"This email will be sent to the new client after an administrator has created"
+" his new account. It would be best to include the log in details (username "
+"and password)."
+msgstr "Tämä sähköpostiviesti lähetetään uudelle asiakkaalle kun hänen käyttäjätilinsä on hyväksytty järjestelmänvalvojan toimesta. Tähän viestiin olisi hyvä sisällyttää kirjautumistiedot (käyttäjätunnus ja salasana)."
+
+#: email-templates.php:217 email-templates.php:235 email-templates.php:283
+#: email-templates.php:318
+msgid "The new username for this account"
+msgstr "Uusi käyttäjätunnus tälle tilille"
+
+#: email-templates.php:218 email-templates.php:284
+msgid "The new password for this account"
+msgstr "Uusi salasana tälle tunnukselle"
+
+#: email-templates.php:228
+msgid ""
+"This email will be sent to the system administrator after a new client has "
+"created a new account for himself."
+msgstr "Tämä sähköpostiviesti lähetetään järjestelmänvalvojalle kun uusi asiakas on luonut käyttäjätilin itselleen."
+
+#: email-templates.php:234 email-templates.php:317
+msgid "The full name the client registered with"
+msgstr "Koko nimi jolla asiakas rekisteröityi"
+
+#: email-templates.php:237 email-templates.php:320
+msgid "List of groups that the client requests membership to"
+msgstr "Luettelo ryhmistä, joihin asiakas pyytää jäsenyyttä"
+
+#: email-templates.php:246
+msgid ""
+"This email will be sent to a client that requested an account if it gets "
+"approved. Group membership requests are also mentioned on the email, "
+"separated by their approval status."
+msgstr "Tämä sähköpostiviesti lähetetään asiakkaalle, jos tilipyyntö hyväksytään. Ryhmäjäsenyyspyynnöt mainitaan myös sähköpostissa eroteltuina niiden hyväksyntätiedoilla."
+
+#: email-templates.php:252
+msgid "List of approved group memberships"
+msgstr "Luettelo hyväksytyistä ryhmäjäsenyyksistä"
+
+#: email-templates.php:253
+msgid "List of denied group memberships"
+msgstr "Luettelo ei-hyväksytyistä ryhmäjäsenyyksistä"
+
+#: email-templates.php:263
+msgid ""
+"This email will be sent to a client that requested an account if it gets "
+"denied. All group membership requests for this account are denied "
+"automatically."
+msgstr "Tämä sähköpostiviesti lähetetään asiakkaalle, jos tilipyyntöä ei hyväksytä. Kaikki ryhmäpyynnöt käyttäjätilille estetään automaattisesti."
+
+#: email-templates.php:277
+msgid ""
+"This email will be sent to the new system user after an administrator has "
+"created his new account. It would be best to include the log in details "
+"(username and password)."
+msgstr "Tämä sähköpostiviesti lähetetään uudelle järjestelmän käyttäjälle kun hänen käyttäjätilinsä on hyväksytty järjestelmänvalvojan toimesta. Tähän viestiin olisi hyvä sisällyttää kirjautumistiedot (käyttäjätunnus ja salasana)."
+
+#: email-templates.php:294
+msgid ""
+"This email will be sent to a user or client when they try to reset their "
+"password."
+msgstr "Tämä sähköpostiviesti lähetetään käyttäjälle tai asiakkaalle kun hän pyytää salasanan resetointia."
+
+#: email-templates.php:300
+msgid "The username for this account"
+msgstr "Tämän tilin käyttäjätunnus"
+
+#: email-templates.php:301
+msgid "The text string unique to this request. Must be included somewhere."
+msgstr "Pyyntöön liittyvä yksilöity merkkijono. Tulee sisällyttää johonkin kohtaan."
+
+#: email-templates.php:302
+msgid "The link to continue the process"
+msgstr "Linkki toiminnon jatkamiseksi"
+
+#: email-templates.php:311
+msgid ""
+"This email will be sent to the system administrator when a client edits his "
+"account and changes the public groups membership requests."
+msgstr "Tämä sähköpostiviesti lähetetään järjestelmänvalvojalle kun asiakas muokkaa käyttäjätiliään ja muuttaa julkisia ryhmäjäsenyyspyyntöjä."
+
+#: email-templates.php:336
+msgid ""
+"Here you set up the header and footer of every email, or use the default "
+"ones available with the system. Use this to customize each part and include,"
+" for example, your own logo and markup."
+msgstr "Täällä voit asettaa järjestelmän lähettämien sähköpostien ylä- ja alatunnisteet, tai voit käyttää järjestelmän oletustunnisteita. Voit räätälöidä kunkin osan haluamaksesi ja sisällyttää esimerkiksi oman logon tai muuta sisältöä."
+
+#: email-templates.php:337
+msgid ""
+"Do not forget to also include -and close accordingly- the basic structural "
+"HTML tags (DOCTYPE, HTML, HEADER, BODY)."
+msgstr "Muista sisällyttää viestipohjaan myös HTML-sivun perusrakenne (HTML-elementit: DOCTYPE, HTML, HEAD, BODY)."
+
+#: email-templates.php:344
+msgid "Use custom header / footer"
+msgstr "Käytä räätälöityä ylä- ja alatunnistetta"
+
+#: email-templates.php:351
+msgid "Header"
+msgstr "Ylätunniste"
+
+#: email-templates.php:353 email-templates.php:367 email-templates.php:413
+msgid "You can use HTML tags here."
+msgstr "Voit käyttää tässä HTML-koodia."
+
+#: email-templates.php:358 email-templates.php:372 email-templates.php:437
+msgid "Replace with default"
+msgstr "Korvaa oletuksella"
+
+#: email-templates.php:365
+msgid "Footer"
+msgstr "Alatunniste"
+
+#: email-templates.php:388
+msgid "Use custom subject"
+msgstr "Käytä omaa otsikkoa"
+
+#: email-templates.php:395
+msgid "Add your custom subject"
+msgstr "Lisää oma otsikko"
+
+#: email-templates.php:404
+msgid "Use custom template"
+msgstr "Käytä räätälöityä viestipohjaa"
+
+#: email-templates.php:411
+msgid "Template text"
+msgstr "Viestipohjan teksti"
+
+#: email-templates.php:420
+msgid "The following tags can be used on this e-mails' body."
+msgstr "Seuraavia muuttujia voidaan hyödyntää tämän viestin sisällössä."
+
+#: email-templates.php:438
+msgid "Preview this template"
+msgstr "Esikatsele tätä viestipohjaa"
+
+#: email-templates.php:440
+msgid ""
+"Before trying this function, please save your changes to see them reflected "
+"on the preview."
+msgstr "Ennen kuin koitat tätä toimintoa, ole hyvä ja tallenna muutoksesi nähdäksesti niiden vaikutuksen esikatselussa."
+
+#: email-templates.php:449 options.php:315
+msgid "Save options"
+msgstr "Tallenna asetukset"
+
+#: email-test.php:12 header-menu.php:299
+msgid "Test email configuration"
+msgstr "Kokeile sähköpostiasetuksia"
+
+#: email-test.php:38
+msgid "Result"
+msgstr "Tulos"
+
+#: email-test.php:46
+msgid "Send to:"
+msgstr ""
+
+#: email-test.php:53
+msgid "Message"
+msgstr "Viesti"
+
+#: email-test.php:59
+msgid "Send test email"
+msgstr "Lähetä koeviesti"
+
+#: error.php:13
+msgid "Access denied"
+msgstr "Pääsy estetty"
+
+#: error.php:14
+msgid ""
+"Your account type doesn't allow you to view this page. Please contact a "
+"system administrator if you need to access this function."
+msgstr "Käyttäjätilisi tyyppi ei salli sinun katsoa tätä sivua. Mikäli sinulla on tarve käyttää tätä toimintoa, ota yhteys järjestelmänvalvojaan."
+
+#: error.php:18
+msgid "Token mismatch"
+msgstr ""
+
+#: error.php:19
+msgid "The security token could not be validated."
+msgstr ""
+
+#: error.php:23
+msgid "Error 404"
+msgstr "Virhe 404"
+
+#: error.php:24
+msgid "Resource not found."
+msgstr ""
+
+#: error.php:28
+msgid "Error 403"
+msgstr "Virhe 403"
+
+#: error.php:29
+msgid "Forbidden."
+msgstr ""
+
+#: error.php:33
+msgid "Database error"
+msgstr "Tietokantavirhe"
+
+#: error.php:34
+msgid "Can not connect to database"
+msgstr "Ei voi yhdistää tietokantaan"
+
+#: files-edit.php:25
+msgid "Edit files"
+msgstr "Muokkaa tiedostoja"
+
+#: files-edit.php:87
+msgid "Files saved correctly"
+msgstr "Tiedostot tallennettiin onnistuneesti"
+
+#: files-edit.php:92 includes/forms/file_editor.php:38 manage-files.php:545
+msgid "Title"
+msgstr "Otsikko"
+
+#: files-edit.php:94
+msgid "File Name"
+msgstr "Tiedostonimi"
+
+#: files-edit.php:98 files-edit.php:131 groups.php:247 groups.php:291
+#: includes/forms/groups.php:74
+msgid "Public"
+msgstr "Julkinen"
+
+#: files-edit.php:132 groups.php:296
+msgid "Private"
+msgstr "Yksityinen"
+
+#: files-edit.php:142
+msgid "Edit file"
+msgstr "Muokkaa tiedostoa"
+
+#: files-edit.php:150 header-menu.php:338
+msgid "View my files"
+msgstr "Näytä omat tiedostoni"
+
+#: files-edit.php:169
+msgid ""
+"You can skip assigning if you want. The files are retained and you may add "
+"them to clients or groups later."
+msgstr "Voit halutessasi jättää tiedostot luovuttamatta. Tiedostot säilytetään, ja voit asettaa ne asiakkaille tai ryhmiin myöhemmin."
+
+#: footer.php:25
+msgid "Executed queries"
+msgstr "Suoritetut kyselyt"
+
+#: groups-add.php:14
+msgid "Add clients group"
+msgstr "Lisää asiakasryhmä"
+
+#: groups-edit.php:14
+msgid "Edit group"
+msgstr "Muokkaa ryhmää"
+
+#: groups-edit.php:84
+msgid "Group edited correctly."
+msgstr "Ryhmää muokattu."
+
+#: groups-edit.php:86
+msgid "Group created successfuly."
+msgstr "Ryhmä luotiin onnistuneesti."
+
+#: groups-edit.php:107
+msgid "No group was selected."
+msgstr "Yhtään ryhmää ei valittu."
+
+#: groups-edit.php:112
+msgid "There is no group with that ID number."
+msgstr "Kyseisellä ID-numerolla ei ole ryhmää."
+
+#: groups.php:14
+msgid "Groups administration"
+msgstr "Ryhmien hallinta"
+
+#: groups.php:23
+msgid "Groups where"
+msgstr "Ryhmät joissa"
+
+#: groups.php:23
+msgid "is member"
+msgstr "on jäsen"
+
+#: groups.php:70
+msgid "The selected groups were deleted."
+msgstr "Valitut ryhmät poistettiin."
+
+#: groups.php:77
+msgid "Please select at least one group."
+msgstr "Valitse vähintään yksi ryhmä."
+
+#: groups.php:150
+msgid "Selected groups actions"
+msgstr "Valittujen ryhmien toiminnot"
+
+#: groups.php:172
+msgid "groups"
+msgstr "ryhmää"
+
+#: groups.php:188
+msgid "The client does not exist."
+msgstr "Asiakasta ei ole olemassa."
+
+#: groups.php:191
+msgid "There are no groups where this client is member."
+msgstr "Tämä asiakas ei ole minkään ryhmän jäsen."
+
+#: groups.php:196
+msgid "There are no groups created yet."
+msgstr "Ryhmiä ei vielä ole."
+
+#: groups.php:229 includes/forms/groups.php:26
+msgid "Group name"
+msgstr "Ryhmän nimi"
+
+#: groups.php:238 includes/forms/groups.php:40
+msgid "Members"
+msgstr "Jäsenet"
+
+#: groups.php:252
+msgid "Created by"
+msgstr "Luonut"
+
+#: groups.php:367
+msgid ""
+"There are public groups, but the public page is disabled so the public links"
+" will not show anything."
+msgstr ""
+
+#: groups.php:368 includes/forms/groups.php:79
+msgid "Go to privacy options"
+msgstr ""
+
+#: header-menu.php:76 header-menu.php:317
+msgid "Upload"
+msgstr "Lähetä"
+
+#: header-menu.php:87 import-orphans.php:18
+msgid "Find orphan files"
+msgstr "Hae orvot tiedostot"
+
+#: header-menu.php:94 includes/forms/file_editor.php:171
+#: includes/widgets/system-information.php:61
+msgid "Categories"
+msgstr "Kategoriat"
+
+#: header-menu.php:104 header-menu.php:207 includes/forms/file_editor.php:117
+#: includes/widgets/system-information.php:52 options.php:24
+msgid "Clients"
+msgstr "Asiakkaat"
+
+#: header-menu.php:110 header-menu.php:139 header-menu.php:166
+msgid "Add new"
+msgstr "Lisää uusi"
+
+#: header-menu.php:114
+msgid "Manage clients"
+msgstr "Hallitse asiakkaita"
+
+#: header-menu.php:133
+msgid "Clients groups"
+msgstr "Asiakasryhmät"
+
+#: header-menu.php:143
+msgid "Manage groups"
+msgstr "Hallitse ryhmiä"
+
+#: header-menu.php:161
+msgid "System Users"
+msgstr "Järjestelmäkäyttäjät"
+
+#: header-menu.php:170
+msgid "Manage system users"
+msgstr "Hallitse järjestelmäkäyttäjiä"
+
+#: header-menu.php:183 header-menu.php:188 templates.php:11
+msgid "Templates"
+msgstr "Pohjat"
+
+#: header-menu.php:198
+msgid "Options"
+msgstr "Asetukset"
+
+#: header-menu.php:203 options.php:15
+msgid "General options"
+msgstr "Yleiset asetukset"
+
+#: header-menu.php:211 includes/forms/options/privacy.php:1 options.php:34
+msgid "Privacy"
+msgstr "Yksityisyys"
+
+#: header-menu.php:215 options.php:45
+msgid "E-mail notifications"
+msgstr "Sähköposti-ilmoitukset"
+
+#: header-menu.php:219 options.php:56
+msgid "Security"
+msgstr "Tietoturva"
+
+#: header-menu.php:223 options.php:67
+msgid "Branding"
+msgstr "Brändäys"
+
+#: header-menu.php:227 options.php:72
+msgid "External Login"
+msgstr "Ulkoinen kirjautuminen"
+
+#: header-menu.php:290
+msgid "Tools"
+msgstr "Työkalut"
+
+#: header-menu.php:295
+msgid "Actions log"
+msgstr "Tapahtumaloki"
+
+#: header-unlogged.php:20
+msgid "setup"
+msgstr "perustus"
+
+#: header.php:27
+msgid "System Administration"
+msgstr "Järjestelmän ylläpito"
+
+#: header.php:76
+msgid "Toogle menu"
+msgstr "Valikko"
+
+#: header.php:89 includes/forms/login-ldap.php:16 includes/forms/login.php:25
+#: includes/forms/options/general.php:62 install/make-config.php:317
+msgid "Language"
+msgstr "kieli"
+
+#: header.php:111
+msgid "My Account"
+msgstr "Oma tili"
+
+#: header.php:114
+msgid "Logout"
+msgstr "Kirjaudu ulos"
+
+#: header.php:137 includes/updates.messages.php:16
+msgid "System Notice:"
+msgstr "Järjestelmähuomautus:"
+
+#: header.php:137
+msgid ""
+"You are using a development version. Some features may be unfinished or not "
+"working correctly."
+msgstr "Käytät kehitysversiota. Jotkut toiminnot voivat olla keskeneräisiä tai eivät toimi oikein."
+
+#: header.php:162
+msgid "Warning:"
+msgstr "Varoitus:"
+
+#: header.php:162
+msgid ""
+"The following directories do not exist or have write permissions errors."
+msgstr ""
+
+#: header.php:163
+msgid "File uploading or other important functions might not work."
+msgstr "Tiedostojen lähettäminen, tai muut tärkeät toiminnot eivät välttämättä toimi."
+
+#: import-orphans.php:25
+msgid ""
+"This list only shows the files that are allowed according to your security "
+"settings. If the file type you need to add is not listed here, add the "
+"extension to the \"Allowed file extensions\" box on the options page."
+msgstr "Tämä lista näyttää vain tietoturva-asetustesi sallimat tiedostot. Jos tiedostotyyppi, joka sinun täytyy lisätä ei ole listalla, lisää tiedostopääte \"Sallitut tiedostopäätteet\" -laatikkoon asetussivulla."
+
+#: import-orphans.php:161
+msgid "Showing"
+msgstr "Näytetään"
+
+#: import-orphans.php:161 manage-files.php:465
+msgid "files"
+msgstr "tiedostoa"
+
+#: import-orphans.php:176
+msgid "The following files can be imported"
+msgstr "Seuraavat tiedosto voidaan tuoda"
+
+#: import-orphans.php:196
+msgid "File name"
+msgstr "Tiedostonimi"
+
+#: import-orphans.php:202
+msgid "File size"
+msgstr "Tiedoston koko"
+
+#: import-orphans.php:209
+msgid "Last modified"
+msgstr "Viimeksi muokattu"
+
+#: import-orphans.php:247
+msgid "Import"
+msgstr "Tuo"
+
+#: import-orphans.php:260 includes/Classes/TableGenerate.php:265
+msgid "Results navigation"
+msgstr "Tulosten navigointi"
+
+#: import-orphans.php:266
+msgid "Import selected files"
+msgstr "Tuo valitut tiedostot"
+
+#: import-orphans.php:281
+msgid "There are no files available to add right now."
+msgstr "Lisättäviä tiedostoja ei ole saatavilla."
+
+#: import-orphans.php:282
+msgid ""
+"To use this feature you need to upload your files via FTP to the folder"
+msgstr "Käyttääksesi tätä toimintoa sinun tulee lähettää tiedostosi FTP:n avulla hakemistoon"
+
+#: includes/Classes/ActionsLog.php:41
+msgid "Account logs in through the form"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:43
+msgid "Account (user or client) logs out"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:44
+msgid "A user creates a new user account"
+msgstr "Käyttäjä luo uuden käyttäjätilin"
+
+#: includes/Classes/ActionsLog.php:45
+msgid "A user creates a new client account"
+msgstr "Käyttäjä luo uuden asiakastilin"
+
+#: includes/Classes/ActionsLog.php:46
+msgid "A client registers an account for himself"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:47
+msgid "A client registers using a social profile"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:48
+msgid "Account logged in using a social profile"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:49
+msgid "A file is uploaded by an user"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:50
+msgid "A file is uploaded by a client"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:51
+msgid "A file is downloaded by a user"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:52
+msgid "A file is downloaded by a client"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:53
+msgid "An anonymous user downloaded a public file"
+msgstr "Anonyymi käyttäjä latasi julkisen tiedoston"
+
+#: includes/Classes/ActionsLog.php:54
+msgid "A zip file was generated"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:55
+msgid "A file has been unassigned from a client"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:56
+msgid "A file has been unassigned from a group"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:57
+msgid "A file has been deleted"
+msgstr "Tiedosto poistettiin"
+
+#: includes/Classes/ActionsLog.php:58
+msgid "A user was edited"
+msgstr "Käyttäjää muokattiin"
+
+#: includes/Classes/ActionsLog.php:59
+msgid "A client was edited"
+msgstr "Asiakasta muokattiin"
+
+#: includes/Classes/ActionsLog.php:60
+msgid "A group was edited"
+msgstr "Ryhmää muokattiin"
+
+#: includes/Classes/ActionsLog.php:61
+msgid "A user was deleted"
+msgstr "Käyttäjä poistettiin"
+
+#: includes/Classes/ActionsLog.php:62
+msgid "A client was deleted"
+msgstr "Asiakas poistettiin"
+
+#: includes/Classes/ActionsLog.php:63
+msgid "A group was deleted"
+msgstr "Ryhmä poistettiin"
+
+#: includes/Classes/ActionsLog.php:64
+msgid "A user account was marked as active"
+msgstr "Käyttäjätili merkittiin aktiiviseksi"
+
+#: includes/Classes/ActionsLog.php:65
+msgid "A user account was marked as inactive"
+msgstr "Käyttäjätili merkittiin inaktiiviseksi"
+
+#: includes/Classes/ActionsLog.php:66
+msgid "A client account was marked as active"
+msgstr "Asiakastili merkittiin aktiiviseksi"
+
+#: includes/Classes/ActionsLog.php:67
+msgid "A client account was marked as inactive"
+msgstr "Asiakastili merkittiin inaktiiviseksi"
+
+#: includes/Classes/ActionsLog.php:68
+msgid "A file was marked as hidden"
+msgstr "Tiedosto merkittiin piilotetuksi"
+
+#: includes/Classes/ActionsLog.php:69
+msgid "A file was marked as visible"
+msgstr "Tiedosto merkittiin näkyväksi"
+
+#: includes/Classes/ActionsLog.php:70 includes/Classes/ActionsLog.php:71
+msgid "A file was marked as hidden for everyone"
+msgstr "Tiedosto merkittiin piilotetuksi kaikilta"
+
+#: includes/Classes/ActionsLog.php:72
+msgid "A user creates a new group"
+msgstr "Käyttäjä luo uuden ryhmän"
+
+#: includes/Classes/ActionsLog.php:73
+msgid "A file is assigned to a client"
+msgstr "Tiedosto luovutetaan asiakkaalle"
+
+#: includes/Classes/ActionsLog.php:74
+msgid "A file is assigned to a group"
+msgstr "Tiedosto luovutetaan ryhmälle"
+
+#: includes/Classes/ActionsLog.php:75
+msgid "The logo on \"Branding\" was changed"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:76
+msgid "A system user edited a file"
+msgstr "Järjestelmäkäyttäjä muokkasi tiedostoa"
+
+#: includes/Classes/ActionsLog.php:77
+msgid "A client edited a file"
+msgstr "Asiakas muokkasi tiedostoa"
+
+#: includes/Classes/ActionsLog.php:78
+msgid "A user created a category"
+msgstr "Käyttäjä loi kategorian"
+
+#: includes/Classes/ActionsLog.php:79
+msgid "A user edited a category"
+msgstr "Käyttäjä muokkasi kategoriaa"
+
+#: includes/Classes/ActionsLog.php:80
+msgid "A user deleted a category"
+msgstr "Käyttäjä poisti kategorian"
+
+#: includes/Classes/ActionsLog.php:81
+msgid "A client account request was processed"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:82
+msgid "A client's groups membership requests were processed"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:83
+msgid "A file preview request was made"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:84
+msgid "ProjecSend has been installed"
+msgstr "ProjectSend on asennettu"
+
+#: includes/Classes/ActionsLog.php:85
+msgid "ProjectSend was updated"
+msgstr "ProjectSend päivitettiin"
+
+#: includes/Classes/ActionsLog.php:86
+msgid "A client account request was approved"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:87
+msgid "A client account request was denied"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:88
+msgid "System options were updated"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:89
+msgid "An email template was updated"
+msgstr ""
+
+#: includes/Classes/Auth.php:259
+msgid "Email and password cannot be empty."
+msgstr "Sähköposti ja salasana eivät voi olla tyhjiä."
+
+#: includes/Classes/Auth.php:278
+#, php-format
+msgid "LDAP connection error: %s"
+msgstr ""
+
+#: includes/Classes/Auth.php:316 includes/Classes/Auth.php:326
+msgid "The supplied email or password does not match an existing record."
+msgstr ""
+
+#: includes/Classes/Auth.php:335
+msgid "Error binding to LDAP server."
+msgstr ""
+
+#: includes/Classes/Auth.php:358
+msgid "Error during log in."
+msgstr ""
+
+#: includes/Classes/Auth.php:368
+msgid "The supplied credentials are not valid."
+msgstr "Annetut tunnuksen tiedot eivä ole valideja."
+
+#: includes/Classes/Auth.php:371
+msgid "The supplied username doesn't exist."
+msgstr "Virheellinen käyttäjätunnus."
+
+#: includes/Classes/Auth.php:374
+msgid "The supplied password is incorrect."
+msgstr "Virheellinen salasana."
+
+#: includes/Classes/Auth.php:378
+msgid "This account is not active."
+msgstr "Tämä käyttäjätili ei ole aktiivinen."
+
+#: includes/Classes/Auth.php:380
+msgid ""
+"If you just registered, please wait until a system administrator approves "
+"your account."
+msgstr "Mikäli olet juuri rekisteröitynyt, odota kunnes järjestelmänvalvoja hyväksyy tunnuksesi."
+
+#: includes/Classes/Auth.php:384 register.php:111
+msgid ""
+"Client self registration is not allowed. If you need an account, please "
+"contact a system administrator."
+msgstr "Asiakkaan omatoiminen rekisteröinti on estetty. Jos tarvitset käyttäjätilin, ota yhteys järjestelmänvalvojaan."
+
+#: includes/Classes/Auth.php:387
+msgid ""
+"Sign-in with Google cannot be used to create new accounts at this time."
+msgstr ""
+
+#: includes/Classes/Auth.php:390
+msgid "You must approve the requested permissions to sign in with Google."
+msgstr ""
+
+#: includes/Classes/Auth.php:393
+msgid "Session timed out. Please log in again."
+msgstr "Istunnon aikakatkaisu. Ole hyvä ja kirjaudu uudelleen."
+
+#: includes/Classes/Emails.php:36
+msgid "New files uploaded for you"
+msgstr "Sinulle lähetetyt uudet tiedostot"
+
+#: includes/Classes/Emails.php:37
+msgid "The following files are now available for you to download."
+msgstr "Seuraavat tiedostot ovat nyt ladattavissasi."
+
+#: includes/Classes/Emails.php:38
+msgid ""
+"If you prefer not to be notified about new files, please go to My Account "
+"and deactivate the notifications checkbox."
+msgstr "Mikäli et halua ilmoituksia uusista tiedostoista, mene Oma tili -sivulle ja ota rasti pois kyseisestä ruudusta."
+
+#: includes/Classes/Emails.php:39
+msgid "You can access a list of all your files or upload your own"
+msgstr "Voit käyttää kaikkien tiedostojesi listausta tai lähettää omasi"
+
+#: includes/Classes/Emails.php:40 includes/Classes/Emails.php:48
+msgid "by logging in here"
+msgstr "kirjautumalla sisään täällä"
+
+#: includes/Classes/Emails.php:45
+msgid "New files uploaded by clients"
+msgstr "Asiakkaiden lähettämät uudet tiedostot"
+
+#: includes/Classes/Emails.php:46
+msgid "New files has been uploaded by the following clients"
+msgstr "Seuraavat asiakkaat ovat lähettäneet uusia tiedostoja."
+
+#: includes/Classes/Emails.php:47
+msgid "You can manage these files"
+msgstr "Voit hallita seuraavia tiedostoja"
+
+#: includes/Classes/Emails.php:53 includes/Classes/Emails.php:102
+msgid "Welcome to ProjectSend"
+msgstr "Tervetuloa ProjectSend ohjelmistoon"
+
+#: includes/Classes/Emails.php:54
+msgid ""
+"A new account was created for you. From now on, you can access the files "
+"that have been uploaded under your account using the following credentials:"
+msgstr "Sinulle on luotu uusi käyttäjätili. Tästä eteenpäin sinulla on pääsy käyttäjätiliisi liitettyihin tiedostoihin seuraavilla käyttäjätiedoilla:"
+
+#: includes/Classes/Emails.php:55 includes/Classes/Emails.php:89
+msgid "You can log in following this link"
+msgstr "Voit kirjautua sisään seuraamalla tätä linkkiä"
+
+#: includes/Classes/Emails.php:56 includes/Classes/Emails.php:90
+#: includes/Classes/Emails.php:97
+msgid "Please contact the administrator if you need further assistance."
+msgstr "Jos tarvitset lisätukea, ota yhteys ylläpitoon."
+
+#: includes/Classes/Emails.php:57 includes/Classes/Emails.php:106
+msgid "Your username"
+msgstr "Käyttäjänimesi"
+
+#: includes/Classes/Emails.php:58 includes/Classes/Emails.php:107
+msgid "Your password"
+msgstr "Salasanasi"
+
+#: includes/Classes/Emails.php:66
+msgid "A new client has registered"
+msgstr ""
+
+#: includes/Classes/Emails.php:67
+msgid ""
+"A new account was created using the self registration form on your site. "
+"Registration information:"
+msgstr "Uusi käyttäjätili luotiin sivustosi rekisteröintilomakkeella. Rekisteröinnin tiedot:"
+
+#: includes/Classes/Emails.php:69 includes/Classes/Emails.php:118
+#: includes/Classes/Emails.php:128 includes/forms/login.php:15
+#: includes/forms/options/email.php:100 install/make-config.php:251
+msgid "Username"
+msgstr "Käyttäjänimi"
+
+#: includes/Classes/Emails.php:70
+msgid "Additionally, the client requests access to the following group(s)"
+msgstr "Käyttäjä pyytää myös pääsyä seuraaviin ryhmiin"
+
+#: includes/Classes/Emails.php:73 includes/Classes/Emails.php:130
+msgid "Please log in to process the request."
+msgstr "Ole hyvä ja kirjaudu toteuttaaksesi pyynnön"
+
+#: includes/Classes/Emails.php:74
+msgid ""
+"Remember, your new client will not be able to log in until an administrator "
+"has approved their account."
+msgstr "Muista, että uusi asiakkaasi ei voi kirjautua sisään ennen kuin ylläpitäjä on hyväksynyt käyttäjätilin."
+
+#: includes/Classes/Emails.php:77
+msgid "Auto-approvals of new accounts are currently enabled."
+msgstr "Uusien tunnuksien automaattinen hyväksyntä on käytössä."
+
+#: includes/Classes/Emails.php:78
+msgid "You can log in to manually deactivate it."
+msgstr "Voit kirjautua sisään ja poistaa sen käytöstä manuaalisesti."
+
+#: includes/Classes/Emails.php:84
+msgid "You account has been approved"
+msgstr "Käyttäjätilisi on hyväksytty"
+
+#: includes/Classes/Emails.php:85
+msgid "Your account has been approved."
+msgstr "Käyttäjätilisi on hyväksytty."
+
+#: includes/Classes/Emails.php:86
+msgid "Additionally, your group membership requests have been processed."
+msgstr "Ryhmäjäsenyyspyyntösi on myös käsitelty."
+
+#: includes/Classes/Emails.php:87
+msgid "Approved requests:"
+msgstr "Hyväksytyt pyynnöt:"
+
+#: includes/Classes/Emails.php:88
+msgid "Denied requests:"
+msgstr "Ei-hyväksytyt pyynnöt:"
+
+#: includes/Classes/Emails.php:95
+msgid "You account has been denied"
+msgstr "Käyttäjätilisi on estetty"
+
+#: includes/Classes/Emails.php:96
+msgid "Your account request has been denied."
+msgstr "Käyttäjätilipyyntösi on estetty."
+
+#: includes/Classes/Emails.php:103
+msgid ""
+"A new account was created for you. From now on, you can access the system "
+"administrator using the following credentials:"
+msgstr "Sinulle on luotu uusi käyttäjätili. Tästä eteenpäin sinulla on pääsy järjestelmän hallintaan seuraavilla käyttäjätiedoilla:"
+
+#: includes/Classes/Emails.php:104
+msgid "Access the system panel here"
+msgstr "Tästä pääsy järjestelmäpaneeliin"
+
+#: includes/Classes/Emails.php:105
+msgid "Thank you for using ProjectSend."
+msgstr "Kiitos kun käytit ProjectSendiä."
+
+#: includes/Classes/Emails.php:113
+msgid "Password reset instructions"
+msgstr "Ohjeet salasanan resetoimiseksi"
+
+#: includes/Classes/Emails.php:114
+msgid ""
+"A request has been received to reset the password for the following account:"
+msgstr "Seuraavalle tunnukselle on pyydetty salasanan resetointia:"
+
+#: includes/Classes/Emails.php:115
+msgid "To continue, please visit the following link"
+msgstr "Vieraile seuraavassa osoitteessa jatkaaksesi"
+
+#: includes/Classes/Emails.php:116
+msgid "The request is valid only for 24 hours."
+msgstr "Pyyntö on voimassa vain 24 tuntia."
+
+#: includes/Classes/Emails.php:117
+msgid "If you did not make this request, simply ignore this email."
+msgstr "Mikäli et tehnyt tätä pyyntöä, sinun ei tarvitse reagoida tähän viestiin."
+
+#: includes/Classes/Emails.php:125
+msgid "A client has changed memberships requests"
+msgstr ""
+
+#: includes/Classes/Emails.php:126
+msgid ""
+"A client on you site has just changed his groups membership requests and "
+"needs your approval."
+msgstr "Asiakas on juuri muuttanut ryhmäjäsenyyspyyntöjään. Hyväksyntääsi tarvitaan."
+
+#: includes/Classes/Emails.php:129
+msgid "The client requests access to the following group(s)"
+msgstr "Asiakas pyytää pääsyä seuraaviin ryhmiin"
+
+#: includes/Classes/Emails.php:283 includes/Classes/Emails.php:533
+msgid "No group requests made"
+msgstr ""
+
+#: includes/Classes/Emails.php:552
+msgid "Email configuration test"
+msgstr ""
+
+#: includes/Classes/Emails.php:604
+msgid "This is a test message"
+msgstr ""
+
+#: includes/Classes/Emails.php:733
+msgid ""
+"This email contains HTML formatting and cannot be displayed right now. "
+"Please use an HTML compatible reader."
+msgstr "Tämä sähköposti sisältää HTML-muotoiluja, joita ei voida näyttää tässä. Ole hyvä ja käytä sähköpostiohjelmaa, joka tukee HTML-muotoiluja sähköposteissa."
+
+#: includes/Classes/TableGenerate.php:322
+msgid "Go to:"
+msgstr "Siirry:"
+
+#: includes/Classes/Validation.php:270 includes/text.strings.php:65
+msgid "The following errors were found"
+msgstr "Seuraavat virheet havaittiin"
+
+#: includes/forms/categories.php:14
+msgid "Create"
+msgstr "Luo"
+
+#: includes/forms/categories.php:17 includes/forms/file_editor.php:209
+msgid "Save"
+msgstr "Tallenna"
+
+#: includes/forms/categories.php:44
+msgid "Parent"
+msgstr ""
+
+#: includes/forms/categories.php:47 includes/forms/options/clients.php:53
+#: includes/forms/options/email.php:136 manage-files.php:656
+msgid "None"
+msgstr "Ei mitään"
+
+#: includes/forms/categories.php:67
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: includes/forms/clients.php:9
+msgid "Will be visible on the client's file list"
+msgstr "Näkyy asiakkaan tiedostolistauksessa"
+
+#: includes/forms/clients.php:28
+msgid "Save client"
+msgstr "Tallenna asiakas"
+
+#: includes/forms/clients.php:40
+msgid "Create account"
+msgstr ""
+
+#: includes/forms/clients.php:40
+msgid "Request account"
+msgstr ""
+
+#: includes/forms/clients.php:46
+msgid "Your full name"
+msgstr "Koko nimesi"
+
+#: includes/forms/clients.php:50 includes/forms/clients.php:64
+msgid "Request access to groups"
+msgstr "Pyydä pääsyä ryhmiin"
+
+#: includes/forms/clients.php:55 includes/forms/users.php:25
+msgid "Update account"
+msgstr "Päivitä käyttäjätili"
+
+#: includes/forms/clients.php:85 includes/forms/users.php:46
+msgid "Must be alphanumeric"
+msgstr "Täytyy olla aakkosnumeerinen"
+
+#: includes/forms/clients.php:90 includes/forms/login-ldap.php:11
+#: includes/forms/login.php:20 includes/forms/options/email.php:107
+#: includes/forms/users.php:51 install/index.php:318
+#: install/make-config.php:261
+msgid "Password"
+msgstr "Salasana"
+
+#: includes/forms/clients.php:98
+#: includes/forms/reset-password/enter-password.php:13
+#: includes/forms/users.php:59 install/index.php:326
+msgid "Generate"
+msgstr "Luo"
+
+#: includes/forms/clients.php:106 includes/forms/users.php:67
+msgid "Must be valid and unique"
+msgstr "Täytyy olla validi ja uniikki"
+
+#: includes/forms/clients.php:111
+msgid "Address"
+msgstr "Osoite"
+
+#: includes/forms/clients.php:118
+msgid "Telephone"
+msgstr "Puhelin"
+
+#: includes/forms/clients.php:128
+msgid "Internal contact name"
+msgstr "Sisäisen kontaktin nimi"
+
+#: includes/forms/clients.php:135 includes/forms/users.php:95
+msgid "Max. upload filesize"
+msgstr "Suurin sallittu tiedostokoko"
+
+#: includes/forms/clients.php:141 includes/forms/users.php:101
+msgid "Set to 0 to use the default system limit"
+msgstr "Aseta nollaksi, niin käytetään oletusarjoitusta"
+
+#: includes/forms/clients.php:188 includes/forms/file_editor.php:118
+#: includes/forms/file_editor.php:140 includes/forms/file_editor.php:173
+#: includes/forms/groups.php:42
+msgid "Select one or more options. Type to search."
+msgstr "Valitse yksi tai useampi vaihtoehto. Kirjoita käyttääksesi hakua."
+
+#: includes/forms/clients.php:207 includes/forms/file_editor.php:130
+#: includes/forms/file_editor.php:152 includes/forms/file_editor.php:179
+#: includes/forms/groups.php:65
+msgid "Add all"
+msgstr "Lisää kaikki"
+
+#: includes/forms/clients.php:208 includes/forms/file_editor.php:131
+#: includes/forms/file_editor.php:153 includes/forms/file_editor.php:180
+#: includes/forms/groups.php:66
+msgid "Remove all"
+msgstr "Poista kaikki"
+
+#: includes/forms/clients.php:226
+msgid "Active (client can log in)"
+msgstr "Aktiivinen (asiakas voi kirjautua sisään)"
+
+#: includes/forms/clients.php:237
+msgid "Notify new uploads by e-mail"
+msgstr "Ilmoita uusista lähetyksistä sähköpostitse"
+
+#: includes/forms/clients.php:248 includes/forms/users.php:120
+msgid "Send welcome email"
+msgstr "Lähetä tervetuloviesti"
+
+#: includes/forms/clients.php:256 includes/forms/users.php:128
+msgid "Require password change after first login"
+msgstr ""
+
+#: includes/forms/clients.php:269
+msgid "Verification"
+msgstr "Vahvistus"
+
+#: includes/forms/clients.php:286 includes/forms/users.php:143
+msgid ""
+"This account information will be e-mailed to the address supplied above"
+msgstr "Nämä käyttäjätilin tiedot lähetetään yllä mainittuun sähköpostiosoitteeseen."
+
+#: includes/forms/file_editor.php:39
+msgid "Enter here the required file title."
+msgstr "Aseta tiedostolle pakollinen otsikko tässä."
+
+#: includes/forms/file_editor.php:44
+msgid "Optionally, enter here a description for the file."
+msgstr "Tiedoston vapaaehtoinen kuvaus."
+
+#: includes/forms/file_editor.php:63
+msgid "Expiration date"
+msgstr "Vanhenemispäivä"
+
+#: includes/forms/file_editor.php:66
+msgid "Select a date"
+msgstr "Valitse päivämäärä"
+
+#: includes/forms/file_editor.php:77
+msgid "File expires"
+msgstr "Tiedosto vanhenee"
+
+#: includes/forms/file_editor.php:88
+msgid "Public downloading"
+msgstr "Julkinen lataus"
+
+#: includes/forms/file_editor.php:92
+msgid "Allow public downloading of this file."
+msgstr "Salli tämän tiedoston julkinen lataus."
+
+#: includes/forms/file_editor.php:116
+msgid "Assignations"
+msgstr "Sidonnaisuudet"
+
+#: includes/forms/file_editor.php:133 includes/forms/file_editor.php:155
+#: includes/forms/file_editor.php:182
+msgid "Copy selections to other files"
+msgstr "Kopioi valinnat toisiin tiedostoihin"
+
+#: includes/forms/file_editor.php:163
+msgid "Hidden (will not send notifications or show into the files list)"
+msgstr ""
+
+#: includes/forms/file_editor.php:172
+msgid "Add to"
+msgstr "Lisää"
+
+#: includes/forms/file_editor.php:197
+#, php-format
+msgid "File not found on disk: %s"
+msgstr ""
+
+#: includes/forms/file_editor.php:201
+#, php-format
+msgid "Record does not exist for file id: %d"
+msgstr ""
+
+#: includes/forms/groups.php:12
+msgid "Create group"
+msgstr "Luo ryhmä"
+
+#: includes/forms/groups.php:16
+msgid "Save group"
+msgstr "Tallenna ryhmä"
+
+#: includes/forms/groups.php:75
+msgid ""
+"Allows clients to request access to this group in the registraron process "
+"and when editing their own profile."
+msgstr ""
+
+#: includes/forms/groups.php:78
+msgid ""
+"The group cannot be made publicly visible while the public page is disabled."
+msgstr ""
+
+#: includes/forms/login-ldap.php:27 includes/forms/login.php:36
+msgid "default"
+msgstr "oletus"
+
+#: includes/forms/options/branding.php:1
+msgid "Current logo"
+msgstr "Nykyinen logo"
+
+#: includes/forms/options/branding.php:2
+msgid ""
+"Use this page to upload your company logo, or update the currently assigned "
+"one. This image will be shown to your clients when they access their file "
+"list."
+msgstr "Käytä tätä sivua lähettääksesi yrityksesi logon tai päivittääksesi nykyistä logoa. Tämä kuva näytetään asiakkaillesi heidän tiedostolistauksissaan."
+
+#: includes/forms/options/branding.php:23
+msgid "This preview uses a maximum width of 300px."
+msgstr "Tämä esikatselu käyttää maksimileveyttä 300px."
+
+#: includes/forms/options/branding.php:27
+msgid "Delete current logo"
+msgstr ""
+
+#: includes/forms/options/branding.php:34
+msgid "Select image to upload"
+msgstr "Valitse lähetettävä kuva"
+
+#: includes/forms/options/clients.php:1
+msgid "New registrations"
+msgstr "Uudet rekisteröinnit"
+
+#: includes/forms/options/clients.php:2
+msgid ""
+"Used only on self-registrations. These options will not apply to clients "
+"registered by system administrators."
+msgstr "Käytetään vain omatoimisissa rekisteröitymisissä. Nämä asetukset eivät vaikuta järjestelmänvalvojien luomiin asiakastileihin."
+
+#: includes/forms/options/clients.php:7
+msgid "Clients can register themselves"
+msgstr "Asiakkaat voivat rekisteröityä omatoimisesti"
+
+#: includes/forms/options/clients.php:15
+msgid "Auto approve new accounts"
+msgstr "Hyväksy uudet käyttäjätilit automaattisesti"
+
+#: includes/forms/options/clients.php:21
+msgid "Add clients to this group:"
+msgstr "Lisää asiakkaita tähän ryhmään:"
+
+#: includes/forms/options/clients.php:24
+msgid "None (does not enable this feature)"
+msgstr "Ei mitään (ominaisuus pois käytöstä)"
+
+#: includes/forms/options/clients.php:43
+msgid ""
+"New clients will automatically be assigned to the group you have selected."
+msgstr "Uudet asiakkaat asetetaan automaattisesti valitsemaasi ryhmään."
+
+#: includes/forms/options/clients.php:48
+msgid "Groups for which clients can request membership to:"
+msgstr "Ryhmät, joihin käyttäjät voivat pyytää jäsenyyttä:"
+
+#: includes/forms/options/clients.php:54
+msgid "Public groups"
+msgstr "Julkiset ryhmät"
+
+#: includes/forms/options/clients.php:55
+msgid "All groups"
+msgstr "Kaikki ryhmät"
+
+#: includes/forms/options/clients.php:64
+msgid ""
+"When a client registers a new account, an option will be presented to "
+"request becoming a member of a particular group."
+msgstr "Ryhmäjäsenyyspyyntö tiettyyn ryhmään näytetään asiakkaan rekisteröidessä uuden käyttäjätilin."
+
+#: includes/forms/options/clients.php:75
+msgid "Clients can upload files"
+msgstr "Asiakkaat voivat lähettää tiedostoja"
+
+#: includes/forms/options/clients.php:83
+msgid "Clients can delete their own uploaded files"
+msgstr "Asiakkaat voivat poistaa omia lataamiaan tiedostoja"
+
+#: includes/forms/options/clients.php:91
+msgid "Clients can set expiration Date"
+msgstr "Asiakkaat voivat asettaa voimassaoloajan"
+
+#: includes/forms/options/clients.php:97
+msgid "When a file expires:"
+msgstr "Kun tiedosto vanhenee:"
+
+#: includes/forms/options/clients.php:100
+msgid "Don't show it on the files list"
+msgstr "Älä näytä tiedostolistauksessa"
+
+#: includes/forms/options/clients.php:101
+msgid "Show it anyway, but prevent download."
+msgstr "Näytä silti, mutta estä tiedoston lataus."
+
+#: includes/forms/options/clients.php:103
+msgid ""
+"This only affects clients. On the admin side, you can still get the files."
+msgstr "Tämä vaikuttaa vain asiakkaisiin. Hallintapuolella voit edelleen käsitellä tiedostoja."
+
+#: includes/forms/options/email.php:1
+msgid "\"From\" information"
+msgstr "Lähettäjän tiedot"
+
+#: includes/forms/options/email.php:4 install/index.php:304
+msgid "E-mail address"
+msgstr "Sähköpostiosoite"
+
+#: includes/forms/options/email.php:19
+msgid "Send copies"
+msgstr "Lähetä kopiot"
+
+#: includes/forms/options/email.php:24
+msgid "When a system user uploads files"
+msgstr "Kun järjestelmäkäyttäjä lähettää tiedostoja"
+
+#: includes/forms/options/email.php:32
+msgid "When a client uploads files"
+msgstr "Kun asiakas lähettää tiedostoja"
+
+#: includes/forms/options/email.php:38
+msgid ""
+"Define here who will receive copies of this emails. These are sent as BCC so"
+" neither recipient will see the other addresses."
+msgstr "Määrittele ketkä vastaanottavat kopion tästä sähköpostista. Nämä lähetetään piilokopioina, eli kopioiden vastaanottajat eivät näy muille."
+
+#: includes/forms/options/email.php:44
+msgid "Address supplied above (on \"From\")"
+msgstr "Osoite annettu yllä (lähettäjän tiedoissa)"
+
+#: includes/forms/options/email.php:50
+msgid "Also to this addresses"
+msgstr "Myös näihin osoitteisiin"
+
+#: includes/forms/options/email.php:53
+msgid "Separate e-mail addresses with a comma."
+msgstr "Erottele sähköpostiosoitteet pilkulla."
+
+#: includes/forms/options/email.php:59
+msgid "Expiration"
+msgstr "Vanheneminen"
+
+#: includes/forms/options/email.php:62
+msgid "Maximum sending attemps"
+msgstr "Lähetysyritysten maksimimäärä"
+
+#: includes/forms/options/email.php:65
+msgid ""
+"Define how many times will the system attemp to send each notification."
+msgstr "Määritä kuinka monta kertaa järjestelmä yrittää lähettää jokaista ilmoitusta."
+
+#: includes/forms/options/email.php:70
+msgid "Days before expiring"
+msgstr "Päiviä ennen vanhenemista"
+
+#: includes/forms/options/email.php:73
+msgid "Notifications older than this will not be sent."
+msgstr "Tätä vanhempia ilmoituksia ei lähetetä."
+
+#: includes/forms/options/email.php:73
+msgid "Set to 0 to disable."
+msgstr "Aseta arvoon 0 poistaaksesi käytöstä."
+
+#: includes/forms/options/email.php:79
+msgid "E-mail sending options"
+msgstr "Sähköpostin lähetyksen asetukset"
+
+#: includes/forms/options/email.php:80
+msgid ""
+"Here you can select which mail system will be used when sending the "
+"notifications. If you have a valid e-mail account, SMTP is the recommended "
+"option."
+msgstr "Tästä voit valita mitä tapaa sähköposti-ilmoitusten lähetykseen käytetään. Mikäli sinulla on tähän soveltuvat sähköpostitunnukset, SMTP on suositeltu vaihtoehto."
+
+#: includes/forms/options/email.php:83
+msgid "Mailer"
+msgstr "Postittaja"
+
+#: includes/forms/options/email.php:96
+msgid "SMTP & Gmail shared options"
+msgstr "Yhteiset SMTP ja Gmail -asetukset"
+
+#: includes/forms/options/email.php:97
+msgid ""
+"You need to include your username (usually your e-mail address) and password"
+" if you have selected either SMTP or Gmail as your mailer."
+msgstr "Sinun täytyy antaa käyttäjätunnuksesi (yleensä sama kuin sähköpostiosoite) ja salasanasi, mikäli olet valinnut sähköpostien lähetystavaksi joko SMTP tai Gmail vaihtoehdon."
+
+#: includes/forms/options/email.php:115
+msgid "SMTP options"
+msgstr "SMTP-asetukset"
+
+#: includes/forms/options/email.php:116
+msgid "If you selected SMTP as your mailer, please complete these options."
+msgstr "Jos valitsit SMTP-lähetystavan, täytä seuraavat asetukset."
+
+#: includes/forms/options/email.php:119 install/make-config.php:231
+msgid "Host"
+msgstr "Palvelin"
+
+#: includes/forms/options/email.php:126
+msgid "Port"
+msgstr "Portti"
+
+#: includes/forms/options/email.php:133
+msgid "Authentication"
+msgstr "Tunnistautuminen"
+
+#: includes/forms/options/email.php:145
+msgid "SSL options"
+msgstr ""
+
+#: includes/forms/options/email.php:150
+msgid "Verify peer"
+msgstr ""
+
+#: includes/forms/options/email.php:158
+msgid "Verify peer name"
+msgstr ""
+
+#: includes/forms/options/email.php:166
+msgid "Allow self signed"
+msgstr ""
+
+#: includes/forms/options/email.php:175
+msgid "After saving your options, you can test your configuration here"
+msgstr ""
+
+#: includes/forms/options/external_login.php:4
+msgid "Social Networks"
+msgstr ""
+
+#: includes/forms/options/external_login.php:5
+#, php-format
+msgid ""
+"Note: %s requires all accounts to be available locally. When a user connects"
+" via a social network or any other external source, a local account will be "
+"created with a random password."
+msgstr ""
+
+#: includes/forms/options/external_login.php:87
+msgid "Enabled"
+msgstr "Käytössä"
+
+#: includes/forms/options/external_login.php:96
+msgid "App ID"
+msgstr ""
+
+#: includes/forms/options/external_login.php:102
+msgid "App Secret"
+msgstr ""
+
+#: includes/forms/options/external_login.php:110
+msgid "Callback URI"
+msgstr ""
+
+#: includes/forms/options/external_login.php:121
+#: includes/forms/options/security.php:105
+msgid "How do I obtain this credentials?"
+msgstr "Kuinka voin saada nämä käyttöoikeudet?"
+
+#: includes/forms/options/general.php:1
+msgid "General"
+msgstr "Yleistä"
+
+#: includes/forms/options/general.php:2
+msgid ""
+"Basic information to be shown around the site. The time format and zones "
+"values affect how the clients see the dates on their files lists."
+msgstr "Sivustolla käytettäviä perustietoja. Aikaformaatti ja aikavyöhykkeen arvo vaikuttavat siihen miten päivämäärät näkyvät asiakkaille tiedostolistauksissa."
+
+#: includes/forms/options/general.php:5 install/index.php:278
+msgid "Site name"
+msgstr "Sivuston nimi"
+
+#: includes/forms/options/general.php:12
+msgid "Timezone"
+msgstr "Aikavyöhyke"
+
+#: includes/forms/options/general.php:25
+msgid "Time format"
+msgstr "Aikaformaatti"
+
+#: includes/forms/options/general.php:28
+msgid "For example, d/m/Y h:i:s will result in something like"
+msgstr "Esimerkiksi d/m/Y h:i:s näyttää seuraavanlaiselta"
+
+#: includes/forms/options/general.php:29
+msgid "For the full list of available values, visit"
+msgstr "Tarkista kaikki käytettävissä olevat muuttujat täältä:"
+
+#: includes/forms/options/general.php:29
+msgid "this page"
+msgstr "tämä sivu"
+
+#: includes/forms/options/general.php:36
+msgid "Use custom footer text"
+msgstr "Käytä muokattua alatunnistetta"
+
+#: includes/forms/options/general.php:42
+msgid "Footer content"
+msgstr "Alatunnisteen sisältö"
+
+#: includes/forms/options/general.php:50
+msgid "Editor"
+msgstr "Editori"
+
+#: includes/forms/options/general.php:55
+msgid "Use the visual editor on files descriptions"
+msgstr "Käytä visuaalista editoria tiedostokuvauksissa"
+
+#: includes/forms/options/general.php:67
+msgid "Detect user browser language"
+msgstr "Tunnista käyttäjän selaimen kieli"
+
+#: includes/forms/options/general.php:68
+msgid ""
+"If available, will override the default one from the system configuration "
+"file. Affects all users and clients."
+msgstr "Jos saatavilla, tämä yliajaa järjestelmäkonfiguraation oletuksen. Vaikuttaa kaikkiin käyttäjiin ja asiakkaisiin."
+
+#: includes/forms/options/general.php:75
+msgid "Downloads"
+msgstr "Lataukset"
+
+#: includes/forms/options/general.php:79
+msgid "Use XSendFile to serve files"
+msgstr ""
+
+#: includes/forms/options/general.php:80
+msgid ""
+"xsendfile improves downloads by allowing the web server to send the file "
+"directly (without php and it's limitations in the middle). This provides "
+"several optimizations, such as resumable, more stable downloads. This in an "
+"advanced feature that requires you to install and enable a module on your "
+"server."
+msgstr ""
+
+#: includes/forms/options/general.php:87
+msgid "System location"
+msgstr "Järjestelmän sijainti"
+
+#: includes/forms/options/general.php:88
+msgid ""
+"These options are to be changed only if you are moving the system to another"
+" place. Changes here can cause ProjectSend to stop working."
+msgstr "Näitä asetuksia tulisi muuttaa vain, jos olet siirtämässä järjestelmää toiseen paikkaan. Täällä tehdyt muutokset voivat aiheuttaa sen, ettei ProjectSend enää toimi."
+
+#: includes/forms/options/general.php:91
+msgid "System URI"
+msgstr "Järjestelmän URI"
+
+#: includes/forms/options/privacy.php:6
+msgid "Prevent search engines from indexing this site"
+msgstr "Estä hakukoneita indeksoimasta tätä sivustoa"
+
+#: includes/forms/options/privacy.php:14
+msgid "Enable information page for private files"
+msgstr "Ota käyttöön tietosivu yksityisille tiedostoille"
+
+#: includes/forms/options/privacy.php:15
+msgid ""
+"If enabled, the file information landing page will be available even for "
+"files that are not marked as private. Downloading them will stay restricted."
+msgstr "Jos käytössä, tiedostokuvauksen laskeutumissivu on saatavilla myös tiedostoille, jotka eivät ole merkitty yksityisiksi. Niiden lataaminen on yhä rajoitettu."
+
+#: includes/forms/options/privacy.php:22
+msgid "Public groups and files listings page"
+msgstr "Julkisten ryhmien ja tiedostojen luettelosivu"
+
+#: includes/forms/options/privacy.php:27
+msgid "Enable page"
+msgstr "Ota sivu käyttöön"
+
+#: includes/forms/options/privacy.php:29
+msgid "The url for the listings page is"
+msgstr "Luettelosivun URL-osoite on"
+
+#: includes/forms/options/privacy.php:39
+msgid "Only for logged in clients"
+msgstr "Vain sisäänkirjautuneille asiakkaille"
+
+#: includes/forms/options/privacy.php:47
+msgid ""
+"Inside groups show all files, including those that are not marked as public."
+msgstr "Näytä kaikki tiedostot ryhmien sisällä, myös ne jotka ei ole merkitty julkisiksi."
+
+#: includes/forms/options/privacy.php:55
+msgid "On public files, show the download link."
+msgstr "Näytä julkisien tiedostojen latauslinkki."
+
+#: includes/forms/options/security.php:1
+msgid "Allowed file extensions"
+msgstr "Sallitut tiedostopäätteet"
+
+#: includes/forms/options/security.php:2
+msgid ""
+"Be careful when changing this options. They could affect not only the system"
+" but the whole server it is installed on."
+msgstr "Ole varovainen muuttaessasi näitä asetuksia. Ne saattavat vaikuttaa koko palvelimeen, johon järjestelmä on asennettuna."
+
+#: includes/forms/options/security.php:3
+msgid "Important"
+msgstr "Tärkeä"
+
+#: includes/forms/options/security.php:3
+msgid "Separate allowed file types with a comma."
+msgstr "Erottele sallitut tiedostotyypit pilkulla."
+
+#: includes/forms/options/security.php:6
+msgid "Limit file types uploading to"
+msgstr "Rajoita tiedostotyyppien lataaminen kohteeseen"
+
+#: includes/forms/options/security.php:9
+msgid "No one"
+msgstr "Ei ketään"
+
+#: includes/forms/options/security.php:10
+msgid "Everyone"
+msgstr "Kaikki"
+
+#: includes/forms/options/security.php:11
+msgid "Clients only"
+msgstr "Vain asiakkaat"
+
+#: includes/forms/options/security.php:22
+msgid ""
+"Warning: php extension is allowed. This is a serious security problem. If "
+"you are not sure that you need it, please remove it from the list."
+msgstr "Varoitus: php-pääte on sallittu. Tämä on vakava turvallisuusongelma. Jos et ole varma asiasta, poista se listalta."
+
+#: includes/forms/options/security.php:29
+msgid "SVG files"
+msgstr ""
+
+#: includes/forms/options/security.php:33
+msgid "Show thumbnails for SVG files"
+msgstr ""
+
+#: includes/forms/options/security.php:41
+msgid "Passwords"
+msgstr "Salasanat"
+
+#: includes/forms/options/security.php:42
+msgid "When setting up a password for an account, require at least:"
+msgstr "Kun asetetaan salasanaa käyttäjätilille, vaadi vähintään:"
+
+#: includes/forms/options/security.php:78
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#: includes/forms/options/security.php:79
+msgid "Helps prevent SPAM on your registration form."
+msgstr "Auttaa rekisteröintikaavakkeen kautta tulevan roskapostin torjunnassa."
+
+#: includes/forms/options/security.php:84
+msgid "Use reCAPTCHA"
+msgstr "Käytä reCAPTCHA:aa"
+
+#: includes/forms/options/security.php:90
+msgid "Site key"
+msgstr ""
+
+#: includes/forms/options/security.php:97
+msgid "Secret key"
+msgstr ""
+
+#: includes/forms/reset-password/enter-email.php:10
+msgid ""
+"Please enter your account's e-mail address. You will receive a link to "
+"continue the process."
+msgstr "Ole hyvä ja syötä tunnuksesi sähköpostiosoite. Saat sähköpostiisi linkin jatkaaksesi."
+
+#: includes/forms/reset-password/enter-email.php:13
+msgid "Get a new password"
+msgstr "Hae uusi salasana"
+
+#: includes/forms/reset-password/enter-password.php:6
+msgid "New password"
+msgstr "Uusi salasana"
+
+#: includes/forms/reset-password/enter-password.php:17
+msgid ""
+"Please enter your desired new password. After that, you will be able to log "
+"in normally."
+msgstr "Ole hyvä ja syötä haluamasi uusi salasana. Tämän jälkeen voit kirjautua sisään normaalisti."
+
+#: includes/forms/reset-password/enter-password.php:20
+msgid "Set new password"
+msgstr "Aseta uusi salasana"
+
+#: includes/forms/upload.php:17
+msgid ""
+"Your browser doesn't support HTML5, Flash or Silverlight. Please update your"
+" browser or install Adobe Flash or Silverlight to continue."
+msgstr "Selaimesi ei tue HTML 5, Flash tai Silverlight -tekniikoita. Ole hyvä ja päivitä selaimesi tai asenna Adobe Flash tai Silverlight jatkaaksesi."
+
+#: includes/forms/upload.php:21 upload.php:16
+msgid "Upload files"
+msgstr "Lähetä tiedostoja"
+
+#: includes/forms/upload.php:24
+msgid ""
+"Your files are being uploaded! Progress indicators may take a while to "
+"update, but work is still being done behind the scenes."
+msgstr "Tiedostojasi lähetetään! Lähetyksen etenemisindikaattorin päivittyminen saattaa kestää hetken, mutta järjestelmä työskentelee silti taustalla."
+
+#: includes/forms/users.php:11
+msgid "Add user"
+msgstr "Lisää käyttäjä"
+
+#: includes/forms/users.php:18
+msgid "Save user"
+msgstr "Tallenna käyttäjä"
+
+#: includes/forms/users.php:75 users.php:300
+msgid "Role"
+msgstr "Rooli"
+
+#: includes/forms/users.php:108
+msgid "Active (user can log in)"
+msgstr "Aktiivinen (käyttäjä voi kirjautua sisään)"
+
+#: includes/functions.actionslog.php:21 includes/functions.actionslog.php:22
+msgid "ProjectSend was installed"
+msgstr "ProjectSend asennettiin"
+
+#: includes/functions.actionslog.php:27 includes/functions.actionslog.php:207
+msgid "logged in to the system."
+msgstr "kirjautui sisään järjestelmään."
+
+#: includes/functions.actionslog.php:28 includes/functions.actionslog.php:208
+#, php-format
+msgid "%s logged in to the system"
+msgstr "%s kirjautui sisään järjestelmään"
+
+#: includes/functions.actionslog.php:33
+msgid "created the user account"
+msgstr "loi käyttäjätilin"
+
+#: includes/functions.actionslog.php:35
+#, php-format
+msgid "%s created the user account %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:40
+msgid "created the client account "
+msgstr "loi asiakastilin"
+
+#: includes/functions.actionslog.php:42
+#, php-format
+msgid "%s created the client account %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:47
+msgid "created a client account for themself."
+msgstr "loi itselleen asiakastilin."
+
+#: includes/functions.actionslog.php:48
+#, php-format
+msgid "%s registered as a new client"
+msgstr ""
+
+#: includes/functions.actionslog.php:53
+msgid "(user) uploaded the file"
+msgstr "(käyttäjä) lähetti tiedoston"
+
+#: includes/functions.actionslog.php:55
+#, php-format
+msgid "%s (user) uploaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:60
+msgid "(client) uploaded the file"
+msgstr "(asiakas) lähetti tiedoston"
+
+#: includes/functions.actionslog.php:62
+#, php-format
+msgid "%s (client) uploaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:67
+msgid "(user) downloaded the file"
+msgstr "(käyttäjä) latasi tiedoston"
+
+#: includes/functions.actionslog.php:69
+#, php-format
+msgid "%s (user) downloaded the file %s"
+msgstr "%s (käyttäjä) latasi tiedoston %s"
+
+#: includes/functions.actionslog.php:74
+msgid "(client) downloaded the file"
+msgstr "(asiakas) latasi tiedoston"
+
+#: includes/functions.actionslog.php:76
+#, php-format
+msgid "%s (client) downloaded the file %s"
+msgstr "%s (asiakas) latasi tiedoston %s"
+
+#: includes/functions.actionslog.php:81
+msgid "generated a zip file"
+msgstr "generoi ZIP-paketin"
+
+#: includes/functions.actionslog.php:82
+#, php-format
+msgid "%s generated a zip file"
+msgstr ""
+
+#: includes/functions.actionslog.php:87 includes/functions.actionslog.php:96
+msgid "unassigned the file"
+msgstr "merkitsi pois tiedoston"
+
+#: includes/functions.actionslog.php:89
+msgid "from the client:"
+msgstr "asiakkaalta:"
+
+#: includes/functions.actionslog.php:91
+#, php-format
+msgid "%s unassigned the file %s from the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:98
+msgid "from the group:"
+msgstr "ryhmältä:"
+
+#: includes/functions.actionslog.php:100
+#, php-format
+msgid "%s unassigned the file %s from the group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:105
+msgid "deleted the file"
+msgstr "poisti tiedoston"
+
+#: includes/functions.actionslog.php:107
+#, php-format
+msgid "%s deleted the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:112
+msgid "edited the user"
+msgstr "muokkasi käyttäjää"
+
+#: includes/functions.actionslog.php:114
+#, php-format
+msgid "%s edited the user %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:119
+msgid "edited the client"
+msgstr "muokkasi asiakasta"
+
+#: includes/functions.actionslog.php:121
+#, php-format
+msgid "%s edited the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:126
+msgid "edited the group"
+msgstr "muokkasi ryhmää"
+
+#: includes/functions.actionslog.php:128
+#, php-format
+msgid "%s edited the group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:133
+msgid "deleted the user"
+msgstr "poisti käyttäjän"
+
+#: includes/functions.actionslog.php:135
+#, php-format
+msgid "%s deleted the user %s"
+msgstr "%s poisti käyttäjän %s"
+
+#: includes/functions.actionslog.php:140
+msgid "deleted the client"
+msgstr "poisti asiakkaan"
+
+#: includes/functions.actionslog.php:142
+#, php-format
+msgid "%s deleted the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:147
+msgid "deleted the group"
+msgstr "poisti ryhmän"
+
+#: includes/functions.actionslog.php:149
+#, php-format
+msgid "%s deleted the group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:154
+msgid "activated the client"
+msgstr "aktivoi asiakkaan"
+
+#: includes/functions.actionslog.php:156
+#, php-format
+msgid "%s activated the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:161
+msgid "deactivated the client"
+msgstr "deaktivoi asiakkaan"
+
+#: includes/functions.actionslog.php:163
+#, php-format
+msgid "%s deactivated the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:168
+msgid "marked as hidden the file"
+msgstr "merkitsi piilotetuksi tiedoston"
+
+#: includes/functions.actionslog.php:170 includes/functions.actionslog.php:193
+msgid "to:"
+msgstr "tilille:"
+
+#: includes/functions.actionslog.php:172
+#, php-format
+msgid "%s marked as hidden the file %s to %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:177
+msgid "marked as hidden for everyone the file"
+msgstr ""
+
+#: includes/functions.actionslog.php:179
+#, php-format
+msgid "%s marked as hidden for everyone the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:184
+msgid "marked as visible for everyone the file"
+msgstr ""
+
+#: includes/functions.actionslog.php:186
+#, php-format
+msgid "%s marked as visible for everyone the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:191
+msgid "marked as visible the file"
+msgstr "merkitsi näkyväksi tiedoston"
+
+#: includes/functions.actionslog.php:195
+#, php-format
+msgid "%s marked as visible the file %s to %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:200
+msgid "created the group"
+msgstr "loi ryhmän"
+
+#: includes/functions.actionslog.php:202
+#, php-format
+msgid "%s created the group %s"
+msgstr "%s loi ryhmän %s"
+
+#: includes/functions.actionslog.php:213 includes/functions.actionslog.php:222
+msgid "assigned the file"
+msgstr "luovutti tiedoston"
+
+#: includes/functions.actionslog.php:215
+msgid "to the client:"
+msgstr "asiakkaalle:"
+
+#: includes/functions.actionslog.php:217
+#, php-format
+msgid "%s assigned the file %s to client %s"
+msgstr "%s luovutti tiedoston %s asiakkaalle %s"
+
+#: includes/functions.actionslog.php:224
+msgid "to the group:"
+msgstr "ryhmälle:"
+
+#: includes/functions.actionslog.php:226
+#, php-format
+msgid "%s assigned the file %s to group %s"
+msgstr "%s luovutti tiedoston %s ryhmälle %s"
+
+#: includes/functions.actionslog.php:231
+msgid "activated the user"
+msgstr "aktivoi käyttäjän"
+
+#: includes/functions.actionslog.php:233
+#, php-format
+msgid "%s activated the user %s"
+msgstr "%s aktivoi käyttäjän %s"
+
+#: includes/functions.actionslog.php:238
+msgid "deactivated the user"
+msgstr "deaktivoi käyttäjän"
+
+#: includes/functions.actionslog.php:240
+#, php-format
+msgid "%s deactivated the user %s"
+msgstr "%s deaktivoi käyttäjän %s"
+
+#: includes/functions.actionslog.php:245
+msgid "uploaded a new logo on \"Branding\""
+msgstr "lähetty uuden brändäyslogon"
+
+#: includes/functions.actionslog.php:246
+#, php-format
+msgid "%s uploaded a new logo on \"Branding\""
+msgstr ""
+
+#: includes/functions.actionslog.php:251
+msgid "updated ProjectSend to version"
+msgstr "päivitti ProjectSendin versioon"
+
+#: includes/functions.actionslog.php:253
+#, php-format
+msgid "%s updated ProjectSend to version %s"
+msgstr "%s päivitti ProjectSendin versioon %s"
+
+#: includes/functions.actionslog.php:258
+msgid "logged out of the system."
+msgstr "kirjautui ulos järjestelmästä."
+
+#: includes/functions.actionslog.php:259
+#, php-format
+msgid "%s logged out of the system"
+msgstr "%s kirjautui ulos järjestelmästä"
+
+#: includes/functions.actionslog.php:264
+msgid "(user) edited the file"
+msgstr "(käyttäjä) muokkasi tiedostoa"
+
+#: includes/functions.actionslog.php:266
+#, php-format
+msgid "%s (user) edited the file %s"
+msgstr "%s (käyttäjä) muokkasi tiedostoa %s"
+
+#: includes/functions.actionslog.php:271
+msgid "(client) edited the file"
+msgstr "(asiakas) muokkasi tiedostoa"
+
+#: includes/functions.actionslog.php:273
+#, php-format
+msgid "%s (client) edited the file %s"
+msgstr "%s (asiakas) muokkasi tiedostoa %s"
+
+#: includes/functions.actionslog.php:278
+msgid "created the category"
+msgstr "loi kategorian"
+
+#: includes/functions.actionslog.php:280
+#, php-format
+msgid "%s created the category %s"
+msgstr "%s loi kategorian %s"
+
+#: includes/functions.actionslog.php:285
+msgid "edited the category"
+msgstr "muokkasi kategoriaa"
+
+#: includes/functions.actionslog.php:287
+#, php-format
+msgid "%s edited the category %s"
+msgstr "%s muokkasi kategoriaa %s"
+
+#: includes/functions.actionslog.php:292
+msgid "deleted the category"
+msgstr "poisti kategorian"
+
+#: includes/functions.actionslog.php:294
+#, php-format
+msgid "%s deleted the category %s"
+msgstr "%s poisti kategorian %s"
+
+#: includes/functions.actionslog.php:298
+msgid "An anonymous user"
+msgstr "Anonyymi käyttäjä"
+
+#: includes/functions.actionslog.php:299
+msgid "downloaded the file"
+msgstr "latasi tiedoston"
+
+#: includes/functions.actionslog.php:301
+#, php-format
+msgid "An anonymous user downloaded the file %s"
+msgstr "Anonyymi käyttäjä latasi tiedoston %s"
+
+#: includes/functions.actionslog.php:306
+msgid "processed an account request for"
+msgstr "käsitteli tilipyynnön"
+
+#: includes/functions.actionslog.php:308
+#, php-format
+msgid "%s processed an account request for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:313
+msgid "processed group memberships requests for"
+msgstr "käsittely ryhmäjäsenyyspyynnön:"
+
+#: includes/functions.actionslog.php:315
+#, php-format
+msgid "%s processed group memberships requests for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:320
+msgid "requested a preview for the file"
+msgstr "pyysi esikatselukuvaa tiedostosta"
+
+#: includes/functions.actionslog.php:322
+#, php-format
+msgid "%s requested a preview for the file %s"
+msgstr "%s pyysi esikatselukuvaa tiedostosta %s"
+
+#: includes/functions.actionslog.php:327
+msgid "created an account with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:328
+#, php-format
+msgid "%s created an account with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:333
+msgid "logged in with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:334
+#, php-format
+msgid "%s logged in with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:339
+msgid "approved an account request for"
+msgstr ""
+
+#: includes/functions.actionslog.php:341
+#, php-format
+msgid "%s approved an account request for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:346
+msgid "denied an account request for"
+msgstr ""
+
+#: includes/functions.actionslog.php:348
+#, php-format
+msgid "%s denied an account request for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:353
+msgid "updated system options"
+msgstr ""
+
+#: includes/functions.actionslog.php:356
+#, php-format
+msgid "%s updated system options: %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:361
+msgid "updated an email template"
+msgstr ""
+
+#: includes/functions.actionslog.php:364
+#, php-format
+msgid "%s updated email template: %s"
+msgstr ""
+
+#: includes/functions.forms.php:18
+msgid "Search"
+msgstr "Hae"
+
+#: includes/functions.php:134
+msgid "An unexpected error has occurred"
+msgstr "Tuntematon virhe"
+
+#: includes/functions.php:135
+msgid "Could not generate a random password"
+msgstr "Satunnaista salasanaa ei voitu luoda"
+
+#: includes/functions.php:658
+msgid "Provided by"
+msgstr "Ohjelmisto:"
+
+#: includes/functions.php:658
+msgid "version"
+msgstr "versio"
+
+#: includes/functions.php:658
+msgid "Free software"
+msgstr "Vapaa ohjelmisto"
+
+#: includes/functions.php:693
+msgid "Important:"
+msgstr "Tärkeää:"
+
+#: includes/functions.php:693
+msgid ""
+"There are no clients or groups at the moment. You can still upload files and"
+" assign them later."
+msgstr "Asiakkaita tai ryhmiä ei juuri nyt ole. Voit silti lähettää tiedostoja ja osoittaa ne myöhemmin."
+
+#: includes/functions.php:1313
+msgid "The password must contain, at least:"
+msgstr "Salasanan tulee sisältää ainakin:"
+
+#: includes/functions.session.permissions.php:79
+msgid "Password change is required for your account"
+msgstr "Tilillesi vaaditaan salasanan vaihto"
+
+#: includes/text.strings.php:13
+msgid "System Administrator"
+msgstr "Järjestelmänvalvoja"
+
+#: includes/text.strings.php:14
+msgid "Account Manager"
+msgstr "Käyttäjätilivastaava"
+
+#: includes/text.strings.php:15 manage-files.php:354 manage-files.php:553
+msgid "Uploader"
+msgstr "Lähettäjä"
+
+#: includes/text.strings.php:31 index.php:20 install/index.php:98
+#: install/index.php:249
+msgid "Log in"
+msgstr "Kirjaudu"
+
+#: includes/text.strings.php:32
+msgid "Logging in"
+msgstr "Kirjaudutaan sisään"
+
+#: includes/text.strings.php:33
+msgid "Redirecting"
+msgstr "Ohjataan"
+
+#: includes/text.strings.php:36
+msgid ""
+"Send this URL to someone to view the allowed group contents according to "
+"your privacy settings."
+msgstr "Lähetä tämä URL-osoite vastaanottajalle, jotta tämä voi tarkastella ryhmän sisältöä yksityisyysasetuksiesi mukaisesti."
+
+#: includes/text.strings.php:37
+msgid ""
+"Send this URL to someone to download the file without registering or logging"
+" in."
+msgstr "Lähetä tämä URL-osoite jollekin, jotta hän voi ladata tiedoston rekisteröitymättä ja kirjautumatta sisään."
+
+#: includes/text.strings.php:38
+msgid "Click to select and copy"
+msgstr "Napsauta valitaksesi ja kopioidaksesi"
+
+#: includes/text.strings.php:39
+msgid "Succesfully copied to clipboard"
+msgstr "Kopioitu leikepöydälle"
+
+#: includes/text.strings.php:40
+msgid "Content could not be copied to clipboard"
+msgstr "Sisältöä ei voitu kopioida leikepöydälle"
+
+#: includes/text.strings.php:41
+msgid "Public URL"
+msgstr "Julkinen URL-osoite"
+
+#: includes/text.strings.php:42
+msgid "Please select at least one item to proceed."
+msgstr "Valitse vähintään yksi valinta jatkaaksesi"
+
+#: includes/text.strings.php:43
+#, php-format
+msgid "You are about to delete %d items. Are you sure you want to continue?"
+msgstr "Olet poistamassa %d kohdetta. Haluatko varmasti jatkaa?"
+
+#: includes/text.strings.php:44
+msgid ""
+"You are about to delete all activities from the log. Only those used for "
+"statistics will remain. Are you sure you want to continue?"
+msgstr "Olet aikeissa poistaa kaikki tapahtumat lokista. Vain statistiikkatiedot jätetään. Haluatko varmasti jatkaa?"
+
+#: includes/text.strings.php:45
+msgid "Please wait while your download is prepared."
+msgstr "Ole hyvä ja odota sen aikaa kun lataustasi valmistellaan."
+
+#: includes/text.strings.php:46
+msgid ""
+"This operation could take a few minutes, depending on the size of the files."
+msgstr "Tämä toimenpide voi kestää muutaman minuutin tiedostojen koosta riippuen."
+
+#: includes/text.strings.php:47
+#, php-format
+msgid ""
+"You are about to unassign %d files from this account. Are you sure you want "
+"to continue?"
+msgstr ""
+
+#: includes/text.strings.php:48
+msgid "No results where found."
+msgstr "Tuloksia ei löytynyt."
+
+#: includes/text.strings.php:50
+msgid "Please confirm: replace the custom template text with the default one?"
+msgstr "Ole hyvä ja vahvista: korvaa muokattu pohja oletuspohjalla?"
+
+#: includes/text.strings.php:51
+msgid "Error: the content could not be loaded"
+msgstr "Virhe: sisältöä ei voittu ladata"
+
+#: includes/text.strings.php:54
+msgid "You must select at least one file to upload."
+msgstr "Valitse vähintään yksi tiedosto lähetettäväksi."
+
+#: includes/text.strings.php:55
+msgid ""
+"Are you sure? Files currently being uploaded will be discarded if you leave "
+"this page."
+msgstr "Oletko varma? Tällä hetkellä lähetettävät tiedostot hylätään, jos poistut tältä sivulta."
+
+#: includes/text.strings.php:56
+msgid "Copy selection to all files?"
+msgstr "Kopioi valinta kaikkiin tiedostoihin?"
+
+#: includes/text.strings.php:57
+msgid ""
+"Some of your files uploaded correctly, but others could not be uploaded."
+msgstr "Osa tiedostoistasi lähetettiin onnistuneesti, mutta joitakin tiedostoja ei voitu lähettää."
+
+#: includes/text.strings.php:58
+msgid "Go to the file editor"
+msgstr "Siirry tiedostoeditoriin"
+
+#: includes/text.strings.php:60
+msgid "Confirm this action?"
+msgstr "Vahvista tämä toiminto?"
+
+#: includes/text.strings.php:61
+msgid "Failed to load file preview"
+msgstr "Tiedoston esikatselun lataaminen epäonnistui"
+
+#: includes/text.strings.php:62
+msgid "Failed to load resource"
+msgstr ""
+
+#: includes/text.strings.php:66
+#, php-format
+msgid "Validation \"%s\" failed for field \"%s\""
+msgstr ""
+
+#: includes/text.strings.php:67
+msgid "reCAPTCHA verification failed"
+msgstr "reCAPTCHA varmistus epäonnistui"
+
+#: includes/text.strings.php:68
+msgid "Name was not completed"
+msgstr "Nimeä ei annettu"
+
+#: includes/text.strings.php:69
+msgid "No client was selected"
+msgstr "Yhtään asiakasta ei valittu"
+
+#: includes/text.strings.php:70
+msgid "Username was not completed"
+msgstr "Käyttäjänimeä ei annettu"
+
+#: includes/text.strings.php:71
+msgid "Password was not completed"
+msgstr "Salasanaa ei annettu"
+
+#: includes/text.strings.php:72
+msgid "Password verification was not completed"
+msgstr "Salasanan varmistusta ei tehty"
+
+#: includes/text.strings.php:73
+msgid "E-mail was not completed"
+msgstr "Sähköpostia ei saatu valmiiksi"
+
+#: includes/text.strings.php:74
+msgid "Title was not completed"
+msgstr "Otsikkoa ei annettu"
+
+#: includes/text.strings.php:75
+msgid "E-mail address is not valid"
+msgstr "Sähköpostiosoite on virheellinen"
+
+#: includes/text.strings.php:76
+msgid ""
+"Username must be alphanumeric and may contain dot (a-z,A-Z,0-9 and . "
+"allowed)"
+msgstr "Käyttäjänimen tulee olla aakkosnumeerinen ja voi sisältää pisteen (merkit a-z, A-Z, 0-9 ja piste sallittu)"
+
+#: includes/text.strings.php:77
+msgid "Password must be alphanumeric (a-z,A-Z,0-9 allowed)"
+msgstr "Salasanan tulee olla aakkosnumeerinen (merkit a-z, A-Z ja 0-9 sallittu)"
+
+#: includes/text.strings.php:78
+msgid "Passwords do not match"
+msgstr "Salasanat eivät täsmää"
+
+#: includes/text.strings.php:79
+msgid "Password does not meet the required characters rules"
+msgstr "Salasana ei täytä vaadittuja määräyksiä"
+
+#: includes/text.strings.php:80
+msgid "File size value must be a whole number"
+msgstr "Tiedostokoon täytyy olla kokonaisluku"
+
+#: includes/text.strings.php:81
+msgid "User role was not specified"
+msgstr "Käyttäjäroolia ei määritelty"
+
+#: includes/text.strings.php:82
+msgid "An account with this username already exists."
+msgstr "Tätä käyttäjätunnusta käyttävä järjestelmäkäyttäjä tai asiakas on jo olemassa."
+
+#: includes/text.strings.php:83
+msgid "An account with this e-mail address already exists."
+msgstr "Tätä sähköpostiosoitetta käyttävä järjestelmäkäyttäjä tai asiakas on jo olemassa."
+
+#: includes/text.strings.php:84
+msgid ""
+"Your password can only contain letters, numbers and the following "
+"characters:"
+msgstr "Salasanasi voi sisältää vain kirjaimia, numeroita ja seuraavia merkkejä:"
+
+#: includes/text.strings.php:86
+msgid "Please complete all the fields."
+msgstr "Ole hyvä ja täytä kaikki kentät."
+
+#: includes/text.strings.php:89 includes/text.strings.php:90
+#, php-format
+msgid "Length should be between %d and %d characters long"
+msgstr "Pituuden tulisi olla välillä %d ja %d merkkiä"
+
+#: includes/text.strings.php:93
+msgid "1 uppercase character"
+msgstr "1 iso kirjain"
+
+#: includes/text.strings.php:94
+msgid "1 lowercase character"
+msgstr "1 pieni kirjain"
+
+#: includes/text.strings.php:95
+msgid "1 number"
+msgstr "1 numero"
+
+#: includes/text.strings.php:96
+msgid "1 special character"
+msgstr "1 erikoismerkki"
+
+#: includes/text.strings.php:99 install/index.php:77
+msgid "Sitename was not completed."
+msgstr "Sivuston nimeä ei annettu."
+
+#: includes/text.strings.php:100 install/index.php:78
+msgid "ProjectSend URI was not completed."
+msgstr "ProjectSendin verkko-osoitetta ei annettu."
+
+#: includes/updates.functions.php:79
+#, php-format
+msgid "A safe chmod value of 755 could not be set for directory: %s"
+msgstr "Turvallista chmod -arvoa 755 ei voitu asettaa kansiolle: %s"
+
+#: includes/updates.functions.php:87 includes/updates.functions.php:121
+#, php-format
+msgid "A safe chmod value of 644 could not be set for file: %s"
+msgstr "Turvallista chmod -arvoa 644 ei voitu asettaa tiedostolle: %s"
+
+#: includes/updates.functions.php:94
+msgid ""
+"Please correct the following errors to make sure that ProjectSend can send "
+"notifications emails."
+msgstr ""
+
+#: includes/updates.functions.php:115
+#, php-format
+msgid "System file does not exist: %s"
+msgstr "Järjestelmätiedostoa %s ei ole olemassa"
+
+#: includes/updates.functions.php:218
+msgid ""
+"This version changes the way files-to-clients relationships are stored on "
+"the database making it possible to assign a file to multiple clients. "
+"However some files did not update successfully. The following files may need"
+" to be reassigned to their clients by using the \"Find orphan files\" tool:"
+msgstr ""
+
+#: includes/updates.messages.php:16
+msgid "The database was updated to support this version of the software."
+msgstr "Tietokanta päivitettiin tukemaan tätä ohjelmistoversiota."
+
+#: includes/updates.messages.php:23
+msgid "Do you want to support ProjectSend?"
+msgstr "Haluatko tukea ProjectSendiä?"
+
+#: includes/updates.messages.php:24
+msgid ""
+"Please remember that this tool is free software. If you find the system "
+"useful"
+msgstr "Muista, että tämä työkalu on vapaa ohjelmisto. Jos koet sen hyödylliseksi"
+
+#: includes/updates.messages.php:25
+msgid "please consider making a donation to support further development."
+msgstr "harkitse lahjoituksen tekemistä kannattaaksesi tuotteen jatkokehitystä."
+
+#: includes/updates.messages.php:26
+msgid "Thank you!"
+msgstr "Kiitos!"
+
+#: includes/updates.messages.php:45
+msgid "Update available!"
+msgstr "Päivitys saatavilla!"
+
+#: includes/updates.messages.php:45
+#, php-format
+msgid "ProjectSend %s has been released"
+msgstr "ProjectSend %s on julkaistu"
+
+#: includes/updates.messages.php:48 manage-files.php:649
+msgid "Download"
+msgstr "Lataa"
+
+#: includes/updates.messages.php:48
+msgid "Changelog"
+msgstr "Muutosloki"
+
+#: includes/upload-send-notifications.php:243
+#: includes/upload-send-notifications.php:277
+msgid "E-mail notifications have been sent."
+msgstr "Sähköposti-ilmoitukset lähetettiin."
+
+#: includes/upload-send-notifications.php:257
+msgid "One or more notifications couldn't be sent."
+msgstr "Yhtä tai useampaa ilmoitusta ei voitu lähettää."
+
+#: includes/upload-send-notifications.php:281
+msgid "E-mail notifications for inactive clients were not sent."
+msgstr "Inaktiivisille asiakkaille ei lähetetty sähköposti-ilmoituksia."
+
+#: includes/widgets/actions-log.php:10
+msgid "Recent activites"
+msgstr "Viimeaikaiset tapahtumat"
+
+#: includes/widgets/actions-log.php:33
+msgid "View all"
+msgstr "Näytä kaikki"
+
+#: includes/widgets/ajax/statistics.php:77
+msgid "Uploads by users"
+msgstr "Käyttäjien lähetykset"
+
+#: includes/widgets/ajax/statistics.php:83
+msgid "Uploads by clients"
+msgstr "Asiakkaiden lähetykset"
+
+#: includes/widgets/ajax/statistics.php:89
+msgid "Downloads by known users"
+msgstr "Tunnettujen käytäjien lataukset"
+
+#: includes/widgets/ajax/statistics.php:95
+msgid "Public Downloads"
+msgstr "Julkisia latauksia"
+
+#: includes/widgets/news.php:10
+msgid "ProjectSend news"
+msgstr "ProjectSend uutiset"
+
+#: includes/widgets/statistics.php:12
+msgid "Statistics"
+msgstr "Statistiikka"
+
+#: includes/widgets/statistics.php:19
+#, php-format
+msgid "%d days"
+msgstr "%d päivää"
+
+#: includes/widgets/system-information.php:7 install/make-config.php:384
+msgid "System information"
+msgstr "Järjestelmätiedot"
+
+#: includes/widgets/system-information.php:9
+msgid "Software"
+msgstr "Ohjelmisto"
+
+#: includes/widgets/system-information.php:11
+#: includes/widgets/system-information.php:99
+msgid "Version"
+msgstr "Versio"
+
+#: includes/widgets/system-information.php:17
+msgid "New version available"
+msgstr "Uusi versio saatavilla"
+
+#: includes/widgets/system-information.php:22
+msgid "Default upload max. size"
+msgstr "Oletus suurin sallittu tiedostokoko"
+
+#: includes/widgets/system-information.php:25
+msgid "Template"
+msgstr "Pohja"
+
+#: includes/widgets/system-information.php:26
+msgid "Change"
+msgstr "Muuta"
+
+#: includes/widgets/system-information.php:47
+msgid "Data"
+msgstr "Data"
+
+#: includes/widgets/system-information.php:55
+msgid "System users"
+msgstr "Järjestelmäkäyttäjät"
+
+#: includes/widgets/system-information.php:76
+msgid "System"
+msgstr "Järjestelmä"
+
+#: includes/widgets/system-information.php:78
+msgid "Server"
+msgstr "Palvelin"
+
+#: includes/widgets/system-information.php:81
+msgid "PHP version"
+msgstr "PHP versionumero"
+
+#: includes/widgets/system-information.php:84
+msgid "Memory limit"
+msgstr "Muistirajoitus"
+
+#: includes/widgets/system-information.php:87
+msgid "Max execution time"
+msgstr ""
+
+#: includes/widgets/system-information.php:90
+msgid "Post max size"
+msgstr ""
+
+#: includes/widgets/system-information.php:94
+msgid "Database"
+msgstr ""
+
+#: includes/widgets/system-information.php:96
+msgid "Driver"
+msgstr ""
+
+#: index.php:67
+msgid "Forgot your password?"
+msgstr "Unohditko salasanasi?"
+
+#: index.php:67
+msgid "Set up a new one."
+msgstr "Luo uusi."
+
+#: index.php:71 public.php:291
+msgid "Don't have an account yet?"
+msgstr "Ei käyttäjätiliä?"
+
+#: index.php:71 public.php:291
+msgid "Register as a new client."
+msgstr "Rekisteröi uusi asiakas."
+
+#: index.php:75
+msgid "This server does not allow self registrations."
+msgstr "Omatoiminen rekisteröinti ei ole sallittu tällä sivustolla."
+
+#: index.php:76
+msgid "If you need an account, please contact a server administrator."
+msgstr "Jos tarvitset käyttäjätiliä, ota yhteys järjestelmän ylläpitäjään."
+
+#: install/index.php:18
+#, php-format
+msgid "%s minimum version not met. Please upgrade to at least version %s"
+msgstr ""
+
+#: install/index.php:76 install/index.php:332 install/make-config.php:42
+msgid "Install"
+msgstr "Asenna"
+
+#: install/index.php:93
+msgid "Congratulations! Everything is up and running."
+msgstr "Onneksi olkoon! Kaikki on nyt toiminnassa."
+
+#: install/index.php:94
+msgid ""
+"You may proceed to log in with your newely created username and password."
+msgstr ""
+
+#: install/index.php:107
+msgid "Already installed"
+msgstr "Valmiiksi asennettu"
+
+#: install/index.php:108
+msgid "It seems that ProjectSend is already installed here."
+msgstr "ProjectSend näyttää jo olevan asennettuna täällä."
+
+#: install/index.php:109
+msgid ""
+"If you want to reinstall, please delete the system tables from the database "
+"and come back to the installation form."
+msgstr "Jos haluat suorittaa asennuksen uudelleen, poista järjestelmän tietokantataulut ja tule takaisin asennuslomakkeelle."
+
+#: install/index.php:216
+msgid "Database installation was successful, but errors were encountered."
+msgstr ""
+
+#: install/index.php:232
+msgid "The following directories could not be created:"
+msgstr "Seuraavia kansioita ei voitu luoda:"
+
+#: install/index.php:239
+msgid "The following directories could not be chmodded to 755:"
+msgstr "Seuraaville kansioille ei voitu asettaa käyttöoikeutta chmod 755:"
+
+#: install/index.php:261
+msgid "There was an error writing to the database."
+msgstr "Virhe kirjoitettaessa tietokantaan."
+
+#: install/index.php:272
+msgid "Basic system options"
+msgstr "Järjestelmän perusasetukset"
+
+#: install/index.php:273
+msgid ""
+"You need to provide this data for a correct system installation. The site "
+"name will be visible in the system panel, and the client's lists."
+msgstr "Sinun täytyy täyttää nämä tiedot järjestelmän asentamiseksi. Sivuston nimi tulee näkymään järjestelmäpaneelissa ja asiakkaan listauksissa."
+
+#: install/index.php:274
+msgid "Remember to edit the file"
+msgstr "Muista muokata tiedostoa"
+
+#: install/index.php:274
+msgid ""
+"with your database settings before installing. If the file doesn't exist, "
+"you can create it by renaming the dummy file sys.config.sample.php."
+msgstr "tiedostoon tietokanta-asetuksiasi ennen asennusta. Jos kyseistä tiedostoa ei ole, voit luoda sen uudelleennimeämällä pohjaksi tiedoston sys.config.sample.php."
+
+#: install/index.php:285
+msgid "ProjectSend URI (address)"
+msgstr "ProjectSend-järjestelmän URI (verkko-osoite)"
+
+#: install/index.php:293
+msgid "Default system administrator options"
+msgstr "Järjestelmänvalvojan oletusasetukset"
+
+#: install/index.php:294
+msgid ""
+"This info will be used to create a default system user, which can't be "
+"deleted afterwards. Password should be between"
+msgstr "Näitä tietoja käytetään järjestelmän oletuskäyttäjätilin luontiin, jota ei voi myöhemmin poistaa. Salasanan tulisi olla väliltä"
+
+#: install/index.php:294
+msgid "and"
+msgstr "ja"
+
+#: install/index.php:294
+msgid "characters long."
+msgstr "merkkiä pitkä."
+
+#: install/index.php:337
+msgid ""
+"After installing the system, you can go to the options page to set your "
+"timezone, preferred date display format and thumbnails parameters, besides "
+"being able to change the site options provided here."
+msgstr "Järjestelmän asennuksen jälkeen voit mennä asetukset sivulle asettaaksesi aikavyöhykkeen, ajan esitysmuodon ja esikatselukuvien parametrit, sen lisäksi että voit muokata tässä antamiasi sivuston asetuksia."
+
+#: install/make-config.php:20
+msgid "The configuration file already exists."
+msgstr "Asetustiedosto on jo olemassa."
+
+#: install/make-config.php:193
+msgid "Successfully wrote the config file."
+msgstr ""
+
+#: install/make-config.php:197
+msgid "Continue to installation"
+msgstr "Jatka asennukseen"
+
+#: install/make-config.php:206
+msgid "Database configuration"
+msgstr ""
+
+#: install/make-config.php:207
+msgid "You need to provide this data for a correct database communication."
+msgstr ""
+
+#: install/make-config.php:210
+msgid "Select driver"
+msgstr ""
+
+#: install/make-config.php:215 install/make-config.php:221
+msgid "(not supported)"
+msgstr "(ei tuettu)"
+
+#: install/make-config.php:241
+msgid "Database name"
+msgstr "Tietokannan nimi"
+
+#: install/make-config.php:271
+msgid "Table prefix"
+msgstr ""
+
+#: install/make-config.php:287
+msgid "The database is already populated"
+msgstr ""
+
+#: install/make-config.php:301
+msgid "Reuse existing tables"
+msgstr ""
+
+#: install/make-config.php:314
+msgid "Language selection"
+msgstr "Kielen valinta"
+
+#: install/make-config.php:332
+msgid "Default maximum upload file size"
+msgstr "Oletus suurin sallittu tiedostokoko"
+
+#: install/make-config.php:335
+msgid "Value expressed in MB, where 1GB = 1024"
+msgstr "Arvo megatavuissa, 1Gt = 1024"
+
+#: install/make-config.php:341
+msgid "Folders"
+msgstr "Kansiot"
+
+#: install/make-config.php:372
+msgid "Writable"
+msgstr "Kirjoitettavissa"
+
+#: install/make-config.php:374
+msgid "Not writable"
+msgstr "Ei kirjoitettavissa"
+
+#: install/make-config.php:438 install/make-config.php:441
+msgid "Check again"
+msgstr "Tarkista uudellee"
+
+#: install/make-config.php:439
+msgid "Write config file"
+msgstr "Tallenna asetustiedosto"
+
+#: install/make-config.php:441
+msgid "Check"
+msgstr "Tarkista"
+
+#: manage-files.php:35
+msgid "for client"
+msgstr "asiakkaalle"
+
+#: manage-files.php:50
+msgid "for group"
+msgstr "ryhmälle"
+
+#: manage-files.php:65
+msgid "on category"
+msgstr "kategoriassa"
+
+#: manage-files.php:95 manage-files.php:113
+msgid "The selected files were marked as hidden."
+msgstr "Valitut tiedostot merkittiin piilotetuiksi."
+
+#: manage-files.php:104 manage-files.php:122
+msgid "The selected files were marked as visible."
+msgstr "Valitut tiedostot merkittiin näkyviksi."
+
+#: manage-files.php:134
+msgid "The selected files were succesfully unassigned."
+msgstr ""
+
+#: manage-files.php:156
+msgid "The selected files were deleted."
+msgstr "Valitut tiedostot poistettiin."
+
+#: manage-files.php:160
+msgid "Some files could not be deleted."
+msgstr "Joitakin tiedostoja ei voitu poistaa"
+
+#: manage-files.php:172
+msgid "Please select at least one file."
+msgstr "Valitse vähintään yksi tiedosto."
+
+#: manage-files.php:387 manage-files.php:687
+msgid "Visible"
+msgstr "Näkyvä"
+
+#: manage-files.php:388 manage-files.php:687
+msgid "Hidden"
+msgstr "Piilotettu"
+
+#: manage-files.php:414
+msgid "Selected files actions"
+msgstr "Valittujen tiedostojen toiminnot"
+
+#: manage-files.php:431
+msgid "Download zipped"
+msgstr "Lataa ZIP-pakettina"
+
+#: manage-files.php:433
+msgid "Set to hidden from everyone already assigned"
+msgstr ""
+
+#: manage-files.php:434
+msgid "Set to visible to everyone already assigned"
+msgstr ""
+
+#: manage-files.php:440
+msgid "Set to hidden"
+msgstr "Aseta piilotetuksi"
+
+#: manage-files.php:441
+msgid "Set to visible"
+msgstr "Aseta näkyväksi"
+
+#: manage-files.php:442
+msgid "Unassign"
+msgstr "Aseta pois"
+
+#: manage-files.php:478
+msgid "There are no files assigned to this category."
+msgstr "Tähän kategoriaan ei ole liitettyjä tiedostoja"
+
+#: manage-files.php:484
+msgid "There are no files assigned to this client."
+msgstr "Tälle asiakkaalle ei ole asetettu yhtään tiedostoa."
+
+#: manage-files.php:487
+msgid "You have not uploaded any files for this account."
+msgstr "Et ole lähettänyt yhtään tiedostoa tälle käyttäjätilille."
+
+#: manage-files.php:492
+msgid "There are no files for this client."
+msgstr "Tällä asiakkaalla ei ole tiedostoja."
+
+#: manage-files.php:539
+msgid "Type"
+msgstr "Tyyppi"
+
+#: manage-files.php:548
+msgid "Size"
+msgstr "Koko"
+
+#: manage-files.php:558
+msgid "Assigned"
+msgstr "Liitetty"
+
+#: manage-files.php:565
+msgid "Public permissions"
+msgstr "Julkiset käyttöoikeudet"
+
+#: manage-files.php:570
+msgid "Expiry"
+msgstr "Vanheneminen"
+
+#: manage-files.php:582
+msgid "Download count"
+msgstr "Latausten lukumäärä"
+
+#: manage-files.php:653
+msgid "View information"
+msgstr "Näytä tiedo"
+
+#: manage-files.php:665
+msgid "Does not expire"
+msgstr "Ei vanhene"
+
+#: manage-files.php:672
+msgid "Expired on"
+msgstr "Vanheni"
+
+#: manage-files.php:676
+msgid "Expires on"
+msgstr "Vanhenee"
+
+#: manage-files.php:694
+msgid "times"
+msgstr "kertaa"
+
+#: manage-files.php:720
+msgid "downloads"
+msgstr "lataukset"
+
+#: options.php:266
+msgid "Some fields were not completed. Options could not be saved."
+msgstr "Joitakin kenttiä ei täydennetty. Asetuksia ei voitu tallentaa."
+
+#: options.php:279
+msgid "The file could not be moved to the corresponding folder."
+msgstr "Tiedostoa ei voitu siirtää vastaavaan hakemistoon."
+
+#: options.php:280
+msgid ""
+"This is most likely a permissions issue. If that's the case, it can be "
+"corrected via FTP by setting the chmod value of the"
+msgstr "Tämä on todennäköisesti käyttöoikeuksiin liittyvä asia. Jos se pitää paikkansa, tämä voidaan korjata FTP:n avulla asettamalla chmod arvo"
+
+#: options.php:282
+msgid "directory to 755, or 777 as a last resource."
+msgstr "hakemistoon 755 tai viimeisenä vaihtoehtona 777."
+
+#: options.php:283
+msgid ""
+"If this doesn't solve the issue, try giving the same values to the "
+"directories above that one until it works."
+msgstr "Jos tämä ei ratkaise ongelmaa, koita asettaa samat käyttöoikeudet ylemmän tason hakemistoihin kunnes kaikki toimii."
+
+#: options.php:287
+msgid "The file you selected is not an allowed format."
+msgstr "Valitsemasi tiedosto ei ole sallitussa muodossa."
+
+#: options.php:291
+msgid "There was an error uploading the file. Please try again."
+msgstr "Tiedoston lähetyksessä tapahtui virhe. Ole hyvä ja yritä uudelleen."
+
+#: public.php:53 public.php:97
+msgid "Public groups and files"
+msgstr "Julkiset ryhmät ja tiedostot"
+
+#: public.php:244 public.php:273
+msgid "There are no files available."
+msgstr "Tiedostoja ei ole saatavilla."
+
+#: register.php:12
+msgid "Register new account"
+msgstr "Rekisteröi uusi käyttäjätili"
+
+#: register.php:68
+msgid "Thank you for registering. Your account has been activated."
+msgstr "Kiitos rekisteröitymisestä. Tilisi on nyt aktivoitu."
+
+#: register.php:95
+msgid "Account added correctly."
+msgstr "Käyttäjätili lisätty."
+
+#: register.php:99
+msgid ""
+"Please remember that an administrator needs to approve your account before "
+"you can log in."
+msgstr "Muista, että ylläpitäjän tulee hyväksyä käyttäjätilisi ennen kuin voit kirjautua sisään."
+
+#: register.php:103
+msgid "You may now log in with your new credentials."
+msgstr "Voit nyt kirjautua sisään uusilla käyttäjätiedoillasi."
+
+#: register.php:125
+msgid "Please contact a system administrator."
+msgstr "Ota yhteys järjestelmänvalvojaan."
+
+#: register.php:134
+msgid ""
+"A folder for this account could not be created. Probably because of a server"
+" configuration."
+msgstr "Tälle käyttäjätilille ei voitu luoda hakemistoa. Tämä johtuu todennäköisesti palvelimen asetuksista."
+
+#: register.php:139
+msgid ""
+"The account could not be created. A folder with this name already exists."
+msgstr "Käyttäjätiliä ei voitu luoda. Saman niminen hakemisto on jo olemassa."
+
+#: register.php:149
+msgid ""
+"An e-mail notification with login information was sent to the specified "
+"address."
+msgstr "Kirjautumistiedot sisältävä sähköposti-ilmoitus lähetettiin annettuun osoitteeseen."
+
+#: reset-password.php:11
+msgid "Lost password"
+msgstr "Salasana unohtunut"
+
+#: reset-password.php:199
+msgid "The supplied email address does not correspond to any user."
+msgstr "Annettu sähköpostiosoite ei vastaa yhdenkään käyttäjän osoitetta."
+
+#: reset-password.php:202
+msgid "The request is not valid."
+msgstr "Pyyntö ei ole voimassa."
+
+#: reset-password.php:205
+msgid "This request has expired. Please make a new one."
+msgstr "Tämä pyyntö on vanhentunut. Ole hyvä ja tee uusi."
+
+#: reset-password.php:208
+msgid "This request has already been completed. Please make a new one."
+msgstr "Tämä pyyntö on jo käsitelty. Ole hyvä ja tee uusi."
+
+#: reset-password.php:211
+msgid ""
+"There are 3 unused requests done in less than 24 hs. Please wait until one "
+"expires (1 day since made) to make a new one."
+msgstr "Olemme vastaanottaneet 3 käyttämätöntä pyyntöä 24 tunnin sisällä. Ole hyvä ja odota kunnes yksi vanhenee (1 päivä pyynnön luomisen jälkeen), jotta voit tehdä uuden."
+
+#: reset-password.php:224
+msgid ""
+"An e-mail with further instructions has been sent. Please check your inbox "
+"to proceed."
+msgstr "Tarkemmat ohjeet on lähetetty sähköpostitse. Ole hyvä ja tarkista saapuneet kansiosi jatkaaksesi."
+
+#: reset-password.php:228
+msgid "E-mail couldn't be sent."
+msgstr "Sähköpostia ei voitu lähettää."
+
+#: reset-password.php:229 reset-password.php:246
+msgid "If the problem persists, please contact an administrator."
+msgstr "Jos ongelma jatkuu, ota yhteyttä järjestelmänvalvojaan."
+
+#: reset-password.php:241
+msgid "Your new password has been set. You can now log in using it."
+msgstr "Uusi salasanasi on asetettu. Voit nyt kirjautua sisään sitä käyttäen."
+
+#: reset-password.php:245
+msgid "Your new password couldn't be set."
+msgstr "Uutta salasanaasi ei voitu asettaa."
+
+#: upload.php:42
+msgid ""
+"Click on Add files to select all the files that you want to upload, and then"
+" click continue. On the next step, you will be able to set a name and "
+"description for each uploaded file. Remember that the maximum allowed file "
+"size (in mb.) is "
+msgstr "Klikkaa Lisää tiedostoja valitaksesi kaikki haluamasi tiedostot lähetystä varten, ja klikkaa sitten jatka. Seuraavassa vaiheessa voit asettaa jokaiselle lähetetylle tiedostolle nimen ja kuvauksen. Huomioi, että suurin sallittu tiedostokoko (megatavuina) on"
+
+#: users-add.php:14
+msgid "Add system user"
+msgstr "Lisää järjestelmäkäyttäjä"
+
+#: users-edit.php:133
+msgid "Edit system user"
+msgstr "Muokkaa järjestelmäkäyttäjää"
+
+#: users-edit.php:152
+msgid "User edited correctly."
+msgstr "Käyttäjää muokattu."
+
+#: users-edit.php:154
+msgid "User created successfuly."
+msgstr "Käyttäjä luotiin onnistuneesti."
+
+#: users-edit.php:195
+msgid "No user was selected."
+msgstr "Yhtään käyttäjää ei valittu."
+
+#: users-edit.php:200
+msgid "There is no user with that ID number."
+msgstr "Kyseisellä ID-numerolla ei ole käyttäjää."
+
+#: users.php:14
+msgid "Users administration"
+msgstr "Käyttäjien hallinta"
+
+#: users.php:44
+msgid "The selected users were marked as active."
+msgstr "Valitut käyttäjät merkittiin aktiivisiksi."
+
+#: users.php:64
+msgid "You cannot deactivate your own account."
+msgstr "Et voi deaktivoida omaa käyttäjätiliäsi."
+
+#: users.php:70
+msgid "The selected users were marked as inactive."
+msgstr "Valitut käyttäjät merkittiin inaktiivisiksi."
+
+#: users.php:87
+msgid "You cannot delete your own account."
+msgstr "Et voi poistaa omaa käyttäjätiliäsi."
+
+#: users.php:93
+msgid "The selected users were deleted."
+msgstr "Valitut käyttäjät poistettiin."
+
+#: users.php:100
+msgid "Please select at least one user."
+msgstr "Valitse vähintään yksi käyttäjä."
+
+#: users.php:173
+msgid "All roles"
+msgstr "Kaikki roolit"
+
+#: users.php:214
+msgid "Selected users actions"
+msgstr "Valittujen käyttäjien toiminnot"
+
+#: users.php:238
+msgid "users"
+msgstr "käyttäjää"

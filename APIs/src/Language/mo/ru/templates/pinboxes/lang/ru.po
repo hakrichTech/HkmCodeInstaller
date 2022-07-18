@@ -1,0 +1,80 @@
+# 
+# Translators:
+# GEEKIAM <fedulov.anton.2012@gmail.com>, 2014
+# GEEKIAM <fedulov.anton.2012@gmail.com>, 2014
+# Marina Berg <Marina.Berg@microolap.com>, 2021
+# Sergey Mikhailov <miser@mail.ru>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2021-05-22 10:03+0000\n"
+"Last-Translator: Marina Berg <Marina.Berg@microolap.com>\n"
+"Language-Team: Russian (http://www.transifex.com/subwaydesign/projectsend/language/ru/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ru\n"
+"Plural-Forms: nplurals=4; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : n%10==0 || (n%10>=5 && n%10<=9) || (n%100>=11 && n%100<=14)? 2 : 3);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: font-awesome-4.6.3\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+
+#: template.php:20
+msgid "Available files"
+msgstr "Доступные файлы"
+
+#: template.php:58
+msgid "Welcome"
+msgstr "Добро пожаловать"
+
+#: template.php:63
+msgid "Search..."
+msgstr "Поиск..."
+
+#: template.php:73
+msgid "Categories"
+msgstr "Категории"
+
+#: template.php:75
+msgid "All files"
+msgstr "Все файлы"
+
+#: template.php:95
+msgid "Download zipped"
+msgstr "Скачать в ZIP"
+
+#: template.php:100
+msgid "Upload"
+msgstr "Загрузить"
+
+#: template.php:105
+msgid "Manage"
+msgstr "Управление"
+
+#: template.php:110
+msgid "Logout"
+msgstr "Выйти"
+
+#: template.php:125
+msgid "There are no files."
+msgstr "Нет файлов."
+
+#: template.php:174
+msgid "File size:"
+msgstr "Размер файла:"
+
+#: template.php:181
+msgid "Expiration date:"
+msgstr "Доступен до:"
+
+#: template.php:192
+msgid "Download"
+msgstr "Загрузить"
+
+#: template.php:202
+msgid "File expired"
+msgstr "Время жизни файла истекло"

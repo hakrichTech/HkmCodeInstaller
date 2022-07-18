@@ -1,0 +1,105 @@
+# 
+# Translators:
+# Anthony Abi Zeid, 2022
+# rfygjlkhj <arabman@gmail.com>, 2015
+# ‫محمد الجيلاني (عاشق الورد)‬‎ <darhost56@gmail.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2022-01-21 10:21+0000\n"
+"Last-Translator: Anthony Abi Zeid\n"
+"Language-Team: Arabic (http://www.transifex.com/subwaydesign/projectsend/language/ar/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar\n"
+"Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:20
+msgid "File downloads"
+msgstr "تحميل الملفات"
+
+#: template.php:45
+msgid "All categories"
+msgstr "كل الاقسام"
+
+#: template.php:52
+msgid "Filter"
+msgstr "مرشحات"
+
+#: template.php:66
+msgid "Selected files actions"
+msgstr "إجراءات الملفات المحددة"
+
+#: template.php:70
+msgid "Select action"
+msgstr "Select action"
+
+#: template.php:71
+msgid "Download zipped"
+msgstr "تحميل مضغوط"
+
+#: template.php:81
+msgid "Proceed"
+msgstr "تقدم"
+
+#: template.php:89
+msgid "Found"
+msgstr "Found"
+
+#: template.php:89
+msgid "files"
+msgstr "ملفات"
+
+#: template.php:99
+msgid "Your search keywords returned no results."
+msgstr "الكلمات الرئيسية للبحث لم تعرض أي نتائج."
+
+#: template.php:104
+msgid "There are no files available."
+msgstr "لا توجد ملفات المتاحة."
+
+#: template.php:130
+msgid "Title"
+msgstr "عنوان"
+
+#: template.php:133
+msgid "Type"
+msgstr "Type"
+
+#: template.php:139
+msgid "Description"
+msgstr "وصف"
+
+#: template.php:146
+msgid "Size"
+msgstr "حجم"
+
+#: template.php:153
+msgid "Date"
+msgstr "تاريخ"
+
+#: template.php:156
+msgid "Expiration date"
+msgstr "تاريخ إنتهاء الصلاحية"
+
+#: template.php:160
+msgid "Image preview"
+msgstr "معاينة الصورة"
+
+#: template.php:164 template.php:234
+msgid "Download"
+msgstr "تحميل"
+
+#: template.php:210
+msgid "Never"
+msgstr "ابدٱ"
+
+#: template.php:230
+msgid "File expired"
+msgstr "انتهت ملف"

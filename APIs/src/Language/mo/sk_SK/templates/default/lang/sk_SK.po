@@ -1,0 +1,103 @@
+# 
+# Translators:
+# Peter Cernak <cernak@nitrianskepravno.sk>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2020-11-07 15:50+0000\n"
+"Last-Translator: Ignacio Nelson <info@subwaydesign.com.ar>\n"
+"Language-Team: Slovak (Slovakia) (http://www.transifex.com/subwaydesign/projectsend/language/sk_SK/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sk_SK\n"
+"Plural-Forms: nplurals=4; plural=(n % 1 == 0 && n == 1 ? 0 : n % 1 == 0 && n >= 2 && n <= 4 ? 1 : n % 1 != 0 ? 2: 3);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:20
+msgid "File downloads"
+msgstr "Stiahnutia súboru"
+
+#: template.php:45
+msgid "All categories"
+msgstr "Všetky kategórie"
+
+#: template.php:52
+msgid "Filter"
+msgstr "Filter"
+
+#: template.php:66
+msgid "Selected files actions"
+msgstr "Akcie pre vybraté súbory"
+
+#: template.php:70
+msgid "Select action"
+msgstr ""
+
+#: template.php:71
+msgid "Download zipped"
+msgstr "Stiahnuť ZIP"
+
+#: template.php:81
+msgid "Proceed"
+msgstr "Spracovať"
+
+#: template.php:89
+msgid "Found"
+msgstr ""
+
+#: template.php:89
+msgid "files"
+msgstr "súbory"
+
+#: template.php:99
+msgid "Your search keywords returned no results."
+msgstr "Kľúčové slová vyhľadávania nevrátili žiadne výsledky."
+
+#: template.php:104
+msgid "There are no files available."
+msgstr "Nie sú tu zatiaľ žiadne súbory."
+
+#: template.php:130
+msgid "Title"
+msgstr "Nadpis"
+
+#: template.php:133
+msgid "Type"
+msgstr ""
+
+#: template.php:139
+msgid "Description"
+msgstr "Popis"
+
+#: template.php:146
+msgid "Size"
+msgstr "Veľkosť"
+
+#: template.php:153
+msgid "Date"
+msgstr "Dátum"
+
+#: template.php:156
+msgid "Expiration date"
+msgstr "Dátum expirácie"
+
+#: template.php:160
+msgid "Image preview"
+msgstr "Náhľad obrázka"
+
+#: template.php:164 template.php:234
+msgid "Download"
+msgstr "Stiahnuť"
+
+#: template.php:210
+msgid "Never"
+msgstr "Nikdy"
+
+#: template.php:230
+msgid "File expired"
+msgstr "Súbor expiroval"

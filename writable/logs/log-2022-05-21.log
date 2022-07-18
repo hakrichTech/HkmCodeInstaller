@@ -1,0 +1,6 @@
+ERROR - 2022-05-21 00:30:34 --> this is an error!
+ERROR - 2022-05-21 23:55:15 --> hkm_view(): Argument #1 ($name) must be of type string, null given, called in /opt/lampp/htdocs/SYSTEM/src/CLI/GeneratorTrait.sys.php on line 587
+ERROR - 2022-05-21 23:56:56 --> Invalid file: Commands\Generators\Views\.php
+ERROR - 2022-05-21 23:57:53 --> Invalid file: Commands\Generators\Views\.php
+ERROR - 2022-05-21 23:59:13 --> Invalid file: Commands\Generators\Views\.php
+ERROR - 2022-05-21 23:59:58 --> Invalid file: Commands\Generators\Views\.php

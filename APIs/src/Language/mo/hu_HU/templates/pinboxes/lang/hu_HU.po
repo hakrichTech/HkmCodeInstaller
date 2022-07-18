@@ -1,0 +1,80 @@
+# 
+# Translators:
+# Balázs Buzás <bb@playma.org>, 2017
+# gyorgy barna <barna.transifex@kiber.net>, 2017
+# tet com <tet-com@freemail.hu>, 2020
+# Zoltan Kovacs <kzolee1@gmail.com>, 2020
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2020-12-16 11:47+0000\n"
+"Last-Translator: Zoltan Kovacs <kzolee1@gmail.com>\n"
+"Language-Team: Hungarian (Hungary) (http://www.transifex.com/subwaydesign/projectsend/language/hu_HU/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: hu_HU\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: font-awesome-4.6.3\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+
+#: template.php:20
+msgid "Available files"
+msgstr "Létező állományok"
+
+#: template.php:58
+msgid "Welcome"
+msgstr "Üdvözlet!"
+
+#: template.php:63
+msgid "Search..."
+msgstr "Keresés..."
+
+#: template.php:73
+msgid "Categories"
+msgstr "Kategóriák"
+
+#: template.php:75
+msgid "All files"
+msgstr "Összes állomány"
+
+#: template.php:95
+msgid "Download zipped"
+msgstr "Letöltés tömörítve"
+
+#: template.php:100
+msgid "Upload"
+msgstr "Feltöltés"
+
+#: template.php:105
+msgid "Manage"
+msgstr "Kezelés"
+
+#: template.php:110
+msgid "Logout"
+msgstr "Kijelentkezés"
+
+#: template.php:125
+msgid "There are no files."
+msgstr "Nincsenek elérhető állományok."
+
+#: template.php:174
+msgid "File size:"
+msgstr "Állomány méret:"
+
+#: template.php:181
+msgid "Expiration date:"
+msgstr "Lejárati dátum:"
+
+#: template.php:192
+msgid "Download"
+msgstr "Letöltés"
+
+#: template.php:202
+msgid "File expired"
+msgstr "Lejárt állomány"

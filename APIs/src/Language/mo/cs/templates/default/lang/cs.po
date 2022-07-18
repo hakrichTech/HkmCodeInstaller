@@ -1,0 +1,105 @@
+# 
+# Translators:
+# Jiří Míchal <goomatlock@gmail.com>, 2021
+# Tomáš Janů <tms.janu@gmail.com>, 2017
+# Vaclav Greif <vasik@vasik.net>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2021-04-23 09:17+0000\n"
+"Last-Translator: Jiří Míchal <goomatlock@gmail.com>\n"
+"Language-Team: Czech (http://www.transifex.com/subwaydesign/projectsend/language/cs/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: cs\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:20
+msgid "File downloads"
+msgstr "Stažení souborů"
+
+#: template.php:45
+msgid "All categories"
+msgstr "Všechny kategorie"
+
+#: template.php:52
+msgid "Filter"
+msgstr "Filtrovat"
+
+#: template.php:66
+msgid "Selected files actions"
+msgstr "Vybrané akce"
+
+#: template.php:70
+msgid "Select action"
+msgstr "Vyberte akci"
+
+#: template.php:71
+msgid "Download zipped"
+msgstr "Stáhnout jako zip"
+
+#: template.php:81
+msgid "Proceed"
+msgstr "Pokračovat"
+
+#: template.php:89
+msgid "Found"
+msgstr "Nalezeno"
+
+#: template.php:89
+msgid "files"
+msgstr "souborů"
+
+#: template.php:99
+msgid "Your search keywords returned no results."
+msgstr "Nenalezeny žádné výsledky vyhledávání."
+
+#: template.php:104
+msgid "There are no files available."
+msgstr "Nejsou dostupné žádné soubory"
+
+#: template.php:130
+msgid "Title"
+msgstr "Název"
+
+#: template.php:133
+msgid "Type"
+msgstr "Typ"
+
+#: template.php:139
+msgid "Description"
+msgstr "Popis"
+
+#: template.php:146
+msgid "Size"
+msgstr "Velikost"
+
+#: template.php:153
+msgid "Date"
+msgstr "Datum"
+
+#: template.php:156
+msgid "Expiration date"
+msgstr "Platné do"
+
+#: template.php:160
+msgid "Image preview"
+msgstr "Náhled obrázku"
+
+#: template.php:164 template.php:234
+msgid "Download"
+msgstr "Stážení"
+
+#: template.php:210
+msgid "Never"
+msgstr "Nikdy"
+
+#: template.php:230
+msgid "File expired"
+msgstr "Soubor vypršel"

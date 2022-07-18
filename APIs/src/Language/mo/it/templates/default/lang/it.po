@@ -1,0 +1,103 @@
+# 
+# Translators:
+# Alessio Felicioni <alessio.felicioni@gmail.com>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2020-11-07 15:50+0000\n"
+"Last-Translator: Ignacio Nelson <info@subwaydesign.com.ar>\n"
+"Language-Team: Italian (http://www.transifex.com/subwaydesign/projectsend/language/it/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:20
+msgid "File downloads"
+msgstr "Download dei file"
+
+#: template.php:45
+msgid "All categories"
+msgstr "Tutte le categorie"
+
+#: template.php:52
+msgid "Filter"
+msgstr "Filtro"
+
+#: template.php:66
+msgid "Selected files actions"
+msgstr "Azioni sui file selezionati"
+
+#: template.php:70
+msgid "Select action"
+msgstr ""
+
+#: template.php:71
+msgid "Download zipped"
+msgstr "Download compresso"
+
+#: template.php:81
+msgid "Proceed"
+msgstr "Procedi"
+
+#: template.php:89
+msgid "Found"
+msgstr ""
+
+#: template.php:89
+msgid "files"
+msgstr "file"
+
+#: template.php:99
+msgid "Your search keywords returned no results."
+msgstr "I termini di ricerca non hanno prodotto risultati."
+
+#: template.php:104
+msgid "There are no files available."
+msgstr "Non sono disponibili file."
+
+#: template.php:130
+msgid "Title"
+msgstr "Titolo"
+
+#: template.php:133
+msgid "Type"
+msgstr ""
+
+#: template.php:139
+msgid "Description"
+msgstr "Descrizione"
+
+#: template.php:146
+msgid "Size"
+msgstr "Dimensione"
+
+#: template.php:153
+msgid "Date"
+msgstr "Data"
+
+#: template.php:156
+msgid "Expiration date"
+msgstr "Scadenza"
+
+#: template.php:160
+msgid "Image preview"
+msgstr "Anteprima immagine"
+
+#: template.php:164 template.php:234
+msgid "Download"
+msgstr "Download"
+
+#: template.php:210
+msgid "Never"
+msgstr "Mai"
+
+#: template.php:230
+msgid "File expired"
+msgstr "File scaduto"

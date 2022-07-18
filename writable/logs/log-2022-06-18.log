@@ -1,0 +1,13 @@
+ERROR - 2022-06-18 01:33:46 --> Error connecting to the database: Unknown database 'Hkm_Server'
+ERROR - 2022-06-18 01:35:23 --> Error connecting to the database: Unknown database 'Hkm_Server'
+ERROR - 2022-06-18 01:48:54 --> All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead
+ERROR - 2022-06-18 01:52:30 --> All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead
+ERROR - 2022-06-18 01:56:10 --> All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead
+ERROR - 2022-06-18 02:00:21 --> All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead
+ERROR - 2022-06-18 02:01:57 --> All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead
+ERROR - 2022-06-18 02:03:27 --> All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead
+ERROR - 2022-06-18 02:04:29 --> All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead
+ERROR - 2022-06-18 02:05:57 --> All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead
+ERROR - 2022-06-18 02:12:26 --> All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead
+ERROR - 2022-06-18 02:13:09 --> All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead
+ERROR - 2022-06-18 02:13:53 --> All parts of a PRIMARY KEY must be NOT NULL; if you need NULL in a key, use UNIQUE instead

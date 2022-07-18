@@ -1,0 +1,77 @@
+# 
+# Translators:
+# Nanthawan Wiboonsakchai <nun@itept.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2020-11-07 15:50+0000\n"
+"Last-Translator: Ignacio Nelson <info@subwaydesign.com.ar>\n"
+"Language-Team: Thai (http://www.transifex.com/subwaydesign/projectsend/language/th/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: font-awesome-4.6.3\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+
+#: template.php:20
+msgid "Available files"
+msgstr "ไฟล์ที่พร้อมใช้งาน"
+
+#: template.php:58
+msgid "Welcome"
+msgstr "ยินดีต้อนรับ"
+
+#: template.php:63
+msgid "Search..."
+msgstr "ค้นหา"
+
+#: template.php:73
+msgid "Categories"
+msgstr "หมวดหมู่"
+
+#: template.php:75
+msgid "All files"
+msgstr "ไฟล์ทั้งหมด"
+
+#: template.php:95
+msgid "Download zipped"
+msgstr ""
+
+#: template.php:100
+msgid "Upload"
+msgstr ""
+
+#: template.php:105
+msgid "Manage"
+msgstr ""
+
+#: template.php:110
+msgid "Logout"
+msgstr "ออกจากระบบ"
+
+#: template.php:125
+msgid "There are no files."
+msgstr "ไม่มีไฟล์"
+
+#: template.php:174
+msgid "File size:"
+msgstr "ขนาดไฟล์:"
+
+#: template.php:181
+msgid "Expiration date:"
+msgstr "วันหมดอายุ:"
+
+#: template.php:192
+msgid "Download"
+msgstr "ดาวน์โหลด"
+
+#: template.php:202
+msgid "File expired"
+msgstr "ไฟล์หมดอายุแล้ว"

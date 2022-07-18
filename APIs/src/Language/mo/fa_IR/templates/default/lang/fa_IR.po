@@ -1,0 +1,103 @@
+# 
+# Translators:
+# Reza Karimabadi <rkarimabadi@gmail.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2020-11-07 15:50+0000\n"
+"Last-Translator: Ignacio Nelson <info@subwaydesign.com.ar>\n"
+"Language-Team: Persian (Iran) (http://www.transifex.com/subwaydesign/projectsend/language/fa_IR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: fa_IR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:20
+msgid "File downloads"
+msgstr "دریافت فایل"
+
+#: template.php:45
+msgid "All categories"
+msgstr "تمام دسته‌بندی‌ها"
+
+#: template.php:52
+msgid "Filter"
+msgstr "فیلتر"
+
+#: template.php:66
+msgid "Selected files actions"
+msgstr "اقدامات برای فایل‌های انتخابی"
+
+#: template.php:70
+msgid "Select action"
+msgstr ""
+
+#: template.php:71
+msgid "Download zipped"
+msgstr "دانلود بصورت فایل فشرده"
+
+#: template.php:81
+msgid "Proceed"
+msgstr "انجام بده"
+
+#: template.php:89
+msgid "Found"
+msgstr ""
+
+#: template.php:89
+msgid "files"
+msgstr "فایل‌ها"
+
+#: template.php:99
+msgid "Your search keywords returned no results."
+msgstr "برای کلمات کلیدی جستجو شده هیچ نتیجه ای پیدا نشد."
+
+#: template.php:104
+msgid "There are no files available."
+msgstr "هیچ فایلی در دسترس نیست"
+
+#: template.php:130
+msgid "Title"
+msgstr "عنوان"
+
+#: template.php:133
+msgid "Type"
+msgstr ""
+
+#: template.php:139
+msgid "Description"
+msgstr "توضیح"
+
+#: template.php:146
+msgid "Size"
+msgstr "سایز"
+
+#: template.php:153
+msgid "Date"
+msgstr "تاریخ"
+
+#: template.php:156
+msgid "Expiration date"
+msgstr "تاریخ انقضاء"
+
+#: template.php:160
+msgid "Image preview"
+msgstr "پیش نمایش تصویر"
+
+#: template.php:164 template.php:234
+msgid "Download"
+msgstr "دریافت فایل"
+
+#: template.php:210
+msgid "Never"
+msgstr "هرگز"
+
+#: template.php:230
+msgid "File expired"
+msgstr "پرونده منقضی شده"

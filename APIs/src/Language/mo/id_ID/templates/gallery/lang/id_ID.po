@@ -1,0 +1,59 @@
+# 
+# Translators:
+# Pinto Sjafri <alien@dokter.or.id>, 2020
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2020-11-18 23:47+0000\n"
+"Last-Translator: Pinto Sjafri <alien@dokter.or.id>\n"
+"Language-Team: Indonesian (Indonesia) (http://www.transifex.com/subwaydesign/projectsend/language/id_ID/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: id_ID\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:24
+msgid "Gallery"
+msgstr "Galeri"
+
+#: template.php:75
+msgid "Logout"
+msgstr "Keluar"
+
+#: template.php:76
+msgid "Manage files"
+msgstr "Mengatur berkas"
+
+#: template.php:77
+msgid "Upload"
+msgstr "Ungah"
+
+#: template.php:86
+msgid "Filter by category"
+msgstr "Saring mengunakan katagori"
+
+#: template.php:89
+msgid "All files"
+msgstr "Semua berkas"
+
+#: template.php:122
+msgid "There are no files."
+msgstr "Tidak ada berkas"
+
+#: template.php:135
+msgid "File expired"
+msgstr "Berkas kadaluarsa"
+
+#: template.php:150
+msgid "Download"
+msgstr "Unduh"
+
+#: template.php:157
+msgid "Select"
+msgstr "Pilih"

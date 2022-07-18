@@ -1,0 +1,78 @@
+# 
+# Translators:
+# anas mushainish <anuss2@yahoo.com>, 2021
+# عبد المجيد الجهني <ww0530100008@gmail.com>, 2020
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2021-07-14 06:38+0000\n"
+"Last-Translator: anas mushainish <anuss2@yahoo.com>\n"
+"Language-Team: Arabic (Saudi Arabia) (http://www.transifex.com/subwaydesign/projectsend/language/ar_SA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: font-awesome-4.6.3\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+
+#: template.php:20
+msgid "Available files"
+msgstr "الملفات المتاحة"
+
+#: template.php:58
+msgid "Welcome"
+msgstr "أهلا بك"
+
+#: template.php:63
+msgid "Search..."
+msgstr "بحث..."
+
+#: template.php:73
+msgid "Categories"
+msgstr "التصنيفات"
+
+#: template.php:75
+msgid "All files"
+msgstr "كل الملفات"
+
+#: template.php:95
+msgid "Download zipped"
+msgstr "تنزيل ملف مضغوط"
+
+#: template.php:100
+msgid "Upload"
+msgstr "تحميل"
+
+#: template.php:105
+msgid "Manage"
+msgstr "إدارة"
+
+#: template.php:110
+msgid "Logout"
+msgstr "تسجيل خروج"
+
+#: template.php:125
+msgid "There are no files."
+msgstr "لا توجد ملفات"
+
+#: template.php:174
+msgid "File size:"
+msgstr "حجم الملف:"
+
+#: template.php:181
+msgid "Expiration date:"
+msgstr "تاريخ إنتهاء الصلاحية:"
+
+#: template.php:192
+msgid "Download"
+msgstr "التحميل"
+
+#: template.php:202
+msgid "File expired"
+msgstr "انتهت صلاحية الملف"

@@ -1,0 +1,80 @@
+# 
+# Translators:
+# Davide Rizzo <amicofree@yahoo.it>, 2017
+# Luca Colombo <luca.colombo@newvisibility.it>, 2013
+# Nicola Saponieri <nikkio73@gmail.com>, 2020
+# stefano <stefano.franzin@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2020-11-24 11:34+0000\n"
+"Last-Translator: Nicola Saponieri <nikkio73@gmail.com>\n"
+"Language-Team: Italian (Italy) (http://www.transifex.com/subwaydesign/projectsend/language/it_IT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: font-awesome-4.6.3\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+
+#: template.php:20
+msgid "Available files"
+msgstr "File disponibili"
+
+#: template.php:58
+msgid "Welcome"
+msgstr "Benvenuto"
+
+#: template.php:63
+msgid "Search..."
+msgstr "Cerca..."
+
+#: template.php:73
+msgid "Categories"
+msgstr "Categorie"
+
+#: template.php:75
+msgid "All files"
+msgstr "Tutti i files"
+
+#: template.php:95
+msgid "Download zipped"
+msgstr "Scarica come compresso"
+
+#: template.php:100
+msgid "Upload"
+msgstr "Carica"
+
+#: template.php:105
+msgid "Manage"
+msgstr "Gestione"
+
+#: template.php:110
+msgid "Logout"
+msgstr "Esci"
+
+#: template.php:125
+msgid "There are no files."
+msgstr "Nessun file."
+
+#: template.php:174
+msgid "File size:"
+msgstr "Dimensione file:"
+
+#: template.php:181
+msgid "Expiration date:"
+msgstr "Scadenza:"
+
+#: template.php:192
+msgid "Download"
+msgstr "Download"
+
+#: template.php:202
+msgid "File expired"
+msgstr "File scaduto"

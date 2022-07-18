@@ -1,0 +1,104 @@
+# 
+# Translators:
+# Dennis Holm <dennisreneholm@gmail.com>, 2019
+# Ulrik, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2020-11-07 15:50+0000\n"
+"Last-Translator: Ignacio Nelson <info@subwaydesign.com.ar>\n"
+"Language-Team: Danish (http://www.transifex.com/subwaydesign/projectsend/language/da/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: da\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:20
+msgid "File downloads"
+msgstr "Filhentninger"
+
+#: template.php:45
+msgid "All categories"
+msgstr "Alle kategorier"
+
+#: template.php:52
+msgid "Filter"
+msgstr "Filtrer"
+
+#: template.php:66
+msgid "Selected files actions"
+msgstr "Handlinger for valgte filer"
+
+#: template.php:70
+msgid "Select action"
+msgstr ""
+
+#: template.php:71
+msgid "Download zipped"
+msgstr "Download som zip"
+
+#: template.php:81
+msgid "Proceed"
+msgstr "Udfør"
+
+#: template.php:89
+msgid "Found"
+msgstr ""
+
+#: template.php:89
+msgid "files"
+msgstr "filer"
+
+#: template.php:99
+msgid "Your search keywords returned no results."
+msgstr "Din søgning gav ingen resultater."
+
+#: template.php:104
+msgid "There are no files available."
+msgstr "Der er ingen filer tilgængelige."
+
+#: template.php:130
+msgid "Title"
+msgstr "Titel"
+
+#: template.php:133
+msgid "Type"
+msgstr ""
+
+#: template.php:139
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: template.php:146
+msgid "Size"
+msgstr "Størrelse"
+
+#: template.php:153
+msgid "Date"
+msgstr "Dato"
+
+#: template.php:156
+msgid "Expiration date"
+msgstr "Udløbsdato"
+
+#: template.php:160
+msgid "Image preview"
+msgstr "Forhåndsvisning"
+
+#: template.php:164 template.php:234
+msgid "Download"
+msgstr "Download"
+
+#: template.php:210
+msgid "Never"
+msgstr "Aldrig"
+
+#: template.php:230
+msgid "File expired"
+msgstr "Fil udløbet"

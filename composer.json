@@ -1,0 +1,69 @@
+{
+    "name": "hkmcodephp/system",
+    "description": "HkmCodePHP System V0.1",
+    "type": "project",
+    "homepage": "https://hkmcode.com",
+    "license": "MIT",
+    "authors": [{
+        "name": "Hakeem Rasheed",
+        "email": "hakeemrasheed@hakrichteam.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Hkm_Config\\": "./Config/",
+            "Hkm_code\\": "src/",
+            "Kint\\": "./ThirdParty/KintPackage",
+            "Psr\\": "./ThirdParty/psr",
+            "LanguageApiPlugin\\": "./APIs/src/",
+            "Hkm_Request\\": "./Request/",
+            "Hkm_addIn\\": "./Hkm_add-on/AddInObject",
+            "Hkm_traits\\": "./Hkm_add-on/Traits",
+            "Hkm_interfaces\\": "Hkm_add-on/Interfaces",
+            "SystemConfig\\": "./Hkm_Bin/",
+            "Hkm_services\\": "./InbuildServices/",
+            "Hkm_APIs\\": "./APIs/apiSrc/"
+
+        },
+        "files":[
+            "src/CoreFiles/SupportHelpers.core.php",
+            "src/planin.php",
+            "src/CoreFiles/Plugins.core.php",
+            "src/CoreFiles/APIs.core.php",
+            "src/CoreFiles/Cache.core.php",
+            "src/CoreFiles/Die_process_method.core.php",
+            "src/CoreFiles/FileSystem.core.php",
+            "src/CoreFiles/Hook.core.php",
+            "src/CoreFiles/Models.core.php",
+            "src/CoreFiles/text.core.php",
+            "src/CoreFiles/Api_Language.core.php",
+            "src/filters.sys.php"
+        ]
+    },
+    "require-dev": {
+        "league/oauth2-client": "^2.6",
+        "jeremeamia/superclosure": "*",
+        "patchwork/utf8": "*"
+    },
+    "require": {
+        "php": "^8.1||^8.1",
+        "ext-curl": "*",
+        "ext-intl": "*",
+        "ext-json": "*",
+        "ext-gd": "*",
+        "ext-mbstring": "*",
+        "symfony/yaml": "^5.3",
+        "symfony/process": "~2.3|~3.0",
+        "josantonius/httpstatuscode": "^1.0",
+        "nesbot/carbon": "~1.0",
+        "symfony/finder": "2.5.*",
+        "symfony/http-foundation": "2.5.*",
+        "symfony/http-kernel": "*",
+        "laminas/laminas-escaper": "^2.8",
+        "composer": "^2.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": false
+        }
+    }
+}

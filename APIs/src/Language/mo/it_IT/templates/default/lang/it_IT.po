@@ -1,0 +1,107 @@
+# 
+# Translators:
+# Davide Rizzo <amicofree@yahoo.it>, 2017
+# Luca Colombo <luca.colombo@newvisibility.it>, 2013
+# Nicola Saponieri <nikkio73@gmail.com>, 2020
+# Stefano Adami <stefano.adami93@gmail.com>, 2017
+# stefano <stefano.franzin@gmail.com>, 2017
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2020-11-24 11:33+0000\n"
+"Last-Translator: Nicola Saponieri <nikkio73@gmail.com>\n"
+"Language-Team: Italian (Italy) (http://www.transifex.com/subwaydesign/projectsend/language/it_IT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: it_IT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:20
+msgid "File downloads"
+msgstr "File scaricati"
+
+#: template.php:45
+msgid "All categories"
+msgstr "Tutte le categorie"
+
+#: template.php:52
+msgid "Filter"
+msgstr "Filtro"
+
+#: template.php:66
+msgid "Selected files actions"
+msgstr "Azioni per file sezionati"
+
+#: template.php:70
+msgid "Select action"
+msgstr "Seleziona azione"
+
+#: template.php:71
+msgid "Download zipped"
+msgstr "Scarica come compresso (ZIP)"
+
+#: template.php:81
+msgid "Proceed"
+msgstr "Prosegui"
+
+#: template.php:89
+msgid "Found"
+msgstr "Trovato"
+
+#: template.php:89
+msgid "files"
+msgstr "file"
+
+#: template.php:99
+msgid "Your search keywords returned no results."
+msgstr "Le parole chiave di ricerca non hanno prodotto risultati."
+
+#: template.php:104
+msgid "There are no files available."
+msgstr "Nessun file disponibile."
+
+#: template.php:130
+msgid "Title"
+msgstr "Titolo"
+
+#: template.php:133
+msgid "Type"
+msgstr "Tipo"
+
+#: template.php:139
+msgid "Description"
+msgstr "Descrizione"
+
+#: template.php:146
+msgid "Size"
+msgstr "Dimensione"
+
+#: template.php:153
+msgid "Date"
+msgstr "Data"
+
+#: template.php:156
+msgid "Expiration date"
+msgstr "Scadenza"
+
+#: template.php:160
+msgid "Image preview"
+msgstr "Anteprima immagine"
+
+#: template.php:164 template.php:234
+msgid "Download"
+msgstr "Download"
+
+#: template.php:210
+msgid "Never"
+msgstr "Mai"
+
+#: template.php:230
+msgid "File expired"
+msgstr "File scaduto"

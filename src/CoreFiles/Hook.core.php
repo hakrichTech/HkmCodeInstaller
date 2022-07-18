@@ -1,0 +1,717 @@
+
+<?php ;
+
+use Hkm_APIs\Hkm_Hook;
+
+/**
+ * Adds a callback function to a filter hook.
+ *
+ * WordPress offers filter hooks to allow plugins to modify
+ * various types of internal data at runtime.
+ *
+ * A plugin can modify data by binding a callback to a filter hook. When the filter
+ * is later applied, each bound callback is run in order of priority, and given
+ * the opportunity to modify a value by returning a new value.
+ *
+ * The following example shows how a callback function is bound to a filter hook.
+ *
+ * Note that `$example` is passed to the callback, (maybe) modified, then returned:
+ *
+ *     function example_callback( $example ) {
+ *         // Maybe modify $example in some way.
+ *         return $example;
+ *     }
+ *     hkm_add_filter( 'example_filter', 'example_callback' );
+ *
+ * Bound callbacks can accept from none to the total number of arguments passed as parameters
+ * in the corresponding hkm_apply_filters() call.
+ *
+ * In other words, if an hkm_apply_filters() call passes four total arguments, callbacks bound to
+ * it can accept none (the same as 1) of the arguments or up to four. The important part is that
+ * the `$accepted_args` value must reflect the number of arguments the bound callback *actually*
+ * opted to accept. If no arguments were accepted by the callback that is considered to be the
+ * same as accepting 1 argument. For example:
+ *
+ *     // Filter call.
+ *     $value = hkm_apply_filters( 'hook', $value, $arg2, $arg3 );
+ *
+ *     // Accepting zero/one arguments.
+ *     function example_callback() {
+ *         ...
+ *         return 'some value';
+ *     }
+ *     hkm_add_filter( 'hook', 'example_callback' ); // Where $priority is default 10, $accepted_args is default 1.
+ *
+ *     // Accepting two arguments (three possible).
+ *     function example_callback( $value, $arg2 ) {
+ *         ...
+ *         return $maybe_modified_value;
+ *     }
+ *     hkm_add_filter( 'hook', 'example_callback', 10, 2 ); // Where $priority is 10, $accepted_args is 2.
+ *
+ * *Note:* The function will return true whether or not the callback is valid.
+ * It is up to you to take care. This is done for optimization purposes, so
+ * everything is as quick as possible.
+ *
+ *
+ * @global Hkm_Hook[] $hkm_filter A multidimensional array of all hooks and the callbacks hooked to them.
+ *
+ * @param string   $hook_name     The name of the filter to add the callback to.
+ * @param callable $callback      The callback to be run when the filter is applied.
+ * @param int      $priority      Optional. Used to specify the order in which the functions
+ *                                associated with a particular filter are executed.
+ *                                Lower numbers correspond with earlier execution,
+ *                                and functions with the same priority are executed
+ *                                in the order in which they were added to the filter. Default 10.
+ * @param int      $accepted_args Optional. The number of arguments the function accepts. Default 1.
+ * @return true Always returns true.
+ */
+function hkm_add_filter( $hook_name, $callback, $priority = 10, $accepted_args = 1 ) {
+	global $hkm_filter;
+
+	if ( ! isset( $hkm_filter[ $hook_name ] ) ) {
+		$hkm_filter[ $hook_name ] = new Hkm_Hook();
+	}
+
+	$hkm_filter[ $hook_name ]->ADD_FILTER( $hook_name, $callback, $priority, $accepted_args );
+
+	return true;
+}
+
+/**
+ * Calls the callback functions that have been added to a filter hook.
+ *
+ * This function invokes all functions attached to filter hook `$hook_name`.
+ * It is possible to create new filter hooks by simply calling this function,
+ * specifying the name of the new hook using the `$hook_name` parameter.
+ *
+ * The function also allows for multiple additional arguments to be passed to hooks.
+ *
+ * Example usage:
+ *
+ *     // The filter callback function.
+ *     function example_callback( $string, $arg1, $arg2 ) {
+ *         // (maybe) modify $string.
+ *         return $string;
+ *     }
+ *     hkm_add_filter( 'example_filter', 'example_callback', 10, 3 );
+ *
+ *     /*
+ *      * Apply the filters by calling the 'example_callback()' function
+ *      * that's hooked onto `example_filter` above.
+ *      *
+ *      * - 'example_filter' is the filter hook.
+ *      * - 'filter me' is the value being filtered.
+ *      * - $arg1 and $arg2 are the additional arguments passed to the callback.
+ *     $value = hkm_apply_filters( 'example_filter', 'filter me', $arg1, $arg2 );
+ *
+ *
+ * @global Hkm_Hook[] $hkm_filter         Stores all of the filters and actions.
+ * @global string[]  $hkm_current_filter Stores the list of current filters with the current one last.
+ *
+ * @param string $hook_name The name of the filter hook.
+ * @param mixed  $value     The value to filter.
+ * @param mixed  ...$args   Additional parameters to pass to the callback functions.
+ * @return mixed The filtered value after all hooked functions are applied to it.
+ */
+function hkm_apply_filters( $hook_name, $value ) {
+	global $hkm_filter, $hkm_current_filter;
+
+	$args = func_get_args();
+
+	// Do 'all' actions first.
+	if ( isset( $hkm_filter['all'] ) ) {
+		$hkm_current_filter[] = $hook_name;
+		_hkm_call_all_hook( $args );
+	}
+
+	if ( ! isset( $hkm_filter[ $hook_name ] ) ) {
+		if ( isset( $hkm_filter['all'] ) ) {
+			array_pop( $hkm_current_filter );
+		}
+
+		return $value;
+	}
+
+	if ( ! isset( $hkm_filter['all'] ) ) {
+		$hkm_current_filter[] = $hook_name;
+	}
+
+	// Don't pass the tag name to Hkm_Hook.
+	array_shift( $args );
+
+	$filtered = $hkm_filter[ $hook_name ]->APPLY_FILTERS( $value, $args );
+
+	array_pop( $hkm_current_filter );
+
+	return $filtered;
+}
+
+/**
+ * Calls the callback functions that have been added to a filter hook, specifying arguments in an array.
+ *
+ *
+ * @see hkm_apply_filters() This function is identical, but the arguments passed to the
+ *                      functions hooked to `$hook_name` are supplied using an array.
+ *
+ * @global Hkm_Hook[] $hkm_filter         Stores all of the filters and actions.
+ * @global string[]  $hkm_current_filter Stores the list of current filters with the current one last.
+ *
+ * @param string $hook_name The name of the filter hook.
+ * @param array  $args      The arguments supplied to the functions hooked to `$hook_name`.
+ * @return mixed The filtered value after all hooked functions are applied to it.
+ */
+function hkm_apply_filters_ref_array( $hook_name, $args ) {
+	global $hkm_filter, $hkm_current_filter;
+
+	// Do 'all' actions first.
+	if ( isset( $hkm_filter['all'] ) ) {
+		$hkm_current_filter[] = $hook_name;
+		$all_args            = func_get_args(); // phpcs:ignore PHPCompatibility.FunctionUse.ArgumentFunctionsReportCurrentValue.NeedsInspection
+		_hkm_call_all_hook( $all_args );
+	}
+
+	if ( ! isset( $hkm_filter[ $hook_name ] ) ) {
+		if ( isset( $hkm_filter['all'] ) ) {
+			array_pop( $hkm_current_filter );
+		}
+
+		return $args[0];
+	}
+
+	if ( ! isset( $hkm_filter['all'] ) ) {
+		$hkm_current_filter[] = $hook_name;
+	}
+
+	$filtered = $hkm_filter[ $hook_name ]->APPLY_FILTERS( $args[0], $args );
+
+	array_pop( $hkm_current_filter );
+
+	return $filtered;
+}
+
+/**
+ * Checks if any filter has been registered for a hook.
+ *
+ * When using the `$callback` argument, this function may return a non-boolean value
+ * that evaluates to false (e.g. 0), so use the `===` operator for testing the return value.
+ *
+ *
+ * @global Hkm_Hook[] $hkm_filter Stores all of the filters and actions.
+ *
+ * @param string                      $hook_name The name of the filter hook.
+ * @param callable|string|array|false $callback  Optional. The callback to check for.
+ *                                               This function can be called unconditionally to speculatively check
+ *                                               a callback that may or may not exist. Default false.
+ * @return bool|int If `$callback` is omitted, returns boolean for whether the hook has
+ *                  anything registered. When checking a specific function, the priority
+ *                  of that hook is returned, or false if the function is not attached.
+ */
+function hkm_has_filter( $hook_name, $callback = false ) {
+	global $hkm_filter;
+
+	if ( ! isset( $hkm_filter[ $hook_name ] ) ) {
+		return false;
+	}
+
+	return $hkm_filter[ $hook_name ]->HAS_FILTER( $hook_name, $callback );
+}
+
+/**
+ * Removes a callback function from a filter hook.
+ *
+ * This can be used to remove default functions attached to a specific filter
+ * hook and possibly replace them with a substitute.
+ *
+ * To remove a hook, the `$callback` and `$priority` arguments must match
+ * when the hook was added. This goes for both filters and actions. No warning
+ * will be given on removal failure.
+ *
+ *
+ * @global Hkm_Hook[] $hkm_filter Stores all of the filters and actions.
+ *
+ * @param string                $hook_name The filter hook to which the function to be removed is hooked.
+ * @param callable|string|array $callback  The callback to be removed from running when the filter is applied.
+ *                                         This function can be called unconditionally to speculatively remove
+ *                                         a callback that may or may not exist.
+ * @param int                   $priority  Optional. The exact priority used when adding the original
+ *                                         filter callback. Default 10.
+ * @return bool Whether the function existed before it was removed.
+ */
+function hkm_remove_filter( $hook_name, $callback, $priority = 10 ) {
+	global $hkm_filter;
+
+	$r = false;
+
+	if ( isset( $hkm_filter[ $hook_name ] ) ) {
+		$r = $hkm_filter[ $hook_name ]->REMOVE_FILTER( $hook_name, $callback, $priority );
+
+		if ( ! $hkm_filter[ $hook_name ]->callbacks ) {
+			unset( $hkm_filter[ $hook_name ] );
+		}
+	}
+
+	return $r;
+}
+
+/**
+ * Removes all of the callback functions from a filter hook.
+ *
+ *
+ * @global Hkm_Hook[] $hkm_filter Stores all of the filters and actions.
+ *
+ * @param string    $hook_name The filter to remove callbacks from.
+ * @param int|false $priority  Optional. The priority number to remove them from.
+ *                             Default false.
+ * @return true Always returns true.
+ */
+function hkm_remove_all_filters( $hook_name, $priority = false ) {
+	global $hkm_filter;
+
+	if ( isset( $hkm_filter[ $hook_name ] ) ) {
+		$hkm_filter[ $hook_name ]->REMOVE_ALL_FILTERS( $priority );
+
+		if ( ! $hkm_filter[ $hook_name ]->HAS_FILTERS() ) {
+			unset( $hkm_filter[ $hook_name ] );
+		}
+	}
+
+	return true;
+}
+
+/**
+ * Retrieves the name of the current filter hook.
+ *
+ *
+ * @global string[] $hkm_current_filter Stores the list of current filters with the current one last
+ *
+ * @return string Hook name of the current filter.
+ */
+function hkm_current_filter() {
+	global $hkm_current_filter;
+
+	return end( $hkm_current_filter );
+}
+
+/**
+ * Returns whether or not a filter hook is currently being processed.
+ *
+ * The function hkm_current_filter() only returns the most recent filter or action
+ * being executed. did_action() returns true once the action is initially
+ * processed.
+ *
+ * This function allows detection for any filter currently being executed
+ * (regardless of whether it's the most recent filter to fire, in the case of
+ * hooks called from hook callbacks) to be verified.
+ *
+ *
+ * @see hkm_current_filter()
+ * @see did_action()
+ * @global string[] $hkm_current_filter Current filter.
+ *
+ * @param null|string $hook_name Optional. Filter hook to check. Defaults to null,
+ *                               which checks if any filter is currently being run.
+ * @return bool Whether the filter is currently in the stack.
+ */
+function hkm_doing_filter( $hook_name = null ) {
+	global $hkm_current_filter;
+
+	if ( null === $hook_name ) {
+		return ! empty( $hkm_current_filter );
+	}
+
+	return in_array( $hook_name, $hkm_current_filter, true );
+}
+
+/**
+ * Adds a callback function to an action hook.
+ *
+ * Actions are the hooks that the WordPress core launches at specific points
+ * during execution, or when specific events occur. Plugins can specify that
+ * one or more of its PHP functions are executed at these points, using the
+ * Action API.
+ *
+ *
+ * @param string   $hook_name       The name of the action to add the callback to.
+ * @param callable $callback        The callback to be run when the action is called.
+ * @param int      $priority        Optional. Used to specify the order in which the functions
+ *                                  associated with a particular action are executed.
+ *                                  Lower numbers correspond with earlier execution,
+ *                                  and functions with the same priority are executed
+ *                                  in the order in which they were added to the action. Default 10.
+ * @param int      $accepted_args   Optional. The number of arguments the function accepts. Default 1.
+ * @return true Always returns true.
+ */
+function hkm_add_action( $hook_name, $callback, $priority = 10, $accepted_args = 1 ) {
+	return hkm_add_filter( $hook_name, $callback, $priority, $accepted_args );
+}
+
+/**
+ * Calls the callback functions that have been added to an action hook.
+ *
+ * This function invokes all functions attached to action hook `$hook_name`.
+ * It is possible to create new action hooks by simply calling this function,
+ * specifying the name of the new hook using the `$hook_name` parameter.
+ *
+ * You can pass extra arguments to the hooks, much like you can with `hkm_apply_filters()`.
+ *
+ * Example usage:
+ *
+ *     // The action callback function.
+ *     function example_callback( $arg1, $arg2 ) {
+ *         // (maybe) do something with the args.
+ *     }
+ *     hkm_add_action( 'example_action', 'example_callback', 10, 2 );
+ *
+ *     /*
+ *      * Trigger the actions by calling the 'example_callback()' function
+ *      * that's hooked onto `example_action` above.
+ *      *
+ *      * - 'example_action' is the action hook.
+ *      * - $arg1 and $arg2 are the additional arguments passed to the callback.
+ *     $value = hkm_do_action( 'example_action', $arg1, $arg2 );
+ * Formalized the existing and already documented `...$arg` parameter
+ *              by adding it to the function signature.
+ *
+ * @global Hkm_Hook[] $hkm_filter         Stores all of the filters and actions.
+ * @global int[]     $hkm_actions        Stores the number of times each action was triggered.
+ * @global string[]  $hkm_current_filter Stores the list of current filters with the current one last.
+ *
+ * @param string $hook_name The name of the action to be executed.
+ * @param mixed  ...$arg    Optional. Additional arguments which are passed on to the
+ *                          functions hooked to the action. Default empty.
+ */
+function hkm_do_action( $hook_name, ...$arg ) {
+	global $hkm_filter, $hkm_actions, $hkm_current_filter;
+
+	if ( ! isset( $hkm_actions[ $hook_name ] ) ) {
+		$hkm_actions[ $hook_name ] = 1;
+	} else {
+		++$hkm_actions[ $hook_name ];
+	}
+	
+
+	// Do 'all' actions first.
+	if ( isset( $hkm_filter['all'] ) ) {
+		$hkm_current_filter[] = $hook_name;
+		$all_args            = func_get_args(); // phpcs:ignore PHPCompatibility.FunctionUse.ArgumentFunctionsReportCurrentValue.NeedsInspection
+		_hkm_call_all_hook( $all_args );
+	}
+
+	if ( ! isset( $hkm_filter[ $hook_name ] ) ) {
+		if ( isset( $hkm_filter['all'] ) ) {
+			array_pop( $hkm_current_filter );
+		}
+
+		return;
+	}
+
+	if ( ! isset( $hkm_filter['all'] ) ) {
+		$hkm_current_filter[] = $hook_name;
+	}
+
+	if ( empty( $arg ) ) {
+		$arg[] = '';
+	} elseif ( is_array( $arg[0] ) && 1 === count( $arg[0] ) && isset( $arg[0][0] ) && is_object( $arg[0][0] ) ) {
+		// Backward compatibility for PHP4-style passing of `array( &$this )` as action `$arg`.
+		$arg[0] = $arg[0][0];
+	}
+	$hkm_filter[ $hook_name ]->DO_ACTION( $arg );
+
+	array_pop( $hkm_current_filter );
+}
+
+/**
+ * Calls the callback functions that have been added to an action hook, specifying arguments in an array.
+ *
+ *
+ * @see hkm_do_action() This function is identical, but the arguments passed to the
+ *                  functions hooked to `$hook_name` are supplied using an array.
+ *
+ * @global Hkm_Hook[] $hkm_filter         Stores all of the filters and actions.
+ * @global int[]     $hkm_actions        Stores the number of times each action was triggered.
+ * @global string[]  $hkm_current_filter Stores the list of current filters with the current one last.
+ *
+ * @param string $hook_name The name of the action to be executed.
+ * @param array  $args      The arguments supplied to the functions hooked to `$hook_name`.
+ */
+function hkm_do_action_ref_array( $hook_name, $args ) {
+	global $hkm_filter, $hkm_actions, $hkm_current_filter;
+
+	if ( ! isset( $hkm_actions[ $hook_name ] ) ) {
+		$hkm_actions[ $hook_name ] = 1;
+	} else {
+		++$hkm_actions[ $hook_name ];
+	}
+
+	// Do 'all' actions first.
+	if ( isset( $hkm_filter['all'] ) ) {
+		$hkm_current_filter[] = $hook_name;
+		$all_args            = func_get_args(); // phpcs:ignore PHPCompatibility.FunctionUse.ArgumentFunctionsReportCurrentValue.NeedsInspection
+		_hkm_call_all_hook( $all_args );
+	}
+
+	if ( ! isset( $hkm_filter[ $hook_name ] ) ) {
+		if ( isset( $hkm_filter['all'] ) ) {
+			array_pop( $hkm_current_filter );
+		}
+
+		return;
+	}
+
+	if ( ! isset( $hkm_filter['all'] ) ) {
+		$hkm_current_filter[] = $hook_name;
+	}
+
+	$hkm_filter[ $hook_name ]->DO_ACTION( $args );
+
+	array_pop( $hkm_current_filter );
+}
+
+/**
+ * Checks if any action has been registered for a hook.
+ *
+ * When using the `$callback` argument, this function may return a non-boolean value
+ * that evaluates to false (e.g. 0), so use the `===` operator for testing the return value.
+ *
+ *
+ * @see hkm_has_filter() hkm_has_action() is an alias of hkm_has_filter().
+ *
+ * @param string                      $hook_name The name of the action hook.
+ * @param callable|string|array|false $callback  Optional. The callback to check for.
+ *                                               This function can be called unconditionally to speculatively check
+ *                                               a callback that may or may not exist. Default false.
+ * @return bool|int If `$callback` is omitted, returns boolean for whether the hook has
+ *                  anything registered. When checking a specific function, the priority
+ *                  of that hook is returned, or false if the function is not attached.
+ */
+function hkm_has_action( $hook_name, $callback = false ) {
+	return hkm_has_filter( $hook_name, $callback );
+}
+
+/**
+ * Removes a callback function from an action hook.
+ *
+ * This can be used to remove default functions attached to a specific action
+ * hook and possibly replace them with a substitute.
+ *
+ * To remove a hook, the `$callback` and `$priority` arguments must match
+ * when the hook was added. This goes for both filters and actions. No warning
+ * will be given on removal failure.
+ *
+ *
+ * @param string                $hook_name The action hook to which the function to be removed is hooked.
+ * @param callable|string|array $callback  The name of the function which should be removed.
+ *                                         This function can be called unconditionally to speculatively remove
+ *                                         a callback that may or may not exist.
+ * @param int                   $priority  Optional. The exact priority used when adding the original
+ *                                         action callback. Default 10.
+ * @return bool Whether the function is removed.
+ */
+function hkm_remove_action( $hook_name, $callback, $priority = 10 ) {
+	return hkm_remove_filter( $hook_name, $callback, $priority );
+}
+
+/**
+ * Removes all of the callback functions from an action hook.
+ *
+ *
+ * @param string    $hook_name The action to remove callbacks from.
+ * @param int|false $priority  Optional. The priority number to remove them from.
+ *                             Default false.
+ * @return true Always returns true.
+ */
+function hkm_remove_all_actions( $hook_name, $priority = false ) {
+	return hkm_remove_all_filters( $hook_name, $priority );
+}
+
+/**
+ * Retrieves the name of the current action hook.
+ *
+ *
+ * @return string Hook name of the current action.
+ */
+function hkm_current_action() {
+	return hkm_current_filter();
+}
+
+/**
+ * Returns whether or not an action hook is currently being processed.
+ *
+ *
+ * @param string|null $hook_name Optional. Action hook to check. Defaults to null,
+ *                               which checks if any action is currently being run.
+ * @return bool Whether the action is currently in the stack.
+ */
+function hkm_doing_action( $hook_name = null ) {
+	return hkm_doing_filter( $hook_name );
+}
+
+/**
+ * Retrieves the number of times an action has been fired during the current request.
+ *
+ *
+ * @global int[] $hkm_actions Stores the number of times each action was triggered.
+ *
+ * @param string $hook_name The name of the action hook.
+ * @return int The number of times the action hook has been fired.
+ */
+function hkm_did_action( $hook_name ) {
+	global $hkm_actions;
+
+	if ( ! isset( $hkm_actions[ $hook_name ] ) ) {
+		return 0;
+	}
+
+	return $hkm_actions[ $hook_name ];
+}
+
+/**
+ * Fires functions attached to a deprecated filter hook.
+ *
+ * When a filter hook is deprecated, the hkm_apply_filters() call is replaced with
+ * hkm_apply_filters_deprecated(), which triggers a deprecation notice and then fires
+ * the original filter hook.
+ *
+ * Note: the value and extra arguments passed to the original hkm_apply_filters() call
+ * must be passed here to `$args` as an array. For example:
+ *
+ *     // Old filter.
+ *     return hkm_apply_filters( 'hkmdocs_filter', $value, $extra_arg );
+ *
+ *     // Deprecated.
+ *     return hkm_apply_filters_deprecated( 'hkmdocs_filter', array( $value, $extra_arg ), '4.9.0', 'hkmdocs_new_filter' );
+ *
+ * @since 4.6.0
+ *
+ * @see _hkm_deprecated_hook()
+ *
+ * @param string $hook_name   The name of the filter hook.
+ * @param array  $args        Array of additional function arguments to be passed to hkm_apply_filters().
+ * @param string $version     The version of WordPress that deprecated the hook.
+ * @param string $replacement Optional. The hook that should have been used. Default empty.
+ * @param string $message     Optional. A message regarding the change. Default empty.
+ */
+function hkm_apply_filters_deprecated( $hook_name, $args, $version, $replacement = '', $message = '' ) {
+	if ( ! hkm_has_filter( $hook_name ) ) {
+		return $args[0];
+	}
+
+	_hkm_deprecated_hook( $hook_name, $version, $replacement, $message );
+
+	return hkm_apply_filters_ref_array( $hook_name, $args );
+}
+
+/**
+ * Fires functions attached to a deprecated action hook.
+ *
+ * When an action hook is deprecated, the hkm_do_action() call is replaced with
+ * hkm_do_action_deprecated(), which triggers a deprecation notice and then fires
+ * the original hook.
+ *
+ * @since 4.6.0
+ *
+ * @see _hkm_deprecated_hook()
+ *
+ * @param string $hook_name   The name of the action hook.
+ * @param array  $args        Array of additional function arguments to be passed to hkm_do_action().
+ * @param string $version     The version of WordPress that deprecated the hook.
+ * @param string $replacement Optional. The hook that should have been used. Default empty.
+ * @param string $message     Optional. A message regarding the change. Default empty.
+ */
+function hkm_do_action_deprecated( $hook_name, $args, $version, $replacement = '', $message = '' ) {
+	if ( ! hkm_has_action( $hook_name ) ) {
+		return;
+	}
+
+	_hkm_deprecated_hook( $hook_name, $version, $replacement, $message );
+
+	hkm_do_action_ref_array( $hook_name, $args );
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**
+ * Calls the 'all' hook, which will process the functions hooked into it.
+ *
+ * The 'all' hook passes all of the arguments or parameters that were used for
+ * the hook, which this function was called for.
+ *
+ * This function is used internally for hkm_apply_filters(), hkm_do_action(), and
+ * hkm_do_action_ref_array() and is not meant to be used from outside those
+ * functions. This function does not check for the existence of the all hook, so
+ * it will fail unless the all hook exists prior to this function call.
+ *
+ * @access private
+ *
+ * @global Hkm_Hook[] $hkm_filter Stores all of the filters and actions.
+ *
+ * @param array $args The collected parameters from the hook that was called.
+ */
+function _hkm_call_all_hook( $args ) {
+	global $hkm_filter;
+
+	$hkm_filter['all']->DO_ALL_HOOK( $args );
+}
+
+/**
+ * Builds Unique ID for storage and retrieval.
+ *
+ * The old way to serialize the callback caused issues and this function is the
+ * solution. It works by checking for objects and creating a new property in
+ * the class to keep track of the object and new objects of the same class that
+ * need to be added.
+ *
+ * It also allows for the removal of actions and filters for objects after they
+ * change class properties. It is possible to include the property $hkm_filter_id
+ * in your class and set it to "null" or a number to bypass the workaround.
+ * However this will prevent you from adding new classes and any new classes
+ * will overwrite the previous hook by the same class.
+ *
+ * Functions and static method callbacks are just returned as strings and
+ * shouldn't have any speed penalty.
+ *
+ * @link https://core.trac.wordpress.org/ticket/3875
+ *
+ * @access private
+ *
+ * @param string                $hook_name Unused. The name of the filter to build ID for.
+ * @param callable|string|array $callback  The callback to generate ID for. The callback may
+ *                                         or may not exist.
+ * @param int                   $priority  Unused. The order in which the functions
+ *                                         associated with a particular action are executed.
+ * @return string Unique function ID for usage as array key.
+ */
+function _hkm_filter_build_unique_id( $hook_name, $callback, $priority ) {
+	if ( is_string( $callback ) ) {
+		return $callback;
+	}
+
+	if ( is_object( $callback ) ) {
+		// Closures are currently implemented as objects.
+		$callback = array( $callback, '' );
+	} else {
+		$callback = (array) $callback;
+	}
+
+	if ( is_object( $callback[0] ) ) {
+		// Object class calling.
+		return spl_object_hash( $callback[0] ) . $callback[1];
+	} elseif ( is_string( $callback[0] ) ) {
+		// Static calling.
+		return $callback[0] . '::' . $callback[1];
+	}
+}
+
+
+

@@ -1,0 +1,78 @@
+# 
+# Translators:
+# Luidgi Gomez <k3ntinhu@gmail.com>, 2019
+# Rui Lourenco <rui.lourenco@plasfil.pt>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2020-11-07 15:50+0000\n"
+"Last-Translator: Ignacio Nelson <info@subwaydesign.com.ar>\n"
+"Language-Team: Portuguese (Portugal) (http://www.transifex.com/subwaydesign/projectsend/language/pt_PT/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: font-awesome-4.6.3\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+
+#: template.php:20
+msgid "Available files"
+msgstr "Ficheiros disponíveis"
+
+#: template.php:58
+msgid "Welcome"
+msgstr "Benvindo"
+
+#: template.php:63
+msgid "Search..."
+msgstr "Procurar..."
+
+#: template.php:73
+msgid "Categories"
+msgstr "Categorias"
+
+#: template.php:75
+msgid "All files"
+msgstr "Todos os ficheiros"
+
+#: template.php:95
+msgid "Download zipped"
+msgstr ""
+
+#: template.php:100
+msgid "Upload"
+msgstr ""
+
+#: template.php:105
+msgid "Manage"
+msgstr ""
+
+#: template.php:110
+msgid "Logout"
+msgstr "Sair"
+
+#: template.php:125
+msgid "There are no files."
+msgstr "Não existem ficheiros"
+
+#: template.php:174
+msgid "File size:"
+msgstr "Tamanho do ficheiro:"
+
+#: template.php:181
+msgid "Expiration date:"
+msgstr "Data Expiração"
+
+#: template.php:192
+msgid "Download"
+msgstr "Descarregar"
+
+#: template.php:202
+msgid "File expired"
+msgstr "Ficheiro expirado"

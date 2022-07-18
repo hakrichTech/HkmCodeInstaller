@@ -1,0 +1,103 @@
+# 
+# Translators:
+# Arvind Kelvin <arvindkelvin@gmail.com>, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2020-11-07 15:50+0000\n"
+"Last-Translator: Ignacio Nelson <info@subwaydesign.com.ar>\n"
+"Language-Team: Tamil (http://www.transifex.com/subwaydesign/projectsend/language/ta/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ta\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:20
+msgid "File downloads"
+msgstr "கோப்பு பதிவிறக்கங்கள்"
+
+#: template.php:45
+msgid "All categories"
+msgstr "அனைத்து வகைகளும்"
+
+#: template.php:52
+msgid "Filter"
+msgstr "வடிகட்டி"
+
+#: template.php:66
+msgid "Selected files actions"
+msgstr "தேர்ந்தெடுக்கப்பட்ட கோப்புகள் செயல்கள்"
+
+#: template.php:70
+msgid "Select action"
+msgstr ""
+
+#: template.php:71
+msgid "Download zipped"
+msgstr "பதிவிறக்கம் ஜிப்"
+
+#: template.php:81
+msgid "Proceed"
+msgstr "தொடர"
+
+#: template.php:89
+msgid "Found"
+msgstr ""
+
+#: template.php:89
+msgid "files"
+msgstr "கோப்புகளை"
+
+#: template.php:99
+msgid "Your search keywords returned no results."
+msgstr "உங்கள் தேடல் சொற்கள் எந்த முடிவுகளையும் தரவில்லை."
+
+#: template.php:104
+msgid "There are no files available."
+msgstr "கோப்புகள் எதுவும் கிடைக்கவில்லை."
+
+#: template.php:130
+msgid "Title"
+msgstr "தலைப்பு"
+
+#: template.php:133
+msgid "Type"
+msgstr ""
+
+#: template.php:139
+msgid "Description"
+msgstr "விளக்கம்"
+
+#: template.php:146
+msgid "Size"
+msgstr "அளவு"
+
+#: template.php:153
+msgid "Date"
+msgstr "தேதி"
+
+#: template.php:156
+msgid "Expiration date"
+msgstr "காலாவதி தேதி"
+
+#: template.php:160
+msgid "Image preview"
+msgstr "பட முன்னோட்டம்"
+
+#: template.php:164 template.php:234
+msgid "Download"
+msgstr "பதிவிறக்கம்"
+
+#: template.php:210
+msgid "Never"
+msgstr "ஒருபோதும்"
+
+#: template.php:230
+msgid "File expired"
+msgstr "கோப்பு காலாவதியானது"

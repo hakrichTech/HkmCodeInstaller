@@ -1,0 +1,103 @@
+# 
+# Translators:
+# Carlin Kumada <carlin@yutaka1.com>, 2021
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2021-03-02 08:40+0000\n"
+"Last-Translator: Carlin Kumada <carlin@yutaka1.com>\n"
+"Language-Team: Japanese (http://www.transifex.com/subwaydesign/projectsend/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:20
+msgid "File downloads"
+msgstr "ファイルのダウンロード回数"
+
+#: template.php:45
+msgid "All categories"
+msgstr "全てのカテゴリー"
+
+#: template.php:52
+msgid "Filter"
+msgstr "フィルター"
+
+#: template.php:66
+msgid "Selected files actions"
+msgstr "選択したファイルを"
+
+#: template.php:70
+msgid "Select action"
+msgstr "アクションを選択"
+
+#: template.php:71
+msgid "Download zipped"
+msgstr "圧縮ファイルをダウンロード"
+
+#: template.php:81
+msgid "Proceed"
+msgstr "次へ"
+
+#: template.php:89
+msgid "Found"
+msgstr "これを見つけました"
+
+#: template.php:89
+msgid "files"
+msgstr "ファイル"
+
+#: template.php:99
+msgid "Your search keywords returned no results."
+msgstr "検索キーワードにヒットするものはありませんでした。"
+
+#: template.php:104
+msgid "There are no files available."
+msgstr "ファイルがありません"
+
+#: template.php:130
+msgid "Title"
+msgstr "タイトル"
+
+#: template.php:133
+msgid "Type"
+msgstr "種類"
+
+#: template.php:139
+msgid "Description"
+msgstr "説明文"
+
+#: template.php:146
+msgid "Size"
+msgstr "ファイルサイズ"
+
+#: template.php:153
+msgid "Date"
+msgstr "日付"
+
+#: template.php:156
+msgid "Expiration date"
+msgstr "有効期限"
+
+#: template.php:160
+msgid "Image preview"
+msgstr "画像をプレビュー"
+
+#: template.php:164 template.php:234
+msgid "Download"
+msgstr "ダウンロード"
+
+#: template.php:210
+msgid "Never"
+msgstr "決して"
+
+#: template.php:230
+msgid "File expired"
+msgstr "有効期限が切れてます"

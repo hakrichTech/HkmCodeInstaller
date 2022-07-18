@@ -1,0 +1,108 @@
+# 
+# Translators:
+# Darek NeroPcStation <dareknowacki2001@gmail.com>, 2017
+# Jarek Jackowski <254dpoziom@gmail.com>, 2021
+# Maciej Milosz <maciej@galeria47.pl>, 2017
+# Piotr P. <piotr@pielach.net>, 2018
+# robert robert <rootolf@gmail.com>, 2016
+# Wojciech M. <wmycka@pixelfreak.pl>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2021-05-08 09:44+0000\n"
+"Last-Translator: Jarek Jackowski <254dpoziom@gmail.com>\n"
+"Language-Team: Polish (http://www.transifex.com/subwaydesign/projectsend/language/pl/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: pl\n"
+"Plural-Forms: nplurals=4; plural=(n==1 ? 0 : (n%10>=2 && n%10<=4) && (n%100<12 || n%100>14) ? 1 : n!=1 && (n%10>=0 && n%10<=1) || (n%10>=5 && n%10<=9) || (n%100>=12 && n%100<=14) ? 2 : 3);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:20
+msgid "File downloads"
+msgstr "Pobrań pliku"
+
+#: template.php:45
+msgid "All categories"
+msgstr "Wszystkie kategorie"
+
+#: template.php:52
+msgid "Filter"
+msgstr "Filtr"
+
+#: template.php:66
+msgid "Selected files actions"
+msgstr "Akcje dla zaznaczonych plików"
+
+#: template.php:70
+msgid "Select action"
+msgstr "Wybierz"
+
+#: template.php:71
+msgid "Download zipped"
+msgstr "Pobierz spakowane"
+
+#: template.php:81
+msgid "Proceed"
+msgstr "Kontynuuj"
+
+#: template.php:89
+msgid "Found"
+msgstr "Znaleziono"
+
+#: template.php:89
+msgid "files"
+msgstr "pliki"
+
+#: template.php:99
+msgid "Your search keywords returned no results."
+msgstr "Twoje wyszukiwanie nie zwróciło wyników."
+
+#: template.php:104
+msgid "There are no files available."
+msgstr "Brak plików do wyświetlenia."
+
+#: template.php:130
+msgid "Title"
+msgstr "Tytuł"
+
+#: template.php:133
+msgid "Type"
+msgstr "Typ"
+
+#: template.php:139
+msgid "Description"
+msgstr "Opis"
+
+#: template.php:146
+msgid "Size"
+msgstr "Rozmiar"
+
+#: template.php:153
+msgid "Date"
+msgstr "Data"
+
+#: template.php:156
+msgid "Expiration date"
+msgstr "Data wygaśnięcia"
+
+#: template.php:160
+msgid "Image preview"
+msgstr "Podgląd obrazu"
+
+#: template.php:164 template.php:234
+msgid "Download"
+msgstr "Pobierz"
+
+#: template.php:210
+msgid "Never"
+msgstr "Nigdy"
+
+#: template.php:230
+msgid "File expired"
+msgstr "Plik wygasnął"

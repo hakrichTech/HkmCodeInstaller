@@ -1,0 +1,3781 @@
+# 
+# Translators:
+# Bilal Gümüş <noctiluca@gmail.com>, 2013
+# Emre ÖZKARTAL <emreaysel26@gmail.com>, 2017
+# Hamdullah Tekgöz <saglik216@hotmail.com>, 2018
+# ismail inci <ismail.inci@gmail.com>, 2020
+# Mehmet Gökkaya <mehmet@mehmetgokkaya.com>, 2019
+# Muhlis Batman <muhlisbatman@windowslive.com>, 2018
+# Oğuz K. <oguzkir@gmail.com>, 2017
+# Orkun Surel <orkunsurel@gmail.com>, 2016
+# renegade alien <gucluhan@ones.com.tr>, 2019
+# TRIO Swiss, 2021
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-11-07 12:37-0300\n"
+"PO-Revision-Date: 2021-11-28 05:37+0000\n"
+"Last-Translator: TRIO Swiss\n"
+"Language-Team: Turkish (Turkey) (http://www.transifex.com/subwaydesign/projectsend/language/tr_TR/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: tr_TR\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: assets\n"
+"X-Poedit-SearchPathExcluded-1: includes/Google\n"
+"X-Poedit-SearchPathExcluded-2: templates/default\n"
+"X-Poedit-SearchPathExcluded-3: templates/gallery\n"
+"X-Poedit-SearchPathExcluded-4: templates/pinboxes\n"
+"X-Poedit-SearchPathExcluded-5: node_modules\n"
+"X-Poedit-SearchPathExcluded-6: upload\n"
+"X-Poedit-SearchPathExcluded-7: vendor\n"
+
+#: actions-log.php:14
+msgid "Recent activities log"
+msgstr "Son etkinlik kayıtları"
+
+#: actions-log.php:39
+msgid "The selected activities were deleted."
+msgstr "Seçilen etkinlikler silindi."
+
+#: actions-log.php:43
+msgid "Please select at least one activity."
+msgstr "Lütfen en az bir etkinlik seçin."
+
+#: actions-log.php:55
+msgid ""
+"The log was cleared. Only data used for statistics remained. You can delete "
+"them manually if you want."
+msgstr "Günlük temizlendi. Sadece istatistikler için kullanılan veriler kaldı. İsterseniz manuel olarak silebilirsiniz."
+
+#: actions-log.php:128
+msgid "Filter activities"
+msgstr "Etkinlikleri filtrele"
+
+#: actions-log.php:130 includes/widgets/actions-log.php:14
+msgid "All activities"
+msgstr "Tüm etkinlikler"
+
+#: actions-log.php:142 clients.php:153 manage-files.php:372
+#: manage-files.php:399 users.php:203
+msgid "Filter"
+msgstr "Filtre"
+
+#: actions-log.php:153
+msgid "Activities actions"
+msgstr "Etkinlik eylemleri"
+
+#: actions-log.php:157 categories.php:197 clients-membership-requests.php:181
+#: clients-requests.php:231 clients.php:168 groups.php:154
+#: manage-files.php:426 users.php:218
+msgid "Select action"
+msgstr "Eylem seç"
+
+#: actions-log.php:158
+msgid "Download as csv"
+msgstr ".csv olarak indir"
+
+#: actions-log.php:159
+msgid "Delete selected"
+msgstr "Seçileni sil"
+
+#: actions-log.php:160
+msgid "Clear entire log"
+msgstr "Bütün günlüğü temizle"
+
+#: actions-log.php:170 categories.php:208 clients-membership-requests.php:193
+#: clients-requests.php:243 clients.php:181 groups.php:165
+#: manage-files.php:457 users.php:231
+msgid "Proceed"
+msgstr "Devam et"
+
+#: actions-log.php:177 categories.php:216 clients-membership-requests.php:200
+#: clients-requests.php:250 clients.php:188 groups.php:172
+#: manage-files.php:465 users.php:238
+msgid "Found"
+msgstr "Bulundu"
+
+#: actions-log.php:177
+msgid "activities"
+msgstr "etkinlikler"
+
+#: actions-log.php:187 clients-membership-requests.php:235
+#: clients-requests.php:285 clients.php:201 groups.php:185
+#: manage-files.php:481 users.php:250
+msgid "The filters you selected returned no results."
+msgstr "Seçtiğiniz filtreler sonuç yok."
+
+#: actions-log.php:192
+msgid "There are no activities recorded."
+msgstr "Kaydedilmiş etkinlik yok."
+
+#: actions-log.php:219 download-information.php:131
+msgid "Date"
+msgstr "Tarih"
+
+#: actions-log.php:224
+msgid "Author"
+msgstr "Yazar"
+
+#: actions-log.php:229
+msgid "Activity"
+msgstr "Etkinlik"
+
+#: categories.php:14
+msgid "Categories administration"
+msgstr "Kategori yönetimi"
+
+#: categories.php:27
+msgid "The category was successfully created."
+msgstr "Kategori başarıyla oluşturuldu."
+
+#: categories.php:31
+msgid "The category was successfully edited."
+msgstr "Kategori başarıyla düzenlendi."
+
+#: categories.php:53
+msgid "Please select at least one category."
+msgstr "Lütfen en az bir kategori seçiniz."
+
+#: categories.php:65
+msgid "The selected categories were deleted."
+msgstr "Kategori başarıyla silindi."
+
+#: categories.php:105
+msgid "Create new category"
+msgstr "Yeni kategori oluştur"
+
+#: categories.php:115
+msgid "Edit category"
+msgstr "Kategoriyi düzenle"
+
+#: categories.php:160
+msgid "There was a problem saving to the database."
+msgstr "Veritabanına kaydedilirken bir sorun oluştu."
+
+#: categories.php:165
+msgid "Please complete all the required fields."
+msgstr "Lütfen tüm gerekli alanları doldurunuz."
+
+#: categories.php:193
+msgid "Selected categories actions"
+msgstr "Seçili kategori eylemleri"
+
+#: categories.php:198 clients.php:171 groups.php:155 manage-files.php:446
+#: users.php:221
+msgid "Delete"
+msgstr "Sil"
+
+#: categories.php:216
+msgid "categories"
+msgstr "kategoriler"
+
+#: categories.php:226 clients-membership-requests.php:232
+#: clients-requests.php:282 clients.php:198 groups.php:182
+#: import-orphans.php:276 manage-files.php:475 users.php:247
+msgid "Your search keywords returned no results."
+msgstr "Arama kelimeleriniz için sonuç yok."
+
+#: categories.php:231
+msgid "There are no categories yet."
+msgstr "Henüz hiç kategori yok."
+
+#: categories.php:255 includes/forms/categories.php:37
+#: includes/forms/clients.php:76 includes/forms/options/email.php:11
+#: includes/forms/users.php:37
+msgid "Name"
+msgstr "İsim"
+
+#: categories.php:258 clients.php:395 groups.php:241 groups.php:331
+#: header-menu.php:71 includes/forms/options/clients.php:70
+#: includes/widgets/system-information.php:49 install/make-config.php:329
+msgid "Files"
+msgstr "Dosyalar"
+
+#: categories.php:261 files-edit.php:93 groups.php:234
+#: includes/forms/categories.php:59 includes/forms/file_editor.php:43
+#: includes/forms/groups.php:33
+msgid "Description"
+msgstr "Açıklama"
+
+#: categories.php:265 clients.php:284 groups.php:256
+msgid "View"
+msgstr "Görüntüle"
+
+#: categories.php:269 clients.php:288 files-edit.php:102 groups.php:260
+#: import-orphans.php:216 manage-files.php:594 users.php:315
+msgid "Actions"
+msgstr "Eylemler"
+
+#: categories.php:340 header-menu.php:83 header-menu.php:328
+#: manage-files.php:13
+msgid "Manage files"
+msgstr "Dosyaları yönet"
+
+#: categories.php:343 clients.php:401 groups.php:335 manage-files.php:427
+#: manage-files.php:783 users.php:377
+msgid "Edit"
+msgstr "Düzelt"
+
+#: clients-add.php:14 includes/forms/clients.php:16
+msgid "Add client"
+msgstr "Müşteri ekle"
+
+#: clients-add.php:104 clients-edit.php:166 email-templates.php:160
+#: groups-add.php:61 groups-edit.php:92 options.php:262 register.php:129
+#: templates.php:56 users-add.php:89 users-edit.php:159
+msgid "There was an error. Please try again."
+msgstr "Hata oluştu. Lütfen tekrar deneyin."
+
+#: clients-edit.php:141
+msgid "Edit client"
+msgstr "Müşteriyi düzenle"
+
+#: clients-edit.php:143 users-edit.php:138
+msgid "My account"
+msgstr "Hesabım"
+
+#: clients-edit.php:159
+msgid "Client edited correctly."
+msgstr "İstemci(alıcı) başarıyla düzenlendi."
+
+#: clients-edit.php:161
+msgid "Client created successfuly."
+msgstr "Müşteri başarıyla oluşturuldu."
+
+#: clients-edit.php:178 users-edit.php:171
+msgid "A welcome message was not sent to the new account owner."
+msgstr "Yeni müşteriye hoş geldiniz mesajı gönderilmedi."
+
+#: clients-edit.php:182 users-edit.php:175
+msgid ""
+"A welcome message with login information was sent to the new account owner."
+msgstr "Yeni müşteriye giriş bilgilerini içeren bir hoş geldiniz mesajı gönderildi."
+
+#: clients-edit.php:186 register.php:153 users-edit.php:179
+msgid "E-mail notification couldn't be sent."
+msgstr "E-posta ile bilgilendirme gönderilemedi."
+
+#: clients-edit.php:199 groups-edit.php:105 users-edit.php:193
+msgid "This page is not intended to be accessed directly."
+msgstr "Bu sayfaya direkt erişim istenilemiyor."
+
+#: clients-edit.php:201
+msgid "No client was selected."
+msgstr "Hiçbir istemci(alıcı) seçilmedi."
+
+#: clients-edit.php:206
+msgid "There is no client with that ID number."
+msgstr "Bu ID numaralı bir istemci(alıcı) yok."
+
+#: clients-edit.php:211 users-edit.php:205
+msgid "Your account type doesn't allow you to access this feature."
+msgstr "Hesap türünüz bu özellik için yetkili değil."
+
+#: clients-membership-requests.php:15 clients-membership-requests.php:293
+#: clients-requests.php:345 header-menu.php:150
+msgid "Membership requests"
+msgstr "Abonelik istekleri"
+
+#: clients-membership-requests.php:26 clients-requests.php:25
+msgid "The selected actions were applied."
+msgstr "Seçilen eylemler uygulandı."
+
+#: clients-membership-requests.php:30
+msgid "The selected requests were deleted."
+msgstr "Seçilen istekler silindi."
+
+#: clients-membership-requests.php:96 clients-requests.php:153 clients.php:73
+msgid "Please select at least one client."
+msgstr "Lütfen en az bir istemci(alıcı) seçin."
+
+#: clients-membership-requests.php:177
+msgid "Selected requests actions"
+msgstr "Seçilen istek eylemleri"
+
+#: clients-membership-requests.php:182 clients-requests.php:232
+msgid "Apply selection"
+msgstr "Seçimi uygula"
+
+#: clients-membership-requests.php:183 clients-requests.php:233
+msgid "Delete requests"
+msgstr "İstekleri sil"
+
+#: clients-membership-requests.php:200 clients-requests.php:250
+msgid "requests"
+msgstr "istekler"
+
+#: clients-membership-requests.php:207
+msgid "New requests"
+msgstr "Yeni istekler"
+
+#: clients-membership-requests.php:212
+msgid "Denied requests"
+msgstr "Reddedilmiş istekler"
+
+#: clients-membership-requests.php:240 clients-requests.php:290
+msgid "There are no requests at the moment"
+msgstr "Şu anda istek yok"
+
+#: clients-membership-requests.php:278 clients-requests.php:326
+#: clients.php:238 includes/Classes/Emails.php:68
+#: includes/Classes/Emails.php:127 install/index.php:297 users.php:283
+msgid "Full name"
+msgstr "Tam ad"
+
+#: clients-membership-requests.php:283 clients-requests.php:331
+#: clients.php:243 includes/forms/clients.php:83 includes/forms/users.php:44
+#: install/index.php:311 users.php:288
+msgid "Log in username"
+msgstr "Kullanıcı adı giriniz"
+
+#: clients-membership-requests.php:289 clients-requests.php:337
+#: clients.php:249 includes/forms/clients.php:104
+#: includes/forms/login-ldap.php:6 includes/forms/login.php:15
+#: includes/forms/reset-password/enter-email.php:6 includes/forms/users.php:65
+#: users.php:294
+msgid "E-mail"
+msgstr "E-posta"
+
+#: clients-membership-requests.php:345 clients-requests.php:418
+msgid "Accept all"
+msgstr "Hepsini kabul et"
+
+#: clients-membership-requests.php:346 clients-requests.php:419
+msgid "Deny all"
+msgstr "Hepsini reddet"
+
+#: clients-requests.php:17 header-menu.php:122
+msgid "Account requests"
+msgstr "Hesap istekleri"
+
+#: clients-requests.php:29 clients.php:67
+msgid "The selected clients were deleted."
+msgstr "Seçilen istemci(alıcı)ler silindi."
+
+#: clients-requests.php:227 clients.php:164
+msgid "Selected clients actions"
+msgstr "Seçilen istemci(alıcı) eylemleri"
+
+#: clients-requests.php:257
+msgid "New account requests"
+msgstr "Yeni hesap istekleri"
+
+#: clients-requests.php:262
+msgid "Denied accounts"
+msgstr "Reddedilen heseplar"
+
+#: clients-requests.php:341
+msgid "Account"
+msgstr "Hesap"
+
+#: clients-requests.php:358 manage-files.php:535
+msgid "Added on"
+msgstr "Eklendi"
+
+#: clients.php:14
+msgid "Clients Administration"
+msgstr "İstemci(alıcı) Yönetimi"
+
+#: clients.php:41
+msgid "The selected clients were marked as active."
+msgstr "Seçilen istemci(alıcı)ler aktif olarak işaretlendi."
+
+#: clients.php:56
+msgid "The selected clients were marked as inactive."
+msgstr "Seçilen istemci(alıcı)ler pasif olarak işaretlendi."
+
+#: clients.php:141 manage-files.php:386 users.php:191
+msgid "All statuses"
+msgstr "Bütün durumlar"
+
+#: clients.php:142 clients.php:330 templates.php:113 users.php:192
+#: users.php:336
+msgid "Active"
+msgstr "Aktif"
+
+#: clients.php:143 clients.php:330 users.php:193 users.php:336
+msgid "Inactive"
+msgstr "Pasif"
+
+#: clients.php:169 templates.php:120 users.php:219
+msgid "Activate"
+msgstr "Aktif et"
+
+#: clients.php:170 users.php:220
+msgid "Deactivate"
+msgstr "Etkisizleştir"
+
+#: clients.php:188
+msgid "clients"
+msgstr "istemci(alıcı)ler"
+
+#: clients.php:206
+msgid "There are no clients at the moment"
+msgstr "Şuan hiçbir istemci(alıcı) yok"
+
+#: clients.php:231 groups.php:222 users.php:277
+msgid "Created"
+msgstr "Oluşturuldu"
+
+#: clients.php:253
+msgid "Uploads"
+msgstr "Yüklemeler"
+
+#: clients.php:257
+msgid "Files: Direct"
+msgstr "Dosyalar: Direk"
+
+#: clients.php:261
+msgid "Files: Groups"
+msgstr "Grup Dosyalarım"
+
+#: clients.php:267 manage-files.php:575 users.php:306
+msgid "Status"
+msgstr "Durum"
+
+#: clients.php:270
+msgid "Groups on"
+msgstr "Gruplar Açık"
+
+#: clients.php:274
+msgid "Notify"
+msgstr "Bildirim"
+
+#: clients.php:280 users.php:311
+msgid "Max. upload size"
+msgstr "Maks. yükleme boyutu"
+
+#: clients.php:388 download-information.php:197
+#: includes/forms/options/external_login.php:90 manage-files.php:643
+msgid "Yes"
+msgstr "Evet"
+
+#: clients.php:388 download-information.php:198
+#: includes/forms/options/external_login.php:91 manage-files.php:643
+msgid "No"
+msgstr "Hayır"
+
+#: clients.php:391 users.php:373
+msgid "Default"
+msgstr "Varsayılan"
+
+#: clients.php:396 includes/forms/clients.php:23 includes/forms/clients.php:35
+#: includes/forms/file_editor.php:139
+#: includes/widgets/system-information.php:58
+msgid "Groups"
+msgstr "Gruplar"
+
+#: clients.php:397
+msgid "As client"
+msgstr "İstemci(alıcı) olarak"
+
+#: dashboard.php:10 header-menu.php:59
+msgid "Dashboard"
+msgstr "Gösterge Paneli"
+
+#: download-information.php:12
+msgid "Download information"
+msgstr "Bilgileri indir"
+
+#: download-information.php:59
+msgid "No file was selected."
+msgstr "Hiçbir dosya seçilmedi."
+
+#: download-information.php:64
+msgid "There is no information with that file ID number."
+msgstr "Bu ID numaralı dosya hakkında bilgi yok."
+
+#: download-information.php:76 manage-files.php:589
+msgid "Total downloads"
+msgstr "Toplam indirmeler"
+
+#: download-information.php:134
+msgid "Time"
+msgstr "Zaman"
+
+#: download-information.php:139 includes/text.strings.php:16
+msgid "Client"
+msgstr "İstemci(alıcı)"
+
+#: download-information.php:144
+msgid "Anonymous"
+msgstr "Anonim"
+
+#: download-information.php:149
+msgid "Client's IP"
+msgstr "İstemci(alıcı)nin IP adresi"
+
+#: download-information.php:155
+msgid "Client's hostname"
+msgstr "İstemci(alıcı)nin sunucu adı"
+
+#: download-information.php:169
+msgid "Unique logged in clients/users"
+msgstr "Benzersiz giriş yapmış istemci(alıcı)ler/kullanıcılar"
+
+#: download-information.php:172
+msgid "Total public downloads"
+msgstr "Toplam herkese açık indirmeler"
+
+#: download.php:13 includes/forms/file_editor.php:32
+msgid "File information"
+msgstr "Dosya bilgisi"
+
+#: download.php:98
+msgid "Download file"
+msgstr "Dosyayı indir"
+
+#: download.php:110 public.php:295 register.php:171 reset-password.php:266
+msgid "Go back to the homepage."
+msgstr "Ana sayfaya dön."
+
+#: email-preview.php:11 header-menu.php:237
+msgid "E-mail templates"
+msgstr "E-posta şablonları"
+
+#: email-preview.php:11 manage-files.php:528 manage-files.php:629
+msgid "Preview"
+msgstr "Önizleme"
+
+#: email-templates.php:16 header-menu.php:242
+msgid "Header / footer"
+msgstr "Üst kısım/Alt kısım"
+
+#: email-templates.php:22 header-menu.php:246
+msgid "New file by user"
+msgstr "Kullanıcı yeni dosya yükledi."
+
+#: email-templates.php:29 header-menu.php:250
+msgid "New file by client"
+msgstr "İstemci(alıcı) yeni dosya yükledi."
+
+#: email-templates.php:36 header-menu.php:254
+msgid "New client (welcome)"
+msgstr "Yeni istemci(alıcı) (hoşgeldiniz)"
+
+#: email-templates.php:43 header-menu.php:258
+msgid "New client (self-registered)"
+msgstr "Yeni istemci(alıcı) (kendi-kaydolan)"
+
+#: email-templates.php:50 header-menu.php:262
+msgid "Approve client account"
+msgstr "İstemci(alıcı) hesabını onayla"
+
+#: email-templates.php:57 header-menu.php:266
+msgid "Deny client account"
+msgstr "İstemci(alıcı) hesabını reddet."
+
+#: email-templates.php:64 header-menu.php:274
+msgid "New user (welcome)"
+msgstr "Yeni Kullanıcı (hoşgeldiniz)"
+
+#: email-templates.php:71 header-menu.php:278
+msgid "Password reset"
+msgstr "Şifre sıfırla"
+
+#: email-templates.php:78 header-menu.php:270
+msgid "Client updated memberships"
+msgstr "İstemci(alıcı) abonelikleri güncelledi."
+
+#: email-templates.php:156 options.php:258 templates.php:52
+msgid "Options updated succesfuly."
+msgstr "Seçenekler başarıyla güncellendi."
+
+#: email-templates.php:171
+msgid "(to be used as href on a link tag)"
+msgstr "(link olarak kullanılacak)"
+
+#: email-templates.php:179
+msgid ""
+"This email will be sent to a client whenever a new file has been assigned to"
+" his account."
+msgstr "İstemci(alıcı)ye yeni bir dosya atandığında bu e-mail gönderilecek."
+
+#: email-templates.php:185 email-templates.php:201
+msgid "Shows the list of files"
+msgstr "Dosya listesini göster"
+
+#: email-templates.php:186 email-templates.php:202 email-templates.php:219
+#: email-templates.php:236 email-templates.php:254 email-templates.php:285
+#: email-templates.php:319
+msgid "The login link"
+msgstr "Giriş linki"
+
+#: email-templates.php:195
+msgid ""
+"This email will be sent to the system administrator whenever a client "
+"uploads a new file."
+msgstr "İstemci(alıcı) yeni bir dosya yüklediğinde sistem yöneticisine bu e-mail gönderilecek."
+
+#: email-templates.php:211
+msgid ""
+"This email will be sent to the new client after an administrator has created"
+" his new account. It would be best to include the log in details (username "
+"and password)."
+msgstr "Bu e-mail, yönetici tarafından yeni bir hesap açıldığında istemci(alıcı)ye gönderilecek. Giriş bilgilerini (kullanıcı adı ve şifre) içermesi faydalı olacaktır."
+
+#: email-templates.php:217 email-templates.php:235 email-templates.php:283
+#: email-templates.php:318
+msgid "The new username for this account"
+msgstr "Bu hesap için yeni üye adı"
+
+#: email-templates.php:218 email-templates.php:284
+msgid "The new password for this account"
+msgstr "Bu hesap için yeni şifre"
+
+#: email-templates.php:228
+msgid ""
+"This email will be sent to the system administrator after a new client has "
+"created a new account for himself."
+msgstr "Bu e-mail, istemci(alıcı) yeni bir hesap açtığında yöneticiye gönderilecektir."
+
+#: email-templates.php:234 email-templates.php:317
+msgid "The full name the client registered with"
+msgstr "İstemci(alıcı)nin kayıt olduğu tam adı"
+
+#: email-templates.php:237 email-templates.php:320
+msgid "List of groups that the client requests membership to"
+msgstr "İstemci(alıcı)nin abone olmak istediği grupların listesi"
+
+#: email-templates.php:246
+msgid ""
+"This email will be sent to a client that requested an account if it gets "
+"approved. Group membership requests are also mentioned on the email, "
+"separated by their approval status."
+msgstr "Bu e-posta, onaylanması durumunda hesap isteyen bir istemci(alıcı)ye gönderilecektir. Grup üyeliği talepleri ayrıca e-postada onay durumlarına göre belirtilir."
+
+#: email-templates.php:252
+msgid "List of approved group memberships"
+msgstr "Onaylanmış grup aboneliklerinin listesi"
+
+#: email-templates.php:253
+msgid "List of denied group memberships"
+msgstr "Reddedilen grup aboneliklerinin listesi"
+
+#: email-templates.php:263
+msgid ""
+"This email will be sent to a client that requested an account if it gets "
+"denied. All group membership requests for this account are denied "
+"automatically."
+msgstr "Bu e-posta reddedilirse hesap isteyen bir istemci(alıcı)ye gönderilecektir. Bu hesap için tüm grup üyeliği istekleri otomatik olarak reddedilir."
+
+#: email-templates.php:277
+msgid ""
+"This email will be sent to the new system user after an administrator has "
+"created his new account. It would be best to include the log in details "
+"(username and password)."
+msgstr "Bir yönetici yeni hesabını oluşturduktan sonra bu e-posta yeni sistem kullanıcısına gönderilir. Giriş bilgilerini (kullanıcı adı ve şifre) dahil etmek en iyisidir."
+
+#: email-templates.php:294
+msgid ""
+"This email will be sent to a user or client when they try to reset their "
+"password."
+msgstr "Bu e-posta, şifresini sıfırlamaya çalıştığında bir kullanıcıya veya istemci(alıcı)ye gönderilir."
+
+#: email-templates.php:300
+msgid "The username for this account"
+msgstr "Bu hesap için kullanıcı adı"
+
+#: email-templates.php:301
+msgid "The text string unique to this request. Must be included somewhere."
+msgstr "Bu istek için benzersiz olan metin dizesi. Bir yere dahil edilmeli."
+
+#: email-templates.php:302
+msgid "The link to continue the process"
+msgstr "İşleme devam linki"
+
+#: email-templates.php:311
+msgid ""
+"This email will be sent to the system administrator when a client edits his "
+"account and changes the public groups membership requests."
+msgstr "Bir istemci(alıcı) hesabını düzenlediğinde ve ortak grup üyeliği isteklerini değiştirdiğinde bu e-posta sistem yöneticisine gönderilir."
+
+#: email-templates.php:336
+msgid ""
+"Here you set up the header and footer of every email, or use the default "
+"ones available with the system. Use this to customize each part and include,"
+" for example, your own logo and markup."
+msgstr "Burada her e-postanın üstbilgisini ve altbilgisini ayarlarsınız veya sistemde mevcut varsayılan olanları kullanırsınız. Her parçayı özelleştirmek için bunu kullanın ve örneğin kendi logonuzu ve işaretlemenizi ekleyin."
+
+#: email-templates.php:337
+msgid ""
+"Do not forget to also include -and close accordingly- the basic structural "
+"HTML tags (DOCTYPE, HTML, HEADER, BODY)."
+msgstr "Ayrıca temel yapısal HTML etiketlerini (DOCTYPE, HTML, HEADER, BODY) eklemeyi ve buna göre kapatmayı unutmayın."
+
+#: email-templates.php:344
+msgid "Use custom header / footer"
+msgstr "Özel üst kısım / alt kısım"
+
+#: email-templates.php:351
+msgid "Header"
+msgstr "Üst kısım"
+
+#: email-templates.php:353 email-templates.php:367 email-templates.php:413
+msgid "You can use HTML tags here."
+msgstr "Buraya HTML tagları kullanabilirsiniz"
+
+#: email-templates.php:358 email-templates.php:372 email-templates.php:437
+msgid "Replace with default"
+msgstr "Varsayılan ile değiştir"
+
+#: email-templates.php:365
+msgid "Footer"
+msgstr "Alt kısım"
+
+#: email-templates.php:388
+msgid "Use custom subject"
+msgstr "Özel konu yaz"
+
+#: email-templates.php:395
+msgid "Add your custom subject"
+msgstr "Özel konu ekle"
+
+#: email-templates.php:404
+msgid "Use custom template"
+msgstr "Özel tema kullan"
+
+#: email-templates.php:411
+msgid "Template text"
+msgstr "Tema yazısı"
+
+#: email-templates.php:420
+msgid "The following tags can be used on this e-mails' body."
+msgstr "Bu e-postaların gövdesinde aşağıdaki etiketler kullanılabilir."
+
+#: email-templates.php:438
+msgid "Preview this template"
+msgstr "Temayı önizle"
+
+#: email-templates.php:440
+msgid ""
+"Before trying this function, please save your changes to see them reflected "
+"on the preview."
+msgstr "Bu işlevi denemeden önce, lütfen değişikliklerinizi önizlemede göründüğünü görmek için kaydedin."
+
+#: email-templates.php:449 options.php:315
+msgid "Save options"
+msgstr "Şeçenekleri kaydet"
+
+#: email-test.php:12 header-menu.php:299
+msgid "Test email configuration"
+msgstr "E-mail ayarlarını test edin"
+
+#: email-test.php:38
+msgid "Result"
+msgstr "Sonuç"
+
+#: email-test.php:46
+msgid "Send to:"
+msgstr "Gönderilen :"
+
+#: email-test.php:53
+msgid "Message"
+msgstr "Mesaj"
+
+#: email-test.php:59
+msgid "Send test email"
+msgstr "Test e-mail gönderin"
+
+#: error.php:13
+msgid "Access denied"
+msgstr "Erişim engellendi"
+
+#: error.php:14
+msgid ""
+"Your account type doesn't allow you to view this page. Please contact a "
+"system administrator if you need to access this function."
+msgstr "Hesap türünüz bu sayfayı görüntülemeye yetkili değil. Eğer bu işleve ihtiyacınız varsa lütfen sistem yöneticisiyle iletişime geçin."
+
+#: error.php:18
+msgid "Token mismatch"
+msgstr "Token uyuşmazlığı"
+
+#: error.php:19
+msgid "The security token could not be validated."
+msgstr "Güvenlik belirteci token doğrulanamadı."
+
+#: error.php:23
+msgid "Error 404"
+msgstr "Error 404"
+
+#: error.php:24
+msgid "Resource not found."
+msgstr "Kaynak bulunamadı."
+
+#: error.php:28
+msgid "Error 403"
+msgstr "Error 403"
+
+#: error.php:29
+msgid "Forbidden."
+msgstr "Engellenmiş."
+
+#: error.php:33
+msgid "Database error"
+msgstr "Database hatası"
+
+#: error.php:34
+msgid "Can not connect to database"
+msgstr "Database ile bağlantı kurulamıyor."
+
+#: files-edit.php:25
+msgid "Edit files"
+msgstr "Dosyaları düzenle"
+
+#: files-edit.php:87
+msgid "Files saved correctly"
+msgstr "Dosyalar başarı olarak kayıt edildi"
+
+#: files-edit.php:92 includes/forms/file_editor.php:38 manage-files.php:545
+msgid "Title"
+msgstr "Başlık"
+
+#: files-edit.php:94
+msgid "File Name"
+msgstr "Dosya Adı"
+
+#: files-edit.php:98 files-edit.php:131 groups.php:247 groups.php:291
+#: includes/forms/groups.php:74
+msgid "Public"
+msgstr "Herkese Açık"
+
+#: files-edit.php:132 groups.php:296
+msgid "Private"
+msgstr "Özel"
+
+#: files-edit.php:142
+msgid "Edit file"
+msgstr "Dosyayı düzenle"
+
+#: files-edit.php:150 header-menu.php:338
+msgid "View my files"
+msgstr "Dosyalarımı göster"
+
+#: files-edit.php:169
+msgid ""
+"You can skip assigning if you want. The files are retained and you may add "
+"them to clients or groups later."
+msgstr "İsterseniz atamayı atlayabilirsiniz. Dosyalar korunur ve daha sonra istemcilere veya gruplara ekleyebilirsiniz."
+
+#: footer.php:25
+msgid "Executed queries"
+msgstr "Yapılan sorgular"
+
+#: groups-add.php:14
+msgid "Add clients group"
+msgstr "İstemci(alıcı) grubu ekle"
+
+#: groups-edit.php:14
+msgid "Edit group"
+msgstr "Grubu düzenle"
+
+#: groups-edit.php:84
+msgid "Group edited correctly."
+msgstr "Grup başarılı bir şekilde düzenlendi."
+
+#: groups-edit.php:86
+msgid "Group created successfuly."
+msgstr "Grup başarıyla oluşturuldu."
+
+#: groups-edit.php:107
+msgid "No group was selected."
+msgstr "Hiçbir grup seçilmedi."
+
+#: groups-edit.php:112
+msgid "There is no group with that ID number."
+msgstr "Bu ID nolu hiçbir grup yok."
+
+#: groups.php:14
+msgid "Groups administration"
+msgstr "Grup yönetimi"
+
+#: groups.php:23
+msgid "Groups where"
+msgstr "Şuradaki Gruplar"
+
+#: groups.php:23
+msgid "is member"
+msgstr "üyedir"
+
+#: groups.php:70
+msgid "The selected groups were deleted."
+msgstr "Seçilen gruplar silindi."
+
+#: groups.php:77
+msgid "Please select at least one group."
+msgstr "Lütfen en az bir grup seçiniz."
+
+#: groups.php:150
+msgid "Selected groups actions"
+msgstr "Seçilen grup eylemleri"
+
+#: groups.php:172
+msgid "groups"
+msgstr "gruplar"
+
+#: groups.php:188
+msgid "The client does not exist."
+msgstr "Kullanıcı mevcut değil"
+
+#: groups.php:191
+msgid "There are no groups where this client is member."
+msgstr "Bu istemci(alıcı)nin üye olduğu hiçbir grup yok."
+
+#: groups.php:196
+msgid "There are no groups created yet."
+msgstr "Henüz hiç grup yok."
+
+#: groups.php:229 includes/forms/groups.php:26
+msgid "Group name"
+msgstr "Grup ismi"
+
+#: groups.php:238 includes/forms/groups.php:40
+msgid "Members"
+msgstr "Üyeler"
+
+#: groups.php:252
+msgid "Created by"
+msgstr "Oluşturan"
+
+#: groups.php:367
+msgid ""
+"There are public groups, but the public page is disabled so the public links"
+" will not show anything."
+msgstr "Herkese açık gruplar var, ancak genel sayfa devre dışı bırakıldı, bu nedenle genel bağlantılar hiçbir şey göstermeyecek."
+
+#: groups.php:368 includes/forms/groups.php:79
+msgid "Go to privacy options"
+msgstr "Gizlilik seçeneklerine gidin"
+
+#: header-menu.php:76 header-menu.php:317
+msgid "Upload"
+msgstr "Yükle"
+
+#: header-menu.php:87 import-orphans.php:18
+msgid "Find orphan files"
+msgstr "Alt dosyaları bul"
+
+#: header-menu.php:94 includes/forms/file_editor.php:171
+#: includes/widgets/system-information.php:61
+msgid "Categories"
+msgstr "Kategoriler"
+
+#: header-menu.php:104 header-menu.php:207 includes/forms/file_editor.php:117
+#: includes/widgets/system-information.php:52 options.php:24
+msgid "Clients"
+msgstr "İstemci(alıcı)ler"
+
+#: header-menu.php:110 header-menu.php:139 header-menu.php:166
+msgid "Add new"
+msgstr "Yeni ekle"
+
+#: header-menu.php:114
+msgid "Manage clients"
+msgstr "Kullanıcıları yönet "
+
+#: header-menu.php:133
+msgid "Clients groups"
+msgstr "İstemci(alıcı) Grupları"
+
+#: header-menu.php:143
+msgid "Manage groups"
+msgstr "Grupları yönet"
+
+#: header-menu.php:161
+msgid "System Users"
+msgstr "Sistem Kullanıcıları"
+
+#: header-menu.php:170
+msgid "Manage system users"
+msgstr "Sistem kullanıcılarını yönet"
+
+#: header-menu.php:183 header-menu.php:188 templates.php:11
+msgid "Templates"
+msgstr "Temalar"
+
+#: header-menu.php:198
+msgid "Options"
+msgstr "Seçenekler"
+
+#: header-menu.php:203 options.php:15
+msgid "General options"
+msgstr "Genel Seçenekler"
+
+#: header-menu.php:211 includes/forms/options/privacy.php:1 options.php:34
+msgid "Privacy"
+msgstr "Gizlilik"
+
+#: header-menu.php:215 options.php:45
+msgid "E-mail notifications"
+msgstr "E-mail Bildirimleri"
+
+#: header-menu.php:219 options.php:56
+msgid "Security"
+msgstr "Güvenlik"
+
+#: header-menu.php:223 options.php:67
+msgid "Branding"
+msgstr "Marka Yönetimi"
+
+#: header-menu.php:227 options.php:72
+msgid "External Login"
+msgstr "Sosyal medya yardımı ile giriş"
+
+#: header-menu.php:290
+msgid "Tools"
+msgstr "Araçlar"
+
+#: header-menu.php:295
+msgid "Actions log"
+msgstr "Eylem günlüğü"
+
+#: header-unlogged.php:20
+msgid "setup"
+msgstr "ayarlar"
+
+#: header.php:27
+msgid "System Administration"
+msgstr "Sistem Yönetimi"
+
+#: header.php:76
+msgid "Toogle menu"
+msgstr "Menüyü değiştir"
+
+#: header.php:89 includes/forms/login-ldap.php:16 includes/forms/login.php:25
+#: includes/forms/options/general.php:62 install/make-config.php:317
+msgid "Language"
+msgstr "Dil"
+
+#: header.php:111
+msgid "My Account"
+msgstr "Hesabım"
+
+#: header.php:114
+msgid "Logout"
+msgstr "Çıkış yap"
+
+#: header.php:137 includes/updates.messages.php:16
+msgid "System Notice:"
+msgstr "Sistem Bilgisi:"
+
+#: header.php:137
+msgid ""
+"You are using a development version. Some features may be unfinished or not "
+"working correctly."
+msgstr "Bir geliştirme sürümü kullanıyorsunuz. Bazı özellikler bitmemiş veya düzgün çalışmıyor olabilir."
+
+#: header.php:162
+msgid "Warning:"
+msgstr "Uyarı:"
+
+#: header.php:162
+msgid ""
+"The following directories do not exist or have write permissions errors."
+msgstr "Aşağıdaki dizinler mevcut değil veya yazma izni hataları var."
+
+#: header.php:163
+msgid "File uploading or other important functions might not work."
+msgstr "Dosya yükleme veya diğer önemli işlevler çalışmayabilir."
+
+#: import-orphans.php:25
+msgid ""
+"This list only shows the files that are allowed according to your security "
+"settings. If the file type you need to add is not listed here, add the "
+"extension to the \"Allowed file extensions\" box on the options page."
+msgstr "Bu liste yalnızca güvenlik ayarlarınıza göre izin verilen dosyaları gösterir. Eklemeniz gereken dosya türü burada listelenmiyorsa, uzantıyı seçenekler sayfasındaki \" İzin verilen dosya uzantıları \"kutusuna ekleyin."
+
+#: import-orphans.php:161
+msgid "Showing"
+msgstr "Gösteriliyor"
+
+#: import-orphans.php:161 manage-files.php:465
+msgid "files"
+msgstr "dosyalar"
+
+#: import-orphans.php:176
+msgid "The following files can be imported"
+msgstr "Aşağıdaki dosyalar içe aktarılabilir"
+
+#: import-orphans.php:196
+msgid "File name"
+msgstr "Dosya adı"
+
+#: import-orphans.php:202
+msgid "File size"
+msgstr "Dosya boyutu"
+
+#: import-orphans.php:209
+msgid "Last modified"
+msgstr "Son değiştirme"
+
+#: import-orphans.php:247
+msgid "Import"
+msgstr "İçe aktar"
+
+#: import-orphans.php:260 includes/Classes/TableGenerate.php:265
+msgid "Results navigation"
+msgstr "Sonuçlar gezinti"
+
+#: import-orphans.php:266
+msgid "Import selected files"
+msgstr "Seçili dosyaları içe aktar"
+
+#: import-orphans.php:281
+msgid "There are no files available to add right now."
+msgstr "Şu anda eklenecek dosya yok."
+
+#: import-orphans.php:282
+msgid ""
+"To use this feature you need to upload your files via FTP to the folder"
+msgstr "Bu özelliği kullanmak için dosyalarınızı FTP üzerinden klasöre yüklemelisiniz"
+
+#: includes/Classes/ActionsLog.php:41
+msgid "Account logs in through the form"
+msgstr "Hesap form aracılığıyla giriş yapar"
+
+#: includes/Classes/ActionsLog.php:43
+msgid "Account (user or client) logs out"
+msgstr "Hesap (kullanıcı veya istemci(alıcı)) oturumu kapattı"
+
+#: includes/Classes/ActionsLog.php:44
+msgid "A user creates a new user account"
+msgstr "Bir kullanıcı yeni bir kullanıcı hesabı oluşturur"
+
+#: includes/Classes/ActionsLog.php:45
+msgid "A user creates a new client account"
+msgstr "Yeni istemci hesabı için kullanıcı"
+
+#: includes/Classes/ActionsLog.php:46
+msgid "A client registers an account for himself"
+msgstr "Bir kullanıcı yeni bir istemci(alıcı) hesabı oluşturur"
+
+#: includes/Classes/ActionsLog.php:47
+msgid "A client registers using a social profile"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:48
+msgid "Account logged in using a social profile"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:49
+msgid "A file is uploaded by an user"
+msgstr "A file is uploaded by a user"
+
+#: includes/Classes/ActionsLog.php:50
+msgid "A file is uploaded by a client"
+msgstr "Bir istemci(alıcı) tarafından bir dosya yüklenir"
+
+#: includes/Classes/ActionsLog.php:51
+msgid "A file is downloaded by a user"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:52
+msgid "A file is downloaded by a client"
+msgstr "Bir dosya istemci(alıcı) tarafından indiriliyor"
+
+#: includes/Classes/ActionsLog.php:53
+msgid "An anonymous user downloaded a public file"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:54
+msgid "A zip file was generated"
+msgstr "Sıkıştırılmış dosya oluşturuldu."
+
+#: includes/Classes/ActionsLog.php:55
+msgid "A file has been unassigned from a client"
+msgstr "Dosya ile müşteri ilişkisi kaldırıldı."
+
+#: includes/Classes/ActionsLog.php:56
+msgid "A file has been unassigned from a group"
+msgstr "Bir dosya bir gruba atandı"
+
+#: includes/Classes/ActionsLog.php:57
+msgid "A file has been deleted"
+msgstr "Bir dosya silindi"
+
+#: includes/Classes/ActionsLog.php:58
+msgid "A user was edited"
+msgstr "Bir kullanıcı düzenlendi"
+
+#: includes/Classes/ActionsLog.php:59
+msgid "A client was edited"
+msgstr "Bir istemci(alıcı) düzenlendi"
+
+#: includes/Classes/ActionsLog.php:60
+msgid "A group was edited"
+msgstr "Bir grup düzenlendi"
+
+#: includes/Classes/ActionsLog.php:61
+msgid "A user was deleted"
+msgstr "Bir kullanıcı silindi"
+
+#: includes/Classes/ActionsLog.php:62
+msgid "A client was deleted"
+msgstr "Bir istemci(alıcı) silindi"
+
+#: includes/Classes/ActionsLog.php:63
+msgid "A group was deleted"
+msgstr "Bir grup silindi"
+
+#: includes/Classes/ActionsLog.php:64
+msgid "A user account was marked as active"
+msgstr "Bir kullanıcı hesabı aktif olarak işaretlendi"
+
+#: includes/Classes/ActionsLog.php:65
+msgid "A user account was marked as inactive"
+msgstr "Bir kullanıcı hesabı etkin değil olarak işaretlendi"
+
+#: includes/Classes/ActionsLog.php:66
+msgid "A client account was marked as active"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:67
+msgid "A client account was marked as inactive"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:68
+msgid "A file was marked as hidden"
+msgstr "Bir dosya gizli olarak işaretlendi"
+
+#: includes/Classes/ActionsLog.php:69
+msgid "A file was marked as visible"
+msgstr "Bir dosya görünür olarak işaretlendi"
+
+#: includes/Classes/ActionsLog.php:70 includes/Classes/ActionsLog.php:71
+msgid "A file was marked as hidden for everyone"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:72
+msgid "A user creates a new group"
+msgstr "Bir kullanıcı yeni bir grup oluşturur"
+
+#: includes/Classes/ActionsLog.php:73
+msgid "A file is assigned to a client"
+msgstr "Bir dosya bir istemci(alıcı)ye atanır"
+
+#: includes/Classes/ActionsLog.php:74
+msgid "A file is assigned to a group"
+msgstr "Bir dosya bir gruba atanır"
+
+#: includes/Classes/ActionsLog.php:75
+msgid "The logo on \"Branding\" was changed"
+msgstr "\\Marka\" menüsünde logo değiştirildi"
+
+#: includes/Classes/ActionsLog.php:76
+msgid "A system user edited a file"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:77
+msgid "A client edited a file"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:78
+msgid "A user created a category"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:79
+msgid "A user edited a category"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:80
+msgid "A user deleted a category"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:81
+msgid "A client account request was processed"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:82
+msgid "A client's groups membership requests were processed"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:83
+msgid "A file preview request was made"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:84
+msgid "ProjecSend has been installed"
+msgstr "ProjecSend kuruldu"
+
+#: includes/Classes/ActionsLog.php:85
+msgid "ProjectSend was updated"
+msgstr "ProjectSend güncellendi"
+
+#: includes/Classes/ActionsLog.php:86
+msgid "A client account request was approved"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:87
+msgid "A client account request was denied"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:88
+msgid "System options were updated"
+msgstr ""
+
+#: includes/Classes/ActionsLog.php:89
+msgid "An email template was updated"
+msgstr ""
+
+#: includes/Classes/Auth.php:259
+msgid "Email and password cannot be empty."
+msgstr ""
+
+#: includes/Classes/Auth.php:278
+#, php-format
+msgid "LDAP connection error: %s"
+msgstr ""
+
+#: includes/Classes/Auth.php:316 includes/Classes/Auth.php:326
+msgid "The supplied email or password does not match an existing record."
+msgstr ""
+
+#: includes/Classes/Auth.php:335
+msgid "Error binding to LDAP server."
+msgstr ""
+
+#: includes/Classes/Auth.php:358
+msgid "Error during log in."
+msgstr ""
+
+#: includes/Classes/Auth.php:368
+msgid "The supplied credentials are not valid."
+msgstr "Verilen kimlik bilgileri geçerli değil."
+
+#: includes/Classes/Auth.php:371
+msgid "The supplied username doesn't exist."
+msgstr "Girilen kullanıcı adı geçersiz."
+
+#: includes/Classes/Auth.php:374
+msgid "The supplied password is incorrect."
+msgstr "Girilen şifre yanlış."
+
+#: includes/Classes/Auth.php:378
+msgid "This account is not active."
+msgstr "Bu hesap aktif değil."
+
+#: includes/Classes/Auth.php:380
+msgid ""
+"If you just registered, please wait until a system administrator approves "
+"your account."
+msgstr "Yeni kayıt olduysanız , lütfen sistem yöneticisi hesabınızı onaylayana kadar bekleyin."
+
+#: includes/Classes/Auth.php:384 register.php:111
+msgid ""
+"Client self registration is not allowed. If you need an account, please "
+"contact a system administrator."
+msgstr "İstemci(alıcı)nin kendi kendine kayıt olmasına izin verilmiyor. Bir hesaba ihtiyacınız varsa, lütfen bir sistem yöneticisine başvurun."
+
+#: includes/Classes/Auth.php:387
+msgid ""
+"Sign-in with Google cannot be used to create new accounts at this time."
+msgstr "Google ile giriş yapmak şu anda yeni hesaplar oluşturmak için kullanılamaz."
+
+#: includes/Classes/Auth.php:390
+msgid "You must approve the requested permissions to sign in with Google."
+msgstr "Google ile oturum açmak için istenen izinleri onaylamanız gerekir."
+
+#: includes/Classes/Auth.php:393
+msgid "Session timed out. Please log in again."
+msgstr "Oturum  zaman aşımına uğradı. Lütfen tekrar giriş yapın."
+
+#: includes/Classes/Emails.php:36
+msgid "New files uploaded for you"
+msgstr "Sizin için yeni dosyalar yüklendi"
+
+#: includes/Classes/Emails.php:37
+msgid "The following files are now available for you to download."
+msgstr "Aşağıdaki dosyalar indirmeniz için hazır."
+
+#: includes/Classes/Emails.php:38
+msgid ""
+"If you prefer not to be notified about new files, please go to My Account "
+"and deactivate the notifications checkbox."
+msgstr "Yeni dosyalar hakkında bilgilendirilmemeyi tercih ederseniz, lütfen Hesabım bölümüne gidin ve bildirimler onay kutusunu işaretleyin."
+
+#: includes/Classes/Emails.php:39
+msgid "You can access a list of all your files or upload your own"
+msgstr "Tüm dosyalarınızın listesine erişebilir veya kendi dosyalarınızı yükleyebilirsiniz."
+
+#: includes/Classes/Emails.php:40 includes/Classes/Emails.php:48
+msgid "by logging in here"
+msgstr "buraya giriş yaparak"
+
+#: includes/Classes/Emails.php:45
+msgid "New files uploaded by clients"
+msgstr "İstemci(alıcı)ler tarafından yüklenen yeni dosyalar"
+
+#: includes/Classes/Emails.php:46
+msgid "New files has been uploaded by the following clients"
+msgstr "Yeni dosyalar aşağıdaki istemci(alıcı)ler tarafından yüklendi"
+
+#: includes/Classes/Emails.php:47
+msgid "You can manage these files"
+msgstr "Bu dosyaları yönetebilirsiniz"
+
+#: includes/Classes/Emails.php:53 includes/Classes/Emails.php:102
+msgid "Welcome to ProjectSend"
+msgstr "ProjectSend'e Hoş Geldiniz"
+
+#: includes/Classes/Emails.php:54
+msgid ""
+"A new account was created for you. From now on, you can access the files "
+"that have been uploaded under your account using the following credentials:"
+msgstr "Sizin için yeni bir hesap oluşturuldu. Bundan sonra, aşağıdaki kimlik bilgilerini kullanarak hesabınızın altına yüklenen dosyalara erişebilirsiniz:"
+
+#: includes/Classes/Emails.php:55 includes/Classes/Emails.php:89
+msgid "You can log in following this link"
+msgstr "Bu bağlantıyı takip ederek giriş yapabilirsiniz."
+
+#: includes/Classes/Emails.php:56 includes/Classes/Emails.php:90
+#: includes/Classes/Emails.php:97
+msgid "Please contact the administrator if you need further assistance."
+msgstr "Daha fazla yardıma ihtiyacınız olursa lütfen yönetici ile iletişime geçin."
+
+#: includes/Classes/Emails.php:57 includes/Classes/Emails.php:106
+msgid "Your username"
+msgstr "Kullanıcı adın"
+
+#: includes/Classes/Emails.php:58 includes/Classes/Emails.php:107
+msgid "Your password"
+msgstr "Şifren"
+
+#: includes/Classes/Emails.php:66
+msgid "A new client has registered"
+msgstr ""
+
+#: includes/Classes/Emails.php:67
+msgid ""
+"A new account was created using the self registration form on your site. "
+"Registration information:"
+msgstr "Sitenizdeki kendi kendine kayıt formu kullanılarak yeni bir hesap oluşturuldu. Kayıt bilgileri:"
+
+#: includes/Classes/Emails.php:69 includes/Classes/Emails.php:118
+#: includes/Classes/Emails.php:128 includes/forms/login.php:15
+#: includes/forms/options/email.php:100 install/make-config.php:251
+msgid "Username"
+msgstr "Kullanıcı adı"
+
+#: includes/Classes/Emails.php:70
+msgid "Additionally, the client requests access to the following group(s)"
+msgstr "Ayrıca, istemci(alıcı) aşağıdaki gruplara erişim ister"
+
+#: includes/Classes/Emails.php:73 includes/Classes/Emails.php:130
+msgid "Please log in to process the request."
+msgstr "İsteği işleme koymak için lütfen giriş yapın."
+
+#: includes/Classes/Emails.php:74
+msgid ""
+"Remember, your new client will not be able to log in until an administrator "
+"has approved their account."
+msgstr "Unutmayın, yeni istemci(alıcı)niz bir yönetici hesabını onaylayana kadar giriş yapamaz."
+
+#: includes/Classes/Emails.php:77
+msgid "Auto-approvals of new accounts are currently enabled."
+msgstr "Yeni hesapların otomatik onayları şu anda etkin."
+
+#: includes/Classes/Emails.php:78
+msgid "You can log in to manually deactivate it."
+msgstr "El ile devre dışı bırakmak için giriş yapabilirsiniz."
+
+#: includes/Classes/Emails.php:84
+msgid "You account has been approved"
+msgstr "Hesabınız onaylandı"
+
+#: includes/Classes/Emails.php:85
+msgid "Your account has been approved."
+msgstr "Hesabınız onaylandı."
+
+#: includes/Classes/Emails.php:86
+msgid "Additionally, your group membership requests have been processed."
+msgstr "Ayrıca, grup üyeliğiniz istekleri yerine getirildi."
+
+#: includes/Classes/Emails.php:87
+msgid "Approved requests:"
+msgstr "Onaylanan istekler:"
+
+#: includes/Classes/Emails.php:88
+msgid "Denied requests:"
+msgstr "Reddedilen istekler:"
+
+#: includes/Classes/Emails.php:95
+msgid "You account has been denied"
+msgstr "Hesabınız reddedildi"
+
+#: includes/Classes/Emails.php:96
+msgid "Your account request has been denied."
+msgstr "Hesap isteğiniz reddedildi."
+
+#: includes/Classes/Emails.php:103
+msgid ""
+"A new account was created for you. From now on, you can access the system "
+"administrator using the following credentials:"
+msgstr "Sizin için yeni bir hesap oluşturuldu. Şu andan itibaren, aşağıdaki bilgileri kullanarak sistem yöneticisine erişebilirsiniz:"
+
+#: includes/Classes/Emails.php:104
+msgid "Access the system panel here"
+msgstr "Sistem paneline buradan erişin"
+
+#: includes/Classes/Emails.php:105
+msgid "Thank you for using ProjectSend."
+msgstr "ProjectSend'i kullandığınız için teşekkür ederiz."
+
+#: includes/Classes/Emails.php:113
+msgid "Password reset instructions"
+msgstr "Şifre sıfırlama talimatları"
+
+#: includes/Classes/Emails.php:114
+msgid ""
+"A request has been received to reset the password for the following account:"
+msgstr "Aşağıdaki hesap için şifreyi sıfırlamak için bir istek alındı:"
+
+#: includes/Classes/Emails.php:115
+msgid "To continue, please visit the following link"
+msgstr "Devam etmek için lütfen aşağıdaki bağlantıyı ziyaret edin"
+
+#: includes/Classes/Emails.php:116
+msgid "The request is valid only for 24 hours."
+msgstr "İstek sadece 24 saat geçerlidir."
+
+#: includes/Classes/Emails.php:117
+msgid "If you did not make this request, simply ignore this email."
+msgstr "Bu isteği yapmadıysanız, sadece bu e-postayı dikkate almayın."
+
+#: includes/Classes/Emails.php:125
+msgid "A client has changed memberships requests"
+msgstr ""
+
+#: includes/Classes/Emails.php:126
+msgid ""
+"A client on you site has just changed his groups membership requests and "
+"needs your approval."
+msgstr "Sitenizdeki bir istemci(alıcı), grup üyelik isteklerini değiştirdi ve onaylamanız gerekiyor."
+
+#: includes/Classes/Emails.php:129
+msgid "The client requests access to the following group(s)"
+msgstr "İstemci(alıcı) aşağıdaki gruplara erişim istiyor"
+
+#: includes/Classes/Emails.php:283 includes/Classes/Emails.php:533
+msgid "No group requests made"
+msgstr ""
+
+#: includes/Classes/Emails.php:552
+msgid "Email configuration test"
+msgstr ""
+
+#: includes/Classes/Emails.php:604
+msgid "This is a test message"
+msgstr ""
+
+#: includes/Classes/Emails.php:733
+msgid ""
+"This email contains HTML formatting and cannot be displayed right now. "
+"Please use an HTML compatible reader."
+msgstr "Bu e-posta HTML biçimlendirme içeriyor ve şu anda görüntülenemiyor. Lütfen HTML uyumlu bir okuyucu kullanın."
+
+#: includes/Classes/TableGenerate.php:322
+msgid "Go to:"
+msgstr "Git:"
+
+#: includes/Classes/Validation.php:270 includes/text.strings.php:65
+msgid "The following errors were found"
+msgstr "Aşağıdaki hatalar bulundu"
+
+#: includes/forms/categories.php:14
+msgid "Create"
+msgstr "Oluştur"
+
+#: includes/forms/categories.php:17 includes/forms/file_editor.php:209
+msgid "Save"
+msgstr "Kaydet"
+
+#: includes/forms/categories.php:44
+msgid "Parent"
+msgstr "Üst"
+
+#: includes/forms/categories.php:47 includes/forms/options/clients.php:53
+#: includes/forms/options/email.php:136 manage-files.php:656
+msgid "None"
+msgstr "Hiçbiri"
+
+#: includes/forms/categories.php:67
+msgid "Cancel"
+msgstr "İptal"
+
+#: includes/forms/clients.php:9
+msgid "Will be visible on the client's file list"
+msgstr "İstemci(alıcı)nin dosya listesinde görünecek"
+
+#: includes/forms/clients.php:28
+msgid "Save client"
+msgstr "İstemci(alıcı)yi kaydet"
+
+#: includes/forms/clients.php:40
+msgid "Create account"
+msgstr ""
+
+#: includes/forms/clients.php:40
+msgid "Request account"
+msgstr ""
+
+#: includes/forms/clients.php:46
+msgid "Your full name"
+msgstr "Tam adınız"
+
+#: includes/forms/clients.php:50 includes/forms/clients.php:64
+msgid "Request access to groups"
+msgstr "Gruplara erişim iste"
+
+#: includes/forms/clients.php:55 includes/forms/users.php:25
+msgid "Update account"
+msgstr "Hesabı güncelle"
+
+#: includes/forms/clients.php:85 includes/forms/users.php:46
+msgid "Must be alphanumeric"
+msgstr "Alfanümerik olmalı"
+
+#: includes/forms/clients.php:90 includes/forms/login-ldap.php:11
+#: includes/forms/login.php:20 includes/forms/options/email.php:107
+#: includes/forms/users.php:51 install/index.php:318
+#: install/make-config.php:261
+msgid "Password"
+msgstr "Şifre"
+
+#: includes/forms/clients.php:98
+#: includes/forms/reset-password/enter-password.php:13
+#: includes/forms/users.php:59 install/index.php:326
+msgid "Generate"
+msgstr "Rastgele Oluştur"
+
+#: includes/forms/clients.php:106 includes/forms/users.php:67
+msgid "Must be valid and unique"
+msgstr "Geçerli ve benzersiz olmalı"
+
+#: includes/forms/clients.php:111
+msgid "Address"
+msgstr "Adres"
+
+#: includes/forms/clients.php:118
+msgid "Telephone"
+msgstr "Telefon"
+
+#: includes/forms/clients.php:128
+msgid "Internal contact name"
+msgstr "Kolay iletişim adı"
+
+#: includes/forms/clients.php:135 includes/forms/users.php:95
+msgid "Max. upload filesize"
+msgstr "Maks. dosya boyutu"
+
+#: includes/forms/clients.php:141 includes/forms/users.php:101
+msgid "Set to 0 to use the default system limit"
+msgstr "Varsayılan sistem limitini kullanmak için 0'a ayarlayın"
+
+#: includes/forms/clients.php:188 includes/forms/file_editor.php:118
+#: includes/forms/file_editor.php:140 includes/forms/file_editor.php:173
+#: includes/forms/groups.php:42
+msgid "Select one or more options. Type to search."
+msgstr "Bir veya daha fazla seçenek seçin. Aramak için buraya yazın."
+
+#: includes/forms/clients.php:207 includes/forms/file_editor.php:130
+#: includes/forms/file_editor.php:152 includes/forms/file_editor.php:179
+#: includes/forms/groups.php:65
+msgid "Add all"
+msgstr "Hepsini ekle"
+
+#: includes/forms/clients.php:208 includes/forms/file_editor.php:131
+#: includes/forms/file_editor.php:153 includes/forms/file_editor.php:180
+#: includes/forms/groups.php:66
+msgid "Remove all"
+msgstr "Hepsini kaldır"
+
+#: includes/forms/clients.php:226
+msgid "Active (client can log in)"
+msgstr "Aktif (istemci(alıcı) giriş yapabilir)"
+
+#: includes/forms/clients.php:237
+msgid "Notify new uploads by e-mail"
+msgstr "Yeni yüklemeleri email ile bildir "
+
+#: includes/forms/clients.php:248 includes/forms/users.php:120
+msgid "Send welcome email"
+msgstr "Hoşgeldin emaili gönder"
+
+#: includes/forms/clients.php:256 includes/forms/users.php:128
+msgid "Require password change after first login"
+msgstr ""
+
+#: includes/forms/clients.php:269
+msgid "Verification"
+msgstr "Doğrulama"
+
+#: includes/forms/clients.php:286 includes/forms/users.php:143
+msgid ""
+"This account information will be e-mailed to the address supplied above"
+msgstr "Bu hesabın bilgisi yukarıda belirtilen adrese gönderilecektir."
+
+#: includes/forms/file_editor.php:39
+msgid "Enter here the required file title."
+msgstr "Buraya zorunlu dosya adını giriniz"
+
+#: includes/forms/file_editor.php:44
+msgid "Optionally, enter here a description for the file."
+msgstr "Buraya dosya için bir açıklama yazabilirsiniz."
+
+#: includes/forms/file_editor.php:63
+msgid "Expiration date"
+msgstr "Sona erme tarihi"
+
+#: includes/forms/file_editor.php:66
+msgid "Select a date"
+msgstr "Tarih seç"
+
+#: includes/forms/file_editor.php:77
+msgid "File expires"
+msgstr "Dosya belirli bir tarihte son bulsun."
+
+#: includes/forms/file_editor.php:88
+msgid "Public downloading"
+msgstr "Herkese açık indirme"
+
+#: includes/forms/file_editor.php:92
+msgid "Allow public downloading of this file."
+msgstr "Bu dosyanın herkese açık indirilmesine izin ver."
+
+#: includes/forms/file_editor.php:116
+msgid "Assignations"
+msgstr "Atamalar"
+
+#: includes/forms/file_editor.php:133 includes/forms/file_editor.php:155
+#: includes/forms/file_editor.php:182
+msgid "Copy selections to other files"
+msgstr "Seçimleri diğer dosyalara kopyala"
+
+#: includes/forms/file_editor.php:163
+msgid "Hidden (will not send notifications or show into the files list)"
+msgstr ""
+
+#: includes/forms/file_editor.php:172
+msgid "Add to"
+msgstr "Şuraya ekle"
+
+#: includes/forms/file_editor.php:197
+#, php-format
+msgid "File not found on disk: %s"
+msgstr ""
+
+#: includes/forms/file_editor.php:201
+#, php-format
+msgid "Record does not exist for file id: %d"
+msgstr ""
+
+#: includes/forms/groups.php:12
+msgid "Create group"
+msgstr "Grup oluştur"
+
+#: includes/forms/groups.php:16
+msgid "Save group"
+msgstr "Grubu kaydet"
+
+#: includes/forms/groups.php:75
+msgid ""
+"Allows clients to request access to this group in the registraron process "
+"and when editing their own profile."
+msgstr ""
+
+#: includes/forms/groups.php:78
+msgid ""
+"The group cannot be made publicly visible while the public page is disabled."
+msgstr ""
+
+#: includes/forms/login-ldap.php:27 includes/forms/login.php:36
+msgid "default"
+msgstr "varsayılan"
+
+#: includes/forms/options/branding.php:1
+msgid "Current logo"
+msgstr "Şimdiki logo"
+
+#: includes/forms/options/branding.php:2
+msgid ""
+"Use this page to upload your company logo, or update the currently assigned "
+"one. This image will be shown to your clients when they access their file "
+"list."
+msgstr "Şirket logonuzu yüklemek için bu sayfayı kullanın veya atanmış olanı güncelleyin. Bu resim, istemci(alıcı)lerinize dosya listesine eriştiğinde gösterilecektir."
+
+#: includes/forms/options/branding.php:23
+msgid "This preview uses a maximum width of 300px."
+msgstr "Bu önizleme, maksimum 300 piksellik bir genişlik kullanır."
+
+#: includes/forms/options/branding.php:27
+msgid "Delete current logo"
+msgstr ""
+
+#: includes/forms/options/branding.php:34
+msgid "Select image to upload"
+msgstr "Yüklemek için resim seç"
+
+#: includes/forms/options/clients.php:1
+msgid "New registrations"
+msgstr "Yeni kayıtlar"
+
+#: includes/forms/options/clients.php:2
+msgid ""
+"Used only on self-registrations. These options will not apply to clients "
+"registered by system administrators."
+msgstr "Sadece kişisel kayıtlarda kullanılır. Bu seçenekler sistem yöneticileri"
+
+#: includes/forms/options/clients.php:7
+msgid "Clients can register themselves"
+msgstr "İstemci(alıcı)ler kendileri kayıt olabilirler"
+
+#: includes/forms/options/clients.php:15
+msgid "Auto approve new accounts"
+msgstr "Yeni hesapları otomatik onayla"
+
+#: includes/forms/options/clients.php:21
+msgid "Add clients to this group:"
+msgstr "İstemci(alıcı)leri bu gruba ekle: "
+
+#: includes/forms/options/clients.php:24
+msgid "None (does not enable this feature)"
+msgstr "Yok (bu özelliği etkinleştirmez)"
+
+#: includes/forms/options/clients.php:43
+msgid ""
+"New clients will automatically be assigned to the group you have selected."
+msgstr "Yeni istemciler otomatik olarak seçtiğiniz gruba atanır."
+
+#: includes/forms/options/clients.php:48
+msgid "Groups for which clients can request membership to:"
+msgstr "Hangi istemci(alıcı)lerin üyelik isteğinde bulunabileceği gruplar:"
+
+#: includes/forms/options/clients.php:54
+msgid "Public groups"
+msgstr "Herkese Açık Gruplar"
+
+#: includes/forms/options/clients.php:55
+msgid "All groups"
+msgstr "Tüm Gruplar"
+
+#: includes/forms/options/clients.php:64
+msgid ""
+"When a client registers a new account, an option will be presented to "
+"request becoming a member of a particular group."
+msgstr "Bir istemci(alıcı) yeni bir hesap kaydettiğinde, belirli bir gruba üye olmayı talep etme seçeneği sunulacak."
+
+#: includes/forms/options/clients.php:75
+msgid "Clients can upload files"
+msgstr "İstemci(alıcı)ler dosya yükleyebilir"
+
+#: includes/forms/options/clients.php:83
+msgid "Clients can delete their own uploaded files"
+msgstr "İstemci(alıcı)ler kendi yükledikleri dosyaları silebilir"
+
+#: includes/forms/options/clients.php:91
+msgid "Clients can set expiration Date"
+msgstr "İstemci(alıcı)ler son kullanma tarihini ayarlayabilir"
+
+#: includes/forms/options/clients.php:97
+msgid "When a file expires:"
+msgstr "Bir dosyanın süresi dolduğunda:"
+
+#: includes/forms/options/clients.php:100
+msgid "Don't show it on the files list"
+msgstr "Dosya listesinde gösterme"
+
+#: includes/forms/options/clients.php:101
+msgid "Show it anyway, but prevent download."
+msgstr "Yine de göster, ancak indirmeyi önle."
+
+#: includes/forms/options/clients.php:103
+msgid ""
+"This only affects clients. On the admin side, you can still get the files."
+msgstr "Bu sadece istemci(alıcı)leri etkiler. Yönetici tarafında, dosyaları hala alabilirsiniz."
+
+#: includes/forms/options/email.php:1
+msgid "\"From\" information"
+msgstr "\"Gönderen\" bilgisi"
+
+#: includes/forms/options/email.php:4 install/index.php:304
+msgid "E-mail address"
+msgstr "E-posta adresi"
+
+#: includes/forms/options/email.php:19
+msgid "Send copies"
+msgstr "Kopyaları yolla"
+
+#: includes/forms/options/email.php:24
+msgid "When a system user uploads files"
+msgstr "Bir sistem kullanıcısı dosya yüklediğinde"
+
+#: includes/forms/options/email.php:32
+msgid "When a client uploads files"
+msgstr "Bir istemci(alıcı) dosya yüklediğinde"
+
+#: includes/forms/options/email.php:38
+msgid ""
+"Define here who will receive copies of this emails. These are sent as BCC so"
+" neither recipient will see the other addresses."
+msgstr "Burada, bu e-postaların kopyalarını kimin alacağını tanımlayın. Bunlar BCC olarak gönderilir, böylece hiçbir alıcı diğer adresleri görmez."
+
+#: includes/forms/options/email.php:44
+msgid "Address supplied above (on \"From\")"
+msgstr "Yukarıda verilen adres (\"Gönderen\" konumunda)"
+
+#: includes/forms/options/email.php:50
+msgid "Also to this addresses"
+msgstr "Ayrıca bu adreslere"
+
+#: includes/forms/options/email.php:53
+msgid "Separate e-mail addresses with a comma."
+msgstr "E-posta adreslerini virgül ile ayır."
+
+#: includes/forms/options/email.php:59
+msgid "Expiration"
+msgstr "Sona Erme Tarihi"
+
+#: includes/forms/options/email.php:62
+msgid "Maximum sending attemps"
+msgstr "Maksimum gönderim denemeleri"
+
+#: includes/forms/options/email.php:65
+msgid ""
+"Define how many times will the system attemp to send each notification."
+msgstr "Sistemin her bir bildirimi kaç kez göndermeye çalışacağını tanımlayın."
+
+#: includes/forms/options/email.php:70
+msgid "Days before expiring"
+msgstr "Süresi dolmadan gün sayısı"
+
+#: includes/forms/options/email.php:73
+msgid "Notifications older than this will not be sent."
+msgstr "Bundan daha eski bildirimler gönderilmez."
+
+#: includes/forms/options/email.php:73
+msgid "Set to 0 to disable."
+msgstr "Devre dışı bırakmak için 0 olarak ayarlayın."
+
+#: includes/forms/options/email.php:79
+msgid "E-mail sending options"
+msgstr "E-mail gönderme seçenekleri"
+
+#: includes/forms/options/email.php:80
+msgid ""
+"Here you can select which mail system will be used when sending the "
+"notifications. If you have a valid e-mail account, SMTP is the recommended "
+"option."
+msgstr "Burada e-posta bildirimlerinin hangi e-posta sistemiyle gönderileceğini seçebilirsiniz. Eğer geçerli bir hesabınız varsa SMTP önerilir."
+
+#: includes/forms/options/email.php:83
+msgid "Mailer"
+msgstr "E-Posta Gönderici"
+
+#: includes/forms/options/email.php:96
+msgid "SMTP & Gmail shared options"
+msgstr "SMTP ve Gmail paylaşılan seçenekleri"
+
+#: includes/forms/options/email.php:97
+msgid ""
+"You need to include your username (usually your e-mail address) and password"
+" if you have selected either SMTP or Gmail as your mailer."
+msgstr "Posta adresiniz olarak SMTP veya Gmail’i seçtiyseniz, kullanıcı adınızı (genellikle e-posta adresinizi) ve şifrenizi eklemeniz gerekir."
+
+#: includes/forms/options/email.php:115
+msgid "SMTP options"
+msgstr "SMTP ayarları"
+
+#: includes/forms/options/email.php:116
+msgid "If you selected SMTP as your mailer, please complete these options."
+msgstr "Posta servisiniz olarak SMTP'yi seçtiyseniz, lütfen bu seçenekleri tamamlayın."
+
+#: includes/forms/options/email.php:119 install/make-config.php:231
+msgid "Host"
+msgstr "Sunucu"
+
+#: includes/forms/options/email.php:126
+msgid "Port"
+msgstr "Port"
+
+#: includes/forms/options/email.php:133
+msgid "Authentication"
+msgstr "Kimlik Doğrulama"
+
+#: includes/forms/options/email.php:145
+msgid "SSL options"
+msgstr ""
+
+#: includes/forms/options/email.php:150
+msgid "Verify peer"
+msgstr ""
+
+#: includes/forms/options/email.php:158
+msgid "Verify peer name"
+msgstr ""
+
+#: includes/forms/options/email.php:166
+msgid "Allow self signed"
+msgstr ""
+
+#: includes/forms/options/email.php:175
+msgid "After saving your options, you can test your configuration here"
+msgstr ""
+
+#: includes/forms/options/external_login.php:4
+msgid "Social Networks"
+msgstr ""
+
+#: includes/forms/options/external_login.php:5
+#, php-format
+msgid ""
+"Note: %s requires all accounts to be available locally. When a user connects"
+" via a social network or any other external source, a local account will be "
+"created with a random password."
+msgstr ""
+
+#: includes/forms/options/external_login.php:87
+msgid "Enabled"
+msgstr "Etkin"
+
+#: includes/forms/options/external_login.php:96
+msgid "App ID"
+msgstr ""
+
+#: includes/forms/options/external_login.php:102
+msgid "App Secret"
+msgstr ""
+
+#: includes/forms/options/external_login.php:110
+msgid "Callback URI"
+msgstr "Geri dönüş adresi"
+
+#: includes/forms/options/external_login.php:121
+#: includes/forms/options/security.php:105
+msgid "How do I obtain this credentials?"
+msgstr "Bu kimlik bilgilerini nasıl edinebilirim?"
+
+#: includes/forms/options/general.php:1
+msgid "General"
+msgstr "Genel"
+
+#: includes/forms/options/general.php:2
+msgid ""
+"Basic information to be shown around the site. The time format and zones "
+"values affect how the clients see the dates on their files lists."
+msgstr "Site çevresinde gösterilecek temel bilgiler. Saat biçimi ve bölge değerleri,istemcilerin dosya listelerindeki tarihleri ​​nasıl gördüğünü etkiler."
+
+#: includes/forms/options/general.php:5 install/index.php:278
+msgid "Site name"
+msgstr "Site ismi"
+
+#: includes/forms/options/general.php:12
+msgid "Timezone"
+msgstr "Zaman dilimi"
+
+#: includes/forms/options/general.php:25
+msgid "Time format"
+msgstr "Zaman formatı"
+
+#: includes/forms/options/general.php:28
+msgid "For example, d/m/Y h:i:s will result in something like"
+msgstr "Örnek olarak , gg/aa/YY saat:dakika:saniye"
+
+#: includes/forms/options/general.php:29
+msgid "For the full list of available values, visit"
+msgstr "Mevcut değerlerin tam listesi için adresini ziyaret edin."
+
+#: includes/forms/options/general.php:29
+msgid "this page"
+msgstr "bu sayfa"
+
+#: includes/forms/options/general.php:36
+msgid "Use custom footer text"
+msgstr "Özel alt bilgi kullan"
+
+#: includes/forms/options/general.php:42
+msgid "Footer content"
+msgstr "Alt bilgi içeriği"
+
+#: includes/forms/options/general.php:50
+msgid "Editor"
+msgstr "Editör"
+
+#: includes/forms/options/general.php:55
+msgid "Use the visual editor on files descriptions"
+msgstr "Dosya açıklamalarında görsel editörü kullanın"
+
+#: includes/forms/options/general.php:67
+msgid "Detect user browser language"
+msgstr "Tarayıcı dilini tespit et"
+
+#: includes/forms/options/general.php:68
+msgid ""
+"If available, will override the default one from the system configuration "
+"file. Affects all users and clients."
+msgstr "Varsa, sistem yapılandırma dosyasındaki varsayılanı geçersiz kılar.Tüm kullanıcıları ve istemci(alıcı)leri etkiler."
+
+#: includes/forms/options/general.php:75
+msgid "Downloads"
+msgstr "İndirmeler"
+
+#: includes/forms/options/general.php:79
+msgid "Use XSendFile to serve files"
+msgstr ""
+
+#: includes/forms/options/general.php:80
+msgid ""
+"xsendfile improves downloads by allowing the web server to send the file "
+"directly (without php and it's limitations in the middle). This provides "
+"several optimizations, such as resumable, more stable downloads. This in an "
+"advanced feature that requires you to install and enable a module on your "
+"server."
+msgstr ""
+
+#: includes/forms/options/general.php:87
+msgid "System location"
+msgstr "Sistemin konumu"
+
+#: includes/forms/options/general.php:88
+msgid ""
+"These options are to be changed only if you are moving the system to another"
+" place. Changes here can cause ProjectSend to stop working."
+msgstr "Bu seçenekler sadece sistemi başka bir yere taşıyorsanız değiştirilmelidir.Buradaki değişiklikler ProjectSend'in çalışmamasına neden olabilir."
+
+#: includes/forms/options/general.php:91
+msgid "System URI"
+msgstr "Sistem web adresi"
+
+#: includes/forms/options/privacy.php:6
+msgid "Prevent search engines from indexing this site"
+msgstr "Arama motorlarının bu siteyi indekslemesini engelle"
+
+#: includes/forms/options/privacy.php:14
+msgid "Enable information page for private files"
+msgstr "Özel dosyalar için bilgi sayfasını etkinleştir"
+
+#: includes/forms/options/privacy.php:15
+msgid ""
+"If enabled, the file information landing page will be available even for "
+"files that are not marked as private. Downloading them will stay restricted."
+msgstr "Etkinleştirildiğinde, dosya bilgileri açılış sayfası özel olarak işaretlenmemiş dosyalar için bile kullanılabilir. Bunları indirmek sınırlı kalacaktır."
+
+#: includes/forms/options/privacy.php:22
+msgid "Public groups and files listings page"
+msgstr "Genel gruplar ve dosya listeleri sayfası"
+
+#: includes/forms/options/privacy.php:27
+msgid "Enable page"
+msgstr "Sayfayı etkinleştir"
+
+#: includes/forms/options/privacy.php:29
+msgid "The url for the listings page is"
+msgstr "Listeler sayfasının URL'si"
+
+#: includes/forms/options/privacy.php:39
+msgid "Only for logged in clients"
+msgstr "Sadece giriş yapan istemci(alıcı)ler için"
+
+#: includes/forms/options/privacy.php:47
+msgid ""
+"Inside groups show all files, including those that are not marked as public."
+msgstr "İç gruplar, genel olarak işaretlenmemiş olanlar dahil, tüm dosyaları gösterir."
+
+#: includes/forms/options/privacy.php:55
+msgid "On public files, show the download link."
+msgstr "Genel dosyalarda, indirme bağlantısını göster."
+
+#: includes/forms/options/security.php:1
+msgid "Allowed file extensions"
+msgstr "Kabul edilen dosya uzantıları"
+
+#: includes/forms/options/security.php:2
+msgid ""
+"Be careful when changing this options. They could affect not only the system"
+" but the whole server it is installed on."
+msgstr "Bu seçenekleri değiştirirken dikkatli olun. Yalnızca sistemi değil, yüklü olduğu sunucuyu da etkileyebilirler."
+
+#: includes/forms/options/security.php:3
+msgid "Important"
+msgstr "Önemli"
+
+#: includes/forms/options/security.php:3
+msgid "Separate allowed file types with a comma."
+msgstr "Kabul edilen dosya uzantılarını virgülle ayır."
+
+#: includes/forms/options/security.php:6
+msgid "Limit file types uploading to"
+msgstr "Dosya türleri için yükleme limiti"
+
+#: includes/forms/options/security.php:9
+msgid "No one"
+msgstr "Kimse"
+
+#: includes/forms/options/security.php:10
+msgid "Everyone"
+msgstr "Herkes"
+
+#: includes/forms/options/security.php:11
+msgid "Clients only"
+msgstr "Sadece istemci(alıcı)ler"
+
+#: includes/forms/options/security.php:22
+msgid ""
+"Warning: php extension is allowed. This is a serious security problem. If "
+"you are not sure that you need it, please remove it from the list."
+msgstr "Uyarı: php uzantısı kabul edilebilir. Bu ciddi bir problemdir. Eğer buna ihtiyaç duyduğunuza emin değilseniz listeden lütfen listeden kaldırın."
+
+#: includes/forms/options/security.php:29
+msgid "SVG files"
+msgstr ""
+
+#: includes/forms/options/security.php:33
+msgid "Show thumbnails for SVG files"
+msgstr ""
+
+#: includes/forms/options/security.php:41
+msgid "Passwords"
+msgstr "Şifreler"
+
+#: includes/forms/options/security.php:42
+msgid "When setting up a password for an account, require at least:"
+msgstr "Bir hesap için bir şifre ayarlarken, en azından şunları gerektirir:"
+
+#: includes/forms/options/security.php:78
+msgid "reCAPTCHA"
+msgstr "Doğrulama Kodu"
+
+#: includes/forms/options/security.php:79
+msgid "Helps prevent SPAM on your registration form."
+msgstr "Kayıt formunuzdaki SPAM'ın engellenmesine yardımcı olur."
+
+#: includes/forms/options/security.php:84
+msgid "Use reCAPTCHA"
+msgstr "Doğrulama kodu kullan"
+
+#: includes/forms/options/security.php:90
+msgid "Site key"
+msgstr "Site anahtarı"
+
+#: includes/forms/options/security.php:97
+msgid "Secret key"
+msgstr "Gizli anahtar"
+
+#: includes/forms/reset-password/enter-email.php:10
+msgid ""
+"Please enter your account's e-mail address. You will receive a link to "
+"continue the process."
+msgstr "Lütfen hesabınıza bağlı e-posta adresinizi girin. İşleme devam etmek için bir link alacaksınız."
+
+#: includes/forms/reset-password/enter-email.php:13
+msgid "Get a new password"
+msgstr "Yeni şifre al"
+
+#: includes/forms/reset-password/enter-password.php:6
+msgid "New password"
+msgstr "Yeni şifre"
+
+#: includes/forms/reset-password/enter-password.php:17
+msgid ""
+"Please enter your desired new password. After that, you will be able to log "
+"in normally."
+msgstr "Lütfen yeni şifrenizi girin. Sonrasında giriş yapabileceksiniz."
+
+#: includes/forms/reset-password/enter-password.php:20
+msgid "Set new password"
+msgstr "Yeni şifreyi ayarla"
+
+#: includes/forms/upload.php:17
+msgid ""
+"Your browser doesn't support HTML5, Flash or Silverlight. Please update your"
+" browser or install Adobe Flash or Silverlight to continue."
+msgstr "Tarayıcınız HTML5 , Flash veya Silverlight desteklemiyor. Devam etmek için lütfen tarayıcınızı güncelleyin ya da Adobe Flash veya Silverlight yükleyin."
+
+#: includes/forms/upload.php:21 upload.php:16
+msgid "Upload files"
+msgstr "Dosyaları yükle"
+
+#: includes/forms/upload.php:24
+msgid ""
+"Your files are being uploaded! Progress indicators may take a while to "
+"update, but work is still being done behind the scenes."
+msgstr "Dosyalarınız yükleniyor! İlerleme göstergelerinin güncellenmesi biraz zaman alabilir, ancak yine de iş sahne arkasında yapılmakta."
+
+#: includes/forms/users.php:11
+msgid "Add user"
+msgstr "Kullanıcı ekle"
+
+#: includes/forms/users.php:18
+msgid "Save user"
+msgstr "Kullanıcıyı kaydet"
+
+#: includes/forms/users.php:75 users.php:300
+msgid "Role"
+msgstr "Rol"
+
+#: includes/forms/users.php:108
+msgid "Active (user can log in)"
+msgstr "Etkin (kullanıcı giriş yapabilir)"
+
+#: includes/functions.actionslog.php:21 includes/functions.actionslog.php:22
+msgid "ProjectSend was installed"
+msgstr "ProjectSend yüklendi"
+
+#: includes/functions.actionslog.php:27 includes/functions.actionslog.php:207
+msgid "logged in to the system."
+msgstr "sisteme giriş yaptı."
+
+#: includes/functions.actionslog.php:28 includes/functions.actionslog.php:208
+#, php-format
+msgid "%s logged in to the system"
+msgstr ""
+
+#: includes/functions.actionslog.php:33
+msgid "created the user account"
+msgstr "kullanıcı hesabı oluşturdu"
+
+#: includes/functions.actionslog.php:35
+#, php-format
+msgid "%s created the user account %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:40
+msgid "created the client account "
+msgstr "istemci(alıcı) hesabı oluşturdu"
+
+#: includes/functions.actionslog.php:42
+#, php-format
+msgid "%s created the client account %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:47
+msgid "created a client account for themself."
+msgstr "kendileri için bir istemci(alıcı) hesabı oluşturdu."
+
+#: includes/functions.actionslog.php:48
+#, php-format
+msgid "%s registered as a new client"
+msgstr ""
+
+#: includes/functions.actionslog.php:53
+msgid "(user) uploaded the file"
+msgstr "(kullanıcı) dosyayı yükledi"
+
+#: includes/functions.actionslog.php:55
+#, php-format
+msgid "%s (user) uploaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:60
+msgid "(client) uploaded the file"
+msgstr "(istemci(alıcı)) dosyayı yükledi"
+
+#: includes/functions.actionslog.php:62
+#, php-format
+msgid "%s (client) uploaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:67
+msgid "(user) downloaded the file"
+msgstr "(kullanıcı) dosyayı indirdi"
+
+#: includes/functions.actionslog.php:69
+#, php-format
+msgid "%s (user) downloaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:74
+msgid "(client) downloaded the file"
+msgstr "(istemci(alıcı)) dosyayı indirdi"
+
+#: includes/functions.actionslog.php:76
+#, php-format
+msgid "%s (client) downloaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:81
+msgid "generated a zip file"
+msgstr "bir zip dosyası oluşturdu"
+
+#: includes/functions.actionslog.php:82
+#, php-format
+msgid "%s generated a zip file"
+msgstr ""
+
+#: includes/functions.actionslog.php:87 includes/functions.actionslog.php:96
+msgid "unassigned the file"
+msgstr "dosyanın atanmamış"
+
+#: includes/functions.actionslog.php:89
+msgid "from the client:"
+msgstr "istemci(alıcı)den:"
+
+#: includes/functions.actionslog.php:91
+#, php-format
+msgid "%s unassigned the file %s from the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:98
+msgid "from the group:"
+msgstr "gruptan:"
+
+#: includes/functions.actionslog.php:100
+#, php-format
+msgid "%s unassigned the file %s from the group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:105
+msgid "deleted the file"
+msgstr "dosyayı sildim"
+
+#: includes/functions.actionslog.php:107
+#, php-format
+msgid "%s deleted the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:112
+msgid "edited the user"
+msgstr "kullanıcıyı düzenledi"
+
+#: includes/functions.actionslog.php:114
+#, php-format
+msgid "%s edited the user %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:119
+msgid "edited the client"
+msgstr "istemciyi düzenledi"
+
+#: includes/functions.actionslog.php:121
+#, php-format
+msgid "%s edited the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:126
+msgid "edited the group"
+msgstr "grubu düzenledi"
+
+#: includes/functions.actionslog.php:128
+#, php-format
+msgid "%s edited the group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:133
+msgid "deleted the user"
+msgstr "kullanıcıyı silmiş"
+
+#: includes/functions.actionslog.php:135
+#, php-format
+msgid "%s deleted the user %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:140
+msgid "deleted the client"
+msgstr "istemci(alıcı)yi sildim"
+
+#: includes/functions.actionslog.php:142
+#, php-format
+msgid "%s deleted the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:147
+msgid "deleted the group"
+msgstr "grubu sildim"
+
+#: includes/functions.actionslog.php:149
+#, php-format
+msgid "%s deleted the group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:154
+msgid "activated the client"
+msgstr "istemci(alıcı)yi aktive ettim"
+
+#: includes/functions.actionslog.php:156
+#, php-format
+msgid "%s activated the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:161
+msgid "deactivated the client"
+msgstr "istemciyi devre dışı bıraktı"
+
+#: includes/functions.actionslog.php:163
+#, php-format
+msgid "%s deactivated the client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:168
+msgid "marked as hidden the file"
+msgstr "dosya gizli olarak işaretlendi"
+
+#: includes/functions.actionslog.php:170 includes/functions.actionslog.php:193
+msgid "to:"
+msgstr "için:"
+
+#: includes/functions.actionslog.php:172
+#, php-format
+msgid "%s marked as hidden the file %s to %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:177
+msgid "marked as hidden for everyone the file"
+msgstr ""
+
+#: includes/functions.actionslog.php:179
+#, php-format
+msgid "%s marked as hidden for everyone the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:184
+msgid "marked as visible for everyone the file"
+msgstr ""
+
+#: includes/functions.actionslog.php:186
+#, php-format
+msgid "%s marked as visible for everyone the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:191
+msgid "marked as visible the file"
+msgstr "dosya görünür olarak işaretlendi"
+
+#: includes/functions.actionslog.php:195
+#, php-format
+msgid "%s marked as visible the file %s to %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:200
+msgid "created the group"
+msgstr "grubu oluşturdu"
+
+#: includes/functions.actionslog.php:202
+#, php-format
+msgid "%s created the group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:213 includes/functions.actionslog.php:222
+msgid "assigned the file"
+msgstr "dosya atandı"
+
+#: includes/functions.actionslog.php:215
+msgid "to the client:"
+msgstr "İstemci(alıcı)ye:"
+
+#: includes/functions.actionslog.php:217
+#, php-format
+msgid "%s assigned the file %s to client %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:224
+msgid "to the group:"
+msgstr "gruba:"
+
+#: includes/functions.actionslog.php:226
+#, php-format
+msgid "%s assigned the file %s to group %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:231
+msgid "activated the user"
+msgstr "kullanıcıyı aktif etti"
+
+#: includes/functions.actionslog.php:233
+#, php-format
+msgid "%s activated the user %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:238
+msgid "deactivated the user"
+msgstr "kullanıcıyı devre dışı bıraktı"
+
+#: includes/functions.actionslog.php:240
+#, php-format
+msgid "%s deactivated the user %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:245
+msgid "uploaded a new logo on \"Branding\""
+msgstr "\\Marka\" alanına yeni bir logo yükledi"
+
+#: includes/functions.actionslog.php:246
+#, php-format
+msgid "%s uploaded a new logo on \"Branding\""
+msgstr ""
+
+#: includes/functions.actionslog.php:251
+msgid "updated ProjectSend to version"
+msgstr "ProjectSend sürümüne güncellendi"
+
+#: includes/functions.actionslog.php:253
+#, php-format
+msgid "%s updated ProjectSend to version %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:258
+msgid "logged out of the system."
+msgstr "sistemden çıkış yaptı."
+
+#: includes/functions.actionslog.php:259
+#, php-format
+msgid "%s logged out of the system"
+msgstr ""
+
+#: includes/functions.actionslog.php:264
+msgid "(user) edited the file"
+msgstr "(kullanıcı) dosyayı düzenledi"
+
+#: includes/functions.actionslog.php:266
+#, php-format
+msgid "%s (user) edited the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:271
+msgid "(client) edited the file"
+msgstr "(istemci(alıcı)) dosyayı düzenledi"
+
+#: includes/functions.actionslog.php:273
+#, php-format
+msgid "%s (client) edited the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:278
+msgid "created the category"
+msgstr "kategoriyi oluşturdu"
+
+#: includes/functions.actionslog.php:280
+#, php-format
+msgid "%s created the category %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:285
+msgid "edited the category"
+msgstr "kategoriyi düzenledi"
+
+#: includes/functions.actionslog.php:287
+#, php-format
+msgid "%s edited the category %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:292
+msgid "deleted the category"
+msgstr "kategori silindi"
+
+#: includes/functions.actionslog.php:294
+#, php-format
+msgid "%s deleted the category %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:298
+msgid "An anonymous user"
+msgstr "İsimsiz bir kullanıcı"
+
+#: includes/functions.actionslog.php:299
+msgid "downloaded the file"
+msgstr "dosyayı indirdi"
+
+#: includes/functions.actionslog.php:301
+#, php-format
+msgid "An anonymous user downloaded the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:306
+msgid "processed an account request for"
+msgstr "için bir hesap isteği işleme koyuldu"
+
+#: includes/functions.actionslog.php:308
+#, php-format
+msgid "%s processed an account request for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:313
+msgid "processed group memberships requests for"
+msgstr "işlenmiş grup üyeliği talepleri"
+
+#: includes/functions.actionslog.php:315
+#, php-format
+msgid "%s processed group memberships requests for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:320
+msgid "requested a preview for the file"
+msgstr ""
+
+#: includes/functions.actionslog.php:322
+#, php-format
+msgid "%s requested a preview for the file %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:327
+msgid "created an account with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:328
+#, php-format
+msgid "%s created an account with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:333
+msgid "logged in with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:334
+#, php-format
+msgid "%s logged in with a social profile"
+msgstr ""
+
+#: includes/functions.actionslog.php:339
+msgid "approved an account request for"
+msgstr ""
+
+#: includes/functions.actionslog.php:341
+#, php-format
+msgid "%s approved an account request for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:346
+msgid "denied an account request for"
+msgstr ""
+
+#: includes/functions.actionslog.php:348
+#, php-format
+msgid "%s denied an account request for %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:353
+msgid "updated system options"
+msgstr ""
+
+#: includes/functions.actionslog.php:356
+#, php-format
+msgid "%s updated system options: %s"
+msgstr ""
+
+#: includes/functions.actionslog.php:361
+msgid "updated an email template"
+msgstr ""
+
+#: includes/functions.actionslog.php:364
+#, php-format
+msgid "%s updated email template: %s"
+msgstr ""
+
+#: includes/functions.forms.php:18
+msgid "Search"
+msgstr "Arama"
+
+#: includes/functions.php:134
+msgid "An unexpected error has occurred"
+msgstr "Beklenmeyen bir hata oluştu"
+
+#: includes/functions.php:135
+msgid "Could not generate a random password"
+msgstr "Rasgele bir şifre oluşturulamadı"
+
+#: includes/functions.php:658
+msgid "Provided by"
+msgstr "Tarafından sunulan"
+
+#: includes/functions.php:658
+msgid "version"
+msgstr "versiyon"
+
+#: includes/functions.php:658
+msgid "Free software"
+msgstr "Ücretsiz yazılım"
+
+#: includes/functions.php:693
+msgid "Important:"
+msgstr "Önemli:"
+
+#: includes/functions.php:693
+msgid ""
+"There are no clients or groups at the moment. You can still upload files and"
+" assign them later."
+msgstr "Şu anda hiçbir istemci(alıcı) veya grup yok. Hala dosya yükleyip daha sonra atayabilirsiniz."
+
+#: includes/functions.php:1313
+msgid "The password must contain, at least:"
+msgstr "Şifre en azından şunu içermelidir:"
+
+#: includes/functions.session.permissions.php:79
+msgid "Password change is required for your account"
+msgstr ""
+
+#: includes/text.strings.php:13
+msgid "System Administrator"
+msgstr "Sistem Yöneticisi"
+
+#: includes/text.strings.php:14
+msgid "Account Manager"
+msgstr "Hesap Yöneticisi"
+
+#: includes/text.strings.php:15 manage-files.php:354 manage-files.php:553
+msgid "Uploader"
+msgstr "Yükleyen"
+
+#: includes/text.strings.php:31 index.php:20 install/index.php:98
+#: install/index.php:249
+msgid "Log in"
+msgstr "Giriş yap"
+
+#: includes/text.strings.php:32
+msgid "Logging in"
+msgstr "Giriş yapılıyor"
+
+#: includes/text.strings.php:33
+msgid "Redirecting"
+msgstr "Yönlendiriliyor"
+
+#: includes/text.strings.php:36
+msgid ""
+"Send this URL to someone to view the allowed group contents according to "
+"your privacy settings."
+msgstr "İzin verilen grup içeriğini gizlilik ayarlarınıza göre görüntülemek için bu URL'yi birine gönderin."
+
+#: includes/text.strings.php:37
+msgid ""
+"Send this URL to someone to download the file without registering or logging"
+" in."
+msgstr "Kayıt olmadan veya giriş yapmadan dosyayı indirmek için bu URL'yi birisine gönderin."
+
+#: includes/text.strings.php:38
+msgid "Click to select and copy"
+msgstr "Seçmek ve kopyalamak için tıklayın"
+
+#: includes/text.strings.php:39
+msgid "Succesfully copied to clipboard"
+msgstr "Başarıyla panoya kopyalandı"
+
+#: includes/text.strings.php:40
+msgid "Content could not be copied to clipboard"
+msgstr "İçerik panoya kopyalanamadı"
+
+#: includes/text.strings.php:41
+msgid "Public URL"
+msgstr "Herkese açık URL"
+
+#: includes/text.strings.php:42
+msgid "Please select at least one item to proceed."
+msgstr "Lütfen devam etmek için en az bir öğe seçin."
+
+#: includes/text.strings.php:43
+#, php-format
+msgid "You are about to delete %d items. Are you sure you want to continue?"
+msgstr ""
+
+#: includes/text.strings.php:44
+msgid ""
+"You are about to delete all activities from the log. Only those used for "
+"statistics will remain. Are you sure you want to continue?"
+msgstr "Tüm etkinlikleri günlükten silmek üzeresiniz. Yalnızca istatistikler için kullanılanlar kalacak. Devam etmek istediğinizden emin misiniz?"
+
+#: includes/text.strings.php:45
+msgid "Please wait while your download is prepared."
+msgstr "İndirmeye hazırlanırken lütfen bekleyin."
+
+#: includes/text.strings.php:46
+msgid ""
+"This operation could take a few minutes, depending on the size of the files."
+msgstr "Bu işlem, dosyaların boyutuna bağlı olarak birkaç dakika sürebilir."
+
+#: includes/text.strings.php:47
+#, php-format
+msgid ""
+"You are about to unassign %d files from this account. Are you sure you want "
+"to continue?"
+msgstr ""
+
+#: includes/text.strings.php:48
+msgid "No results where found."
+msgstr "Hiç sonuç bulunamadı."
+
+#: includes/text.strings.php:50
+msgid "Please confirm: replace the custom template text with the default one?"
+msgstr "Lütfen onaylayın: özel şablon metnini varsayılan metin ile değiştirilsin mi?"
+
+#: includes/text.strings.php:51
+msgid "Error: the content could not be loaded"
+msgstr "Hata: içerik yüklenemedi."
+
+#: includes/text.strings.php:54
+msgid "You must select at least one file to upload."
+msgstr "Karşıya yüklemek için en az bir dosya seçmelisiniz."
+
+#: includes/text.strings.php:55
+msgid ""
+"Are you sure? Files currently being uploaded will be discarded if you leave "
+"this page."
+msgstr ""
+
+#: includes/text.strings.php:56
+msgid "Copy selection to all files?"
+msgstr "Seçimi tüm dosyalara kopyala"
+
+#: includes/text.strings.php:57
+msgid ""
+"Some of your files uploaded correctly, but others could not be uploaded."
+msgstr ""
+
+#: includes/text.strings.php:58
+msgid "Go to the file editor"
+msgstr ""
+
+#: includes/text.strings.php:60
+msgid "Confirm this action?"
+msgstr ""
+
+#: includes/text.strings.php:61
+msgid "Failed to load file preview"
+msgstr ""
+
+#: includes/text.strings.php:62
+msgid "Failed to load resource"
+msgstr ""
+
+#: includes/text.strings.php:66
+#, php-format
+msgid "Validation \"%s\" failed for field \"%s\""
+msgstr ""
+
+#: includes/text.strings.php:67
+msgid "reCAPTCHA verification failed"
+msgstr "reCAPTCHA doğrulaması başarısız oldu"
+
+#: includes/text.strings.php:68
+msgid "Name was not completed"
+msgstr "İsim tamamlanmadı"
+
+#: includes/text.strings.php:69
+msgid "No client was selected"
+msgstr "Hiçbir istemci(alıcı) seçilmedi"
+
+#: includes/text.strings.php:70
+msgid "Username was not completed"
+msgstr "Kullanıcı adı tamamlanmadı"
+
+#: includes/text.strings.php:71
+msgid "Password was not completed"
+msgstr "Şifre tamamlanmadı"
+
+#: includes/text.strings.php:72
+msgid "Password verification was not completed"
+msgstr "Şifre doğrulaması tamamlanmadı"
+
+#: includes/text.strings.php:73
+msgid "E-mail was not completed"
+msgstr "E-posta tamamlanmadı"
+
+#: includes/text.strings.php:74
+msgid "Title was not completed"
+msgstr "Başlık tamamlanmadı"
+
+#: includes/text.strings.php:75
+msgid "E-mail address is not valid"
+msgstr "E-posta adresi geçerli değil"
+
+#: includes/text.strings.php:76
+msgid ""
+"Username must be alphanumeric and may contain dot (a-z,A-Z,0-9 and . "
+"allowed)"
+msgstr "Kullanıcı adı alfasayısal olmalı ve nokta içerebilir (a-z, A-Z, 0-9 ve.) İzin"
+
+#: includes/text.strings.php:77
+msgid "Password must be alphanumeric (a-z,A-Z,0-9 allowed)"
+msgstr "Parola alfasayısal olmalıdır (a-z, A-Z, 0-9 izin verilir)"
+
+#: includes/text.strings.php:78
+msgid "Passwords do not match"
+msgstr "Şifreler eşleşmiyor"
+
+#: includes/text.strings.php:79
+msgid "Password does not meet the required characters rules"
+msgstr "Şifre gereken karakter kuralını karşılamıyor"
+
+#: includes/text.strings.php:80
+msgid "File size value must be a whole number"
+msgstr "Dosya boyutu değeri bir tam sayı olmalıdır"
+
+#: includes/text.strings.php:81
+msgid "User role was not specified"
+msgstr ""
+
+#: includes/text.strings.php:82
+msgid "An account with this username already exists."
+msgstr ""
+
+#: includes/text.strings.php:83
+msgid "An account with this e-mail address already exists."
+msgstr ""
+
+#: includes/text.strings.php:84
+msgid ""
+"Your password can only contain letters, numbers and the following "
+"characters:"
+msgstr "Şifreniz sadece harfler, rakamlar ve aşağıdakileri içerebilirKarakterler:"
+
+#: includes/text.strings.php:86
+msgid "Please complete all the fields."
+msgstr "Lütfen bütün alanları doldurun."
+
+#: includes/text.strings.php:89 includes/text.strings.php:90
+#, php-format
+msgid "Length should be between %d and %d characters long"
+msgstr ""
+
+#: includes/text.strings.php:93
+msgid "1 uppercase character"
+msgstr "1 büyük harf"
+
+#: includes/text.strings.php:94
+msgid "1 lowercase character"
+msgstr "1 küçük harf karakter"
+
+#: includes/text.strings.php:95
+msgid "1 number"
+msgstr "1 numara"
+
+#: includes/text.strings.php:96
+msgid "1 special character"
+msgstr "1 özel karakter"
+
+#: includes/text.strings.php:99 install/index.php:77
+msgid "Sitename was not completed."
+msgstr "Site adı tamamlanmadı."
+
+#: includes/text.strings.php:100 install/index.php:78
+msgid "ProjectSend URI was not completed."
+msgstr "ProjectSend URI tamamlanmadı."
+
+#: includes/updates.functions.php:79
+#, php-format
+msgid "A safe chmod value of 755 could not be set for directory: %s"
+msgstr ""
+
+#: includes/updates.functions.php:87 includes/updates.functions.php:121
+#, php-format
+msgid "A safe chmod value of 644 could not be set for file: %s"
+msgstr ""
+
+#: includes/updates.functions.php:94
+msgid ""
+"Please correct the following errors to make sure that ProjectSend can send "
+"notifications emails."
+msgstr ""
+
+#: includes/updates.functions.php:115
+#, php-format
+msgid "System file does not exist: %s"
+msgstr ""
+
+#: includes/updates.functions.php:218
+msgid ""
+"This version changes the way files-to-clients relationships are stored on "
+"the database making it possible to assign a file to multiple clients. "
+"However some files did not update successfully. The following files may need"
+" to be reassigned to their clients by using the \"Find orphan files\" tool:"
+msgstr "Bu sürüm, dosya-istemcilerin ilişkilerinin birden fazla istemciye dosya atamasını mümkün kılan veritabanında depolanma şeklini değiştiriyor. Ancak, bazı dosyalar başarıyla güncellenmedi. Aşağıdaki dosyaların, istemcilere yeniden atanmaları gerekebilir. \"Yetim dosyaları bul\" aracı:"
+
+#: includes/updates.messages.php:16
+msgid "The database was updated to support this version of the software."
+msgstr "Yazılımın bu sürümünü destekleyecek şekilde veritabanı güncellendi."
+
+#: includes/updates.messages.php:23
+msgid "Do you want to support ProjectSend?"
+msgstr "ProjectSend'i desteklemek ister misiniz?"
+
+#: includes/updates.messages.php:24
+msgid ""
+"Please remember that this tool is free software. If you find the system "
+"useful"
+msgstr "Lütfen bu aracın özgür bir yazılım olduğunu unutmayın. Sistemi bulursanızişe yarar"
+
+#: includes/updates.messages.php:25
+msgid "please consider making a donation to support further development."
+msgstr "Lütfen daha fazla gelişmeyi desteklemek için bağış yapmayı düşünün."
+
+#: includes/updates.messages.php:26
+msgid "Thank you!"
+msgstr "Teşekkürler!"
+
+#: includes/updates.messages.php:45
+msgid "Update available!"
+msgstr "Güncelleme var!"
+
+#: includes/updates.messages.php:45
+#, php-format
+msgid "ProjectSend %s has been released"
+msgstr ""
+
+#: includes/updates.messages.php:48 manage-files.php:649
+msgid "Download"
+msgstr "İndir"
+
+#: includes/updates.messages.php:48
+msgid "Changelog"
+msgstr ""
+
+#: includes/upload-send-notifications.php:243
+#: includes/upload-send-notifications.php:277
+msgid "E-mail notifications have been sent."
+msgstr "E-posta bildirimleri gönderildi."
+
+#: includes/upload-send-notifications.php:257
+msgid "One or more notifications couldn't be sent."
+msgstr "Bir veya daha fazla bildirim gönderilemedi."
+
+#: includes/upload-send-notifications.php:281
+msgid "E-mail notifications for inactive clients were not sent."
+msgstr "Etkin olmayan istemciler için e-posta bildirimleri gönderilmedi."
+
+#: includes/widgets/actions-log.php:10
+msgid "Recent activites"
+msgstr "Son aktiviteler"
+
+#: includes/widgets/actions-log.php:33
+msgid "View all"
+msgstr "Hepsini göster"
+
+#: includes/widgets/ajax/statistics.php:77
+msgid "Uploads by users"
+msgstr "Kulanıcı Yüklemeleri"
+
+#: includes/widgets/ajax/statistics.php:83
+msgid "Uploads by clients"
+msgstr "İstemci(alıcı) Yüklemeleri"
+
+#: includes/widgets/ajax/statistics.php:89
+msgid "Downloads by known users"
+msgstr ""
+
+#: includes/widgets/ajax/statistics.php:95
+msgid "Public Downloads"
+msgstr "Herkese Açık İndirmeler"
+
+#: includes/widgets/news.php:10
+msgid "ProjectSend news"
+msgstr "ProjectSend Haberleri"
+
+#: includes/widgets/statistics.php:12
+msgid "Statistics"
+msgstr "İstatistikler"
+
+#: includes/widgets/statistics.php:19
+#, php-format
+msgid "%d days"
+msgstr ""
+
+#: includes/widgets/system-information.php:7 install/make-config.php:384
+msgid "System information"
+msgstr "Sistem bilgisi"
+
+#: includes/widgets/system-information.php:9
+msgid "Software"
+msgstr "Yazılım"
+
+#: includes/widgets/system-information.php:11
+#: includes/widgets/system-information.php:99
+msgid "Version"
+msgstr "Sürüm"
+
+#: includes/widgets/system-information.php:17
+msgid "New version available"
+msgstr "Yeni sürüm hazır"
+
+#: includes/widgets/system-information.php:22
+msgid "Default upload max. size"
+msgstr "Varsayılan maks. yükleme boyutu"
+
+#: includes/widgets/system-information.php:25
+msgid "Template"
+msgstr "Tema"
+
+#: includes/widgets/system-information.php:26
+msgid "Change"
+msgstr "Değiştir"
+
+#: includes/widgets/system-information.php:47
+msgid "Data"
+msgstr "Veri"
+
+#: includes/widgets/system-information.php:55
+msgid "System users"
+msgstr "Sistem kullanıcıları"
+
+#: includes/widgets/system-information.php:76
+msgid "System"
+msgstr "Sistem"
+
+#: includes/widgets/system-information.php:78
+msgid "Server"
+msgstr "Sunucu"
+
+#: includes/widgets/system-information.php:81
+msgid "PHP version"
+msgstr "PHP sürümü"
+
+#: includes/widgets/system-information.php:84
+msgid "Memory limit"
+msgstr "Hafıza limiti"
+
+#: includes/widgets/system-information.php:87
+msgid "Max execution time"
+msgstr "Maks. çalıştırma süresi"
+
+#: includes/widgets/system-information.php:90
+msgid "Post max size"
+msgstr "Maksimum boyut gönder"
+
+#: includes/widgets/system-information.php:94
+msgid "Database"
+msgstr "Veritabanı"
+
+#: includes/widgets/system-information.php:96
+msgid "Driver"
+msgstr "Sürücü"
+
+#: index.php:67
+msgid "Forgot your password?"
+msgstr "Şifrenizi mi unuttunuz?"
+
+#: index.php:67
+msgid "Set up a new one."
+msgstr "Yeni Şifre Oluştur."
+
+#: index.php:71 public.php:291
+msgid "Don't have an account yet?"
+msgstr "Halen hesabınız yok mu?"
+
+#: index.php:71 public.php:291
+msgid "Register as a new client."
+msgstr "Yeni istemci(alıcı) olarak kaydol."
+
+#: index.php:75
+msgid "This server does not allow self registrations."
+msgstr "Bu sunucu kendinizin üye olmasına izin vermemektedir."
+
+#: index.php:76
+msgid "If you need an account, please contact a server administrator."
+msgstr "Eğer hesaba ihtiyacınız varsa, lütfen sistem yöneticisiyle iletişime geçin."
+
+#: install/index.php:18
+#, php-format
+msgid "%s minimum version not met. Please upgrade to at least version %s"
+msgstr ""
+
+#: install/index.php:76 install/index.php:332 install/make-config.php:42
+msgid "Install"
+msgstr "Yükle"
+
+#: install/index.php:93
+msgid "Congratulations! Everything is up and running."
+msgstr "Tebrikler! Her şey yolunda ve çalışıyor."
+
+#: install/index.php:94
+msgid ""
+"You may proceed to log in with your newely created username and password."
+msgstr ""
+
+#: install/index.php:107
+msgid "Already installed"
+msgstr "Zaten yüklendi"
+
+#: install/index.php:108
+msgid "It seems that ProjectSend is already installed here."
+msgstr "ProjectSend zaten buraya yüklenmiş gözüküyor."
+
+#: install/index.php:109
+msgid ""
+"If you want to reinstall, please delete the system tables from the database "
+"and come back to the installation form."
+msgstr "Eğer yeniden-yüklemek istiyorsanız , lütfen veritabanından bütün tabloları silin ve yükleme ekranına geri dönün."
+
+#: install/index.php:216
+msgid "Database installation was successful, but errors were encountered."
+msgstr ""
+
+#: install/index.php:232
+msgid "The following directories could not be created:"
+msgstr ""
+
+#: install/index.php:239
+msgid "The following directories could not be chmodded to 755:"
+msgstr ""
+
+#: install/index.php:261
+msgid "There was an error writing to the database."
+msgstr ""
+
+#: install/index.php:272
+msgid "Basic system options"
+msgstr "Temel sistem ayarları"
+
+#: install/index.php:273
+msgid ""
+"You need to provide this data for a correct system installation. The site "
+"name will be visible in the system panel, and the client's lists."
+msgstr "Doğru bir sistem kurulumu için bu verileri sağlamanız gerekir. Sitesistem panelinde ve istemci(alıcı)nin listelerinde ad görünecek."
+
+#: install/index.php:274
+msgid "Remember to edit the file"
+msgstr "Dosyayı düzenlemeyi unutmayın"
+
+#: install/index.php:274
+msgid ""
+"with your database settings before installing. If the file doesn't exist, "
+"you can create it by renaming the dummy file sys.config.sample.php."
+msgstr "yüklemeden önce veritabanı ayarlarınızla. Dosya yoksa,sys.config.sample.php adındaki sahte dosyayı yeniden adlandırarak oluşturabilirsiniz."
+
+#: install/index.php:285
+msgid "ProjectSend URI (address)"
+msgstr "ProjectSend URI (adres)"
+
+#: install/index.php:293
+msgid "Default system administrator options"
+msgstr "Varsayılan sistem yöneticisi seçenekleri"
+
+#: install/index.php:294
+msgid ""
+"This info will be used to create a default system user, which can't be "
+"deleted afterwards. Password should be between"
+msgstr "Bu bilgi, kullanılamayan varsayılan bir sistem kullanıcısı oluşturmak için kullanılacaksonradan silindi. Parola arasında olmalı"
+
+#: install/index.php:294
+msgid "and"
+msgstr "ve"
+
+#: install/index.php:294
+msgid "characters long."
+msgstr "karakter uzunluğu."
+
+#: install/index.php:337
+msgid ""
+"After installing the system, you can go to the options page to set your "
+"timezone, preferred date display format and thumbnails parameters, besides "
+"being able to change the site options provided here."
+msgstr "Sistemi kurduktan sonra, ayarlamak için seçenekler sayfasına gidebilirsinsaat dilimi, tercih edilen tarih görüntüleme biçimi ve küçük resimlerin yanı sıraburada verilen site seçeneklerini değiştirebilme."
+
+#: install/make-config.php:20
+msgid "The configuration file already exists."
+msgstr "Yapılandırma dosyası zaten var."
+
+#: install/make-config.php:193
+msgid "Successfully wrote the config file."
+msgstr "Konfigurasyon dosyası başarıyla yazılmıştır."
+
+#: install/make-config.php:197
+msgid "Continue to installation"
+msgstr "Kuruluma devam et"
+
+#: install/make-config.php:206
+msgid "Database configuration"
+msgstr "Veritabanı yapılandırması"
+
+#: install/make-config.php:207
+msgid "You need to provide this data for a correct database communication."
+msgstr "Doğru bir veritabanı iletişimi için bu verileri sağlamanız gerekir."
+
+#: install/make-config.php:210
+msgid "Select driver"
+msgstr "Sürücü seç"
+
+#: install/make-config.php:215 install/make-config.php:221
+msgid "(not supported)"
+msgstr "(desteklenmiyor)"
+
+#: install/make-config.php:241
+msgid "Database name"
+msgstr "Veritabanı adı"
+
+#: install/make-config.php:271
+msgid "Table prefix"
+msgstr "Tablo öneki"
+
+#: install/make-config.php:287
+msgid "The database is already populated"
+msgstr "Veritabanı zaten doldurulmuş"
+
+#: install/make-config.php:301
+msgid "Reuse existing tables"
+msgstr "Varolan tabloyu tekrar kullan"
+
+#: install/make-config.php:314
+msgid "Language selection"
+msgstr "Dil seçimi"
+
+#: install/make-config.php:332
+msgid "Default maximum upload file size"
+msgstr "Varsayılan maksimum yükleme dosyası boyutu"
+
+#: install/make-config.php:335
+msgid "Value expressed in MB, where 1GB = 1024"
+msgstr "MB cinsinden ifade edilen değer, burada 1GB = 1024"
+
+#: install/make-config.php:341
+msgid "Folders"
+msgstr "Klasörler"
+
+#: install/make-config.php:372
+msgid "Writable"
+msgstr "Yazılabilir"
+
+#: install/make-config.php:374
+msgid "Not writable"
+msgstr "Yazılamaz"
+
+#: install/make-config.php:438 install/make-config.php:441
+msgid "Check again"
+msgstr "Tekrar kontrol et"
+
+#: install/make-config.php:439
+msgid "Write config file"
+msgstr "Yapılandırma dosyasını yaz"
+
+#: install/make-config.php:441
+msgid "Check"
+msgstr "Kontrol et"
+
+#: manage-files.php:35
+msgid "for client"
+msgstr "istemci(alıcı) için"
+
+#: manage-files.php:50
+msgid "for group"
+msgstr "grup için"
+
+#: manage-files.php:65
+msgid "on category"
+msgstr "kategoride"
+
+#: manage-files.php:95 manage-files.php:113
+msgid "The selected files were marked as hidden."
+msgstr "Seçilen dosyalar gizli olarak işaretlendi."
+
+#: manage-files.php:104 manage-files.php:122
+msgid "The selected files were marked as visible."
+msgstr "Seçilen dosyalar görünür olarak işaretlendi."
+
+#: manage-files.php:134
+msgid "The selected files were succesfully unassigned."
+msgstr ""
+
+#: manage-files.php:156
+msgid "The selected files were deleted."
+msgstr "Seçilen dosyalar silindi."
+
+#: manage-files.php:160
+msgid "Some files could not be deleted."
+msgstr "Bazı dosyalar silinemedi."
+
+#: manage-files.php:172
+msgid "Please select at least one file."
+msgstr "Lütfen en az bir dosya seçin."
+
+#: manage-files.php:387 manage-files.php:687
+msgid "Visible"
+msgstr "Görülebilir"
+
+#: manage-files.php:388 manage-files.php:687
+msgid "Hidden"
+msgstr "Gizli"
+
+#: manage-files.php:414
+msgid "Selected files actions"
+msgstr "Seçilen dosya eylemleri"
+
+#: manage-files.php:431
+msgid "Download zipped"
+msgstr "Zip olarak indir"
+
+#: manage-files.php:433
+msgid "Set to hidden from everyone already assigned"
+msgstr ""
+
+#: manage-files.php:434
+msgid "Set to visible to everyone already assigned"
+msgstr ""
+
+#: manage-files.php:440
+msgid "Set to hidden"
+msgstr ""
+
+#: manage-files.php:441
+msgid "Set to visible"
+msgstr ""
+
+#: manage-files.php:442
+msgid "Unassign"
+msgstr "Atamayı geri al"
+
+#: manage-files.php:478
+msgid "There are no files assigned to this category."
+msgstr "Bu kategoriye atanmış dosya yok."
+
+#: manage-files.php:484
+msgid "There are no files assigned to this client."
+msgstr "Bu istemci(alıcı)ye atanan dosya yok."
+
+#: manage-files.php:487
+msgid "You have not uploaded any files for this account."
+msgstr "Bu hesap için herhangi bir dosya yüklemediniz."
+
+#: manage-files.php:492
+msgid "There are no files for this client."
+msgstr "Bu istemci(alıcı) için dosya yok."
+
+#: manage-files.php:539
+msgid "Type"
+msgstr "Tür"
+
+#: manage-files.php:548
+msgid "Size"
+msgstr "Boyut"
+
+#: manage-files.php:558
+msgid "Assigned"
+msgstr "Atandı"
+
+#: manage-files.php:565
+msgid "Public permissions"
+msgstr "Herkese Açık İzinler"
+
+#: manage-files.php:570
+msgid "Expiry"
+msgstr "Sona Erme"
+
+#: manage-files.php:582
+msgid "Download count"
+msgstr "İndirme sayısı"
+
+#: manage-files.php:653
+msgid "View information"
+msgstr "Bilgiyi görüntüle"
+
+#: manage-files.php:665
+msgid "Does not expire"
+msgstr "Sona Ermez"
+
+#: manage-files.php:672
+msgid "Expired on"
+msgstr "Sona Erme Tarihi"
+
+#: manage-files.php:676
+msgid "Expires on"
+msgstr "Sona Erme Tarihi"
+
+#: manage-files.php:694
+msgid "times"
+msgstr "kez"
+
+#: manage-files.php:720
+msgid "downloads"
+msgstr "indirilmeler"
+
+#: options.php:266
+msgid "Some fields were not completed. Options could not be saved."
+msgstr "Bazı alanlar tamamlanmadı. Seçenekler kaydedilemedi."
+
+#: options.php:279
+msgid "The file could not be moved to the corresponding folder."
+msgstr "Dosya ilgili klasöre taşınamadı."
+
+#: options.php:280
+msgid ""
+"This is most likely a permissions issue. If that's the case, it can be "
+"corrected via FTP by setting the chmod value of the"
+msgstr "Bu büyük olasılıkla bir izin sorunu. Bu durumda, olabilirchmod değerini ayarlayarak FTP üzerinden düzeltildi"
+
+#: options.php:282
+msgid "directory to 755, or 777 as a last resource."
+msgstr "dizin veya son kaynak olarak 755 veya 777 yetkisi gerekir."
+
+#: options.php:283
+msgid ""
+"If this doesn't solve the issue, try giving the same values to the "
+"directories above that one until it works."
+msgstr "Bu sorunu çözmezse, aynı değerleriüstündeki dizinlere vermeyi deneyin."
+
+#: options.php:287
+msgid "The file you selected is not an allowed format."
+msgstr "Seçtiğiniz dosya izin verilen bir biçim değil."
+
+#: options.php:291
+msgid "There was an error uploading the file. Please try again."
+msgstr "Dosya karşıya yüklenirken bir sorun oluştu. Lütfen tekrar deneyin."
+
+#: public.php:53 public.php:97
+msgid "Public groups and files"
+msgstr "Herkese açık gruplar ve dosyalar"
+
+#: public.php:244 public.php:273
+msgid "There are no files available."
+msgstr "Hiç dosya yok."
+
+#: register.php:12
+msgid "Register new account"
+msgstr "Yeni Hesap Aç"
+
+#: register.php:68
+msgid "Thank you for registering. Your account has been activated."
+msgstr ""
+
+#: register.php:95
+msgid "Account added correctly."
+msgstr "Hesap başarılı bir şekilde oluşturuldu."
+
+#: register.php:99
+msgid ""
+"Please remember that an administrator needs to approve your account before "
+"you can log in."
+msgstr "Lütfen oturum açmadan önce bir yöneticinin hesabınızı onaylaması gerektiğini unutmayın."
+
+#: register.php:103
+msgid "You may now log in with your new credentials."
+msgstr "Şimdi yeni kimlik bilgilerinizle giriş yapabilirsiniz."
+
+#: register.php:125
+msgid "Please contact a system administrator."
+msgstr "Lütfen bir sistem yöneticisiyle iletişime geçin."
+
+#: register.php:134
+msgid ""
+"A folder for this account could not be created. Probably because of a server"
+" configuration."
+msgstr "Bu hesap için bir klasör oluşturulamadı. Muhtemelen bir sunucu yapılandırması nedeniyle."
+
+#: register.php:139
+msgid ""
+"The account could not be created. A folder with this name already exists."
+msgstr "Hesap oluşturulamadı. Bu ada sahip bir klasör zaten mevcut."
+
+#: register.php:149
+msgid ""
+"An e-mail notification with login information was sent to the specified "
+"address."
+msgstr "Belirtilen adrese giriş bilgileri içeren bir e-posta bildirimi gönderildi."
+
+#: reset-password.php:11
+msgid "Lost password"
+msgstr "Şifremi Unuttum"
+
+#: reset-password.php:199
+msgid "The supplied email address does not correspond to any user."
+msgstr "Verilen e-posta adresi hiçbir kullanıcıya karşılık gelmiyor."
+
+#: reset-password.php:202
+msgid "The request is not valid."
+msgstr "İstek geçerli değil."
+
+#: reset-password.php:205
+msgid "This request has expired. Please make a new one."
+msgstr "Bu isteğin süresi doldu. Lütfen yeni bir tane yapın."
+
+#: reset-password.php:208
+msgid "This request has already been completed. Please make a new one."
+msgstr "Bu isteğin süresi doldu. Lütfen yeni bir tane oluşturun."
+
+#: reset-password.php:211
+msgid ""
+"There are 3 unused requests done in less than 24 hs. Please wait until one "
+"expires (1 day since made) to make a new one."
+msgstr "24 saatten daha az bir sürede kullanılmayan 3 istek var. Lütfen yenisinin geçmesi için bitene kadar (yapıldığından 1 gün önce) bekleyin."
+
+#: reset-password.php:224
+msgid ""
+"An e-mail with further instructions has been sent. Please check your inbox "
+"to proceed."
+msgstr "Daha fazla talimat içeren bir e-posta gönderildi. Devam etmek için lütfen gelen kutunuzu kontrol edin."
+
+#: reset-password.php:228
+msgid "E-mail couldn't be sent."
+msgstr "E-posta gönderilemedi."
+
+#: reset-password.php:229 reset-password.php:246
+msgid "If the problem persists, please contact an administrator."
+msgstr "Eğer problem devam ederse , lütfen bir yöneticiye başvurun."
+
+#: reset-password.php:241
+msgid "Your new password has been set. You can now log in using it."
+msgstr "Yeni şifreniz ayarlandı. Şimdi kullanarak giriş yapabilirsiniz."
+
+#: reset-password.php:245
+msgid "Your new password couldn't be set."
+msgstr "Yeni şifreniz ayarlanamadı."
+
+#: upload.php:42
+msgid ""
+"Click on Add files to select all the files that you want to upload, and then"
+" click continue. On the next step, you will be able to set a name and "
+"description for each uploaded file. Remember that the maximum allowed file "
+"size (in mb.) is "
+msgstr "Yüklemek istediğiniz tüm dosyaları seçmek için Dosya ekle'yi ve ardından devam et'i tıklayın. Bir sonraki adımda, yüklenen her dosya için bir ad ve açıklama ayarlayabileceksiniz. İzin verilen maksimum dosya boyutunun (içinde mb.) "
+
+#: users-add.php:14
+msgid "Add system user"
+msgstr "Sistem Kullanıcısı Ekle"
+
+#: users-edit.php:133
+msgid "Edit system user"
+msgstr "Sistem kullanıcısını düzenle"
+
+#: users-edit.php:152
+msgid "User edited correctly."
+msgstr "Kullanıcı başarılı bir şekilde düzenlendi."
+
+#: users-edit.php:154
+msgid "User created successfuly."
+msgstr ""
+
+#: users-edit.php:195
+msgid "No user was selected."
+msgstr "Hiçbir kullanıcı seçilmedi."
+
+#: users-edit.php:200
+msgid "There is no user with that ID number."
+msgstr "Bu ID nolu hiçbir kullanıcı yok."
+
+#: users.php:14
+msgid "Users administration"
+msgstr "Kullanıcı yönetimi"
+
+#: users.php:44
+msgid "The selected users were marked as active."
+msgstr "Seçilen kullanıcılar etkinleştirildi."
+
+#: users.php:64
+msgid "You cannot deactivate your own account."
+msgstr "Kendi hesabınızı etkisizleştiremezsiniz."
+
+#: users.php:70
+msgid "The selected users were marked as inactive."
+msgstr "Seçilen kullanıcılar etkisizleştirildi."
+
+#: users.php:87
+msgid "You cannot delete your own account."
+msgstr "Kendi hesabınızı silemezsiniz."
+
+#: users.php:93
+msgid "The selected users were deleted."
+msgstr "Seçilen kullanıcılar silindi."
+
+#: users.php:100
+msgid "Please select at least one user."
+msgstr "Lütfen en az bir kullanıcı seçin."
+
+#: users.php:173
+msgid "All roles"
+msgstr "Tüm roller"
+
+#: users.php:214
+msgid "Selected users actions"
+msgstr "Seçilen kullanıcı eylemleri"
+
+#: users.php:238
+msgid "users"
+msgstr "kullanıcılar"

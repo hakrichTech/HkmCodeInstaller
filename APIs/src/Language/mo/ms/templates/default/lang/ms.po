@@ -1,0 +1,105 @@
+# 
+# Translators:
+# farimi <farimi@gmail.com>, 2014
+# Iznan Hasbullah <iznan@nav6.usm.my>, 2018
+# khairul azmi <mohamad.khairul@yahoo.com>, 2013
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2020-11-07 15:50+0000\n"
+"Last-Translator: Ignacio Nelson <info@subwaydesign.com.ar>\n"
+"Language-Team: Malay (http://www.transifex.com/subwaydesign/projectsend/language/ms/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ms\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:20
+msgid "File downloads"
+msgstr "Jumlah Muat Turun"
+
+#: template.php:45
+msgid "All categories"
+msgstr "Semua kategori"
+
+#: template.php:52
+msgid "Filter"
+msgstr "Tapis"
+
+#: template.php:66
+msgid "Selected files actions"
+msgstr ""
+
+#: template.php:70
+msgid "Select action"
+msgstr ""
+
+#: template.php:71
+msgid "Download zipped"
+msgstr "Fail untuk muat turun telah dizipkan"
+
+#: template.php:81
+msgid "Proceed"
+msgstr "Teruskan"
+
+#: template.php:89
+msgid "Found"
+msgstr ""
+
+#: template.php:89
+msgid "files"
+msgstr "fail-fail"
+
+#: template.php:99
+msgid "Your search keywords returned no results."
+msgstr ""
+
+#: template.php:104
+msgid "There are no files available."
+msgstr "Tiada fail tersedia"
+
+#: template.php:130
+msgid "Title"
+msgstr "Tajuk"
+
+#: template.php:133
+msgid "Type"
+msgstr ""
+
+#: template.php:139
+msgid "Description"
+msgstr "Butiran"
+
+#: template.php:146
+msgid "Size"
+msgstr "Saiz"
+
+#: template.php:153
+msgid "Date"
+msgstr "Tarikh"
+
+#: template.php:156
+msgid "Expiration date"
+msgstr "Tarikh luput"
+
+#: template.php:160
+msgid "Image preview"
+msgstr "Gambaran imej"
+
+#: template.php:164 template.php:234
+msgid "Download"
+msgstr "Muat Turun"
+
+#: template.php:210
+msgid "Never"
+msgstr ""
+
+#: template.php:230
+msgid "File expired"
+msgstr "Fail telah luput"

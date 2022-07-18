@@ -1,0 +1,103 @@
+# 
+# Translators:
+# Nanthawan Wiboonsakchai <nun@itept.com>, 2018
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2020-11-07 15:50+0000\n"
+"Last-Translator: Ignacio Nelson <info@subwaydesign.com.ar>\n"
+"Language-Team: Thai (http://www.transifex.com/subwaydesign/projectsend/language/th/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: th\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:20
+msgid "File downloads"
+msgstr "ดาวน์โหลดไฟล์"
+
+#: template.php:45
+msgid "All categories"
+msgstr "ทุกหมวดหมู่"
+
+#: template.php:52
+msgid "Filter"
+msgstr "กรอง"
+
+#: template.php:66
+msgid "Selected files actions"
+msgstr "จัดการไฟล์ที่เลือก"
+
+#: template.php:70
+msgid "Select action"
+msgstr ""
+
+#: template.php:71
+msgid "Download zipped"
+msgstr "ดาวน์โหลดไฟล์แบบซิป"
+
+#: template.php:81
+msgid "Proceed"
+msgstr "ทำต่อไป"
+
+#: template.php:89
+msgid "Found"
+msgstr ""
+
+#: template.php:89
+msgid "files"
+msgstr "ไฟล์"
+
+#: template.php:99
+msgid "Your search keywords returned no results."
+msgstr "คำค้นหาของคุณไม่มีผลลัพธ์"
+
+#: template.php:104
+msgid "There are no files available."
+msgstr "ไม่มีไฟล์ที่พร้อมใช้งาน"
+
+#: template.php:130
+msgid "Title"
+msgstr "หัวข้อ"
+
+#: template.php:133
+msgid "Type"
+msgstr ""
+
+#: template.php:139
+msgid "Description"
+msgstr "คำอธิบาย"
+
+#: template.php:146
+msgid "Size"
+msgstr "ขนาด"
+
+#: template.php:153
+msgid "Date"
+msgstr "วันที่"
+
+#: template.php:156
+msgid "Expiration date"
+msgstr "วันหมดอายุ"
+
+#: template.php:160
+msgid "Image preview"
+msgstr "ภาพตัวอย่าง"
+
+#: template.php:164 template.php:234
+msgid "Download"
+msgstr "ดาวน์โหลด"
+
+#: template.php:210
+msgid "Never"
+msgstr "ไม่เคย"
+
+#: template.php:230
+msgid "File expired"
+msgstr "ไฟล์หมดอายุแล้ว"

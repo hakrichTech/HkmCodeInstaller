@@ -1,0 +1,104 @@
+# 
+# Translators:
+# anas mushainish <anuss2@yahoo.com>, 2021
+# عبد المجيد الجهني <ww0530100008@gmail.com>, 2020
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2021-07-14 06:32+0000\n"
+"Last-Translator: anas mushainish <anuss2@yahoo.com>\n"
+"Language-Team: Arabic (Saudi Arabia) (http://www.transifex.com/subwaydesign/projectsend/language/ar_SA/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ar_SA\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: template.php:20
+msgid "File downloads"
+msgstr "تنزيلات الملف"
+
+#: template.php:45
+msgid "All categories"
+msgstr "جميع الفئات"
+
+#: template.php:52
+msgid "Filter"
+msgstr "التصفية"
+
+#: template.php:66
+msgid "Selected files actions"
+msgstr "إجراءات الملفات المحددة"
+
+#: template.php:70
+msgid "Select action"
+msgstr "إختار الإجراء"
+
+#: template.php:71
+msgid "Download zipped"
+msgstr "تنزيل ملف مضغوط"
+
+#: template.php:81
+msgid "Proceed"
+msgstr "أكمل"
+
+#: template.php:89
+msgid "Found"
+msgstr "تم إيجاده"
+
+#: template.php:89
+msgid "files"
+msgstr "الملفات"
+
+#: template.php:99
+msgid "Your search keywords returned no results."
+msgstr "لم ينتج عن كلمات البحث الخاصة بك أي نتائج"
+
+#: template.php:104
+msgid "There are no files available."
+msgstr "لا توجد ملفات متاحة"
+
+#: template.php:130
+msgid "Title"
+msgstr "العنوان"
+
+#: template.php:133
+msgid "Type"
+msgstr "إطبع"
+
+#: template.php:139
+msgid "Description"
+msgstr "وصف"
+
+#: template.php:146
+msgid "Size"
+msgstr "الحجم"
+
+#: template.php:153
+msgid "Date"
+msgstr "التاريخ"
+
+#: template.php:156
+msgid "Expiration date"
+msgstr "تاريخ إنتهاء الصلاحية"
+
+#: template.php:160
+msgid "Image preview"
+msgstr "معاينة الصورة"
+
+#: template.php:164 template.php:234
+msgid "Download"
+msgstr "التحميل"
+
+#: template.php:210
+msgid "Never"
+msgstr "أبدا"
+
+#: template.php:230
+msgid "File expired"
+msgstr "انتهت صلاحية الملف"

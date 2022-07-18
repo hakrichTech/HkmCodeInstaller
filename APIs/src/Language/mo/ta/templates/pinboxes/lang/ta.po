@@ -1,0 +1,77 @@
+# 
+# Translators:
+# Arvind Kelvin <arvindkelvin@gmail.com>, 2019
+msgid ""
+msgstr ""
+"Project-Id-Version: ProjectSend\n"
+"POT-Creation-Date: 2020-10-30 18:41-0300\n"
+"PO-Revision-Date: 2020-11-07 15:50+0000\n"
+"Last-Translator: Ignacio Nelson <info@subwaydesign.com.ar>\n"
+"Language-Team: Tamil (http://www.transifex.com/subwaydesign/projectsend/language/ta/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ta\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: font-awesome-4.6.3\n"
+"X-Poedit-SearchPathExcluded-1: js\n"
+
+#: template.php:20
+msgid "Available files"
+msgstr "கிடைக்கும் கோப்புகள்"
+
+#: template.php:58
+msgid "Welcome"
+msgstr "வரவேற்பு"
+
+#: template.php:63
+msgid "Search..."
+msgstr "தேடு ..."
+
+#: template.php:73
+msgid "Categories"
+msgstr "வகைகள்"
+
+#: template.php:75
+msgid "All files"
+msgstr "அனைத்து கோப்புகள்"
+
+#: template.php:95
+msgid "Download zipped"
+msgstr ""
+
+#: template.php:100
+msgid "Upload"
+msgstr ""
+
+#: template.php:105
+msgid "Manage"
+msgstr ""
+
+#: template.php:110
+msgid "Logout"
+msgstr "வெளியேறு"
+
+#: template.php:125
+msgid "There are no files."
+msgstr "கோப்புகள் எதுவும் இல்லை."
+
+#: template.php:174
+msgid "File size:"
+msgstr "கோப்பின் அளவு:"
+
+#: template.php:181
+msgid "Expiration date:"
+msgstr "காலாவதி தேதி:"
+
+#: template.php:192
+msgid "Download"
+msgstr "பதிவிறக்க"
+
+#: template.php:202
+msgid "File expired"
+msgstr "கோப்பு காலாவதியானது"
